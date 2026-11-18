@@ -104,6 +104,10 @@ export const supabase = sb && {
     const { error } = await sb.rpc('coord_vincular_professor', { p_professor: professorId, p_turma: turmaId, p_ligar: ligar });
     if (error) throw new Error(error.message);
   },
+  async excluirPessoa(id) {
+    const { error } = await sb.rpc('coord_excluir_pessoa', { p_pessoa: id });
+    if (error) throw new Error(error.message);
+  },
   async mudarTurma(alunoId, turmaId) {
     const { error } = await sb.rpc('coord_mudar_turma', { p_aluno: alunoId, p_turma: turmaId });
     if (error) throw new Error(error.message);

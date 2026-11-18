@@ -192,3 +192,6 @@ input, select { background: var(--paper); border: 2px solid var(--line); border-
 textarea { background: var(--paper); border: 2px solid var(--line); border-radius: 12px; padding: 9px 12px; font: 16px/1.5 var(--body); color: inherit; resize: vertical; }
 .link:disabled { opacity: .5; }
 .tabela code { white-space: nowrap; }
+.link.perigo { color: var(--bad); }
+.btn.perigo { background: var(--bad); border-color: var(--bad); }
+.confirma { margin-top: 6px; background: var(--bad-soft); border-radius: 10px; padding: 8px 10px; display: flex; flex-direction: column; gap: 6px; min-width: 220px; }

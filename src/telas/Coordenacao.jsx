@@ -69,6 +69,7 @@ export default function Coordenacao({ perfil }) {
   const [papel, setPapel] = useState('aluno');
   const [turmaSel, setTurmaSel] = useState('');
   const [filtro, setFiltro] = useState('');
+  const [apagar, setApagar] = useState(null);
 
   async function recarregar() {
     try {
@@ -125,6 +126,12 @@ export default function Coordenacao({ perfil }) {
 
   const alternarVinculo = (prof, turmaId) => acao(async () => {
     await api.vincularProfessor(prof.id, turmaId, !prof.turmas.includes(turmaId));
+    await recarregar();
+  });
+
+  const excluir = (p) => acao(async () => {
+    await api.excluirPessoa(p.id);
+    setApagar(null);
     await recarregar();
   });
 
@@ -214,7 +221,17 @@ export default function Coordenacao({ perfil }) {
               <tbody>
                 {visiveis.map((p) => (
                   <tr key={p.id}>
-                    <td><b>{p.nome}</b><br /><span className="mudo pequeno">{p.papel === 'aluno' ? 'Aluno(a)' : 'Professor(a)'}</span><br /><button className="link pequeno" disabled={ocupado} onClick={() => novaSenha(p)}>🔑 Nova senha</button></td>
+                    <td><b>{p.nome}</b><br /><span className="mudo pequeno">{p.papel === 'aluno' ? 'Aluno(a)' : 'Professor(a)'}</span><br /><button className="link pequeno" disabled={ocupado} onClick={() => novaSenha(p)}>🔑 Nova senha</button>
+                      {' · '}<button className="link pequeno perigo" disabled={ocupado} onClick={() => setApagar(p)}>🗑️ Excluir</button>
+                      {apagar?.id === p.id && (
+                        <div className="confirma">
+                          <p className="pequeno">Excluir <b>{p.nome}</b>? {p.papel === 'aluno' ? 'Todo o progresso e o gato dele(a) serão apagados.' : 'Ele(a) perde o acesso às turmas.'} Não dá para desfazer.</p>
+                          <div className="linha" style={{ justifyContent: 'flex-start' }}>
+                            <button className="btn perigo" disabled={ocupado} onClick={() => excluir(p)}>Excluir</button>
+                            <button className="btn fantasma" onClick={() => setApagar(null)}>Cancelar</button>
+                          </div>
+                        </div>
+                      )}</td>
                     <td><code>{p.usuario || '—'}</code></td>
                     <td>
                       {p.papel === 'aluno' ? (

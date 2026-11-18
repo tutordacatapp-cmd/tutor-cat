@@ -137,6 +137,15 @@ export const demo = {
     u.turmas = ligar ? [...new Set([...(u.turmas || []), turmaId])] : (u.turmas || []).filter((t) => t !== turmaId);
     gravar(db);
   },
+  async excluirPessoa(id) {
+    const db = ler(); exigirCoord(db);
+    const u = db.usuarios.find((x) => x.id === id && x.papel !== 'coordenacao');
+    if (!u) throw new Error('Pessoa não encontrada nesta escola.');
+    db.usuarios = db.usuarios.filter((x) => x.id !== id);
+    db.tentativas = db.tentativas.filter((t) => t.aluno_id !== id);
+    if (db.mascotes) delete db.mascotes[id];
+    gravar(db);
+  },
   async mudarTurma(alunoId, turmaId) {
     const db = ler(); exigirCoord(db);
     const u = db.usuarios.find((x) => x.id === alunoId && x.papel === 'aluno');
