@@ -1,16 +1,1289 @@
 {
- "p-sub-001": {"alternativas": {"esquadrilha": "Esquadrilha é grupo de aviões (ou de navios de guerra), não de animais.", "cardume": "Cardume é grupo de peixes.", "constelação": "Constelação é grupo de estrelas."}, "pontos": ["Coletivo é um substantivo no singular que indica um grupo de seres da mesma espécie.", "Os mais cobrados: alcateia (lobos), cardume (peixes), enxame (abelhas), matilha (cães), manada (bois, elefantes), rebanho (gado), constelação (estrelas), arquipélago (ilhas)."], "pegadinha": "Alcateia e matilha parecem iguais, mas alcateia é de lobos e matilha é de cães."},
- "p-sub-002": {"alternativas": {"coletivo": "Coletivo indica um grupo (cardume, enxame). Alegria não é grupo de nada.", "concreto": "Concreto é o que existe por si só, como mesa, cachorro, fada. Alegria depende de alguém sentir.", "próprio": "Próprio é nome de um ser específico, com maiúscula (Brasil, Ana). Alegria é comum."}, "pontos": ["Abstrato nomeia sentimento, ação, estado ou qualidade: alegria, saudade, corrida, beleza.", "Teste rápido: dá para existir sozinho, sem alguém sentir ou fazer? Então é concreto."], "pegadinha": "Fada e saci são concretos, mesmo sem existirem de verdade: eles são seres, não sentimentos."},
- "p-sub-003": {"alternativas": {"casota": "Casota tem sufixo de diminutivo (-ota): é uma casa pequena e simples.", "casebre": "Casebre é diminutivo, e com sentido de casa pobre ou malfeita.", "casinha": "Casinha é o diminutivo clássico (-inha)."}, "pontos": ["Aumentativo usa sufixos como -ão, -arão, -zarrão: casarão, homenzarrão.", "Diminutivo usa -inho, -zinho, -ebre, -ota, -eco: casinha, casebre, casota."], "pegadinha": "Casebre termina diferente, mas é diminutivo, não aumentativo."},
- "p-sub-004": {"alternativas": {"cidadões": "Segue o modelo de leão → leões, mas cidadão não vai por esse caminho.", "cidadãoes": "Essa forma não existe: juntou -ão com -es.", "cidadães": "Segue o modelo de pão → pães, que também não é o caso aqui."}, "pontos": ["Palavras em -ão podem fazer o plural em -ãos, -ões ou -ães.", "Cidadão, irmão, mão, cristão → -ãos. Leão, coração → -ões. Pão, cão, alemão → -ães."], "pegadinha": "Não existe regra única para -ão: na prova, cidadão → cidadãos é das mais cobradas."},
- "p-sub-005": {"alternativas": {"alcateia": "Alcateia é de lobos.", "rebanho": "Rebanho é de gado, ovelhas ou cabras.", "cardume": "Cardume é de peixes."}, "pontos": ["Enxame é o coletivo de abelhas (e também de insetos em geral, como mosquitos).", "Revise o combo: enxame (abelhas), cardume (peixes), alcateia (lobos), rebanho (gado)."], "pegadinha": "Colmeia é a casa das abelhas, não o grupo delas. O grupo é enxame."},
- "p-sub-006": {"alternativas": {"coletivo": "Coletivo indica um grupo de seres. Girassol é uma flor só.", "abstrato": "Abstrato é sentimento, ação ou estado. Girassol é uma planta: concreto.", "simples": "Simples tem um único radical, como sol. Girassol tem dois: gira + sol."}, "pontos": ["Composto: formado por duas ou mais palavras (girassol, guarda-chuva, passatempo).", "Simples: um só radical (sol, chuva, tempo)."], "pegadinha": "Composto pode vir junto (girassol) ou com hífen (guarda-chuva). Os dois são compostos."},
- "p-sub-007": {"alternativas": {"floresta": "Floresta serve para qualquer floresta: é substantivo comum.", "rio": "Rio é comum. O nome do rio específico é que seria próprio.", "cidade": "Cidade é comum. São José dos Campos, por exemplo, seria próprio."}, "pontos": ["Próprio nomeia um ser específico e começa com letra maiúscula: Amazonas, Brasil, Catarina.", "Comum nomeia qualquer ser da espécie: rio, cidade, menina."], "pegadinha": "Rio é comum, mas em \"Rio Amazonas\" a palavra Amazonas é o nome próprio."},
- "p-sub-008": {"alternativas": {"enxame": "Enxame é de abelhas.", "matilha": "Matilha é de cães.", "manada": "Manada é de bois, búfalos ou elefantes."}, "pontos": ["Cardume = peixes. É um dos coletivos que mais caem.", "Revise: matilha (cães), manada (bois, elefantes), enxame (abelhas)."], "pegadinha": "Manada e matilha começam igual: manada é de animais grandes, matilha é de cães."},
- "p-sub-009": {"alternativas": {"arquipélago": "Arquipélago é de ilhas.", "acervo": "Acervo é um conjunto de obras ou documentos (de um museu ou biblioteca).", "frota": "Frota é de navios, ônibus ou veículos."}, "pontos": ["Constelação = estrelas.", "Outros do mesmo estilo: arquipélago (ilhas), cordilheira (montanhas), frota (veículos)."], "pegadinha": "Galáxia não é a resposta aqui: na prova, o coletivo de estrelas é constelação."},
- "p-sub-010": {"alternativas": {"atora": "Parece o feminino \"regular\" com -a, mas essa forma não existe na norma-padrão.", "atrisa": "Essa palavra não existe.", "atoriz": "Misturou ator com atriz: não existe."}, "pontos": ["Alguns femininos mudam a terminação: ator → atriz, imperador → imperatriz.", "Outros: cavalheiro → dama, genro → nora, padrinho → madrinha."], "pegadinha": "Nem todo feminino é só trocar -o por -a. Ator → atriz é dos mais cobrados."},
- "p-sub-011": {"alternativas": {"cordilheira": "Cordilheira é um conjunto de montanhas.", "pomar": "Pomar é um conjunto de árvores frutíferas.", "constelação": "Constelação é de estrelas."}, "pontos": ["Arquipélago = conjunto de ilhas.", "Coletivos de natureza: cordilheira (montanhas), pomar (árvores frutíferas), constelação (estrelas)."], "pegadinha": "Arquipélago é bem diferente de península: península é terra cercada de água quase toda, não um grupo de ilhas."},
- "p-sub-012": {"alternativas": {"janela": "Janela existe por si só: concreto.", "cachorro": "Cachorro é um ser: concreto.", "mesa": "Mesa é um objeto: concreto."}, "pontos": ["Abstrato: sentimento, ação, estado ou qualidade (saudade, amor, corrida, tristeza).", "Concreto: seres e coisas que existem por si mesmos, reais ou imaginários."], "pegadinha": "Muitos abstratos vêm de verbos ou adjetivos: correr → corrida, belo → beleza."},
- "p-sub-013": {"alternativas": {"primitivo": "Primitivo é a palavra de origem (pedra). Pedreiro veio dela, então é derivado.", "próprio": "Próprio é nome de um ser específico, com maiúscula. Pedreiro é comum.", "composto": "Composto junta duas palavras. Pedreiro é pedra + sufixo -eiro, não duas palavras."}, "pontos": ["Primitivo: não vem de outra palavra (pedra, flor, livro).", "Derivado: vem de outra palavra com prefixo ou sufixo (pedreiro, floricultura, livraria)."], "pegadinha": "Derivado ganha um pedaço (sufixo ou prefixo); composto junta duas palavras inteiras."},
- "p-sub-014": {"alternativas": {"pãoes": "Essa forma não existe: juntou -ão com -es.", "pãos": "Segue o modelo de mão → mãos, mas pão não vai por aí.", "pões": "Segue o modelo de leão → leões, mas também não serve para pão."}, "pontos": ["Plural de -ão tem três caminhos: -ãos (mão, irmão), -ões (leão, coração), -ães (pão, cão, alemão).", "Na dúvida, vale decorar os mais comuns."], "pegadinha": "Pão → pães e cão → cães seguem o mesmo modelo."}
+ "p-sub-001": {
+  "alternativas": {
+   "esquadrilha": "Esquadrilha é grupo de aviões (ou de navios de guerra), não de animais.",
+   "cardume": "Cardume é grupo de peixes.",
+   "constelação": "Constelação é grupo de estrelas."
+  },
+  "pontos": [
+   "Coletivo é um substantivo no singular que indica um grupo de seres da mesma espécie.",
+   "Os mais cobrados: alcateia (lobos), cardume (peixes), enxame (abelhas), matilha (cães), manada (bois, elefantes), rebanho (gado), constelação (estrelas), arquipélago (ilhas)."
+  ],
+  "pegadinha": "Alcateia e matilha parecem iguais, mas alcateia é de lobos e matilha é de cães."
+ },
+ "p-sub-002": {
+  "alternativas": {
+   "coletivo": "Coletivo indica um grupo (cardume, enxame). Alegria não é grupo de nada.",
+   "concreto": "Concreto é o que existe por si só, como mesa, cachorro, fada. Alegria depende de alguém sentir.",
+   "próprio": "Próprio é nome de um ser específico, com maiúscula (Brasil, Ana). Alegria é comum."
+  },
+  "pontos": [
+   "Abstrato nomeia sentimento, ação, estado ou qualidade: alegria, saudade, corrida, beleza.",
+   "Teste rápido: dá para existir sozinho, sem alguém sentir ou fazer? Então é concreto."
+  ],
+  "pegadinha": "Fada e saci são concretos, mesmo sem existirem de verdade: eles são seres, não sentimentos."
+ },
+ "p-sub-003": {
+  "alternativas": {
+   "casota": "Casota tem sufixo de diminutivo (-ota): é uma casa pequena e simples.",
+   "casebre": "Casebre é diminutivo, e com sentido de casa pobre ou malfeita.",
+   "casinha": "Casinha é o diminutivo clássico (-inha)."
+  },
+  "pontos": [
+   "Aumentativo usa sufixos como -ão, -arão, -zarrão: casarão, homenzarrão.",
+   "Diminutivo usa -inho, -zinho, -ebre, -ota, -eco: casinha, casebre, casota."
+  ],
+  "pegadinha": "Casebre termina diferente, mas é diminutivo, não aumentativo."
+ },
+ "p-sub-004": {
+  "alternativas": {
+   "cidadões": "Segue o modelo de leão → leões, mas cidadão não vai por esse caminho.",
+   "cidadãoes": "Essa forma não existe: juntou -ão com -es.",
+   "cidadães": "Segue o modelo de pão → pães, que também não é o caso aqui."
+  },
+  "pontos": [
+   "Palavras em -ão podem fazer o plural em -ãos, -ões ou -ães.",
+   "Cidadão, irmão, mão, cristão → -ãos. Leão, coração → -ões. Pão, cão, alemão → -ães."
+  ],
+  "pegadinha": "Não existe regra única para -ão: na prova, cidadão → cidadãos é das mais cobradas."
+ },
+ "p-sub-005": {
+  "alternativas": {
+   "alcateia": "Alcateia é de lobos.",
+   "rebanho": "Rebanho é de gado, ovelhas ou cabras.",
+   "cardume": "Cardume é de peixes."
+  },
+  "pontos": [
+   "Enxame é o coletivo de abelhas (e também de insetos em geral, como mosquitos).",
+   "Revise o combo: enxame (abelhas), cardume (peixes), alcateia (lobos), rebanho (gado)."
+  ],
+  "pegadinha": "Colmeia é a casa das abelhas, não o grupo delas. O grupo é enxame."
+ },
+ "p-sub-006": {
+  "alternativas": {
+   "coletivo": "Coletivo indica um grupo de seres. Girassol é uma flor só.",
+   "abstrato": "Abstrato é sentimento, ação ou estado. Girassol é uma planta: concreto.",
+   "simples": "Simples tem um único radical, como sol. Girassol tem dois: gira + sol."
+  },
+  "pontos": [
+   "Composto: formado por duas ou mais palavras (girassol, guarda-chuva, passatempo).",
+   "Simples: um só radical (sol, chuva, tempo)."
+  ],
+  "pegadinha": "Composto pode vir junto (girassol) ou com hífen (guarda-chuva). Os dois são compostos."
+ },
+ "p-sub-007": {
+  "alternativas": {
+   "floresta": "Floresta serve para qualquer floresta: é substantivo comum.",
+   "rio": "Rio é comum. O nome do rio específico é que seria próprio.",
+   "cidade": "Cidade é comum. São José dos Campos, por exemplo, seria próprio."
+  },
+  "pontos": [
+   "Próprio nomeia um ser específico e começa com letra maiúscula: Amazonas, Brasil, Catarina.",
+   "Comum nomeia qualquer ser da espécie: rio, cidade, menina."
+  ],
+  "pegadinha": "Rio é comum, mas em \"Rio Amazonas\" a palavra Amazonas é o nome próprio."
+ },
+ "p-sub-008": {
+  "alternativas": {
+   "enxame": "Enxame é de abelhas.",
+   "matilha": "Matilha é de cães.",
+   "manada": "Manada é de bois, búfalos ou elefantes."
+  },
+  "pontos": [
+   "Cardume = peixes. É um dos coletivos que mais caem.",
+   "Revise: matilha (cães), manada (bois, elefantes), enxame (abelhas)."
+  ],
+  "pegadinha": "Manada e matilha começam igual: manada é de animais grandes, matilha é de cães."
+ },
+ "p-sub-009": {
+  "alternativas": {
+   "arquipélago": "Arquipélago é de ilhas.",
+   "acervo": "Acervo é um conjunto de obras ou documentos (de um museu ou biblioteca).",
+   "frota": "Frota é de navios, ônibus ou veículos."
+  },
+  "pontos": [
+   "Constelação = estrelas.",
+   "Outros do mesmo estilo: arquipélago (ilhas), cordilheira (montanhas), frota (veículos)."
+  ],
+  "pegadinha": "Galáxia não é a resposta aqui: na prova, o coletivo de estrelas é constelação."
+ },
+ "p-sub-010": {
+  "alternativas": {
+   "atora": "Parece o feminino \"regular\" com -a, mas essa forma não existe na norma-padrão.",
+   "atrisa": "Essa palavra não existe.",
+   "atoriz": "Misturou ator com atriz: não existe."
+  },
+  "pontos": [
+   "Alguns femininos mudam a terminação: ator → atriz, imperador → imperatriz.",
+   "Outros: cavalheiro → dama, genro → nora, padrinho → madrinha."
+  ],
+  "pegadinha": "Nem todo feminino é só trocar -o por -a. Ator → atriz é dos mais cobrados."
+ },
+ "p-sub-011": {
+  "alternativas": {
+   "cordilheira": "Cordilheira é um conjunto de montanhas.",
+   "pomar": "Pomar é um conjunto de árvores frutíferas.",
+   "constelação": "Constelação é de estrelas."
+  },
+  "pontos": [
+   "Arquipélago = conjunto de ilhas.",
+   "Coletivos de natureza: cordilheira (montanhas), pomar (árvores frutíferas), constelação (estrelas)."
+  ],
+  "pegadinha": "Arquipélago é bem diferente de península: península é terra cercada de água quase toda, não um grupo de ilhas."
+ },
+ "p-sub-012": {
+  "alternativas": {
+   "janela": "Janela existe por si só: concreto.",
+   "cachorro": "Cachorro é um ser: concreto.",
+   "mesa": "Mesa é um objeto: concreto."
+  },
+  "pontos": [
+   "Abstrato: sentimento, ação, estado ou qualidade (saudade, amor, corrida, tristeza).",
+   "Concreto: seres e coisas que existem por si mesmos, reais ou imaginários."
+  ],
+  "pegadinha": "Muitos abstratos vêm de verbos ou adjetivos: correr → corrida, belo → beleza."
+ },
+ "p-sub-013": {
+  "alternativas": {
+   "primitivo": "Primitivo é a palavra de origem (pedra). Pedreiro veio dela, então é derivado.",
+   "próprio": "Próprio é nome de um ser específico, com maiúscula. Pedreiro é comum.",
+   "composto": "Composto junta duas palavras. Pedreiro é pedra + sufixo -eiro, não duas palavras."
+  },
+  "pontos": [
+   "Primitivo: não vem de outra palavra (pedra, flor, livro).",
+   "Derivado: vem de outra palavra com prefixo ou sufixo (pedreiro, floricultura, livraria)."
+  ],
+  "pegadinha": "Derivado ganha um pedaço (sufixo ou prefixo); composto junta duas palavras inteiras."
+ },
+ "p-sub-014": {
+  "alternativas": {
+   "pãoes": "Essa forma não existe: juntou -ão com -es.",
+   "pãos": "Segue o modelo de mão → mãos, mas pão não vai por aí.",
+   "pões": "Segue o modelo de leão → leões, mas também não serve para pão."
+  },
+  "pontos": [
+   "Plural de -ão tem três caminhos: -ãos (mão, irmão), -ões (leão, coração), -ães (pão, cão, alemão).",
+   "Na dúvida, vale decorar os mais comuns."
+  ],
+  "pegadinha": "Pão → pães e cão → cães seguem o mesmo modelo."
+ },
+ "p-adj-001": {
+  "alternativas": {
+   "substantivos": "Substantivo dá nome (gato, sofá). Preto e macio não nomeiam nada, só descrevem.",
+   "pronomes": "Pronome substitui ou acompanha o nome (ele, meu, este). Não é o caso.",
+   "verbos": "Verbo indica ação ou estado (dormia). Preto e macio não indicam ação."
+  },
+  "pontos": [
+   "Adjetivo caracteriza o substantivo: diz como ele é.",
+   "Ele concorda em gênero e número com o substantivo: gato preto, gatas pretas."
+  ],
+  "pegadinha": "Na mesma frase tem um verbo (dormia). Não confunda o que a coisa faz com como ela é."
+ },
+ "p-adj-002": {
+  "alternativas": {
+   "a": "\"A\" é artigo, não substantivo. Ele só acompanha \"menina\".",
+   "problema": "Problema é substantivo, mas \"esperta\" está colada em menina, não em problema.",
+   "resolveu": "Resolveu é verbo. Adjetivo caracteriza substantivo, nunca verbo."
+  },
+  "pontos": [
+   "Para achar o substantivo, pergunte: quem é esperta? A menina.",
+   "O adjetivo costuma vir logo antes ou logo depois do substantivo."
+  ],
+  "pegadinha": "Não escolha a palavra mais próxima: escolha a que o adjetivo descreve."
+ },
+ "p-adj-003": {
+  "alternativas": {
+   "superlativo absoluto": "Superlativo absoluto não compara ninguém: \"Ana é altíssima\" ou \"muito alta\".",
+   "comparativo de igualdade": "Igualdade usa \"tão... quanto\": Ana é tão alta quanto Bia.",
+   "normal": "Grau normal é só \"Ana é alta\", sem comparar."
+  },
+  "pontos": [
+   "Comparativo compara dois seres: superioridade (mais... que), igualdade (tão... quanto), inferioridade (menos... que).",
+   "Superlativo destaca um ser: absoluto (altíssima) ou relativo (a mais alta da turma)."
+  ],
+  "pegadinha": "\"A mais alta da turma\" também tem \"mais\", mas é superlativo relativo, não comparativo."
+ },
+ "p-adj-004": {
+  "alternativas": {
+   "maternal de": "\"Maternal\" existe (escola maternal), mas \"maternal de\" não forma uma locução certa aqui.",
+   "fraterno": "Fraterno é de irmão.",
+   "paterno": "Paterno é de pai."
+  },
+  "pontos": [
+   "Locução adjetiva é uma expressão com valor de adjetivo: amor de mãe = amor materno.",
+   "Família: materno (mãe), paterno (pai), fraterno (irmão)."
+  ],
+  "pegadinha": "Materno e maternal parecem iguais. Para \"amor de mãe\", a resposta da prova é materno."
+ },
+ "p-adj-005": {
+  "alternativas": {
+   "felizíssimo": "Parece lógico, mas no superlativo sintético o z de feliz vira c: felicíssimo.",
+   "mais feliz": "\"Mais feliz\" é comparativo (ou superlativo relativo), não absoluto sintético.",
+   "muito feliz": "É superlativo absoluto, mas analítico (duas palavras). A pergunta pede o sintético (uma palavra)."
+  },
+  "pontos": [
+   "Sintético = uma palavra só, com sufixo: felicíssimo, ótimo, facílimo.",
+   "Analítico = duas palavras: muito feliz, bem fácil."
+  ],
+  "pegadinha": "Veja se a pergunta pede sintético ou analítico: as duas formas são superlativo absoluto."
+ },
+ "p-adj-006": {
+  "alternativas": {
+   "lunática": "Lunático é quem vive \"no mundo da lua\": distraído ou maluco. Não é noite com lua.",
+   "solar": "Solar é do sol.",
+   "estrelada": "Estrelada é com estrelas, não com lua."
+  },
+  "pontos": [
+   "Noite de lua = noite enluarada.",
+   "Lunar também é \"da lua\" (eclipse lunar), mas para noite o adjetivo usado é enluarada."
+  ],
+  "pegadinha": "Lunar e lunático vêm de lua, mas lunático virou outra coisa: pessoa distraída."
+ },
+ "p-adj-007": {
+  "alternativas": {
+   "campista": "Campista é quem nasce em Campos dos Goytacazes (RJ).",
+   "são-joseano": "Essa forma não é usada para São José dos Campos.",
+   "josefino": "Josefino não é o gentílico dessa cidade."
+  },
+  "pontos": [
+   "Gentílico (ou adjetivo pátrio) indica a origem: joseense, paulistano, carioca.",
+   "Cada cidade tem o seu, e muitos precisam ser decorados."
+  ],
+  "pegadinha": "Campista também existe, mas é de outra cidade."
+ },
+ "p-adj-008": {
+  "alternativas": {
+   "fluvial": "Fluvial é de rio. Muda uma letra só: pluvial (chuva) e fluvial (rio).",
+   "solar": "Solar é do sol.",
+   "marinha": "Marinha é do mar."
+  },
+  "pontos": [
+   "Pluvial = chuva (pluviômetro mede a chuva).",
+   "Fluvial = rio. Marinho = mar. Lacustre = lago."
+  ],
+  "pegadinha": "Pluvial e fluvial são quase iguais. Lembre: P de pluviômetro, que mede chuva."
+ },
+ "p-adj-009": {
+  "alternativas": {
+   "comparativo de superioridade": "Comparativo precisa comparar dois seres (mais... que). Aqui não há comparação.",
+   "normal": "Normal seria só \"o filme foi bom\". O \"muito\" intensifica.",
+   "superlativo absoluto sintético": "Sintético seria uma palavra só: ótimo ou boníssimo. \"Muito bom\" são duas."
+  },
+  "pontos": [
+   "Superlativo absoluto analítico: muito, bem, extremamente + adjetivo.",
+   "Superlativo absoluto sintético: uma palavra com sufixo (-íssimo, -érrimo) ou forma especial (ótimo, péssimo)."
+  ],
+  "pegadinha": "Ótimo é o sintético de bom. \"Muito bom\" é o analítico."
+ },
+ "p-adj-010": {
+  "alternativas": {
+   "senil": "Senil é de idoso (velhice).",
+   "pueril de": "Pueril significa infantil, mas \"pueril de\" não forma a locução certa.",
+   "juvenil": "Juvenil é de jovem, não de criança."
+  },
+  "pontos": [
+   "De criança = infantil. De jovem = juvenil. De idoso = senil.",
+   "Pueril também quer dizer \"de criança\", mas costuma ter tom de bobo ou ingênuo."
+  ],
+  "pegadinha": "Juvenil e infantil parecem parentes, mas jovem e criança são fases diferentes."
+ },
+ "p-adj-011": {
+  "alternativas": {
+   "lunar": "Lunar é da lua.",
+   "pluvial": "Pluvial é da chuva.",
+   "estelar": "Estelar é das estrelas."
+  },
+  "pontos": [
+   "Do sol = solar. Da lua = lunar. Das estrelas = estelar.",
+   "Essas locuções adjetivas caem muito com cara de \"qual é o adjetivo correspondente\"."
+  ],
+  "pegadinha": "O sol também é uma estrela, mas \"luz do sol\" é luz solar."
+ },
+ "p-adj-012": {
+  "alternativas": {
+   "são-paulino": "São-paulino é torcedor do São Paulo Futebol Clube, não quem nasce na cidade.",
+   "paulista": "Paulista é quem nasce no estado de São Paulo.",
+   "paulense": "Paulense não é o gentílico de São Paulo."
+  },
+  "pontos": [
+   "Cidade de São Paulo = paulistano. Estado de São Paulo = paulista.",
+   "Mesmo esquema no Rio: carioca (cidade) e fluminense (estado)."
+  ],
+  "pegadinha": "Quem nasce na cidade de SP é paulistano e também paulista. Mas a pergunta é sobre a cidade."
+ },
+ "p-pro-001": {
+  "alternativas": {
+   "me": "Me é usado junto do verbo (\"ele me chamou\"). Depois de preposição, usa-se mim.",
+   "eu": "Eu é sujeito, quem faz a ação. Depois de \"entre\" e sem verbo depois, o certo é mim.",
+   "comigo": "Comigo já tem a ideia de \"com\". Não combina com \"entre\"."
+  },
+  "pontos": [
+   "Depois de preposição (para, entre, sem, de), sem verbo depois: mim.",
+   "Com verbo no infinitivo depois: eu (\"para eu fazer\")."
+  ],
+  "pegadinha": "\"Entre eu e você\" soa natural na fala, mas o certo é \"entre mim e você\"."
+ },
+ "p-pro-002": {
+  "alternativas": {
+   "aquele": "Aquele é para o que está longe de quem fala e de quem ouve.",
+   "isto": "Isto não acompanha substantivo (não se diz \"isto livro\"). E é para o que está perto de quem fala.",
+   "este": "Este é para o que está perto de quem fala (\"aqui\"). O livro está \"aí com você\"."
+  },
+  "pontos": [
+   "Este/esta/isto: perto de quem fala (aqui).",
+   "Esse/essa/isso: perto de quem ouve (aí).",
+   "Aquele/aquela/aquilo: longe dos dois (lá)."
+  ],
+  "pegadinha": "A pista está nos advérbios: aqui → este, aí → esse, lá → aquele."
+ },
+ "p-pro-003": {
+  "alternativas": {
+   "indefinido": "Indefinido fala de algo sem precisar (alguém, nenhum, todo). \"Meu\" é bem definido.",
+   "pessoal": "Pessoal indica a pessoa do discurso (eu, ele, nós). \"Meu\" indica posse.",
+   "demonstrativo": "Demonstrativo indica posição (este, esse, aquele). Na frase, \"este\" é que é demonstrativo."
+  },
+  "pontos": [
+   "Possessivo indica de quem é: meu, teu, seu, nosso, vosso.",
+   "A frase tem dois pronomes: este (demonstrativo) e meu (possessivo)."
+  ],
+  "pegadinha": "Cuidado para não marcar o tipo do outro pronome da frase."
+ },
+ "p-pro-004": {
+  "alternativas": {
+   "demonstrativo": "Demonstrativo indica posição (este, esse, aquele). Quem não indica posição.",
+   "pessoal": "Pessoal é eu, tu, ele, nós... Quem não representa uma pessoa do discurso.",
+   "possessivo": "Possessivo indica posse (meu, seu). Não é o caso."
+  },
+  "pontos": [
+   "Interrogativos: que, quem, qual, quanto, usados em perguntas diretas ou indiretas.",
+   "Pergunta indireta também conta: \"Não sei quem chegou\"."
+  ],
+  "pegadinha": "Quem também pode ser relativo (\"a menina de quem falei\"). Em pergunta, é interrogativo."
+ },
+ "p-pro-005": {
+  "alternativas": {
+   "Aquela": "Aquela é para o que está longe dos dois. A mochila está na mão de quem fala.",
+   "Essa": "Essa é para o que está perto de quem ouve. A pista é \"aqui na minha mão\".",
+   "Aquilo": "Aquilo não acompanha substantivo e indica coisa distante."
+  },
+  "pontos": [
+   "Perto de quem fala: este, esta, isto.",
+   "\"Aqui\" combina com este/esta."
+  ],
+  "pegadinha": "Na fala, muita gente usa \"essa\" para tudo. Na prova, a regra da distância vale."
+ },
+ "p-pro-006": {
+  "alternativas": {
+   "Encontrei-la na escola.": "A forma -la aparece quando o verbo termina em r, s ou z (encontrar-la vira encontrá-la). \"Encontrei\" termina em i.",
+   "Encontrei-lhe na escola.": "Lhe é para quando o verbo pede preposição (\"dei a ela\" → dei-lhe). Quem encontra, encontra alguém, sem preposição.",
+   "Encontrei ela na escola.": "Comum na conversa, mas na norma-padrão o pronome reto (ela) não funciona como objeto."
+  },
+  "pontos": [
+   "Objeto direto (sem preposição) vira o, a, os, as: encontrei-a.",
+   "Objeto indireto (com preposição) vira lhe: entreguei-lhe o livro."
+  ],
+  "pegadinha": "\"Encontrei ela\" está na boca de todo mundo, mas não vale na redação nem na prova."
+ },
+ "p-pro-007": {
+  "alternativas": {
+   "Ele": "Ele é masculino. Maria é feminino.",
+   "Sua": "Sua é possessivo (indica posse), não pode ser sujeito sozinho.",
+   "Lhe": "Lhe é pronome oblíquo, nunca é sujeito."
+  },
+  "pontos": [
+   "Para retomar quem faz a ação (sujeito), use o pronome reto: eu, tu, ele, ela, nós, eles.",
+   "O pronome concorda em gênero com o nome que substitui."
+  ],
+  "pegadinha": "Lhe nunca faz a ação: ele recebe a ação (\"dei-lhe um presente\")."
+ },
+ "p-pro-008": {
+  "alternativas": {
+   "Isto é para mim faz.": "Além do pronome, o verbo está flexionado errado: depois de \"para\" vem o infinitivo (fazer).",
+   "Isto é para me fazer.": "Muda o sentido: seria algo que vai \"fazer você\". Não é o que a frase quer dizer.",
+   "Isto é para mim fazer.": "Comum na fala, mas quem faz a ação é sujeito: eu. \"Mim\" não pode ser sujeito de verbo."
+  },
+  "pontos": [
+   "Para + eu + verbo no infinitivo: \"para eu fazer\", \"para eu ler\".",
+   "Para + mim, sem verbo depois: \"isto é para mim\"."
+  ],
+  "pegadinha": "Se depois do pronome vem um verbo, quase sempre é eu."
+ },
+ "p-pro-009": {
+  "alternativas": {
+   "A sua": "Sua é feminino. Cachorro é masculino: o seu.",
+   "Aquele seu dela": "Mistura dois possessivos (seu e dela). Fica redundante e errado.",
+   "O nosso": "Nosso indica que o cachorro é de quem fala também. O texto diz que é do Tom."
+  },
+  "pontos": [
+   "O possessivo concorda com a coisa possuída: o seu cachorro, a sua gata.",
+   "Para evitar dúvida, dá para usar \"dele/dela\": o cachorro dele."
+  ],
+  "pegadinha": "O possessivo concorda com a coisa (cachorro), não com o dono."
+ },
+ "p-pro-010": {
+  "alternativas": {
+   "meu": "Meu é possessivo: indica de quem é.",
+   "este": "Este é demonstrativo: indica posição.",
+   "ele": "Ele é pessoal: indica a pessoa de quem se fala, e é definida."
+  },
+  "pontos": [
+   "Indefinidos falam de forma vaga: alguém, ninguém, algum, nenhum, todo, outro, cada, qualquer.",
+   "Eles não dizem exatamente quem ou quanto."
+  ],
+  "pegadinha": "Ninguém e nenhum também são indefinidos, mesmo tendo sentido negativo."
+ },
+ "p-pro-011": {
+  "alternativas": {
+   "Vossa Santidade": "Vossa Santidade é para o Papa.",
+   "Vossa Senhoria": "Vossa Senhoria é para autoridades em geral e em cartas formais (diretores, chefes).",
+   "Vossa Majestade": "Vossa Majestade é para reis e rainhas."
+  },
+  "pontos": [
+   "Vossa Excelência: presidente, ministros, governadores, juízes, deputados.",
+   "Quando se fala sobre a pessoa (e não com ela), usa-se Sua: Sua Excelência, o presidente."
+  ],
+  "pegadinha": "Mesmo sendo \"Vossa\", o verbo vai para a 3ª pessoa: \"Vossa Excelência está bem?\"."
+ },
+ "p-pro-012": {
+  "alternativas": {
+   "eu": "Eu é do caso reto: funciona como sujeito.",
+   "ela": "Ela é do caso reto (sujeito). Na forma oblíqua seria a, la, na, lhe ou ela com preposição.",
+   "nós": "Nós é do caso reto. A forma oblíqua é nos."
+  },
+  "pontos": [
+   "Caso reto (sujeito): eu, tu, ele, ela, nós, vós, eles.",
+   "Caso oblíquo (complemento): me, mim, comigo, te, o, a, lhe, se, nos, vos."
+  ],
+  "pegadinha": "Nós (reto) e nos (oblíquo) só mudam o acento. Repare no acento."
+ },
+ "p-pon-001": {
+  "alternativas": {
+   "Comprei pão, leite ovos e, frutas.": "Faltou vírgula entre leite e ovos, e sobrou uma depois do \"e\".",
+   "Comprei, pão leite ovos e frutas.": "A vírgula separou o verbo do complemento (comprei, pão) e os itens ficaram sem vírgula.",
+   "Comprei pão leite, ovos, e, frutas.": "Faltou vírgula entre pão e leite, e a vírgula em volta do \"e\" está sobrando."
+  },
+  "pontos": [
+   "Na enumeração, a vírgula separa os itens.",
+   "Antes do \"e\" que fecha a lista, normalmente não vai vírgula.",
+   "Não se separa o verbo do seu complemento com vírgula."
+  ],
+  "pegadinha": "Vírgula entre o verbo e o que vem logo depois dele (comprei, pão) é um erro muito cobrado."
+ },
+ "p-pon-002": {
+  "alternativas": {
+   "separar itens": "Quem separa itens é a vírgula.",
+   "mostrar surpresa": "Surpresa é marcada pelo ponto de exclamação.",
+   "fazer uma pergunta": "Pergunta é marcada pelo ponto de interrogação."
+  },
+  "pontos": [
+   "Aspas marcam citação: as palavras exatas de alguém ou de um texto.",
+   "Também destacam títulos, apelidos, ironias e palavras estrangeiras."
+  ],
+  "pegadinha": "O texto entre aspas pode ter qualquer pontuação dentro; a função das aspas é mostrar que é cópia exata."
+ },
+ "p-pon-003": {
+  "alternativas": {
+   "exclamativa": "Exclamativa expressa emoção, com ponto de exclamação.",
+   "declarativa": "Declarativa informa algo, com ponto final.",
+   "imperativa": "Imperativa dá ordem ou faz pedido."
+  },
+  "pontos": [
+   "Interrogativa faz pergunta e termina com ponto de interrogação (direta).",
+   "Na pergunta indireta não tem \"?\": \"Quero saber se você terminou a lição.\""
+  ],
+  "pegadinha": "Pergunta indireta continua sendo pergunta, mesmo sem o ponto de interrogação."
+ },
+ "p-pon-004": {
+  "alternativas": {
+   "O ônibus chegou atrasado?": "Com ponto de interrogação, vira pergunta: interrogativa.",
+   "Que atraso!": "Expressa emoção: exclamativa.",
+   "Chegue cedo amanhã.": "Dá uma ordem ou pedido: imperativa."
+  },
+  "pontos": [
+   "Declarativa afirma ou nega algo e termina com ponto final.",
+   "Pode ser afirmativa (\"chegou\") ou negativa (\"não chegou\")."
+  ],
+  "pegadinha": "A mesma frase muda de tipo só com a pontuação: chegou. / chegou? / chegou!"
+ },
+ "p-pon-005": {
+  "alternativas": {
+   "declarativa": "Declarativa só informa e termina com ponto final.",
+   "interrogativa": "Interrogativa faz pergunta.",
+   "imperativa": "Imperativa dá ordem ou faz pedido."
+  },
+  "pontos": [
+   "Exclamativa expressa emoção: alegria, surpresa, raiva, admiração.",
+   "Costuma terminar com ponto de exclamação."
+  ],
+  "pegadinha": "\"Que\" no começo nem sempre é pergunta: \"Que dia lindo!\" é exclamação."
+ },
+ "p-pon-006": {
+  "alternativas": {
+   "uma ordem": "Ordem é frase imperativa, sem relação com reticências.",
+   "o fim da história": "Quem fecha a frase é o ponto final. Reticências deixam algo em aberto.",
+   "uma pergunta": "Pergunta usa ponto de interrogação."
+  },
+  "pontos": [
+   "Reticências indicam dúvida, hesitação, pausa, interrupção ou algo que ficou no ar.",
+   "São sempre três pontos."
+  ],
+  "pegadinha": "Nos chats, reticências às vezes parecem \"tédio\". Na prova, pense em dúvida ou interrupção."
+ },
+ "p-pon-007": {
+  "alternativas": {
+   "exclamativa": "Não expressa emoção; faz um pedido.",
+   "interrogativa": "Não é pergunta: não há ponto de interrogação.",
+   "declarativa": "Não informa um fato; pede uma ação."
+  },
+  "pontos": [
+   "Imperativa dá ordem, conselho ou faz pedido.",
+   "O verbo fica no modo imperativo: feche, arrume, leia."
+  ],
+  "pegadinha": "O \"por favor\" deixa o pedido educado, mas a frase continua imperativa."
+ },
+ "p-pon-008": {
+  "alternativas": {
+   "Mãe posso, sair?": "A vírgula ficou no lugar errado: separou o verbo \"posso\" de \"sair\".",
+   "Mãe, posso, sair?": "O vocativo está certo, mas sobrou vírgula entre \"posso\" e \"sair\".",
+   "Mãe posso sair?": "Faltou a vírgula do vocativo, depois de \"Mãe\"."
+  },
+  "pontos": [
+   "Vocativo é o termo usado para chamar alguém: Mãe, Pedro, pessoal.",
+   "Ele sempre vem separado por vírgula."
+  ],
+  "pegadinha": "\"Vamos comer, crianças\" e \"Vamos comer crianças\": a vírgula do vocativo muda tudo."
+ },
+ "p-pon-009": {
+  "alternativas": {
+   "terminar a frase": "Quem termina a frase é o ponto final.",
+   "fazer uma pergunta": "Pergunta usa ponto de interrogação.",
+   "separar sílabas": "Quem separa sílabas é o hífen (-), que é um traço menor."
+  },
+  "pontos": [
+   "No diálogo, o travessão marca o início da fala do personagem.",
+   "Também separa a fala da indicação do narrador: \"— Oi! — disse ela.\""
+  ],
+  "pegadinha": "Travessão (—) é maior que o hífen (-). São sinais diferentes."
+ },
+ "p-pon-010": {
+  "alternativas": {
+   "uma emoção": "Emoção é marcada pelo ponto de exclamação.",
+   "o fim do texto": "Dois-pontos anunciam algo que vem depois, não encerram.",
+   "uma pergunta": "Pergunta usa ponto de interrogação."
+  },
+  "pontos": [
+   "Dois-pontos anunciam: uma enumeração, uma explicação, uma citação ou a fala de alguém.",
+   "Depois deles costuma vir uma lista ou um esclarecimento."
+  ],
+  "pegadinha": "Antes da fala de personagem no diálogo também vêm dois-pontos: \"Ela disse:\"."
+ },
+ "p-conf-001": {
+  "alternativas": {
+   "Por quê": "Por quê (com acento) só no fim da frase ou sozinho: \"Você faltou por quê?\".",
+   "Porque": "Porque (junto) é para responder ou explicar, não para perguntar.",
+   "Porquê": "Porquê é substantivo (o motivo) e vem com artigo: \"o porquê\"."
+  },
+  "pontos": [
+   "Por que: pergunta (no início ou meio) e quando dá para trocar por \"pelo qual\".",
+   "Por quê: no fim da frase. Porque: resposta. Porquê: o motivo (com artigo)."
+  ],
+  "pegadinha": "Começo de pergunta é sempre separado e sem acento: Por que...?"
+ },
+ "p-conf-002": {
+  "alternativas": {
+   "por que": "Separado é para perguntas. Aqui não há pergunta.",
+   "por quê": "Por quê fica no fim da frase. Aqui a palavra vem depois de artigo.",
+   "porque": "Porque é explicação (\"não fui porque choveu\")."
+  },
+  "pontos": [
+   "Porquê, junto e com acento, é substantivo: significa \"o motivo\".",
+   "Vem acompanhado de artigo ou outro determinante: o porquê, um porquê, os porquês."
+  ],
+  "pegadinha": "A pista é o artigo antes: o porquê."
+ },
+ "p-conf-003": {
+  "alternativas": {
+   "mão": "Mão é parte do corpo, nada a ver.",
+   "mais": "Mais é quantidade (contrário de menos).",
+   "mal": "Mal é o contrário de bem (\"dormi mal\")."
+  },
+  "pontos": [
+   "Mau é o contrário de bom: lobo mau, menino mau, mau humor.",
+   "Mal é o contrário de bem: passou mal, falou mal."
+  ],
+  "pegadinha": "Teste: troque por bom ou bem. Lobo bom → lobo mau."
+ },
+ "p-conf-004": {
+  "alternativas": {
+   "Onde": "Onde é lugar parado (\"onde você mora?\"). Com verbo de movimento, usa-se aonde.",
+   "Hà onde": "Essa forma não existe.",
+   "Donde": "Donde é \"de onde\": origem, não destino."
+  },
+  "pontos": [
+   "Aonde = a + onde: com verbos de movimento que pedem \"a\" (ir a, chegar a).",
+   "Onde: lugar fixo (morar em, estar em)."
+  ],
+  "pegadinha": "Na fala todo mundo usa \"onde você vai\", mas a prova cobra \"aonde\"."
+ },
+ "p-conf-005": {
+  "alternativas": {
+   "há": "Há é para tempo que já passou (\"há dois dias\" = faz dois dias).",
+   "ah": "Ah é interjeição, expressa emoção.",
+   "à": "À é a crase (a + a): \"vou à escola\". Não é o caso."
+  },
+  "pontos": [
+   "A: tempo futuro ou distância (daqui a dois dias, a 5 km).",
+   "Há: tempo passado (dá para trocar por \"faz\")."
+  ],
+  "pegadinha": "Teste do \"faz\": se não dá para trocar por \"faz\", não é há."
+ },
+ "p-conf-006": {
+  "alternativas": {
+   "mau": "Mau é contrário de bom. Dormir bom não faz sentido.",
+   "mais": "Mais é quantidade.",
+   "mas": "Mas é oposição (porém)."
+  },
+  "pontos": [
+   "Mal: contrário de bem. Dormi mal × dormi bem.",
+   "Mau: contrário de bom."
+  ],
+  "pegadinha": "Teste: dormi bem → dormi mal."
+ },
+ "p-conf-007": {
+  "alternativas": {
+   "a": "A é para tempo futuro (daqui a dez anos). Aqui o tempo já passou.",
+   "à": "À é crase e não indica tempo decorrido.",
+   "á": "Á com acento agudo não existe sozinho."
+  },
+  "pontos": [
+   "Há indica tempo que passou: há dez anos = faz dez anos.",
+   "Não se usa \"há dez anos atrás\": é repetição."
+  ],
+  "pegadinha": "\"Há dez anos atrás\" é redundante: há e atrás dizem a mesma coisa."
+ },
+ "p-conf-008": {
+  "alternativas": {
+   "porque": "Porque é para explicar ou responder.",
+   "que": "\"Por que\" sem acento no fim da pergunta está errado: no fim, ganha acento.",
+   "porquê": "Porquê junto é substantivo (o motivo), com artigo."
+  },
+  "pontos": [
+   "No fim da frase, o \"que\" fica tônico e ganha acento: por quê?",
+   "No começo: Por que você saiu mais cedo?"
+  ],
+  "pegadinha": "Mesma pergunta, duas formas: \"Por que você saiu?\" e \"Você saiu por quê?\"."
+ },
+ "p-conf-009": {
+  "alternativas": {
+   "maz": "Essa palavra não existe.",
+   "más": "Más é o feminino plural de mau (pessoas más).",
+   "mas": "Mas é oposição (porém), não quantidade."
+  },
+  "pontos": [
+   "Mais: quantidade ou intensidade, contrário de menos.",
+   "Mas: oposição, igual a porém."
+  ],
+  "pegadinha": "Teste: troque por \"menos\". Quero menos sorvete → quero mais sorvete."
+ },
+ "p-conf-010": {
+  "alternativas": {
+   "Aonde": "Aonde é para movimento (ir a algum lugar). Morar não é movimento.",
+   "Adonde": "Essa forma não existe na norma-padrão.",
+   "Donde": "Donde é \"de onde\": origem."
+  },
+  "pontos": [
+   "Onde: lugar fixo, com verbos como morar, estar, ficar.",
+   "Aonde: destino, com verbos de movimento (ir, chegar)."
+  ],
+  "pegadinha": "Quem mora, mora EM algum lugar: onde."
+ },
+ "p-conf-011": {
+  "alternativas": {
+   "más": "Más é o plural feminino de mau.",
+   "mais": "Mais é quantidade, não oposição.",
+   "mais que": "Expressa comparação, não faz sentido aqui."
+  },
+  "pontos": [
+   "Mas liga ideias opostas: estudei, mas não fui bem.",
+   "Dá para trocar por porém, contudo, entretanto."
+  ],
+  "pegadinha": "Teste do \"porém\": se encaixa, é mas."
+ },
+ "p-conf-012": {
+  "alternativas": {
+   "por quê": "Por quê é de pergunta, no fim da frase.",
+   "por que": "Por que separado é de pergunta (ou \"pelo qual\").",
+   "porquê": "Porquê é substantivo e vem com artigo (o porquê)."
+  },
+  "pontos": [
+   "Porque (junto, sem acento): explicação ou causa.",
+   "Dá para trocar por \"pois\": não veio pois estava doente."
+  ],
+  "pegadinha": "Teste do \"pois\": se encaixa, é porque."
+ },
+ "p-nar-001": {
+  "alternativas": {
+   "narrador observador": "Narrador observador é um tipo de narrador, não um jeito de reproduzir fala.",
+   "moral": "Moral é a lição no fim da fábula.",
+   "discurso indireto": "No indireto, o narrador conta a fala com as próprias palavras: \"João gritou que era para irem embora\"."
+  },
+  "pontos": [
+   "Discurso direto: a fala exata do personagem, com travessão ou aspas.",
+   "Discurso indireto: o narrador resume a fala, sem travessão."
+  ],
+  "pegadinha": "Verbos como gritou, disse, perguntou aparecem nos dois tipos. O que muda é ter ou não a fala exata."
+ },
+ "p-nar-002": {
+  "alternativas": {
+   "o começo da história": "O começo é a situação inicial.",
+   "o título": "O título não é parte do enredo.",
+   "a apresentação dos personagens": "Isso faz parte da situação inicial."
+  },
+  "pontos": [
+   "Enredo: situação inicial → conflito → clímax → desfecho.",
+   "Clímax é o ponto de maior tensão, logo antes do desfecho."
+  ],
+  "pegadinha": "Clímax não é o final: é o momento mais tenso, que vem antes do desfecho."
+ },
+ "p-nar-003": {
+  "alternativas": {
+   "uma carta": "Carta tem destinatário, saudação e despedida.",
+   "uma fábula": "Fábula é narrativa com animais e moral.",
+   "uma crônica": "Crônica é um texto curto sobre o cotidiano."
+  },
+  "pontos": [
+   "Texto instrucional ensina a fazer algo: receita, manual, regra de jogo, tutorial.",
+   "Usa verbos no imperativo (misture, asse) e passos em ordem."
+  ],
+  "pegadinha": "A pista são as partes: ingredientes + modo de preparo = receita."
+ },
+ "p-nar-004": {
+  "alternativas": {
+   "enredo": "Enredo é o que acontece na história.",
+   "clímax": "Clímax é o momento de maior tensão.",
+   "tempo": "Tempo é quando a história acontece."
+  },
+  "pontos": [
+   "Elementos da narrativa: narrador, personagens, enredo, tempo e espaço.",
+   "Espaço = onde; tempo = quando; enredo = o que acontece."
+  ],
+  "pegadinha": "Espaço não precisa ser lugar real: pode ser um castelo inventado."
+ },
+ "p-nar-005": {
+  "alternativas": {
+   "uma notícia": "Notícia é outro gênero, que informa fatos reais.",
+   "um sumário": "Sumário é a lista de conteúdos de um livro.",
+   "uma receita": "Receita é texto instrucional."
+  },
+  "pontos": [
+   "Fábula: narrativa curta, geralmente com animais que agem como pessoas.",
+   "Termina com uma moral: a lição da história."
+  ],
+  "pegadinha": "A moral às vezes vem escrita, às vezes fica implícita no final."
+ },
+ "p-nar-006": {
+  "alternativas": {
+   "de 1ª pessoa (narrador-personagem)": "Seria 1ª pessoa se o narrador dissesse \"eu abri a porta\".",
+   "o leitor": "O leitor não narra a história.",
+   "o protagonista": "O protagonista é \"ela\", e quem conta a ação é alguém de fora."
+  },
+  "pontos": [
+   "Narrador de 3ª pessoa conta de fora: ele, ela, eles.",
+   "Narrador de 1ª pessoa participa: eu, nós."
+  ],
+  "pegadinha": "Mesmo que o narrador saiba tudo o que a personagem pensa, se usa \"ela\", é 3ª pessoa."
+ },
+ "p-nar-007": {
+  "alternativas": {
+   "espaço": "Espaço é o lugar da história.",
+   "conflito": "Conflito é o problema que surge, não a solução.",
+   "clímax": "Clímax é o ponto mais tenso, antes da solução."
+  },
+  "pontos": [
+   "Desfecho: o final, quando o conflito se resolve (bem ou mal).",
+   "A ordem é: conflito → clímax → desfecho."
+  ],
+  "pegadinha": "O desfecho pode ser triste ou aberto: não precisa ser final feliz."
+ },
+ "p-nar-008": {
+  "alternativas": {
+   "de 3ª pessoa (observador)": "Observador usaria \"ela acordou\". Aqui o narrador diz \"eu\".",
+   "um vocativo": "Vocativo é chamar alguém (\"Ana, vem cá\"), não um tipo de narrador.",
+   "o autor do livro": "O narrador é uma voz da história, não o autor real."
+  },
+  "pontos": [
+   "1ª pessoa: o narrador é personagem e usa eu, me, meu.",
+   "3ª pessoa: o narrador conta de fora."
+  ],
+  "pegadinha": "Narrador e autor são diferentes: o autor inventa, o narrador conta."
+ },
+ "p-nar-009": {
+  "alternativas": {
+   "pessoas reais famosas": "Personagens reais aparecem em biografias e notícias, não em fábulas.",
+   "objetos sem vida própria": "Na fábula, os personagens costumam ser animais que falam.",
+   "cientistas": "Não é característica da fábula."
+  },
+  "pontos": [
+   "Fábula: animais com comportamento humano e uma moral no fim.",
+   "Exemplos: A cigarra e a formiga, A raposa e as uvas."
+  ],
+  "pegadinha": "Apólogo é parecido, mas com objetos falando (a agulha e a linha)."
+ },
+ "p-nar-010": {
+  "alternativas": {
+   "narrador-observador": "Narrador observador conta a história; não é personagem.",
+   "antagonista": "Antagonista é quem se opõe ao protagonista (o vilão).",
+   "figurante": "Figurante aparece pouco e não é importante para a história."
+  },
+  "pontos": [
+   "Protagonista: personagem principal.",
+   "Antagonista: quem se opõe a ele. Secundários: ajudam a história."
+  ],
+  "pegadinha": "O antagonista nem sempre é uma pessoa má: pode ser só quem atrapalha o protagonista."
+ },
+ "p-nar-011": {
+  "alternativas": {
+   "fábula": "Fábula é ficção, com animais e moral.",
+   "conto de fadas": "Conto de fadas é ficção, com magia.",
+   "poema": "Poema é texto em versos, sem compromisso de informar fatos."
+  },
+  "pontos": [
+   "Notícia: fatos reais e recentes, linguagem objetiva, em 3ª pessoa.",
+   "O lide (1º parágrafo) responde: o quê, quem, quando, onde, como e por quê."
+  ],
+  "pegadinha": "Reportagem também é real, mas é mais longa e aprofunda o assunto."
+ },
+ "p-cav-001": {
+  "alternativas": {
+   "Os soldados defenderam o castelo durante o inverno.": "Defender castelo era comum na Idade Média: elemento histórico.",
+   "Com a morte do rei, o reino ficou sem governante.": "Reino sem rei aconteceu de verdade várias vezes: histórico.",
+   "O cavaleiro se casou com a filha de um nobre.": "Casamento entre cavaleiros e nobres era real: histórico."
+  },
+  "pontos": [
+   "Novela de cavalaria mistura elementos históricos (reis, castelos, batalhas) e fantásticos (fadas, magos, dragões).",
+   "Fantástico = não existe no mundo real."
+  ],
+  "pegadinha": "Castelo e espada existem; espada mágica e fada, não."
+ },
+ "p-cav-002": {
+  "alternativas": {
+   "o castelo onde ficava a corte": "O castelo de Artur é Camelot.",
+   "a mesa redonda dos cavaleiros": "A mesa é a Távola Redonda.",
+   "a espada mágica de Artur": "A espada é a Excalibur."
+  },
+  "pontos": [
+   "Santo Graal: taça da Última Ceia, buscada pelos cavaleiros.",
+   "Excalibur (espada), Camelot (castelo), Távola Redonda (mesa)."
+  ],
+  "pegadinha": "Os quatro nomes aparecem juntos nas lendas: associe cada um ao seu objeto."
+ },
+ "p-cav-003": {
+  "alternativas": {
+   "O mago transformou o cavaleiro em pedra.": "Magia não existe: fantástico.",
+   "Um dragão guardava o tesouro na montanha.": "Dragão é criatura imaginária: fantástico.",
+   "A espada só saía da rocha para o rei verdadeiro.": "Espada que escolhe o rei é encantamento: fantástico."
+  },
+  "pontos": [
+   "Histórico: algo que poderia ter acontecido de verdade na Idade Média.",
+   "Disputa de trono, guerras, casamentos entre nobres: históricos."
+  ],
+  "pegadinha": "Uma frase pode ter rei e espada e ainda ser fantástica, se tiver magia."
+ },
+ "p-cav-004": {
+  "alternativas": {
+   "Encontrou o Santo Graal": "Quem busca o Graal são os cavaleiros, e isso vem depois. Não foi assim que Artur virou rei.",
+   "Casou-se com Guinevere": "O casamento veio depois de ele já ser rei.",
+   "Venceu um dragão numa luta": "Não faz parte da lenda de como Artur foi reconhecido."
+  },
+  "pontos": [
+   "Artur tirou a espada da pedra: só o rei legítimo conseguiria.",
+   "Depois, recebeu a Excalibur da Dama do Lago."
+  ],
+  "pegadinha": "A espada da pedra e a Excalibur são, em muitas versões, espadas diferentes."
+ },
+ "p-cav-005": {
+  "alternativas": {
+   "Sempre defender os mais fracos": "Não havia ninguém fraco sendo protegido na cena.",
+   "Não abandonar a batalha": "Ele não abandonou nada; ele controlou a raiva.",
+   "Jamais mentir": "A cena não fala de verdade ou mentira."
+  },
+  "pontos": [
+   "Código de honra: defender os fracos, não mentir, não abandonar a batalha, não atacar desarmado, não buscar vantagem, controlar a ira.",
+   "Para achar a regra, veja a ação central da cena."
+  ],
+  "pegadinha": "Pense no que o cavaleiro fez de diferente: segurou a raiva."
+ },
+ "p-cav-006": {
+  "alternativas": {
+   "cavaleiros que usavam armadura preta por tradição": "O nome engana: não tem a ver com a cor da armadura.",
+   "os cavaleiros que encontraram o Santo Graal": "Os que buscavam o Graal eram cavaleiros honrados, o oposto.",
+   "os guardas pessoais do Rei Artur": "Os cavaleiros de Artur eram os da Távola Redonda."
+  },
+  "pontos": [
+   "Cavaleiros negros traíam o código de honra e viravam mercenários.",
+   "Mercenário luta por dinheiro, não por lealdade."
+  ],
+  "pegadinha": "\"Negro\" aqui é o lado sombrio, de traição, não a cor da roupa."
+ },
+ "p-cav-007": {
+  "alternativas": {
+   "Não buscar vantagens pessoais": "A cena não fala de ouro nem de fama.",
+   "Não se deixar levar pela ira": "A cena não fala de controlar a raiva.",
+   "Jamais mentir": "A cena não fala de verdade ou mentira."
+  },
+  "pontos": [
+   "Lutar contra ameaças para proteger o reino = defender a fé e o reino até a morte."
+  ],
+  "pegadinha": "Defender os mais fracos também parece certo, mas a cena fala de proteger o reino inteiro."
+ },
+ "p-cav-008": {
+  "alternativas": {
+   "Grécia Antiga": "Na Grécia Antiga as narrativas eram mitos e epopeias, não novelas de cavalaria.",
+   "Pré-História": "Na Pré-História não havia escrita.",
+   "Século XXI": "O século XXI é hoje. As novelas são muito mais antigas."
+  },
+  "pontos": [
+   "Novelas de cavalaria: Idade Média (castelos, reis, cavaleiros, feudos)."
+  ],
+  "pegadinha": "Filmes e séries atuais recontam essas histórias, mas elas surgiram na Idade Média."
+ },
+ "p-cav-009": {
+  "alternativas": {
+   "Merlin, que a forjou numa caverna": "Merlin é o mago conselheiro de Artur, mas não entregou a Excalibur.",
+   "O rei Uther Pendragon, antes de morrer": "Uther era o pai de Artur; não entregou a espada.",
+   "Guinevere, no dia do casamento": "Guinevere é a rainha, esposa de Artur."
+  },
+  "pontos": [
+   "A Dama do Lago entregou a Excalibur a Artur.",
+   "É um dos elementos fantásticos da lenda."
+  ],
+  "pegadinha": "Merlin aparece em quase tudo na lenda, mas a Excalibur veio da Dama do Lago."
+ },
+ "p-cav-010": {
+  "alternativas": {
+   "Não abandonar a batalha sem ordem do comandante": "A cena não fala de ficar ou sair da batalha.",
+   "Jamais mentir": "A cena não fala de verdade.",
+   "Não se deixar levar pela ira": "A cena não fala de controlar a raiva."
+  },
+  "pontos": [
+   "Camponeses indefesos são os mais fracos.",
+   "Regra: sempre defender os mais fracos."
+  ],
+  "pegadinha": "Proteger uma aldeia é diferente de proteger o reino inteiro: aqui o foco é quem é fraco."
+ },
+ "p-cav-011": {
+  "alternativas": {
+   "Não buscar fama nem riqueza": "A cena não fala de fama ou ouro.",
+   "Jamais mentir": "A cena não fala de mentira.",
+   "Jamais abandonar a batalha sem autorização": "Ele continuou na batalha; só não atacou o inimigo caído."
+  },
+  "pontos": [
+   "Atacar inimigo ferido, desarmado ou pelas costas era covardia.",
+   "O cavaleiro honrado só luta em condição justa."
+  ],
+  "pegadinha": "Não atacar não é fugir: ele está seguindo uma regra de honra."
+ },
+ "p-cav-012": {
+  "alternativas": {
+   "Não abandonar a batalha": "Ninguém falou em batalha.",
+   "Não atacar inimigo desarmado": "Não houve luta.",
+   "Sempre defender os mais fracos": "Não havia ninguém fraco envolvido."
+  },
+  "pontos": [
+   "Recusar ouro para trair = não usar a condição para obter vantagens pessoais.",
+   "Se aceitasse, viraria um cavaleiro negro."
+  ],
+  "pegadinha": "Lealdade ao rei e recusa de riqueza aparecem juntas: o foco da regra é a riqueza."
+ },
+ "p-cav-013": {
+  "alternativas": {
+   "não há aventuras, só a descrição da rotina dos cavaleiros": "Pelo contrário: cada episódio é uma aventura.",
+   "cada capítulo termina em suspense, como novela de TV": "Isso é o gancho de novela. Na estrutura episódica, cada episódio fecha.",
+   "a história só faz sentido lida do começo ao fim, em ordem": "Como cada episódio é completo, dá para ler fora de ordem."
+  },
+  "pontos": [
+   "Estrutura episódica: cada episódio é uma aventura completa.",
+   "O que liga os episódios são os mesmos personagens."
+  ],
+  "pegadinha": "\"Episódio\" lembra série de TV com gancho, mas aqui cada episódio tem começo, meio e fim."
+ },
+ "p-pres-001": {
+  "alternativas": {
+   "fato científico": "Fato científico é comprovado e não tem exceção. Essa frase é opinião.",
+   "ação habitual": "Ação habitual é rotina de alguém (\"ela acorda às 6h\").",
+   "futuro próximo": "Nada na frase indica futuro."
+  },
+  "pontos": [
+   "Generalização: opinião apresentada como verdade geral, com muitas exceções.",
+   "Fato científico: comprovado, vale sempre."
+  ],
+  "pegadinha": "Palavras como todo, sempre, nunca, ninguém costumam indicar generalização."
+ },
+ "p-pres-002": {
+  "alternativas": {
+   "O gelo derrete com o calor.": "Comprovado pela ciência: fato científico.",
+   "A Lua gira em torno da Terra.": "Comprovado: fato científico.",
+   "O coração humano tem quatro cavidades.": "Comprovado: fato científico."
+  },
+  "pontos": [
+   "Teste: dá para alguém discordar com razão? Então é generalização."
+  ],
+  "pegadinha": "\"Todo mundo\" é uma pista clássica de generalização."
+ },
+ "p-pres-003": {
+  "alternativas": {
+   "futuro próximo": "1969 já passou; não é futuro.",
+   "ação habitual": "Pisar na Lua pela primeira vez aconteceu uma vez, não é rotina.",
+   "fato científico": "É um fato real, mas histórico, não uma lei da ciência."
+  },
+  "pontos": [
+   "Presente histórico: fato passado contado no presente para dar vida à cena.",
+   "A pista é a data no passado."
+  ],
+  "pegadinha": "Ser verdade não transforma o fato em \"fato científico\": olhe a data."
+ },
+ "p-pres-004": {
+  "alternativas": {
+   "generalização": "Não é opinião sobre um grupo: é a rotina de uma pessoa.",
+   "fato científico": "Tomar café às 6h não é lei da ciência.",
+   "futuro próximo": "\"Todos os dias\" indica rotina, não futuro."
+  },
+  "pontos": [
+   "Ação habitual: algo que acontece com frequência (todo dia, sempre, às segundas)."
+  ],
+  "pegadinha": "Habitual é de alguém específico; generalização é sobre um grupo inteiro."
+ },
+ "p-pres-005": {
+  "alternativas": {
+   "generalização": "Não é opinião sobre um grupo.",
+   "futuro próximo": "É sobre agora, não sobre depois.",
+   "ação habitual": "Não é rotina; é o que acontece neste momento."
+  },
+  "pontos": [
+   "Presente simultâneo à fala: a ação acontece no mesmo momento em que se fala."
+  ],
+  "pegadinha": "Perguntas sobre \"agora\" (está ouvindo? está vendo?) costumam ser simultâneas à fala."
+ },
+ "p-pres-006": {
+  "alternativas": {
+   "ação habitual": "Viajar sábado que vem é um plano, não rotina.",
+   "generalização": "Não é opinião sobre um grupo.",
+   "passado revivido": "Não há data no passado; é futuro."
+  },
+  "pontos": [
+   "Futuro próximo: verbo no presente com marca de futuro (amanhã, semana que vem)."
+  ],
+  "pegadinha": "O verbo está no presente, mas a expressão de tempo manda: \"sábado que vem\" = futuro."
+ },
+ "p-pres-007": {
+  "alternativas": {
+   "ação simultânea à fala": "As provas não estão acontecendo agora.",
+   "passado revivido": "Semana que vem é futuro, não passado.",
+   "ação habitual": "Começar as provas não é rotina diária."
+  },
+  "pontos": [
+   "Expressões como amanhã, semana que vem, mês que vem indicam futuro próximo."
+  ],
+  "pegadinha": "Procure a expressão de tempo antes de olhar o verbo."
+ },
+ "p-pres-008": {
+  "alternativas": {
+   "ação simultânea à fala": "Não fala de uma água fervendo agora, mas de uma regra.",
+   "generalização": "Não é opinião: é comprovado.",
+   "passado revivido": "Não há data no passado."
+  },
+  "pontos": [
+   "Fato científico: verdade comprovada, que vale sempre."
+  ],
+  "pegadinha": "\"Ao nível do mar\" é detalhe científico, não opinião."
+ },
+ "p-pres-009": {
+  "alternativas": {
+   "fato científico": "Não dá para comprovar; há muitos cariocas que não gostam de praia.",
+   "ação habitual": "Não descreve a rotina de alguém específico.",
+   "ação simultânea à fala": "Não é algo acontecendo agora."
+  },
+  "pontos": [
+   "Generalização: atribui a um grupo inteiro algo que só vale para parte dele."
+  ],
+  "pegadinha": "\"Todo\" + grupo de pessoas = quase sempre generalização."
+ },
+ "p-pres-010": {
+  "alternativas": {
+   "passado revivido": "Não há data no passado.",
+   "generalização": "Não é opinião: é comprovado.",
+   "ação habitual": "É uma lei da natureza, não a rotina de alguém."
+  },
+  "pontos": [
+   "Fato científico: verdade comprovada pela ciência."
+  ],
+  "pegadinha": "Movimento que se repete (girar) não é \"ação habitual\": é lei natural."
+ },
+ "p-pres-011": {
+  "alternativas": {
+   "generalização": "Não é opinião sobre um grupo.",
+   "fato científico": "Horário de ônibus não é lei da ciência.",
+   "futuro próximo": "É rotina que se repete, não um evento único no futuro."
+  },
+  "pontos": [
+   "Rotina de serviços e máquinas também é ação habitual."
+  ],
+  "pegadinha": "Horário fixo que se repete = habitual."
+ },
+ "p-pres-012": {
+  "alternativas": {
+   "Todo brasileiro gosta de futebol.": "Opinião sobre um grupo inteiro: generalização.",
+   "Amanhã meu pai corre a maratona.": "\"Amanhã\" indica futuro próximo.",
+   "Em 2016, o Brasil sedia a Olimpíada.": "Data no passado com verbo no presente: presente histórico."
+  },
+  "pontos": [
+   "Habitual: alguém específico + frequência (todo domingo)."
+  ],
+  "pegadinha": "As quatro frases estão no presente; a diferença está nas expressões de tempo."
+ },
+ "p-pres-013": {
+  "alternativas": {
+   "futuro próximo": "1822 é passado.",
+   "fato científico": "É um fato histórico, não científico.",
+   "ação habitual": "A independência foi proclamada uma vez."
+  },
+  "pontos": [
+   "Presente histórico: fato passado narrado no presente."
+  ],
+  "pegadinha": "Data antiga + verbo no presente = presente histórico."
+ },
+ "p-pret-001": {
+  "alternativas": {
+   "Se eu corresse, chegaria antes.": "\"Se eu corresse\" é hipótese: subjuntivo.",
+   "Talvez eu corra amanhã.": "\"Talvez\" pede subjuntivo.",
+   "Eu corri no corredor.": "Fato que aconteceu: indicativo."
+  },
+  "pontos": [
+   "Imperativo: ordem, pedido, conselho, proibição.",
+   "Indicativo: certeza. Subjuntivo: hipótese, dúvida, desejo."
+  ],
+  "pegadinha": "Imperativo negativo (\"não corra\") usa a forma do subjuntivo, mas o modo é imperativo."
+ },
+ "p-pret-002": {
+  "alternativas": {
+   "Você virá à festa.": "Fato dado como certo no futuro: indicativo.",
+   "Venha à festa!": "Convite ou ordem: imperativo.",
+   "Você veio à festa.": "Fato passado: indicativo."
+  },
+  "pontos": [
+   "Subjuntivo aparece depois de espero que, talvez, se, quando (futuro), caso."
+  ],
+  "pegadinha": "Venha aparece no subjuntivo e no imperativo: o contexto decide."
+ },
+ "p-pret-003": {
+  "alternativas": {
+   "fato mais antigo que outro fato passado": "Isso é o mais-que-perfeito (chegara), não o caso.",
+   "fato futuro indicado por verbo no presente": "1500 não é futuro.",
+   "ação que era rotina no passado": "A chegada aconteceu uma vez."
+  },
+  "pontos": [
+   "Presente histórico: fato passado narrado no presente."
+  ],
+  "pegadinha": "Mesmo verbo no presente: a data decide se é passado revivido ou futuro."
+ },
+ "p-pret-004": {
+  "alternativas": {
+   "fato que vai acontecer": "A fuga já aconteceu.",
+   "fato do passado indicado pelo presente": "\"Fugira\" não está no presente.",
+   "ação que era rotina no passado": "Fugir não era rotina; aconteceu uma vez."
+  },
+  "pontos": [
+   "Mais-que-perfeito: passado anterior a outro passado.",
+   "Forma simples em -ra (fugira) = composta (tinha fugido)."
+  ],
+  "pegadinha": "Fugira parece futuro ou subjuntivo, mas é mais-que-perfeito."
+ },
+ "p-pret-005": {
+  "alternativas": {
+   "fato futuro indicado pelo presente": "Ontem é passado.",
+   "fato mais antigo que outro fato passado": "Não há outro fato passado para comparar.",
+   "ação que era rotina no passado": "Aconteceu uma vez."
+  },
+  "pontos": [
+   "Pretérito perfeito: ação passada, pontual e concluída (houve, saí, comi)."
+  ],
+  "pegadinha": "\"Ontem\" é pista de perfeito; \"todas as tardes\", de imperfeito."
+ },
+ "p-pret-006": {
+  "alternativas": {
+   "fato que aconteceu uma vez só (pretérito perfeito)": "\"Todas as tardes\" mostra repetição.",
+   "fato futuro indicado pelo presente": "Brincava está no passado.",
+   "fato anterior a outro fato passado (mais-que-perfeito)": "Não há outro fato passado anterior."
+  },
+  "pontos": [
+   "Pretérito imperfeito: rotina ou ação contínua no passado (brincava, morava)."
+  ],
+  "pegadinha": "Terminações -ava e -ia costumam indicar imperfeito."
+ },
+ "p-pret-007": {
+  "alternativas": {
+   "saiu": "Saiu é pretérito perfeito: não marca que foi antes de outro fato.",
+   "sairia": "Sairia é futuro do pretérito (hipótese).",
+   "sairá": "Sairá é futuro do presente."
+  },
+  "pontos": [
+   "Mais-que-perfeito simples (-ra) = tinha/havia + particípio: saíra = tinha saído."
+  ],
+  "pegadinha": "Saíra (com acento, passado) e sairá (futuro) mudam só o acento."
+ },
+ "p-pret-008": {
+  "alternativas": {
+   "subjuntivo": "Subjuntivo expressa dúvida ou desejo, geralmente depois de \"que\" ou \"se\".",
+   "particípio": "Particípio é forma nominal (estudado), não modo.",
+   "indicativo": "Indicativo expressa fato certo (eu estudo)."
+  },
+  "pontos": [
+   "Imperativo: ordem, conselho ou pedido. Ponto de exclamação é comum."
+  ],
+  "pegadinha": "Conselho também é imperativo, mesmo sem tom de ordem."
+ },
+ "p-pret-009": {
+  "alternativas": {
+   "ordens, pedidos e conselhos": "Isso é o imperativo.",
+   "apenas ações que acontecem agora": "O indicativo tem presente, passado e futuro.",
+   "hipóteses, dúvidas e desejos": "Isso é o subjuntivo."
+  },
+  "pontos": [
+   "Indicativo = certeza. Subjuntivo = hipótese. Imperativo = ordem."
+  ],
+  "pegadinha": "\"Apenas\" na alternativa é sinal de alerta: restringe demais."
+ },
+ "p-pret-010": {
+  "alternativas": {
+   "ação que era rotina no passado": "O plano é para depois da faculdade: futuro.",
+   "fato passado indicado por verbo no presente": "Não há data no passado.",
+   "fato que aconteceu uma vez no passado": "Ainda não aconteceu."
+  },
+  "pontos": [
+   "Presente pode indicar futuro quando há marca de tempo futuro."
+  ],
+  "pegadinha": "\"Esse é o plano\" confirma que ainda vai acontecer."
+ },
+ "p-pret-011": {
+  "alternativas": {
+   "imperativo": "Não há ordem nem pedido.",
+   "indicativo": "\"Tivesse\" não é certeza: é hipótese.",
+   "infinitivo": "Infinitivo é a forma terminada em -r (ter)."
+  },
+  "pontos": [
+   "\"Se eu tivesse\": pretérito imperfeito do subjuntivo, usado em hipóteses."
+  ],
+  "pegadinha": "A oração com \"iria\" está no indicativo (futuro do pretérito). A pergunta é sobre \"tivesse\"."
+ },
+ "p-pret-012": {
+  "alternativas": {
+   "fato que aconteceu apenas uma vez": "Aconteceu uma vez, mas o importante é ter sido antes de outro fato passado.",
+   "fato futuro": "Setembro já passou.",
+   "ação que virou rotina no passado": "Não há repetição."
+  },
+  "pontos": [
+   "Fora = tinha sido: mais-que-perfeito, passado anterior a outro passado."
+  ],
+  "pegadinha": "Fora (do verbo ser) também pode significar \"lado de fora\". Aqui é verbo."
+ }
 }
