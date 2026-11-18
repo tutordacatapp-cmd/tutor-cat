@@ -1285,5 +1285,872 @@
    "Fora = tinha sido: mais-que-perfeito, passado anterior a outro passado."
   ],
   "pegadinha": "Fora (do verbo ser) também pode significar \"lado de fora\". Aqui é verbo."
+ },
+ "p-locvn-001": {
+  "alternativas": {
+   "partindo": "Termina em -ndo: gerúndio.",
+   "partido": "Termina em -ido: particípio.",
+   "parti": "É verbo conjugado (eu parti), não forma nominal."
+  },
+  "pontos": [
+   "Formas nominais: infinitivo (-r), gerúndio (-ndo), particípio (-ado/-ido)."
+  ],
+  "pegadinha": "Parti e partir mudam só uma letra: o -r final é a marca do infinitivo."
+ },
+ "p-locvn-002": {
+  "alternativas": {
+   "Porque a ação já terminou": "Ação terminada é marca do particípio.",
+   "Porque é uma ordem": "Ordem é imperativo, não infinitivo.",
+   "Porque a ação está acontecendo agora": "Ação em andamento é marca do gerúndio."
+  },
+  "pontos": [
+   "Infinitivo apresenta a ação em si, sem tempo definido."
+  ],
+  "pegadinha": "Títulos e manchetes usam infinitivo para soar atemporal."
+ },
+ "p-locvn-003": {
+  "alternativas": {
+   "o verbo auxiliar, no particípio": "O auxiliar é \"tinha\", que não está no particípio.",
+   "o verbo principal, no gerúndio": "Gerúndio terminaria em -ndo (quebrando).",
+   "o verbo auxiliar, no infinitivo": "Quebrado não é auxiliar nem infinitivo."
+  },
+  "pontos": [
+   "Locução verbal: auxiliar (conjugado) + principal (forma nominal).",
+   "O principal traz o sentido; o auxiliar marca tempo e pessoa."
+  ],
+  "pegadinha": "O verbo conjugado é o auxiliar; o que termina em -ado/-ido é o principal."
+ },
+ "p-locvn-004": {
+  "alternativas": {
+   "a ação em si, sem indicar tempo": "Isso é o infinitivo.",
+   "uma ordem": "Ordem é o imperativo.",
+   "uma ação já terminada": "Isso é o particípio."
+  },
+  "pontos": [
+   "Gerúndio (-ndo): ação em andamento, que continua."
+  ],
+  "pegadinha": "Gerúndio não é sempre presente: \"estava chovendo\" é passado, mas a ação estava em andamento."
+ },
+ "p-locvn-005": {
+  "alternativas": {
+   "Porque o gerúndio indica passado": "Gerúndio indica andamento, não passado.",
+   "Porque o aprendizado já terminou": "Aprendizado terminado seria particípio (aprendido).",
+   "Porque é uma ordem para o leitor": "Ordem seria imperativo (aprenda)."
+  },
+  "pontos": [
+   "Gerúndio sugere processo contínuo, que segue acontecendo."
+  ],
+  "pegadinha": "Título no gerúndio dá ideia de algo vivo, em movimento."
+ },
+ "p-locvn-006": {
+  "alternativas": {
+   "uma dúvida": "Dúvida é marca do subjuntivo.",
+   "uma ação em andamento": "Isso é o gerúndio.",
+   "a ação em si, sem indicar tempo": "Isso é o infinitivo."
+  },
+  "pontos": [
+   "Particípio (-ado/-ido): ação concluída."
+  ],
+  "pegadinha": "O particípio também funciona como adjetivo: bola furada, porta aberta."
+ },
+ "p-locvn-007": {
+  "alternativas": {
+   "vendeu": "Verbo conjugado (ele vendeu).",
+   "vender": "Infinitivo (-r).",
+   "vendendo": "Gerúndio (-ndo)."
+  },
+  "pontos": [
+   "Particípio regular: -ado (1ª conjugação) e -ido (2ª e 3ª)."
+  ],
+  "pegadinha": "Alguns particípios são irregulares: feito, dito, aberto, posto."
+ },
+ "p-locvn-008": {
+  "alternativas": {
+   "ainda estava acontecendo": "Para isso seria gerúndio: estava chovendo.",
+   "acontecia todo dia": "Nada indica repetição.",
+   "ia acontecer depois": "Havia chovido = já tinha acontecido."
+  },
+  "pontos": [
+   "Haver/ter + particípio = ação concluída antes de outra."
+  ],
+  "pegadinha": "\"Havia chovido\" é passado anterior a \"saímos\"."
+ },
+ "p-locvn-009": {
+  "alternativas": {
+   "os dois verbos": "O principal fica na forma nominal e não flexiona.",
+   "o verbo principal": "O principal (infinitivo, gerúndio, particípio) não concorda com o sujeito.",
+   "nenhum dos dois": "O auxiliar sempre concorda com o sujeito."
+  },
+  "pontos": [
+   "Na locução, só o auxiliar é conjugado: estão chovendo, vão viajar."
+  ],
+  "pegadinha": "O verbo que muda de pessoa e número é o auxiliar, mesmo sendo o \"ajudante\"."
+ },
+ "p-locvn-010": {
+  "alternativas": {
+   "estudando": "Estudando é o principal, no gerúndio.",
+   "alunos": "Alunos é substantivo (sujeito).",
+   "estão estudando": "Essa é a locução inteira, não só o auxiliar."
+  },
+  "pontos": [
+   "Auxiliar: conjugado, concorda com o sujeito. Principal: forma nominal, carrega o sentido."
+  ],
+  "pegadinha": "A pergunta pede só o auxiliar, não a locução toda."
+ },
+ "p-locvn-011": {
+  "alternativas": {
+   "corri": "Verbo conjugado (eu corri).",
+   "correr": "Infinitivo.",
+   "corrido": "Particípio."
+  },
+  "pontos": [
+   "Gerúndio sempre termina em -ndo."
+  ],
+  "pegadinha": "Corrido também é adjetivo (\"dia corrido\"), mas a forma é de particípio."
+ },
+ "p-locvn-012": {
+  "alternativas": {
+   "Nós viajamos ontem.": "Um verbo só, conjugado: não é locução.",
+   "A viagem foi longa.": "\"Foi\" é verbo de ligação e \"longa\" é adjetivo, não há locução.",
+   "Viajar é ótimo.": "Há um infinitivo, mas sem auxiliar."
+  },
+  "pontos": [
+   "Locução verbal: dois ou mais verbos funcionando como um só (vamos viajar, estava estudando)."
+  ],
+  "pegadinha": "Ter dois verbos na frase não basta: eles precisam formar uma ação só."
+ },
+ "p-conc-001": {
+  "alternativas": {
+   "fenômeno da natureza": "Fenômeno é chover, trovejar, nevar.",
+   "ação": "Parecer não é fazer nada.",
+   "ordem": "Ordem é o imperativo, não um tipo de verbo pelo sentido."
+  },
+  "pontos": [
+   "Verbos de estado: ser, estar, parecer, ficar, permanecer, continuar.",
+   "Eles ligam o sujeito a uma qualidade ou estado."
+  ],
+  "pegadinha": "Ficar e parecer não indicam ação, mesmo soando como algo que alguém \"faz\"."
+ },
+ "p-conc-002": {
+  "alternativas": {
+   "ação": "Ninguém além da natureza troveja.",
+   "qualidade": "Qualidade é expressa por adjetivo.",
+   "estado": "Estado liga o sujeito a uma característica."
+  },
+  "pontos": [
+   "Fenômenos da natureza: chover, trovejar, nevar, ventar, amanhecer, anoitecer.",
+   "Esses verbos geralmente não têm sujeito."
+  ],
+  "pegadinha": "Em sentido figurado (\"choveram críticas\"), viram ação."
+ },
+ "p-conc-003": {
+  "alternativas": {
+   "parecer": "Parecer é verbo de estado.",
+   "soprar": "Pessoas e máquinas também sopram: é ação.",
+   "correr": "Correr é ação."
+  },
+  "pontos": [
+   "Teste: só a natureza faz isso? Então é fenômeno."
+  ],
+  "pegadinha": "Soprar parece coisa do vento, mas qualquer um sopra uma vela."
+ },
+ "p-conc-004": {
+  "alternativas": {
+   "Porque está no presente": "O tempo verbal não decide se é ação ou fenômeno.",
+   "Porque todo verbo é de ação": "Há verbos de estado e de fenômeno também.",
+   "Porque o vento é um substantivo": "Isso é verdade, mas não explica o tipo do verbo."
+  },
+  "pontos": [
+   "Fenômeno da natureza: só a natureza faz.",
+   "Ação: alguém ou algo pode fazer (pessoa, animal, máquina)."
+  ],
+  "pegadinha": "O sujeito ser da natureza (vento) não torna o verbo um fenômeno."
+ },
+ "p-conc-005": {
+  "alternativas": {
+   "pular": "Pular é ação.",
+   "escrever": "Escrever é ação.",
+   "ventar": "Ventar é fenômeno da natureza."
+  },
+  "pontos": [
+   "Estado: permanecer, continuar, ficar, ser, estar, parecer."
+  ],
+  "pegadinha": "Permanecer parece \"fazer algo\", mas indica continuar num estado."
+ },
+ "p-conc-006": {
+  "alternativas": {
+   "estado": "Chutar não é ficar ou estar de algum jeito.",
+   "fenômeno da natureza": "Chutar não é coisa da natureza.",
+   "qualidade": "Qualidade é expressa por adjetivo."
+  },
+  "pontos": [
+   "Ação: algo que alguém faz (chutar, correr, escrever)."
+  ],
+  "pegadinha": "Verbo de ação costuma responder à pergunta \"o que ele fez?\"."
+ },
+ "p-conc-007": {
+  "alternativas": {
+   "um adjetivo que expressa uma ação": "Leitura não caracteriza outro substantivo; ela é o núcleo.",
+   "um verbo de estado": "Leitura não é verbo.",
+   "um verbo": "Tem artigo antes (a leitura): é substantivo."
+  },
+  "pontos": [
+   "Substantivos podem expressar ação: leitura (ler), chegada (chegar), corrida (correr).",
+   "Pista: vêm com artigo."
+  ],
+  "pegadinha": "Expressar ação não faz a palavra ser verbo."
+ },
+ "p-conc-008": {
+  "alternativas": {
+   "qualidade": "Qualidade é adjetivo.",
+   "ação": "Ninguém \"faz\" amanhecer; é a natureza.",
+   "estado": "Amanhecer não liga sujeito a característica."
+  },
+  "pontos": [
+   "Amanhecer e anoitecer são fenômenos da natureza."
+  ],
+  "pegadinha": "\"Amanheci cansada\" é sentido figurado: aí vira estado."
+ },
+ "p-conc-009": {
+  "alternativas": {
+   "estado": "Não liga um sujeito a uma qualidade.",
+   "fenômeno da natureza": "Não é chuva de verdade: é sentido figurado.",
+   "qualidade": "Qualidade é expressa por adjetivo."
+  },
+  "pontos": [
+   "Verbo de fenômeno em sentido figurado passa a expressar ação."
+  ],
+  "pegadinha": "O verbo é chover, mas o que \"chove\" são reclamações."
+ },
+ "p-conc-010": {
+  "alternativas": {
+   "nenhuma dessas": "\"Ficou\" é verbo de estado.",
+   "ação": "Ninguém faz \"ficar nervoso\" de propósito.",
+   "fenômeno da natureza": "Não é coisa da natureza."
+  },
+  "pontos": [
+   "Ficar + adjetivo indica mudança de estado."
+  ],
+  "pegadinha": "\"Ficou em casa\" também é estado (permanência), não ação."
+ },
+ "p-conc-011": {
+  "alternativas": {
+   "um verbo de fenômeno da natureza": "Ventilado não é verbo; caracteriza o mês.",
+   "um substantivo que expressa uma ação": "Não tem artigo nem é núcleo: caracteriza \"mês\".",
+   "um verbo de estado": "O verbo de estado da frase é \"é\"."
+  },
+  "pontos": [
+   "Adjetivo que expressa ação: particípio caracterizando substantivo (ventilado, quebrado)."
+  ],
+  "pegadinha": "A frase tem um verbo de estado (é) e um adjetivo com ideia de ação (ventilado)."
+ },
+ "p-conc-012": {
+  "alternativas": {
+   "um substantivo que expressa uma ação": "Quebrado caracteriza o celular; não é núcleo.",
+   "um verbo de fenômeno": "Quebrar não é fenômeno da natureza.",
+   "um verbo que expressa uma ação": "Aqui \"quebrado\" funciona como adjetivo do celular."
+  },
+  "pontos": [
+   "Particípio usado para caracterizar substantivo vira adjetivo: celular quebrado."
+  ],
+  "pegadinha": "Mesma palavra, papéis diferentes: \"tinha quebrado\" (verbo) × \"celular quebrado\" (adjetivo)."
+ },
+ "p-conc-013": {
+  "alternativas": {
+   "um verbo que expressa uma ação": "O verbo da frase é \"atrasou\".",
+   "um adjetivo que expressa uma ação": "Chegada não caracteriza outro substantivo.",
+   "um verbo de estado": "Chegada não é verbo."
+  },
+  "pontos": [
+   "Com artigo antes (a chegada), a palavra é substantivo."
+  ],
+  "pegadinha": "A ideia de ação vem de chegar, mas a classe é substantivo."
+ },
+ "p-subj-001": {
+  "alternativas": {
+   "Haverá grandes poetas, havendo também um grande público.": "\"Havendo\" é gerúndio.",
+   "Haverá grandes poetas, quando houver também um grande público.": "\"Houver\" é futuro do subjuntivo (marca -r).",
+   "Para haver grandes poetas, tem de haver também um grande público.": "\"Haver\" é infinitivo.",
+   "Houve grandes poetas, porque houve também um grande público.": "\"Houve\" é pretérito perfeito do indicativo: fato, não hipótese."
+  },
+  "pontos": [
+   "Imperfeito do subjuntivo = base do perfeito (houve-) + -sse: houvesse.",
+   "Combina com o futuro do pretérito: haveria... se houvesse."
+  ],
+  "pegadinha": "Houver e houvesse se parecem: -r é futuro, -sse é imperfeito."
+ },
+ "p-subj-002": {
+  "alternativas": {
+   "3ª pessoa do plural do futuro do subjuntivo": "O futuro do subjuntivo é derivado da base, não a origem dela.",
+   "infinitivo do verbo": "Do infinitivo sairia \"tesse\" e \"propesse\", que não existem.",
+   "3ª pessoa do plural do presente do indicativo": "\"Eles têm\" não termina em -ram.",
+   "1ª pessoa do singular do pretérito perfeito": "\"Eu tive\" não tem -ram para tirar."
+  },
+  "pontos": [
+   "Regra da subtração: eles + pretérito perfeito − ram = base.",
+   "Base + -sse (imperfeito), + -r (futuro), + -ra (mais-que-perfeito)."
+  ],
+  "pegadinha": "Começar pelo infinitivo é o erro mais comum (ter → \"tesse\")."
+ },
+ "p-subj-003": {
+  "alternativas": {
+   "propuser": "Futuro do subjuntivo: combinaria com \"aceitarão\", não com \"aceitariam\".",
+   "propusera": "Mais-que-perfeito do indicativo (= tinha proposto).",
+   "proponha": "Presente do subjuntivo: não combina com \"se\" + futuro do pretérito.",
+   "propor": "Infinitivo, sem conjugação."
+  },
+  "pontos": [
+   "Se + imperfeito do subjuntivo + futuro do pretérito: se eu propusesse, aceitariam."
+  ],
+  "pegadinha": "O verbo da outra oração (aceitariam) ajuda a escolher o tempo certo."
+ },
+ "p-subj-004": {
+  "alternativas": {
+   "presente do indicativo e presente do subjuntivo": "Estiverdes tem a marca -r do futuro do subjuntivo; enxergareis é futuro.",
+   "pretérito imperfeito do subjuntivo e futuro do subjuntivo": "Imperfeito seria \"estivésseis\".",
+   "futuro do subjuntivo e futuro do pretérito do indicativo": "Futuro do pretérito seria \"enxergaríeis\".",
+   "pretérito imperfeito do subjuntivo e gerúndio": "Nenhum dos dois verbos está nessas formas."
+  },
+  "pontos": [
+   "Quando + futuro do subjuntivo + futuro do presente: quando estiverdes, enxergareis."
+  ],
+  "pegadinha": "Enxergareis (futuro do presente) × enxergaríeis (futuro do pretérito): olhe o -ríeis."
+ },
+ "p-subj-005": {
+  "alternativas": {
+   "hipótese descartada em qualquer tempo": "Nada indica que é impossível; ele ainda pode conseguir.",
+   "hipótese descartada no passado": "Não fala de algo que deixou de acontecer.",
+   "hipótese futura": "Hipótese futura seria \"quando eu obtiver...\". Aqui o foco é a incerteza."
+  },
+  "pontos": [
+   "Quem sabe, talvez + presente do subjuntivo = dúvida."
+  ],
+  "pegadinha": "A segunda frase (\"ainda não sei\") confirma a dúvida."
+ },
+ "p-subj-006": {
+  "alternativas": {
+   "propus-": "Vem de \"eu propus\". A regra parte de \"eles propuseram\".",
+   "propo-": "Vem do infinitivo (propor), e a regra não usa o infinitivo.",
+   "propôs-": "Vem de \"ele propôs\".",
+   "proponh-": "Vem do presente (eu proponho)."
+  },
+  "pontos": [
+   "Eles propuseram − ram = propuse-."
+  ],
+  "pegadinha": "Sempre a 3ª pessoa do plural (eles) do pretérito perfeito."
+ },
+ "p-subj-007": {
+  "alternativas": {
+   "tivera": "Mais-que-perfeito do indicativo (= tinha tido).",
+   "tiver": "Futuro do subjuntivo: não combina com \"iria\".",
+   "tenha": "Presente do subjuntivo.",
+   "tesse": "Não existe: saiu do infinitivo (ter)."
+  },
+  "pontos": [
+   "Eles tiveram − ram = tive- + sse = tivesse."
+  ],
+  "pegadinha": "\"Tesse\" é o erro clássico de quem parte do infinitivo."
+ },
+ "p-subj-008": {
+  "alternativas": {
+   "propormos": "Erro comum: usou o infinitivo em vez da base propuse-.",
+   "proponhamos": "Presente do subjuntivo: não combina com \"quando\" no futuro.",
+   "propuséramos": "Mais-que-perfeito do indicativo.",
+   "propuséssemos": "Imperfeito do subjuntivo: combinaria com \"gostaria\"."
+  },
+  "pontos": [
+   "Quando + futuro do subjuntivo: propuse- + r + mos = propusermos."
+  ],
+  "pegadinha": "\"Quando nós propormos\" soa natural, mas está errado."
+ },
+ "p-subj-009": {
+  "alternativas": {
+   "ordem ou comando": "Ordem seria imperativo direto (\"Dê certo!\").",
+   "ação concreta": "Ação concreta seria indicativo (\"deu certo\").",
+   "hipótese": "Não se levanta uma possibilidade; expressa-se um desejo.",
+   "pedido": "Ninguém está pedindo a alguém; é um desejo."
+  },
+  "pontos": [
+   "Tomara que, oxalá, quem dera + subjuntivo = desejo (frase optativa)."
+  ],
+  "pegadinha": "Desejo e hipótese são diferentes: \"tomara\" é torcer, não supor."
+ },
+ "p-subj-010": {
+  "alternativas": {
+   "hipótese descartada em qualquer tempo": "Não é impossível; é um plano.",
+   "dúvida": "Não há \"talvez\" nem incerteza; é um plano.",
+   "hipótese descartada no passado": "Fala do futuro, não de algo que deixou de acontecer."
+  },
+  "pontos": [
+   "Quando / no dia em que + futuro do subjuntivo = hipótese futura."
+  ],
+  "pegadinha": "Obtiver (futuro do subjuntivo) × obteve (perfeito)."
+ },
+ "p-subj-011": {
+  "alternativas": {
+   "estejas": "Presente do subjuntivo.",
+   "estiveras": "Mais-que-perfeito do indicativo.",
+   "estivesses": "Imperfeito do subjuntivo (-sse).",
+   "estares": "Infinitivo pessoal (para tu estares)."
+  },
+  "pontos": [
+   "Futuro do subjuntivo: base estive- + r + desinência: estiveres."
+  ],
+  "pegadinha": "Estiveres (futuro do subjuntivo) × estares (infinitivo pessoal): a base muda."
+ },
+ "p-subj-012": {
+  "alternativas": {
+   "houvesse": "Imperfeito do subjuntivo (-sse).",
+   "haver": "Infinitivo.",
+   "houvera": "Mais-que-perfeito do indicativo (-ra).",
+   "haja": "Presente do subjuntivo."
+  },
+  "pontos": [
+   "-r = futuro do subjuntivo; -sse = imperfeito; -ra = mais-que-perfeito."
+  ],
+  "pegadinha": "Haver e houver: a base houve- é que marca o futuro do subjuntivo."
+ },
+ "p-subj-013": {
+  "alternativas": {
+   "imperativo afirmativo, dando uma ordem": "Não há ordem; é uma pergunta hipotética.",
+   "pretérito imperfeito do subjuntivo, expressando um fato": "Subjuntivo não afirma fatos.",
+   "pretérito mais-que-perfeito do indicativo, ação muito antiga": "Seria \"pudera\".",
+   "pretérito imperfeito do indicativo, expressando uma hipótese": "Indicativo seria \"podia\"."
+  },
+  "pontos": [
+   "E se + imperfeito do subjuntivo = hipótese (\"E se você pudesse?\")."
+  ],
+  "pegadinha": "Duas alternativas acertam o tempo; só uma acerta também a função (hipótese)."
+ },
+ "p-subj-014": {
+  "alternativas": {
+   "grandes poetas vão existir no futuro, quando houver público": "Isso seria futuro do subjuntivo (houver), com ideia de tempo.",
+   "jamais existirão grandes poetas nem um grande público": "Nada indica impossibilidade.",
+   "poderiam ter existido, mas não é mais possível": "Isso seria hipótese descartada no passado.",
+   "já existem grandes poetas e um grande público": "Afirmar existência seria indicativo (há)."
+  },
+  "pontos": [
+   "Presente do subjuntivo + para que / é preciso que = condição ou finalidade, sem afirmar fato."
+  ],
+  "pegadinha": "\"Haja\" não diz que existe: diz que uma coisa depende da outra."
+ },
+ "p-subj-015": {
+  "alternativas": {
+   "Retorne antes do meio-dia!": "Ordem direta: imperativo.",
+   "Você retornou antes do meio-dia.": "Fato passado: indicativo.",
+   "Você retornará antes do meio-dia.": "Certeza no futuro: indicativo."
+  },
+  "pontos": [
+   "Ordem indireta: expressão + que + subjuntivo (é preciso que, exijo que)."
+  ],
+  "pegadinha": "Retorne aparece nas duas: com \"que\" antes é subjuntivo; sozinho é imperativo."
+ },
+ "p-subj-016": {
+  "alternativas": {
+   "soubessem": "Imperfeito do subjuntivo: combinaria com \"contariam\".",
+   "saberem": "Infinitivo pessoal: não usa a base soube-.",
+   "souberam": "Pretérito perfeito do indicativo: fato passado.",
+   "saibam": "Presente do subjuntivo: não combina com \"se\" condicional futuro."
+  },
+  "pontos": [
+   "Se + futuro do subjuntivo + imperativo: se souberem, contem."
+  ],
+  "pegadinha": "\"Se vocês saberem\" é erro comum: o certo é souberem."
+ },
+ "p-subj-017": {
+  "alternativas": {
+   "hipótese descartada no passado": "Não fala do passado.",
+   "dúvida": "Não há dúvida: a pessoa tem certeza de que não vai.",
+   "hipótese futura": "Não é um plano; é uma recusa total."
+  },
+  "pontos": [
+   "\"Nem se...\" com algo absurdo = hipótese descartada em qualquer tempo."
+  ],
+  "pegadinha": "A vaca tossir é impossível de propósito: reforça o \"nunca\"."
+ },
+ "p-subj-018": {
+  "alternativas": {
+   "dizesse": "Não existe: saiu do infinitivo (dizer).",
+   "diga": "Presente do subjuntivo.",
+   "dissera": "Mais-que-perfeito do indicativo.",
+   "disser": "Futuro do subjuntivo: combinaria com \"mudará\"."
+  },
+  "pontos": [
+   "Eles disseram − ram = disse- + sse = dissesse."
+  ],
+  "pegadinha": "Dizer é irregular: a base vem de disseram, não de dizer."
+ },
+ "p-subj-019": {
+  "alternativas": {
+   "estejamos": "Presente do subjuntivo.",
+   "estarmos": "Infinitivo pessoal.",
+   "estivéramos": "Mais-que-perfeito do indicativo.",
+   "estivermos": "Futuro do subjuntivo."
+  },
+  "pontos": [
+   "Imperfeito do subjuntivo, nós: base + -sse + -mos, com acento: estivéssemos."
+  ],
+  "pegadinha": "Estivéssemos (-sse-) × estivéramos (-ra-): uma sílaba muda o tempo."
+ },
+ "p-subj-020": {
+  "alternativas": {
+   "contera": "Não existe: saiu do infinitivo.",
+   "contiver": "Futuro do subjuntivo.",
+   "conteve": "Pretérito perfeito.",
+   "contivesse": "Imperfeito do subjuntivo."
+  },
+  "pontos": [
+   "Mais-que-perfeito do indicativo: base + -ra: contivera = tinha contido."
+  ],
+  "pegadinha": "Conter segue ter: contiveram → contive-."
+ },
+ "p-subj-021": {
+  "alternativas": {
+   "é por esse verbo que se faz o pedido ao leitor": "O pedido está em \"doe\" (imperativo).",
+   "a doação é uma ação habitual": "Nada indica rotina.",
+   "é uma ação que poderia ter ocorrido no passado": "Futuro do subjuntivo aponta para o futuro.",
+   "a ação jamais ocorrerá": "Pelo contrário: a campanha quer que ocorra."
+  },
+  "pontos": [
+   "Se + futuro do subjuntivo = condição: a ação depende da possibilidade."
+  ],
+  "pegadinha": "Na mesma frase, \"puder\" é condição e \"doe\" é o pedido."
+ },
+ "p-subj-022": {
+  "alternativas": {
+   "dúvida": "Não há incerteza; ele sabe que não conseguiu.",
+   "hipótese futura": "A viagem futura está em \"farei\", no indicativo.",
+   "hipótese descartada em qualquer tempo": "Não é impossível: só foi adiado."
+  },
+  "pontos": [
+   "Caso / se + mais-que-perfeito do subjuntivo (tivesse obtido) = hipótese que não se realizou no passado."
+  ],
+  "pegadinha": "O \"porém só farei no próximo ano\" mostra que a chance passada já se perdeu."
+ },
+ "p-subj-023": {
+  "alternativas": {
+   "contiveram": "Pretérito perfeito do indicativo: fato.",
+   "contiverem": "Futuro do subjuntivo: combinaria com \"não terá\".",
+   "contenham": "Presente do subjuntivo.",
+   "contessem": "Não existe: saiu do infinitivo."
+  },
+  "pontos": [
+   "Se + imperfeito do subjuntivo + futuro do pretérito: se contivessem, não teria acontecido."
+  ],
+  "pegadinha": "\"Contessem\" é a mesma pegadinha de \"tesse\"."
+ },
+ "p-subj-024": {
+  "alternativas": {
+   "presente do subjuntivo": "O presente não tem -sse (que eu esteja).",
+   "futuro do pretérito": "Futuro do pretérito usa -ria (estaria).",
+   "pretérito mais-que-perfeito do indicativo": "Mais-que-perfeito usa -ra (estivera).",
+   "futuro do subjuntivo": "Futuro do subjuntivo usa -r (estiver)."
+  },
+  "pontos": [
+   "-sse = imperfeito do subjuntivo. -r = futuro do subjuntivo. -ra = mais-que-perfeito do indicativo. -ria = futuro do pretérito."
+  ],
+  "pegadinha": "Decore as 4 marcas: -sse, -r, -ra, -ria."
+ },
+ "p-subj-025": {
+  "alternativas": {
+   "possais": "Presente do subjuntivo (vós).",
+   "puderdes": "Futuro do subjuntivo (vós).",
+   "pudéssemos": "É nós, não vós.",
+   "pudesses": "É tu, não vós."
+  },
+  "pontos": [
+   "Vós no imperfeito do subjuntivo: base + -sse + -is (com acento): pudésseis."
+  ],
+  "pegadinha": "Confira a pessoa antes do tempo: -is é a marca de vós."
+ },
+ "p-subj-026": {
+  "alternativas": {
+   "faça": "Presente do subjuntivo: não combina com \"quando\" futuro.",
+   "fizera": "Mais-que-perfeito do indicativo.",
+   "fizesse": "Imperfeito do subjuntivo: combinaria com \"poderia\".",
+   "fazer": "Infinitivo: \"quando você fazer\" é erro comum."
+  },
+  "pontos": [
+   "Quando + futuro do subjuntivo: quando você fizer."
+  ],
+  "pegadinha": "Fazer, ver, pôr e ter são os que mais geram o erro do infinitivo: fizer, vir, puser, tiver."
+ },
+ "p-subj-027": {
+  "alternativas": {
+   "mantendo": "Gerúndio.",
+   "mantesse": "Não existe: saiu do infinitivo.",
+   "mantiver": "Futuro do subjuntivo: não combina com \"compraria\".",
+   "manteria": "Futuro do pretérito: é o par do \"compraria\", não da condição."
+  },
+  "pontos": [
+   "Manter segue ter: mantiveram → mantive- + sse = mantivesse."
+  ],
+  "pegadinha": "Verbos derivados de ter (manter, conter, obter) seguem a mesma base: -tive-."
+ },
+ "p-subj-028": {
+  "alternativas": {
+   "contenha": "Presente do subjuntivo.",
+   "contesse": "Não existe: saiu do infinitivo.",
+   "contiver": "Futuro do subjuntivo.",
+   "contivera": "Mais-que-perfeito do indicativo."
+  },
+  "pontos": [
+   "Eles contiveram − ram = contive- + sse = contivesse."
+  ],
+  "pegadinha": "Mesma família de ter: tivesse, contivesse, mantivesse, obtivesse."
+ },
+ "p-adv-001": {
+  "alternativas": {
+   "o substantivo \"livros\"": "Advérbio não modifica substantivo; e \"bem\" está longe de livros.",
+   "o substantivo \"cadernos\"": "Advérbio não modifica substantivo. Quem caracteriza cadernos é \"arrumados\".",
+   "o adjetivo \"encapados\"": "\"Bem\" está na outra parte da frase, junto de arrumados.",
+   "nenhuma palavra do texto": "\"Bem\" modifica \"arrumados\"."
+  },
+  "pontos": [
+   "Advérbio modifica verbo, adjetivo ou outro advérbio. Nunca substantivo."
+  ],
+  "pegadinha": "Elimine primeiro os substantivos: advérbio nunca se liga a eles."
+ },
+ "p-adv-002": {
+  "alternativas": {
+   "expressar qualidades ou características": "Isso é função do adjetivo.",
+   "substituir ou acompanhar os substantivos": "Isso é função do pronome.",
+   "conectar as outras palavras entre si": "Isso é função da preposição (e da conjunção).",
+   "nomear seres, ideias, ações e sentimentos": "Isso é função do substantivo."
+  },
+  "pontos": [
+   "Advérbio modifica verbo, adjetivo ou advérbio, indicando circunstância: tempo, lugar, modo, intensidade, negação, afirmação, dúvida."
+  ],
+  "pegadinha": "As erradas descrevem outras classes: decore uma função para cada classe."
+ },
+ "p-adv-003": {
+  "alternativas": {
+   "dois advérbios; duas locuções": "Só \"agora\" é advérbio; só \"ao vivo\" é locução.",
+   "um advérbio; duas locuções": "Só há uma locução: ao vivo.",
+   "dois advérbios; uma locução": "\"Grandes\" é adjetivo, não advérbio.",
+   "nenhum advérbio; uma locução": "\"Agora\" é advérbio de tempo."
+  },
+  "pontos": [
+   "Locução adverbial: duas ou mais palavras com valor de advérbio (ao vivo, à noite, de repente)."
+  ],
+  "pegadinha": "\"Grandes\" caracteriza artistas: é adjetivo."
+ },
+ "p-adv-004": {
+  "alternativas": {
+   "lugar, tempo e modo": "Nenhum dos três indica lugar ou tempo.",
+   "causa, modo e lugar": "\"Muito\" não é causa; \"não\" não é lugar.",
+   "tempo, dúvida e afirmação": "\"Não\" é negação, o oposto de afirmação.",
+   "intensidade, causa e dúvida": "\"Felizmente\" não é causa; \"não\" não é dúvida."
+  },
+  "pontos": [
+   "Muito, pouco, tão, mais: intensidade. -mente: geralmente modo. Não, nunca, jamais: negação."
+  ],
+  "pegadinha": "Comece pela mais fácil (\"não\" = negação) e elimine as alternativas."
+ },
+ "p-adv-005": {
+  "alternativas": {
+   "\"bom\", \"então\" e \"não\"": "\"Bom\" é adjetivo (caracteriza mundo).",
+   "\"usei\", \"Jon\" e \"está\"": "Usei e está são verbos; Jon é substantivo próprio.",
+   "\"xampu\", \"lustra-móvel\" e \"mundo\"": "São substantivos.",
+   "\"muito\", \"acabou\" e \"felizmente\"": "\"Acabou\" é verbo."
+  },
+  "pontos": [
+   "Para achar advérbios, procure palavras que modificam verbos ou adjetivos."
+  ],
+  "pegadinha": "Verbos também podem estar perto de advérbios: \"acabou\" é ação, não circunstância."
+ },
+ "p-adv-006": {
+  "alternativas": {
+   "Ela dirige <b>muito</b> bem.": "\"Bem\" modifica dirige: advérbio.",
+   "Ela chegou <b>cedo</b>.": "\"Cedo\" modifica chegou: advérbio de tempo.",
+   "Ela dirigiu <b>rápido</b>.": "\"Rápido\" modifica dirigiu: advérbio."
+  },
+  "pontos": [
+   "Mesma palavra pode ser adjetivo (caracteriza substantivo) ou advérbio (modifica verbo)."
+  ],
+  "pegadinha": "Rápido: carro rápido (adjetivo) × dirigiu rápido (advérbio)."
+ },
+ "p-adv-007": {
+  "alternativas": {
+   "com certeza": "Indica afirmação.",
+   "ao vivo": "Indica modo.",
+   "de repente": "Indica modo (de maneira súbita)."
+  },
+  "pontos": [
+   "Tempo responde \"quando?\": à noite, de manhã, de vez em quando."
+  ],
+  "pegadinha": "\"De repente\" tem ideia de momento, mas a circunstância é o jeito: súbito."
+ },
+ "p-adv-008": {
+  "alternativas": {
+   "dúvida": "Dúvida seria talvez, provavelmente.",
+   "negação": "Negação seria não, nunca.",
+   "modo": "Apesar do -mente, certamente indica certeza, não maneira."
+  },
+  "pontos": [
+   "Afirmação: sim, certamente, realmente, decerto."
+  ],
+  "pegadinha": "Nem todo advérbio em -mente é de modo."
+ },
+ "p-adv-009": {
+  "alternativas": {
+   "lugar": "Bem não responde \"onde?\".",
+   "tempo": "Bem não responde \"quando?\".",
+   "intensidade": "Aqui \"bem\" não aumenta grau; diz o jeito (bem × mal).",
+   "afirmação": "Não confirma nada; descreve a maneira."
+  },
+  "pontos": [
+   "Teste: troque por \"mal\". Se faz sentido, \"bem\" é modo."
+  ],
+  "pegadinha": "\"Bem bonito\" seria intensidade (= muito). Depende do contexto."
+ },
+ "p-adv-010": {
+  "alternativas": {
+   "tempo": "Longe não responde \"quando?\".",
+   "modo": "Longe não responde \"como?\".",
+   "intensidade": "Longe não indica grau."
+  },
+  "pontos": [
+   "Lugar responde \"onde?\": longe, perto, aqui, lá, dentro."
+  ],
+  "pegadinha": "Faça a pergunta certa ao verbo: mora onde? Longe."
+ },
+ "p-adv-011": {
+  "alternativas": {
+   "afirmação": "Talvez é o oposto de certeza.",
+   "modo": "Talvez não indica maneira.",
+   "tempo": "Na frase, quem indica tempo é \"amanhã\"."
+  },
+  "pontos": [
+   "Dúvida: talvez, provavelmente, possivelmente, quiçá.",
+   "Talvez pede verbo no subjuntivo."
+  ],
+  "pegadinha": "A frase tem dois advérbios; a pergunta é sobre \"talvez\"."
+ },
+ "p-adv-012": {
+  "alternativas": {
+   "um adjetivo": "Não há adjetivo junto de \"muito\" na frase.",
+   "um substantivo (\"ela\")": "\"Ela\" é pronome, e advérbio não modifica substantivo.",
+   "um verbo (\"canta\")": "\"Muito\" está grudado em \"bem\", não em canta."
+  },
+  "pontos": [
+   "Advérbio pode modificar outro advérbio: muito bem, bem cedo, tão longe."
+  ],
+  "pegadinha": "Veja qual palavra está logo depois do advérbio de intensidade."
+ },
+ "p-adv-013": {
+  "alternativas": {
+   "afirmação": "Não confirma algo; aumenta o grau.",
+   "causa": "Não explica motivo.",
+   "modo": "Não indica jeito de fazer.",
+   "tempo": "Não indica quando."
+  },
+  "pontos": [
+   "Mais, menos, muito, tão + adjetivo = intensidade."
+  ],
+  "pegadinha": "\"Mais\" aqui não é comparação entre duas coisas: só intensifica."
+ },
+ "p-iara-001": {
+  "alternativas": {
+   "vingança e crueldade": "O texto não mostra Iara como vingativa ou cruel.",
+   "medo e fraqueza": "Ela é descrita como forte e corajosa.",
+   "vaidade e beleza": "A beleza aparece depois e não é o foco da leitura crítica."
+  },
+  "pontos": [
+   "Leitura crítica: força e coragem no início, castigo, renascimento = resistência e transformação."
+  ],
+  "pegadinha": "A imagem mais famosa (bela e sedutora) não é a que o texto valoriza."
+ },
+ "p-iara-002": {
+  "alternativas": {
+   "\"Em muitas versões, seu canto atrai homens para as águas.\"": "Descreve uma característica, não a volta ao começo.",
+   "\"Incomodados com seu reconhecimento, eles teriam planejado matá-la.\"": "Conta um fato da sequência.",
+   "\"Iara se destacava entre os guerreiros de seu povo, despertando a admiração de seu pai.\"": "Apresenta a personagem; é o início.",
+   "\"Ao saber do ocorrido, seu pai decidiu puni-la e ordenou que fosse lançada às águas.\"": "Conta o castigo, não o recomeço."
+  },
+  "pontos": [
+   "Estrutura circular: a história não termina, recomeça de outra forma."
+  ],
+  "pegadinha": "Procure palavras como renascimento e \"não termina\"."
+ },
+ "p-iara-003": {
+  "alternativas": {
+   "antes de ela virar guerreira": "Ela já começa como guerreira.",
+   "durante a luta com os irmãos": "A luta vem antes da transformação.",
+   "no começo da lenda, antes de tudo": "O texto diz que a imagem surge depois da transformação."
+  },
+  "pontos": [
+   "A ordem: guerreira → luta → castigo → transformação → Iara sedutora."
+  ],
+  "pegadinha": "A imagem mais conhecida não é a do começo da história."
+ },
+ "p-iara-004": {
+  "alternativas": {
+   "Expulsa Iara para a floresta.": "O castigo foi nas águas, não na floresta.",
+   "Perdoa Iara e a torna líder da tribo.": "Ele a pune, não perdoa.",
+   "Pede ajuda ao rio para curar os filhos.": "Não está no texto."
+  },
+  "pontos": [
+   "Em questões de texto, confira cada alternativa com o que está escrito."
+  ],
+  "pegadinha": "Alternativas que parecem fazer sentido na lenda podem não estar no texto lido."
+ },
+ "p-iara-005": {
+  "alternativas": {
+   "Os dois são iguais, só muda o tamanho.": "A diferença principal é a opinião, não o tamanho.",
+   "O resumo dá opinião e a resenha não.": "É o contrário.",
+   "A resenha conta a história inteira, sem cortar nada.": "Resenha resume e avalia; não reconta tudo."
+  },
+  "pontos": [
+   "Resumo: o essencial, sem opinião.",
+   "Resenha crítica: resumo + avaliação fundamentada."
+  ],
+  "pegadinha": "Opinião sem argumento não é resenha crítica: precisa justificar."
+ },
+ "p-iara-006": {
+  "alternativas": {
+   "Quando Iara luta contra os irmãos.": "Luta pode acontecer na vida real.",
+   "Quando o pai fica sabendo do ocorrido.": "Nada de sobrenatural.",
+   "Quando os irmãos sentem inveja dela.": "Inveja é sentimento humano real."
+  },
+  "pontos": [
+   "Fantástico: o que não acontece no mundo real (transformações, encantamentos)."
+  ],
+  "pegadinha": "A lenda tem partes realistas antes do fantástico."
+ },
+ "p-iara-007": {
+  "alternativas": {
+   "Porque cada tribo inventou uma Iara diferente de propósito.": "As mudanças acontecem naturalmente ao recontar, não de propósito.",
+   "Porque foi escrita por vários autores ao mesmo tempo.": "Lendas nascem da tradição oral, não de autores.",
+   "Porque é uma notícia de jornal atualizada.": "Lenda não é notícia."
+  },
+  "pontos": [
+   "Lendas: tradição oral, passadas de geração em geração, com variações."
+  ],
+  "pegadinha": "Ter várias versões não é erro: é característica do gênero."
+ },
+ "p-iara-008": {
+  "alternativas": {
+   "Era a líder política que negociava com tribos vizinhas.": "Não aparece no texto.",
+   "Era a filha do pajé responsável pelos rituais sagrados.": "Não aparece no texto.",
+   "Era uma tecelã que fazia roupas para os caciques.": "Não aparece no texto.",
+   "Era uma curandeira famosa por chás medicinais.": "Não aparece no texto."
+  },
+  "pontos": [
+   "Responda pelo texto, não pelo que você imagina da lenda."
+  ],
+  "pegadinha": "Alternativas inventadas e plausíveis são feitas para distrair."
+ },
+ "p-iara-009": {
+  "alternativas": {
+   "Porque ela era a mais velha e herdaria a chefia da tribo.": "Não está no texto.",
+   "Porque se recusou a participar das festas sagradas.": "Não está no texto.",
+   "Porque fugiu com um guerreiro de uma tribo rival.": "Não está no texto.",
+   "Porque escondeu o tesouro secreto da aldeia.": "Não está no texto."
+  },
+  "pontos": [
+   "A causa da inveja está no texto: a admiração do pai pelas habilidades dela."
+  ],
+  "pegadinha": "Questões de \"por que\" pedem a causa que o texto dá, não uma causa possível."
  }
 }
