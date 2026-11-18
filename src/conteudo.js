@@ -4,6 +4,7 @@ import topicosTodos from './dados/topicos.json';
 import qMt from './dados/questoes-mt.json';
 import qPt from './dados/questoes-pt.json';
 import qEn from './dados/questoes-en.json';
+import tutor from './dados/tutor.json';
 
 export const MATERIAS = [
   { id: 'mt', nome: 'Matemática', cor: 'var(--mt)', suave: 'var(--mt-soft)' },
@@ -12,7 +13,8 @@ export const MATERIAS = [
 ];
 
 export const TOPICOS = topicosTodos.filter((t) => t.mvp);
-export const QUESTOES = [...qMt, ...qPt, ...qEn];
+// Modo tutor (estilo Mehlman): explicação de cada alternativa, pontos-chave e pegadinha, quando já escritos.
+export const QUESTOES = [...qMt, ...qPt, ...qEn].map((q) => (tutor[q.id] ? { ...q, tutor: tutor[q.id] } : q));
 
 const porId = new Map(QUESTOES.map((q) => [q.id, q]));
 export const questao = (id) => porId.get(id);
@@ -66,3 +68,34 @@ export function respostaEmTexto(q) {
   if (q.tipo === 'num') return Number(q.resposta).toLocaleString('pt-BR', { maximumFractionDigits: 4 });
   return q.resposta;
 }
+
+// ===== Questão "parecida" (mesmo tópico, mesmo modelo de enunciado com outros dados) =====
+const semTags = (h) => String(h).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim();
+const modelo = (h) => semTags(h).toLowerCase().replace(/\d+([.,]\d+)*/g, '#');
+const fichas = (h) => new Set(modelo(h).split(/[^a-zà-ú#]+/).filter((w) => w.length > 2));
+const jaccard = (a, b) => { let i = 0; a.forEach((x) => { if (b.has(x)) i++; }); return i / ((a.size + b.size - i) || 1); };
+
+export function parecida(q, evitar = []) {
+  const base = modelo(q.enunciado), fb = fichas(q.enunciado);
+  const cand = questoesDo(q.topico).filter((c) => c.id !== q.id && !evitar.includes(c.id) && semTags(c.enunciado) !== semTags(q.enunciado));
+  if (!cand.length) return null;
+  const pont = cand.map((c) => ({ c, s: modelo(c.enunciado) === base ? 2 : jaccard(fb, fichas(c.enunciado)) }));
+  const melhor = Math.max(...pont.map((p) => p.s));
+  const top = pont.filter((p) => p.s >= melhor - 0.05);
+  return top[Math.floor(Math.random() * top.length)].c;
+}
+
+// Dicas em dois passos: a ideia central do tópico e o primeiro passo da explicação (sem entregar a resposta).
+export function dicas(q) {
+  const t = topico(q.topico);
+  const frases = (h) => (semTags(h).match(/.+?(?:[.!?](?=\s|$)|$)/g) || []).map((x) => x.trim()).filter(Boolean);
+  const out = [];
+  if (t) { let o = ''; for (const f of frases(t.explicacao_html)) { if ((o + ' ' + f).length > 260 && o) break; o += (o ? ' ' : '') + f; } if (o) out.push(o); }
+  const resp = semTags(respostaEmTexto(q)).toLowerCase();
+  const passo = frases(q.explicacao || '').find((f) => !(resp.length > 1 && f.toLowerCase().includes(resp)));
+  if (passo && !out.includes(passo)) out.push(passo);
+  return out;
+}
+
+export const tempoLeitura = (q) => Math.max(1200, Math.min(5000, semTags(q.enunciado).length * 35 + (q.alternativas || []).map(semTags).join('').length * 12));
+export const tempoExplicacao = (q) => Math.max(3000, Math.min(10000, semTags(q.explicacao || '').length * 40));

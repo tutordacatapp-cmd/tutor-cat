@@ -8,8 +8,23 @@ import Resumo from './Resumo.jsx';
 import { resumoSemanal } from '../resumo.js';
 import { gatoSVG } from '../mascote/arte.js';
 import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
+import { missoesDoDia, contadoresDoDia, hojeStr } from '../mascote/missoes.js';
+import { topico as topicoPorId } from '../conteudo.js';
+import { situacaoTopico, ultimoResultado } from '../progresso.js';
 
-const MASCOTE_PADRAO = { nome: '', pelagem: 'cinza', eq: {}, cenario: 'quarto', vistos: null };
+const MASCOTE_PADRAO = { nome: '', pelagem: 'cinza', eq: {}, cenario: 'quarto', vistos: null, missoes: [] };
+
+// Onde o aluno mais erra: tópicos com erros pendentes ou acerto baixo nas últimas tentativas.
+function pontosFracos(tentativas) {
+  const ult = ultimoResultado(tentativas);
+  const pend = {};
+  for (const t of ult.values()) if (!t.correta) pend[t.topico_id] = (pend[t.topico_id] || 0) + 1;
+  const ids = [...new Set(tentativas.map((t) => t.topico_id))];
+  return ids.map((id) => ({ id, ...situacaoTopico(id, tentativas), pend: pend[id] || 0 }))
+    .filter((x) => topicoPorId(x.id) && x.total >= 3 && (x.taxa < 0.7 || x.pend >= 2))
+    .sort((a, b) => a.taxa - b.taxa || b.pend - a.pend)
+    .slice(0, 3);
+}
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
 const ROTULO = { novo: 'Novo', praticando: 'Praticando', dominado: 'Dominado ⭐' };
@@ -28,11 +43,33 @@ export default function Aluno({ perfil }) {
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
 
-  const est = useMemo(() => (tentativas ? estatisticas(tentativas) : null), [tentativas]);
+  const est = useMemo(() => (tentativas ? { ...estatisticas(tentativas), diasMissao: (mascote?.missoes || []).length } : null), [tentativas, mascote?.missoes]);
+  const missoes = useMemo(() => (tentativas && mascote ? missoesDoDia(tentativas, mascote) : []), [tentativas, mascote?.dia]);
+
+  // Eventos da lição alimentam as missões do dia.
+  function evento(tipo, extra = {}) {
+    mudarMascote((m) => {
+      const dl = { ...contadoresDoDia(m) };
+      if (tipo === 'acerto') { dl.run++; dl.rb = Math.max(dl.rb, dl.run); if (extra.revisao) dl.rev++; }
+      if (tipo === 'erro') dl.run = 0;
+      if (tipo === 'corrigiu') dl.fix++;
+      return { dia: dl };
+    });
+  }
+
+  // Missões completas → dia de missão + comemoração.
+  useEffect(() => {
+    if (!mascote || !missoes.length) return;
+    const d = hojeStr();
+    if (missoes.every((x) => x.feita) && !(mascote.missoes || []).includes(d)) {
+      mudarMascote({ missoes: [...(mascote.missoes || []), d].slice(-400) }, true);
+      setFila((f) => [...f, 'x:' + d]);
+    }
+  }, [missoes]);
 
   function mudarMascote(mudanca, imediato) {
     setMascote((m) => {
-      const novo = { ...m, ...mudanca };
+      const novo = { ...m, ...(typeof mudanca === 'function' ? mudanca(m) : mudanca) };
       clearTimeout(salvarTimer.current);
       setSalvo('salvando');
       salvarTimer.current = setTimeout(
@@ -84,6 +121,8 @@ export default function Aluno({ perfil }) {
           titulo={tela.titulo}
           questoes={tela.questoes}
           aoResponder={registrar}
+          aoEvento={evento}
+          modo={tela.modo || 'licao'}
           aoTerminar={() => setTela(tela.voltar)}
           gato={gatoSVG({ eq: mascote.eq, pelagem: mascote.pelagem, rotulo: '' })}
         />
@@ -110,7 +149,7 @@ export default function Aluno({ perfil }) {
         {pend > 0 && (
           <button
             className="cartao chamada"
-            onClick={() => setTela({ nome: 'licao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas, m.id).map(questao), voltar: tela })}
+            onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas, m.id).map(questao), voltar: tela })}
           >
             <b>🔁 Revisar meus erros</b>
             <span className="mudo">{pend} {pend === 1 ? 'questão' : 'questões'} para rever</span>
@@ -139,6 +178,7 @@ export default function Aluno({ perfil }) {
 
   // Início
   const totalPend = errosPendentes(tentativas);
+  const fracos = pontosFracos(tentativas);
   return (
     <div className="pilha">
       <button className="cartao g-cartao" onClick={() => setTela({ nome: 'gato' })}>
@@ -149,6 +189,41 @@ export default function Aluno({ perfil }) {
           <span className="mudo pequeno">{est.dormindo ? 'Está dormindo… estude para acordá-lo 😴' : 'Toque para ver roupas, cenários e medalhas'}</span>
         </span>
       </button>
+      <div className="cartao pilha missoes">
+        <div className="linha"><h3>⚔️ Missões de hoje</h3><span className="pilula">{missoes.filter((x) => x.feita).length}/3</span></div>
+        {missoes.map((x, k) => (
+          <div key={k} className={'missao' + (x.feita ? ' feita' : '')}>
+            <span className="m-em">{x.feita ? '✅' : x.em}</span>
+            <div className="pilha" style={{ gap: 4 }}><span>{x.t}</span><div className="barra"><i style={{ width: Math.round((100 * x.v) / x.n) + '%' }} /></div></div>
+            <b className="pequeno">{x.v}/{x.n}</b>
+          </div>
+        ))}
+        <p className="mudo pequeno" style={{ margin: 0 }}>Fez as 3? Ganha um dia de missão: cenário novo pro gato. ({(mascote.missoes || []).length} até agora)</p>
+      </div>
+      {fracos.length > 0 && (
+        <div className="cartao pilha fracos">
+          <h3>🎯 Onde você mais erra</h3>
+          <p className="mudo pequeno" style={{ margin: 0 }}>Treinar aqui primeiro é o que mais sobe a sua nota.</p>
+          {fracos.map((x) => {
+            const tp = topicoPorId(x.id);
+            return (
+              <button key={x.id} className="fraco" onClick={() => setTela({ nome: 'licao', questoes: montarLicao(x.id, tentativas), voltar: { nome: 'inicio' } })}>
+                <span className="pilha" style={{ gap: 0 }}><b>{tp.titulo}</b><span className="mudo pequeno">{tp.materia_nome} · {Math.round(x.taxa * 100)}% de acerto{x.pend ? ` · ${x.pend} erro${x.pend > 1 ? 's' : ''} para corrigir` : ''}</span></span>
+                <span className="treinar">Treinar ▸</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
+      {totalPend > 0 && (
+        <button
+          className="cartao chamada"
+          onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas).map(questao), voltar: { nome: 'inicio' } })}
+        >
+          <b>🔁 Revisar erros de todas as matérias</b>
+          <span className="mudo">{totalPend} para rever</span>
+        </button>
+      )}
       <h2>Oi, {perfil.nome.split(' ')[0]}! 👋</h2>
       <p className="mudo">Escolha uma matéria para continuar a sua trilha.</p>
       <div className="materias">
@@ -163,15 +238,6 @@ export default function Aluno({ perfil }) {
           );
         })}
       </div>
-      {totalPend > 0 && (
-        <button
-          className="cartao chamada"
-          onClick={() => setTela({ nome: 'licao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas).map(questao), voltar: { nome: 'inicio' } })}
-        >
-          <b>🔁 Revisar erros de todas as matérias</b>
-          <span className="mudo">{totalPend} para rever</span>
-        </button>
-      )}
       <Resumo texto={resumoSemanal(perfil.nome, tentativas, mascote.nome)} />
       {erro && <p className="aviso">{erro}</p>}
       {comemoracao}

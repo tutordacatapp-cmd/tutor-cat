@@ -197,3 +197,42 @@ textarea { background: var(--paper); border: 2px solid var(--line); border-radiu
 .confirma { margin-top: 6px; background: var(--bad-soft); border-radius: 10px; padding: 8px 10px; display: flex; flex-direction: column; gap: 6px; min-width: 220px; }
 .resumo-texto { white-space: pre-wrap; font: 15px/1.5 var(--body); background: var(--paper); border-radius: 12px; padding: 10px 12px; margin: 0; }
 a.btn { text-decoration: none; display: inline-block; }
+
+/* trava de leitura, dicas, provar */
+.opcoes.travada button { opacity: .55; }
+.barra-leitura { display: flex; flex-direction: column; gap: 4px; font-size: 14px; color: var(--muted); }
+.barra-leitura > div { height: 6px; background: var(--grid); border-radius: 9px; overflow: hidden; }
+.barra-leitura i { display: block; height: 100%; width: 0; background: var(--s); border-radius: 9px; animation: encher linear forwards; }
+@keyframes encher { to { width: 100%; } }
+.dicas { display: flex; flex-direction: column; gap: 8px; }
+.dica { background: color-mix(in srgb, var(--gold) 14%, var(--surface)); border: 2px solid color-mix(in srgb, var(--gold) 50%, var(--line)); border-radius: 12px; padding: 8px 12px; font-size: 15px; }
+.provar { display: flex; flex-direction: column; gap: 6px; align-items: flex-start; }
+.btn.espera, .btn.espera:disabled { opacity: 1; cursor: wait; color: var(--ink); border-color: var(--s); background: linear-gradient(90deg, color-mix(in srgb, var(--s) 40%, var(--surface)) var(--p, 0%), var(--s-soft) var(--p, 0%)); }
+.caixa-parecida { border-top: 2px dashed var(--line); padding-top: 12px; display: flex; flex-direction: column; gap: 10px; }
+.titulo-parecida { font: 800 18px var(--display); color: var(--s); }
+.ok-txt { color: var(--ok); }
+.btn.proxima { align-self: stretch; text-align: center; }
+/* missões e pontos fracos */
+.missao { display: grid; grid-template-columns: 30px 1fr auto; gap: 10px; align-items: center; padding: 8px 10px; border-radius: 12px; background: var(--paper); font-size: 15px; }
+.missao.feita { background: var(--ok-soft); }
+.m-em { font-size: 20px; text-align: center; }
+.fracos { border-color: var(--bad); }
+.fraco { display: flex; justify-content: space-between; align-items: center; gap: 10px; text-align: left; background: var(--bad-soft); border: 0; border-radius: 12px; padding: 10px 12px; }
+.treinar { font: 800 15px var(--display); color: var(--bad); white-space: nowrap; }
+
+/* modo tutor (estilo Mehlman) */
+.mtutor { border: 2px solid var(--line); border-radius: 14px; padding: 12px 14px; display: flex; flex-direction: column; gap: 10px; background: var(--surface); font-size: 16px; }
+.mtutor.err { border-color: var(--bad); }
+.mt-h { font: 800 15px var(--display); color: var(--s); }
+.mtutor.err .mt-h { color: var(--bad); }
+.mt-sec > b { display: block; font: 700 16px var(--display); margin-bottom: 2px; }
+.mt-ok { border-left: 4px solid var(--ok); padding-left: 10px; }
+.mt-mine { border-left: 4px solid var(--bad); padding-left: 10px; }
+.mt-bad { border-left: 4px solid var(--bad); padding-left: 10px; display: flex; flex-direction: column; gap: 8px; }
+.mt-key { border-left: 4px solid var(--s); padding-left: 10px; }
+.mt-key ul { margin: 4px 0 0; padding-left: 20px; }
+.mt-trap { border-left: 4px solid var(--gold); padding-left: 10px; }
+.mt-alt.mine { background: var(--bad-soft); border-radius: 10px; padding: 6px 8px; }
+.mt-tag { font-size: 12px; font-weight: 800; color: var(--bad); }
+.mt-extra summary { cursor: pointer; font: 700 15px var(--display); color: var(--s); }
+.mt-extra[open] { display: flex; flex-direction: column; gap: 10px; }

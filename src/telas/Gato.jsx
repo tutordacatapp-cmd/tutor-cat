@@ -83,12 +83,12 @@ export default function Gato({ est, mascote, mudar, voltar, salvo = 'salvo' }) {
         <h3>🏞️ Cenários</h3>
         <div className="g-grade">
           {CENARIOS.map((c) => {
-            const n = DIAS_CENARIO[c.id], livre = est.diasEstudo >= n, aqui = m.cenario === c.id;
+            const n = DIAS_CENARIO[c.id], livre = (est.diasMissao || 0) >= n, aqui = m.cenario === c.id;
             return (
               <button key={c.id} className={'g-peca' + (livre ? '' : ' trancada') + (aqui ? ' on' : '')} disabled={!livre} onClick={() => mudar({ cenario: c.id })}>
                 <Svg className="g-mini cena" html={gatoSVG({ eq: m.eq, pelagem: m.pelagem, cenario: c.id, rotulo: c.nm })} />
                 <b>{livre ? '' : '🔒 '}{c.nm}</b>
-                <span className="pequeno mudo">{livre ? (aqui ? '✓ aqui' : 'ir pra cá') : `${n} dias de estudo`}</span>
+                <span className="pequeno mudo">{livre ? (aqui ? '✓ aqui' : 'ir pra cá') : `${n} dias de missão`}</span>
               </button>
             );
           })}

@@ -23,7 +23,7 @@ export const PERSONAGEM = { mt: 'Mago', pt: 'Escriba', en: 'Viajante' };
 // Títulos pelo total de acertos.
 export const TITULOS = [[0, 'Aprendiz'], [80, 'Escudeira'], [200, 'Aventureira'], [400, 'Cavaleira'], [700, 'Guardiã do Saber'], [1100, 'Arquimaga'], [1700, 'Lenda do Reino']];
 
-// Cenários pelos dias de estudo.
+// Cenários pelos dias com as 3 missões completas (como no tutor original).
 export const DIAS_CENARIO = { quarto: 0, floresta: 2, biblioteca: 5, castelo: 10, ceu: 20 };
 
 const dia = (iso) => {
@@ -80,6 +80,8 @@ export const MEDALHAS = [
   { id: 'm15', em: '🌟', nm: 'Mestra da trilha', ds: 'Dominar 15 tópicos da trilha', v: (e) => e.dominados, n: 15 },
   { id: 'all', em: '🌈', nm: 'Polímata', ds: '10 acertos em cada matéria', v: (e) => Math.min(...MATERIAS.map((m) => e.acertos[m.id] || 0)), n: 10 },
   { id: 'mar', em: '🏃', nm: 'Maratona', ds: '100 questões num dia', v: (e) => e.maxNoDia, n: 100 },
+  { id: 'mis1', em: '📜', nm: 'Primeira missão', ds: 'Completar as 3 missões de um dia', v: (e) => e.diasMissao || 0, n: 1 },
+  { id: 'mis7', em: '🗡️', nm: 'Heroína', ds: 'Completar as missões em 7 dias', v: (e) => e.diasMissao || 0, n: 7 },
 ];
 
 export function titulo(e) {
@@ -94,7 +96,7 @@ export function conquistas(e) {
   ITENS.forEach((it) => { if ((e.acertos[it.m] || 0) >= it.need) k.push('i:' + it.id); });
   TITULOS.forEach((x, i) => { if (i > 0 && e.total >= x[0]) k.push('t:' + i); });
   MEDALHAS.forEach((m) => { if (m.v(e) >= m.n) k.push('m:' + m.id); });
-  Object.entries(DIAS_CENARIO).forEach(([id, n]) => { if (n > 0 && e.diasEstudo >= n) k.push('c:' + id); });
+  Object.entries(DIAS_CENARIO).forEach(([id, n]) => { if (n > 0 && (e.diasMissao || 0) >= n) k.push('c:' + id); });
   return k;
 }
 
@@ -103,7 +105,8 @@ export function descreverConquista(k) {
   if (tipo === 'i') { const it = ITENS.find((x) => x.id === id); return { em: it.em, t: 'Roupa nova: ' + it.nm + '!', d: `${it.need} acertos em ${MATERIAS.find((m) => m.id === it.m).nome}.`, item: it }; }
   if (tipo === 't') { const x = TITULOS[+id]; return { em: '👑', t: 'Novo título: ' + x[1] + '!', d: `Você chegou a ${x[0]} acertos.` }; }
   if (tipo === 'm') { const m = MEDALHAS.find((x) => x.id === id); return { em: m.em, t: 'Medalha: ' + m.nm + '!', d: m.ds + '.' }; }
-  return { em: '🏞️', t: 'Cenário novo!', d: `${DIAS_CENARIO[id]} dias de estudo.`, cenario: id };
+  if (tipo === 'x') return { em: '⚔️', t: 'Missões de hoje completas!', d: 'Você fez as 3 missões do dia. Mais um dia de missão para o seu gato!' };
+  return { em: '🏞️', t: 'Cenário novo!', d: `${DIAS_CENARIO[id]} dias de missão completos.`, cenario: id };
 }
 
 export const FRASES_ACERTO = ['Isso!', 'Mandou bem!', 'Miau! ✨', 'Arrasou!', 'Boa!'];
