@@ -6118,5 +6118,599 @@
    "IN: meses, anos, estações, partes do dia (in May, in 2026, in the summer, in the morning)."
   ],
   "pegadinha": "In the morning, mas at night: night é exceção fixa."
+ },
+ "m-tri-005": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (11) não é menor que a soma dos outros (9)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-008": {
+  "alternativas": {
+   "Não": "Forma, sim: o maior lado (9) é menor que a soma dos outros (14)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-018": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (12) não é menor que a soma dos outros (8)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-026": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (9) não é menor que a soma dos outros (5)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-037": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (7) não é menor que a soma dos outros (5)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-041": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (12) não é menor que a soma dos outros (11)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-054": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (10) não é menor que a soma dos outros (7)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-057": {
+  "alternativas": {
+   "Retângulo": "Retângulo é classificação pelos ângulos.",
+   "Escaleno": "Escaleno tem os 3 lados diferentes; aqui há dois iguais.",
+   "Equilátero": "Equilátero tem os 3 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Retângulo e isósceles podem acontecer juntos, mas classificam coisas diferentes."
+ },
+ "m-tri-059": {
+  "alternativas": {
+   "Sim": "Não forma: o maior lado (15) não é menor que a soma dos outros (12)."
+  },
+  "pontos": [
+   "Condição de existência: o maior lado precisa ser menor que a soma dos outros dois."
+  ],
+  "pegadinha": "Se o maior lado for igual à soma dos outros, também não forma: os palitos ficam deitados."
+ },
+ "m-tri-001": {
+  "alternativas": {
+   "Sim, se for desenhado de lado": "A posição do desenho não muda os ângulos.",
+   "Sim, sempre": "Os ângulos do equilátero são sempre 60°, que é agudo.",
+   "Só se o lado for maior que 10 cm": "O tamanho dos lados não muda os ângulos: continuam 60°."
+  },
+  "pontos": [
+   "Equilátero: 3 lados iguais e 3 ângulos de 60°. É sempre acutângulo."
+  ],
+  "pegadinha": "Girar ou aumentar o triângulo não muda os ângulos."
+ },
+ "m-tri-002": {
+  "alternativas": {
+   "Sim, se for isósceles": "Ser isósceles não muda a soma de 180°.",
+   "Só se os lados forem grandes": "O tamanho dos lados não muda a soma dos ângulos.",
+   "Sim, se for equilátero": "O equilátero tem 3 ângulos de 60°, nenhum reto."
+  },
+  "pontos": [
+   "A soma dos ângulos internos de qualquer triângulo é 180°."
+  ],
+  "pegadinha": "Dois retos (180°) não deixam espaço para o terceiro ângulo."
+ },
+ "m-tri-011": {
+  "alternativas": {
+   "180°": "180° é a soma dos três ângulos, não cada um.",
+   "90°": "90° é ângulo reto; o equilátero não tem.",
+   "45°": "Três ângulos de 45° somariam só 135°."
+  },
+  "pontos": [
+   "180° ÷ 3 = 60°."
+  ],
+  "pegadinha": "Não confunda a soma (180°) com cada ângulo (60°)."
+ },
+ "m-tri-013": {
+  "alternativas": {
+   "Altura": "Altura é o segmento perpendicular a um lado, saindo do vértice oposto.",
+   "Base": "Base é o lado de apoio, qualquer um.",
+   "Cateto": "Catetos são os dois lados que formam o ângulo reto."
+  },
+  "pontos": [
+   "Hipotenusa: lado oposto ao ângulo reto, e o maior lado. Catetos: os dois lados do ângulo reto."
+  ],
+  "pegadinha": "A hipotenusa é sempre o maior lado do triângulo retângulo."
+ },
+ "m-tri-014": {
+  "alternativas": {
+   "3": "Três obtusos somariam mais de 270°.",
+   "0": "Pode ter um obtuso (triângulo obtusângulo).",
+   "2": "Dois obtusos já passariam de 180°."
+  },
+  "pontos": [
+   "Um obtuso passa de 90°: sobra menos de 90° para os outros dois."
+  ],
+  "pegadinha": "O mesmo vale para o ângulo reto: no máximo 1."
+ },
+ "m-cons-001": {
+  "alternativas": {
+   "3 cm, metade de AB": "Com metade, os arcos nem se encontram.",
+   "Qualquer abertura": "Com outra abertura, AC e BC ficam diferentes de AB.",
+   "12 cm, o dobro de AB": "Com o dobro, AC e BC ficam maiores que AB."
+  },
+  "pontos": [
+   "No equilátero, a abertura do compasso é a medida de AB."
+  ],
+  "pegadinha": "Não mude a abertura entre um arco e outro."
+ },
+ "m-cons-002": {
+  "alternativas": {
+   "Arcos": "Arcos são as curvas feitas com o compasso.",
+   "Hipotenusas": "Hipotenusa é o lado oposto ao ângulo reto, e só há uma.",
+   "Diagonais": "Diagonal liga vértices não vizinhos; triângulo não tem diagonal."
+  },
+  "pontos": [
+   "Catetos formam o ângulo reto; hipotenusa fica em frente a ele."
+  ],
+  "pegadinha": "Triângulo não tem diagonais."
+ },
+ "m-cons-003": {
+  "alternativas": {
+   "Só no ponto A": "Com um arco só, não dá para achar o terceiro vértice.",
+   "Fora do segmento, em qualquer lugar": "O centro dos arcos são os pontos A e B.",
+   "No meio do segmento AB": "O meio de AB não garante lados iguais a AB."
+  },
+  "pontos": [
+   "Arco com centro em A e arco com centro em B, mesma abertura; o cruzamento é C."
+  ],
+  "pegadinha": "A ponta seca fica no vértice, não no meio."
+ },
+ "m-cons-004": {
+  "alternativas": {
+   "Apagar a linha perpendicular": "Ela forma um dos catetos; não se apaga.",
+   "Fazer um arco em cada ponta": "Os arcos já foram usados para marcar os catetos.",
+   "Medir 60° com o transferidor": "Triângulo retângulo não exige 60°."
+  },
+  "pontos": [
+   "Com os catetos prontos, basta ligar as pontas: essa linha é a hipotenusa."
+  ],
+  "pegadinha": "A hipotenusa é a última linha, e a maior."
+ },
+ "m-cons-005": {
+  "alternativas": {
+   "120°": "120° é o dobro de 60°.",
+   "45°": "45° é metade de um reto.",
+   "90°": "O equilátero não tem ângulo reto."
+  },
+  "pontos": [
+   "Cada ângulo do equilátero mede 60°."
+  ],
+  "pegadinha": "Dá para fazer 60° sem transferidor, só com régua e compasso."
+ },
+ "m-cons-007": {
+  "alternativas": {
+   "Não forma triângulo nunca": "Forma, desde que os arcos se cruzem.",
+   "Retângulo, com certeza": "Nada garante um ângulo de 90°.",
+   "Continua equilátero": "Com aberturas diferentes, AC ≠ BC."
+  },
+  "pontos": [
+   "Mesma abertura nos dois arcos = lados iguais."
+  ],
+  "pegadinha": "Se a abertura for igual entre si, mas diferente de AB, sai um isósceles."
+ },
+ "m-cons-008": {
+  "alternativas": {
+   "Equilátero": "Os lados são diferentes.",
+   "Isósceles": "Não há dois lados iguais.",
+   "Obtusângulo": "O maior ângulo é exatamente 90°, não maior."
+  },
+  "pontos": [
+   "3, 4, 5 é o trio clássico do triângulo retângulo (3² + 4² = 5²)."
+  ],
+  "pegadinha": "Ele é retângulo e escaleno ao mesmo tempo."
+ },
+ "m-cons-009": {
+  "alternativas": {
+   "Traçar retas": "Quem traça retas é a régua.",
+   "Apagar erros": "Isso é a borracha.",
+   "Medir ângulos": "Quem mede ângulos é o transferidor."
+  },
+  "pontos": [
+   "Régua: segmentos. Compasso: arcos e transporte de medidas. Transferidor: ângulos."
+  ],
+  "pegadinha": "O compasso não mede: ele copia medidas."
+ },
+ "m-cons-010": {
+  "alternativas": {
+   "Um ângulo de 60°": "60° é para o equilátero.",
+   "Três arcos com a mesma abertura": "Isso não garante ângulo reto.",
+   "Dois lados paralelos": "Triângulo não tem lados paralelos."
+  },
+  "pontos": [
+   "Triângulo retângulo = um ângulo de 90° (reta perpendicular)."
+  ],
+  "pegadinha": "Lados de um triângulo nunca são paralelos."
+ },
+ "m-cons-011": {
+  "alternativas": {
+   "Porque o papel é quadriculado": "O papel não interfere na medida.",
+   "Porque a régua é reta": "A régua só traça; não garante medidas iguais.",
+   "Porque o compasso faz ângulos de 90°": "Compasso não faz ângulos; faz arcos."
+  },
+  "pontos": [
+   "Todo ponto do arco está à mesma distância do centro: por isso AC = AB e BC = AB."
+  ],
+  "pegadinha": "A garantia vem da abertura igual, não do desenho bonito."
+ },
+ "m-cons-012": {
+  "alternativas": {
+   "No meio de AB": "O meio de AB não fica à distância AB de A e de B.",
+   "Em qualquer ponto do primeiro arco": "Só garantiria AC = AB, não BC.",
+   "Na ponta de AB": "A ponta de AB já é o vértice B."
+  },
+  "pontos": [
+   "C precisa estar à distância AB de A e de B ao mesmo tempo: o cruzamento dos arcos."
+  ],
+  "pegadinha": "Os arcos se cruzam em dois pontos: qualquer um serve (um acima, outro abaixo de AB)."
+ },
+ "m-cons-006": {
+  "alternativas": {
+   "Abrir o compasso qualquer → arco em A → traçar AB": "A ordem está trocada: primeiro se traça AB, depois se abre o compasso com a medida de AB, faz os dois arcos e só então liga o cruzamento a A e B.",
+   "Arco em A → traçar AB → ligar A e B → arco em B": "A ordem está trocada: primeiro se traça AB, depois se abre o compasso com a medida de AB, faz os dois arcos e só então liga o cruzamento a A e B.",
+   "Traçar AB → arco no meio de AB → ligar as pontas": "A ordem está trocada: primeiro se traça AB, depois se abre o compasso com a medida de AB, faz os dois arcos e só então liga o cruzamento a A e B."
+  },
+  "pontos": [
+   "Ordem: AB → compasso com a medida de AB → arco em A → arco em B → ligar o cruzamento."
+  ],
+  "pegadinha": "Sem traçar AB primeiro, não há medida para copiar."
+ },
+ "m-tri-004": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-006": {
+  "alternativas": {
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-015": {
+  "alternativas": {
+   "isósceles": "Isósceles tem exatamente 2 lados iguais.",
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-017": {
+  "alternativas": {
+   "isósceles": "Isósceles tem exatamente 2 lados iguais.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-019": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-021": {
+  "alternativas": {
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-024": {
+  "alternativas": {
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°.",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-025": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-027": {
+  "alternativas": {
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "obtusângulo": "Obtusângulo tem um ângulo maior que 90°.",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-028": {
+  "alternativas": {
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "obtusângulo": "Obtusângulo tem um ângulo maior que 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-029": {
+  "alternativas": {
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-031": {
+  "alternativas": {
+   "obtusângulo": "Obtusângulo tem um ângulo maior que 90°.",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-032": {
+  "alternativas": {
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-033": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-035": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "escaleno": "Escaleno tem os 3 lados diferentes."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-036": {
+  "alternativas": {
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°.",
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°)."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-038": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais.",
+   "equilátero": "Equilátero tem os 3 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-039": {
+  "alternativas": {
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°.",
+   "obtusângulo": "Obtusângulo tem um ângulo maior que 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-042": {
+  "alternativas": {
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°.",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-043": {
+  "alternativas": {
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-045": {
+  "alternativas": {
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-048": {
+  "alternativas": {
+   "retângulo": "Retângulo tem um ângulo de exatamente 90°.",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°.",
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°)."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-050": {
+  "alternativas": {
+   "obtusângulo": "Obtusângulo tem um ângulo maior que 90°.",
+   "acutângulo": "Acutângulo tem os 3 ângulos agudos (menores que 90°).",
+   "Não existe esse triângulo": "Existe: os ângulos somam 180°."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°).",
+   "A soma dos ângulos internos é sempre 180°."
+  ],
+  "pegadinha": "Basta olhar o maior ângulo para classificar."
+ },
+ "m-tri-051": {
+  "alternativas": {
+   "escaleno": "Escaleno tem os 3 lados diferentes.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-052": {
+  "alternativas": {
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "isósceles": "Isósceles tem exatamente 2 lados iguais."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
+ },
+ "m-tri-058": {
+  "alternativas": {
+   "isósceles": "Isósceles tem exatamente 2 lados iguais.",
+   "equilátero": "Equilátero tem os 3 lados iguais.",
+   "retângulo": "Retângulo é classificação pelos ângulos (tem um de 90°), não pelos lados."
+  },
+  "pontos": [
+   "Pelos lados: equilátero (3 iguais), isósceles (2 iguais), escaleno (todos diferentes).",
+   "Pelos ângulos: acutângulo (todos < 90°), retângulo (um = 90°), obtusângulo (um > 90°)."
+  ],
+  "pegadinha": "Todo equilátero também tem 2 lados iguais, mas a classificação certa é equilátero."
  }
 }
