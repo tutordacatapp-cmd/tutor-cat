@@ -1,8 +1,13 @@
-import { useEffect, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { api } from '../dados/api.js';
 import { MATERIAS, questao } from '../conteudo.js';
 import { trilha, montarLicao, montarRevisao, errosPendentes, resumoMateria } from '../progresso.js';
 import Licao from './Licao.jsx';
+import Gato, { Comemoracao } from './Gato.jsx';
+import { gatoSVG } from '../mascote/arte.js';
+import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
+
+const MASCOTE_PADRAO = { nome: '', pelagem: 'cinza', eq: {}, cenario: 'quarto', vistos: null };
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
 const ROTULO = { novo: 'Novo', praticando: 'Praticando', dominado: 'Dominado ⭐' };
@@ -11,10 +16,49 @@ export default function Aluno({ perfil }) {
   const [tentativas, setTentativas] = useState(null);
   const [tela, setTela] = useState({ nome: 'inicio' });
   const [erro, setErro] = useState('');
+  const [mascote, setMascote] = useState(null);
+  const [fila, setFila] = useState([]);
+  const salvarTimer = useRef(null);
 
   useEffect(() => {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
+    api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
+
+  const est = useMemo(() => (tentativas ? estatisticas(tentativas) : null), [tentativas]);
+
+  function mudarMascote(mudanca, imediato) {
+    setMascote((m) => {
+      const novo = { ...m, ...mudanca };
+      clearTimeout(salvarTimer.current);
+      salvarTimer.current = setTimeout(() => api.salvarMascote(perfil.id, novo).catch(() => {}), imediato ? 0 : 800);
+      return novo;
+    });
+  }
+
+  // Conquistas novas viram comemoração. Na primeira vez, o que já existia conta como visto.
+  useEffect(() => {
+    if (!est || !mascote) return;
+    const todas = conquistas(est);
+    if (mascote.vistos === null) { mudarMascote({ vistos: todas }, true); return; }
+    const novas = todas.filter((k) => !mascote.vistos.includes(k));
+    if (novas.length) {
+      setFila((f) => [...f, ...novas.filter((k) => !f.includes(k))]);
+      const eq = { ...mascote.eq };
+      novas.filter((k) => k[0] === 'i').map((k) => descreverConquista(k).item).forEach((it) => { if (!eq[it.slot]) eq[it.slot] = it.id; });
+      mudarMascote({ vistos: [...mascote.vistos, ...novas], eq }, true);
+    }
+  }, [est, mascote?.vistos]);
+
+  const pop = fila.length ? descreverConquista(fila[0]) : null;
+  const fecharPop = () => setFila((f) => f.slice(1));
+  const vestirPop = () => {
+    if (pop.item) mudarMascote({ eq: { ...mascote.eq, [pop.item.slot]: pop.item.id } }, true);
+    if (pop.cenario) mudarMascote({ cenario: pop.cenario }, true);
+    fecharPop();
+  };
+  const comemoracao = pop && mascote && <Comemoracao key={fila[0]} conquista={pop} mascote={mascote} aoVestir={vestirPop} aoFechar={fecharPop} />;
+  const gatoMini = mascote && est ? gatoSVG({ eq: mascote.eq, pelagem: mascote.pelagem, dormindo: est.dormindo, rotulo: mascote.nome || 'Seu gato' }) : '';
 
   async function registrar(t) {
     const local = { ...t, aluno_id: perfil.id, turma_id: perfil.turma_id, criado_em: new Date().toISOString() };
@@ -24,16 +68,28 @@ export default function Aluno({ perfil }) {
   }
 
   if (erro && !tentativas) return <p className="aviso">{erro}</p>;
-  if (!tentativas) return <p className="mudo">Carregando…</p>;
+  if (!tentativas || !mascote) return <p className="mudo">Carregando…</p>;
 
   if (tela.nome === 'licao')
     return (
-      <Licao
-        titulo={tela.titulo}
-        questoes={tela.questoes}
-        aoResponder={registrar}
-        aoTerminar={() => setTela(tela.voltar)}
-      />
+      <>
+        <Licao
+          titulo={tela.titulo}
+          questoes={tela.questoes}
+          aoResponder={registrar}
+          aoTerminar={() => setTela(tela.voltar)}
+          gato={gatoSVG({ eq: mascote.eq, pelagem: mascote.pelagem, rotulo: '' })}
+        />
+        {comemoracao}
+      </>
+    );
+
+  if (tela.nome === 'gato')
+    return (
+      <>
+        <Gato est={est} mascote={mascote} mudar={mudarMascote} voltar={() => setTela({ nome: 'inicio' })} />
+        {comemoracao}
+      </>
     );
 
   if (tela.nome === 'trilha') {
@@ -69,6 +125,7 @@ export default function Aluno({ perfil }) {
           ))}
         </ol>
         <p className="mudo pequeno">Um tópico vira ⭐ Dominado quando você acerta 80% das últimas questões (mínimo de 10).</p>
+        {comemoracao}
       </div>
     );
   }
@@ -77,6 +134,14 @@ export default function Aluno({ perfil }) {
   const totalPend = errosPendentes(tentativas);
   return (
     <div className="pilha">
+      <button className="cartao g-cartao" onClick={() => setTela({ nome: 'gato' })}>
+        <span className="g-cartao-gato" dangerouslySetInnerHTML={{ __html: gatoMini }} />
+        <span className="pilha" style={{ gap: 2 }}>
+          <b>{mascote.nome || 'Seu gato'}</b>
+          <span>👑 {titulo(est).nm} · {est.total} ⭐</span>
+          <span className="mudo pequeno">{est.dormindo ? 'Está dormindo… estude para acordá-lo 😴' : 'Toque para ver roupas, cenários e medalhas'}</span>
+        </span>
+      </button>
       <h2>Oi, {perfil.nome.split(' ')[0]}! 👋</h2>
       <p className="mudo">Escolha uma matéria para continuar a sua trilha.</p>
       <div className="materias">
@@ -101,6 +166,7 @@ export default function Aluno({ perfil }) {
         </button>
       )}
       {erro && <p className="aviso">{erro}</p>}
+      {comemoracao}
     </div>
   );
 }

@@ -97,6 +97,14 @@ export const demo = {
   async tentativasDaTurma(turmaId) {
     return ler().tentativas.filter((t) => t.turma_id === turmaId);
   },
+  async lerMascote(alunoId) {
+    return (ler().mascotes || {})[alunoId] || null;
+  },
+  async salvarMascote(alunoId, dados) {
+    const db = ler();
+    db.mascotes = { ...(db.mascotes || {}), [alunoId]: dados };
+    gravar(db);
+  },
   async reiniciarDemo() {
     localStorage.removeItem(CHAVE);
   },

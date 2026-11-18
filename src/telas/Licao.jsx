@@ -9,7 +9,11 @@ const Html = ({ html, className }) => <div className={className} dangerouslySetI
 // a ideia é ler a explicação em vez de pular para a próxima no chute.
 const ESPERA_ERRO_MS = 4000;
 
-export default function Licao({ titulo, questoes, aoResponder, aoTerminar }) {
+const FRASES_OK = ['Isso!', 'Mandou bem!', 'Miau! ✨', 'Arrasou!', 'Boa!'];
+const FRASES_ERRO = ['Quase!', 'Bora entender?', 'Acontece!', 'Vamos juntos!'];
+const sortear = (a) => a[Math.floor(Math.random() * a.length)];
+
+export default function Licao({ titulo, questoes, aoResponder, aoTerminar, gato }) {
   const [i, setI] = useState(0);
   const [valor, setValor] = useState('');
   const [resultado, setResultado] = useState(null); // {ok, aviso, escolhida}
@@ -53,7 +57,7 @@ export default function Licao({ titulo, questoes, aoResponder, aoTerminar }) {
       setTimeout(() => setResultado(null), 1800);
       return;
     }
-    setResultado({ ...r, escolhida: v });
+    setResultado({ ...r, escolhida: v, frase: sortear(r.ok ? FRASES_OK : FRASES_ERRO) });
     if (r.ok) setPlacar((p) => p + 1);
     else {
       setLiberado(false);
@@ -113,7 +117,10 @@ export default function Licao({ titulo, questoes, aoResponder, aoTerminar }) {
 
         {resultado && !resultado.invalida && (
           <div className={'retorno ' + (resultado.ok ? 'ok' : 'erro')}>
-            <p className="veredito">{resultado.ok ? 'Acertou! 🎉' : 'Não foi dessa vez.'}</p>
+            <div className="veredito-linha">
+              {gato && <span className={'qgato ' + (resultado.ok ? 'ok' : 'erro')} aria-hidden="true"><span dangerouslySetInnerHTML={{ __html: gato }} /><i>{resultado.frase}</i></span>}
+              <p className="veredito">{resultado.ok ? 'Acertou! 🎉' : 'Não foi dessa vez.'}</p>
+            </div>
             {resultado.aviso && <p>{resultado.aviso}</p>}
             {!resultado.ok && q.tipo !== 'mc' && <p>Resposta certa: <b>{respostaEmTexto(q)}</b></p>}
             {q.explicacao && <Html className="explicacao" html={q.explicacao} />}

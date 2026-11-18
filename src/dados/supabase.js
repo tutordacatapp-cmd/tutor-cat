@@ -60,6 +60,15 @@ export const supabase = sb && {
     if (error) throw error;
     return data;
   },
+  async lerMascote(alunoId) {
+    const { data, error } = await sb.from('mascotes').select('dados').eq('aluno_id', alunoId).maybeSingle();
+    if (error) throw error;
+    return data?.dados ?? null;
+  },
+  async salvarMascote(alunoId, dados) {
+    const { error } = await sb.from('mascotes').upsert({ aluno_id: alunoId, dados, atualizado_em: new Date().toISOString() });
+    if (error) throw error;
+  },
   async tentativasDaTurma(turmaId) {
     const { data, error } = await sb.from('tentativas').select('*').eq('turma_id', turmaId);
     if (error) throw error;
