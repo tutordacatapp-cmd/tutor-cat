@@ -3,6 +3,7 @@ import { api } from './dados/api.js';
 import Login from './telas/Login.jsx';
 import Aluno from './telas/Aluno.jsx';
 import Professor from './telas/Professor.jsx';
+import Coordenacao from './telas/Coordenacao.jsx';
 
 export default function App() {
   const [perfil, setPerfil] = useState(undefined); // undefined = carregando
@@ -24,11 +25,11 @@ export default function App() {
       <header className="topo">
         <span className="marca">Tutor da Cat</span>
         <span className="quem">
-          {perfil.nome} · {perfil.papel === 'professor' ? 'Professor(a)' : 'Aluno(a)'}
+          {perfil.papel === 'coordenacao' ? perfil.escola?.nome || 'Coordenação' : perfil.nome} · {{ professor: 'Professor(a)', coordenacao: 'Coordenação', aluno: 'Aluno(a)' }[perfil.papel]}
           <button className="sair" onClick={sair}>Sair</button>
         </span>
       </header>
-      {perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
+      {perfil.papel === 'coordenacao' ? <Coordenacao perfil={perfil} /> : perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
       {api.modo === 'demo' && (
         <footer className="rodape pequeno mudo">
           Modo demonstração ·{' '}

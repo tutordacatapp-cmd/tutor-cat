@@ -33,7 +33,7 @@ export default function Login({ aoEntrar }) {
         <div className="cartao demo pequeno">
           <b>Modo demonstração</b> (os dados ficam só neste aparelho)<br />
           Escola: <code>PILOTO</code> · senha de todos: <code>1234</code><br />
-          Aluna: <code>catarina</code> · Professora: <code>professora</code><br />
+          Aluna: <code>catarina</code> · Professora: <code>professora</code> · Coordenação: <code>coordenacao</code><br />
           Outros alunos: <code>lucas</code>, <code>marina</code>, <code>pedro</code>
         </div>
       )}

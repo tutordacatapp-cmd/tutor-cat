@@ -13,12 +13,15 @@ export const emailInterno = (usuario, codigo) =>
 async function carregarPerfil(userId) {
   const { data: p, error } = await sb
     .from('perfis')
-    .select('id, nome, papel, turma_id, escola:escolas(id, codigo, nome)')
+    .select('id, nome, papel, turma_id, usuario, escola:escolas(id, codigo, nome)')
     .eq('id', userId)
     .single();
   if (error) throw error;
   let turmas = [];
-  if (p.papel === 'professor') {
+  if (p.papel === 'coordenacao') {
+    const { data } = await sb.from('turmas').select('id');
+    turmas = (data || []).map((x) => x.id);
+  } else if (p.papel === 'professor') {
     const { data } = await sb.from('turma_professores').select('turma_id').eq('professor_id', userId);
     turmas = (data || []).map((x) => x.turma_id);
   }
@@ -68,6 +71,42 @@ export const supabase = sb && {
   async salvarMascote(alunoId, dados) {
     const { error } = await sb.from('mascotes').upsert({ aluno_id: alunoId, dados, atualizado_em: new Date().toISOString() });
     if (error) throw error;
+  },
+  // ===== Coordenação =====
+  async turmasDaEscola() {
+    const { data, error } = await sb.from('turmas').select('id, nome').order('nome');
+    if (error) throw error;
+    return data;
+  },
+  async pessoasDaEscola() {
+    const [{ data: ps, error }, { data: vs }] = await Promise.all([
+      sb.from('perfis').select('id, nome, papel, turma_id, usuario').in('papel', ['aluno', 'professor']).order('nome'),
+      sb.from('turma_professores').select('turma_id, professor_id'),
+    ]);
+    if (error) throw error;
+    return ps.map((p) => ({ ...p, turmas: (vs || []).filter((v) => v.professor_id === p.id).map((v) => v.turma_id) }));
+  },
+  async criarTurma(nome) {
+    const { data, error } = await sb.rpc('coord_criar_turma', { p_nome: nome });
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async criarConta({ usuario, senha, nome, papel, turma }) {
+    const { data, error } = await sb.rpc('coord_criar_conta', { p_usuario: usuario, p_senha: senha, p_nome: nome, p_papel: papel, p_turma: turma || null });
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async redefinirSenha(pessoaId, senha) {
+    const { error } = await sb.rpc('coord_redefinir_senha', { p_pessoa: pessoaId, p_senha: senha });
+    if (error) throw new Error(error.message);
+  },
+  async vincularProfessor(professorId, turmaId, ligar) {
+    const { error } = await sb.rpc('coord_vincular_professor', { p_professor: professorId, p_turma: turmaId, p_ligar: ligar });
+    if (error) throw new Error(error.message);
+  },
+  async mudarTurma(alunoId, turmaId) {
+    const { error } = await sb.rpc('coord_mudar_turma', { p_aluno: alunoId, p_turma: turmaId });
+    if (error) throw new Error(error.message);
   },
   async tentativasDaTurma(turmaId) {
     const { data, error } = await sb.from('tentativas').select('*').eq('turma_id', turmaId);
