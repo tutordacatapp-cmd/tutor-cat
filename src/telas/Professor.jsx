@@ -2,6 +2,8 @@ import { useEffect, useMemo, useState } from 'react';
 import { api } from '../dados/api.js';
 import { MATERIAS, questao, topicosDa, respostaEmTexto } from '../conteudo.js';
 import { situacaoTopico, nomeTopico } from '../progresso.js';
+import Resumo from './Resumo.jsx';
+import { resumoSemanal } from '../resumo.js';
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
 const cor = (x) => (x == null ? '' : x >= 0.8 ? 'verde' : x >= 0.6 ? 'amarelo' : 'vermelho');
@@ -62,6 +64,7 @@ export default function Professor({ perfil }) {
       <div className="pilha">
         <button className="voltar" onClick={() => setAlunoAberto(null)}>← Turma</button>
         <h2>{alunoAberto.nome}</h2>
+        <Resumo texto={resumoSemanal(alunoAberto.nome, ts)} titulo="📨 Resumo da semana para a família" />
         {MATERIAS.map((m) => (
           <div className="cartao" key={m.id}>
             <h3 style={{ color: m.cor }}>{m.nome}</h3>

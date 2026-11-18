@@ -4,6 +4,8 @@ import { MATERIAS, questao } from '../conteudo.js';
 import { trilha, montarLicao, montarRevisao, errosPendentes, resumoMateria } from '../progresso.js';
 import Licao from './Licao.jsx';
 import Gato, { Comemoracao } from './Gato.jsx';
+import Resumo from './Resumo.jsx';
+import { resumoSemanal } from '../resumo.js';
 import { gatoSVG } from '../mascote/arte.js';
 import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
 
@@ -170,6 +172,7 @@ export default function Aluno({ perfil }) {
           <span className="mudo">{totalPend} para rever</span>
         </button>
       )}
+      <Resumo texto={resumoSemanal(perfil.nome, tentativas, mascote.nome)} />
       {erro && <p className="aviso">{erro}</p>}
       {comemoracao}
     </div>
