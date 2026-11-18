@@ -18,7 +18,9 @@ function fala(est, m) {
   return 'Você já me deu todas as roupas. Você é demais! 😸';
 }
 
-export default function Gato({ est, mascote, mudar, voltar }) {
+const AVISO = { salvando: '⏳ Salvando…', salvo: '✓ Tudo salvo', erro: '⚠️ Não consegui salvar. Verifique a internet.' };
+
+export default function Gato({ est, mascote, mudar, voltar, salvo = 'salvo' }) {
   const [mat, setMat] = useState('mt');
   const t = titulo(est);
   const pct = t.prox ? Math.round((100 * (est.total - t.de)) / (t.prox[0] - t.de)) : 100;
@@ -28,7 +30,10 @@ export default function Gato({ est, mascote, mudar, voltar }) {
 
   return (
     <div className="pilha">
-      <button className="voltar" onClick={voltar}>← Início</button>
+      <div className="linha">
+        <button className="voltar" onClick={voltar}>← Início</button>
+        <span className={'g-salvo ' + salvo} role="status">{AVISO[salvo]}</span>
+      </div>
 
       <div className="g-hero">
         <div className="g-bolha" dangerouslySetInnerHTML={{ __html: fala(est, m) }} />
@@ -40,6 +45,7 @@ export default function Gato({ est, mascote, mudar, voltar }) {
               <button key={k} className={'g-pelo' + (m.pelagem === k ? ' on' : '')} style={{ '--f': f.f, '--o': f.o }} aria-label={f.nm} title={f.nm} onClick={() => mudar({ pelagem: k })} />
             ))}
           </div>
+          <p className="pequeno mudo" style={{ margin: 0 }}>As mudanças são salvas sozinhas.</p>
           <div className="g-titulo">👑 {t.nm} <span>nível {t.i + 1}</span></div>
           <div className="g-xp">
             <div className="barra"><i style={{ width: pct + '%' }} /></div>
@@ -104,6 +110,10 @@ export default function Gato({ est, mascote, mudar, voltar }) {
           })}
         </div>
       </div>
+
+      <button className="btn" style={{ alignSelf: 'center' }} disabled={salvo === 'salvando'} onClick={voltar}>
+        {salvo === 'salvando' ? 'Salvando…' : 'Pronto ✓'}
+      </button>
     </div>
   );
 }

@@ -19,6 +19,7 @@ export default function Aluno({ perfil }) {
   const [mascote, setMascote] = useState(null);
   const [fila, setFila] = useState([]);
   const salvarTimer = useRef(null);
+  const [salvo, setSalvo] = useState('salvo'); // 'salvando' | 'salvo' | 'erro'
 
   useEffect(() => {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
@@ -31,7 +32,11 @@ export default function Aluno({ perfil }) {
     setMascote((m) => {
       const novo = { ...m, ...mudanca };
       clearTimeout(salvarTimer.current);
-      salvarTimer.current = setTimeout(() => api.salvarMascote(perfil.id, novo).catch(() => {}), imediato ? 0 : 800);
+      setSalvo('salvando');
+      salvarTimer.current = setTimeout(
+        () => api.salvarMascote(perfil.id, novo).then(() => setSalvo('salvo')).catch(() => setSalvo('erro')),
+        imediato ? 0 : 600
+      );
       return novo;
     });
   }
@@ -87,7 +92,7 @@ export default function Aluno({ perfil }) {
   if (tela.nome === 'gato')
     return (
       <>
-        <Gato est={est} mascote={mascote} mudar={mudarMascote} voltar={() => setTela({ nome: 'inicio' })} />
+        <Gato est={est} mascote={mascote} mudar={mudarMascote} salvo={salvo} voltar={() => setTela({ nome: 'inicio' })} />
         {comemoracao}
       </>
     );
