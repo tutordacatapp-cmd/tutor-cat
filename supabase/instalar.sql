@@ -103,3 +103,7 @@ insert into escolas (codigo, nome) values ('PILOTO', 'Escola Piloto');
 insert into turmas (escola_id, nome) select id, '6º ano A' from escolas where codigo = 'PILOTO';
 select criar_conta('catarina', 'PILOTO', 'TROQUE-A-SENHA', 'Catarina', 'aluno', '6º ano A');
 select criar_conta('gustavo', 'PILOTO', 'TROQUE-A-SENHA', 'Gustavo', 'professor', '6º ano A');
+grant usage on schema public to authenticated;
+grant select on escolas, turmas, perfis, turma_professores to authenticated;
+grant select, insert on tentativas to authenticated;
+grant execute on function professor_da_turma(uuid), minha_turma(), minha_escola() to authenticated;
