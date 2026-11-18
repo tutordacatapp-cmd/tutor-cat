@@ -96,7 +96,7 @@ export default function Professor({ perfil }) {
           </select>
         )}
       </div>
-      <p className="mudo">{turmas.find((t) => t.id === turmaId)?.nome} · {alunos.length} alunos</p>
+      <p className="mudo">{turmas.find((t) => t.id === turmaId)?.nome} · {alunos.length} {alunos.length === 1 ? 'aluno' : 'alunos'}</p>
 
       <nav className="abas">
         {[['alunos', 'Alunos'], ['topicos', 'Tópicos'], ['erros', 'Erros comuns']].map(([id, nome]) => (
