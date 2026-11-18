@@ -1,0 +1,5758 @@
+[
+ {
+  "id": "p-sub-001",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o coletivo de <b>lobos</b>?",
+  "resposta": "alcateia",
+  "explicacao": "Alcateia = lobos. Esquadrilha é de aviões (nada de lobo pilotando).",
+  "alternativas": [
+   "alcateia",
+   "esquadrilha",
+   "cardume",
+   "constelação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-002",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Na frase \"A <u>alegria</u> tomou conta da sala\", a palavra sublinhada é um substantivo:",
+  "resposta": "abstrato",
+  "explicacao": "Alegria você sente, não pega → <b>abstrato</b>.",
+  "alternativas": [
+   "abstrato",
+   "coletivo",
+   "concreto",
+   "próprio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-003",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o aumentativo de <b>casa</b>?",
+  "resposta": "casarão",
+  "explicacao": "Casarão é a casa em tamanho XL (aumentativo). Casinha e casebre são as versões mini (diminutivos).",
+  "alternativas": [
+   "casarão",
+   "casota",
+   "casebre",
+   "casinha"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-004",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o plural de <b>cidadão</b>?",
+  "resposta": "cidadãos",
+  "explicacao": "Cidadão → <b>cidadãos</b>, igual irmão → irmãos.",
+  "alternativas": [
+   "cidadãos",
+   "cidadões",
+   "cidadãoes",
+   "cidadães"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-005",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o coletivo de <b>abelhas</b>?",
+  "resposta": "enxame",
+  "explicacao": "Enxame = abelhas. O resto do combo: cardume = peixes, alcateia = lobos, rebanho = gado/ovelhas.",
+  "alternativas": [
+   "enxame",
+   "alcateia",
+   "rebanho",
+   "cardume"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-006",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Girassol\" é um substantivo:",
+  "resposta": "composto",
+  "explicacao": "Girassol é gira + sol: duas palavras viraram uma → <b>composto</b>.",
+  "alternativas": [
+   "composto",
+   "coletivo",
+   "abstrato",
+   "simples"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-007",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra é um substantivo <b>próprio</b>?",
+  "resposta": "Amazonas",
+  "explicacao": "Nome próprio aponta <b>um só</b> no mundo e vem com maiúscula: <b>Amazonas</b>. Rio, floresta e cidade servem pra qualquer um: são comuns.",
+  "alternativas": [
+   "Amazonas",
+   "floresta",
+   "rio",
+   "cidade"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-008",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o coletivo de <b>peixes</b>?",
+  "resposta": "cardume",
+  "explicacao": "Cardume = peixes. Não confunde: manada = elefantes/búfalos, matilha = cães.",
+  "alternativas": [
+   "cardume",
+   "enxame",
+   "matilha",
+   "manada"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-009",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o coletivo de <b>estrelas</b>?",
+  "resposta": "constelação",
+  "explicacao": "Constelação = estrelas. Arquipélago = ilhas, frota = navios ou veículos.",
+  "alternativas": [
+   "constelação",
+   "arquipélago",
+   "acervo",
+   "frota"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-010",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o feminino de <b>ator</b>?",
+  "resposta": "atriz",
+  "explicacao": "Ator → <b>atriz</b>, no mesmo esquema de imperador → imperatriz.",
+  "alternativas": [
+   "atriz",
+   "atora",
+   "atrisa",
+   "atoriz"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-011",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o coletivo de <b>ilhas</b>?",
+  "resposta": "arquipélago",
+  "explicacao": "Arquipélago = ilhas. Cordilheira = montanhas, pomar = árvores de fruta.",
+  "alternativas": [
+   "arquipélago",
+   "cordilheira",
+   "pomar",
+   "constelação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-012",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra é um substantivo <b>abstrato</b>?",
+  "resposta": "saudade",
+  "explicacao": "Abstrato é o que existe, mas não dá pra pegar na mão: sentimento, ação, estado. Tipo <b>saudade</b>.",
+  "alternativas": [
+   "saudade",
+   "janela",
+   "cachorro",
+   "mesa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-013",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Pedreiro\" vem de \"pedra\". Então \"pedreiro\" é um substantivo:",
+  "resposta": "derivado",
+  "explicacao": "\"Pedra\" é a palavra-raiz (primitiva). O que nasce dela, tipo pedreiro, é <b>derivada</b>.",
+  "alternativas": [
+   "derivado",
+   "primitivo",
+   "próprio",
+   "composto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sub-014",
+  "topico": "p-sub",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o plural de <b>pão</b>?",
+  "resposta": "pães",
+  "explicacao": "Pão → <b>pães</b>. Palavras em -ão não seguem um padrão só: mão → mãos, leão → leões, pão → pães. Vale decorar.",
+  "alternativas": [
+   "pães",
+   "pãoes",
+   "pãos",
+   "pões"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-001",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"O gato <u>preto</u> dormia no sofá <u>macio</u>\", as palavras sublinhadas são:",
+  "resposta": "adjetivos",
+  "explicacao": "Preto e macio descrevem como são o gato e o sofá → <b>adjetivos</b>.",
+  "alternativas": [
+   "adjetivos",
+   "substantivos",
+   "pronomes",
+   "verbos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-002",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"A menina <b>esperta</b> resolveu o problema\", qual substantivo o adjetivo caracteriza?",
+  "resposta": "menina",
+  "explicacao": "\"Esperta\" diz como é a <b>menina</b>. Adjetivo sempre anda grudado num substantivo.",
+  "alternativas": [
+   "menina",
+   "a",
+   "problema",
+   "resolveu"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-003",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Ana é <b>mais alta que</b> Bia\", o adjetivo está no grau:",
+  "resposta": "comparativo de superioridade",
+  "explicacao": "\"Mais... que\" comparando duas pessoas → <b>comparativo de superioridade</b>. Se fosse \"tão alta quanto\", seria igualdade.",
+  "alternativas": [
+   "comparativo de superioridade",
+   "superlativo absoluto",
+   "comparativo de igualdade",
+   "normal"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-004",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Amor <b>de mãe</b>\" é o mesmo que amor:",
+  "resposta": "materno",
+  "explicacao": "De mãe = <b>materno</b>. Família completa: pai = paterno, irmão = fraterno.",
+  "alternativas": [
+   "materno",
+   "maternal de",
+   "fraterno",
+   "paterno"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-005",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o superlativo absoluto sintético de <b>feliz</b>?",
+  "resposta": "felicíssimo",
+  "explicacao": "Feliz → <b>felicíssimo</b> (o z vira c). \"Muito feliz\" também é superlativo, só que o <i>analítico</i>, com duas palavras.",
+  "alternativas": [
+   "felicíssimo",
+   "felizíssimo",
+   "mais feliz",
+   "muito feliz"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-006",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Noite <b>de lua</b>\" é o mesmo que noite:",
+  "resposta": "enluarada",
+  "explicacao": "Noite com lua = noite <b>enluarada</b>.",
+  "alternativas": [
+   "enluarada",
+   "lunática",
+   "solar",
+   "estrelada"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-007",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quem nasce em São José dos Campos é:",
+  "resposta": "joseense",
+  "explicacao": "Quem é de São José dos Campos é <b>joseense</b>. Tipo você.",
+  "alternativas": [
+   "joseense",
+   "campista",
+   "são-joseano",
+   "josefino"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-008",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Água <b>da chuva</b>\" é o mesmo que água:",
+  "resposta": "pluvial",
+  "explicacao": "Da chuva = <b>pluvial</b>. De rio = fluvial. Muda uma letra só, olho vivo.",
+  "alternativas": [
+   "pluvial",
+   "fluvial",
+   "solar",
+   "marinha"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-009",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"O filme foi <b>muito bom</b>.\" O adjetivo está no grau:",
+  "resposta": "superlativo absoluto analítico",
+  "explicacao": "\"Muito + adjetivo\" = superlativo absoluto <b>analítico</b> (duas palavras). O sintético resolve numa só: ótimo.",
+  "alternativas": [
+   "superlativo absoluto analítico",
+   "comparativo de superioridade",
+   "normal",
+   "superlativo absoluto sintético"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-010",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Brincadeira <b>de criança</b>\" é o mesmo que brincadeira:",
+  "resposta": "infantil",
+  "explicacao": "De criança = <b>infantil</b>.",
+  "alternativas": [
+   "infantil",
+   "senil",
+   "pueril de",
+   "juvenil"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-011",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Luz <b>do sol</b>\" é o mesmo que luz:",
+  "resposta": "solar",
+  "explicacao": "Do sol = <b>solar</b>, da lua = lunar, das estrelas = estelar.",
+  "alternativas": [
+   "solar",
+   "lunar",
+   "pluvial",
+   "estelar"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adj-012",
+  "topico": "p-adj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quem nasce na cidade de São Paulo é:",
+  "resposta": "paulistano",
+  "explicacao": "Pegadinha clássica: da <b>cidade</b> de SP = <b>paulistano</b>; do <b>estado</b> = paulista.",
+  "alternativas": [
+   "paulistano",
+   "são-paulino",
+   "paulista",
+   "paulense"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-001",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Isso fica entre você e ___.\" Qual completa?",
+  "resposta": "mim",
+  "explicacao": "Preposição (entre, para, sem) sem verbo depois → <b>mim</b>: \"entre mim e você\".",
+  "alternativas": [
+   "mim",
+   "me",
+   "eu",
+   "comigo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-002",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Pegue ___ livro que está aí com você.\" Qual completa?",
+  "resposta": "esse",
+  "explicacao": "Perto de quem <b>ouve</b> (\"aí com você\") → <b>esse</b>. Perto de quem fala (\"aqui\") → este.",
+  "alternativas": [
+   "esse",
+   "aquele",
+   "isto",
+   "este"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-003",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Este é o <u>meu</u> caderno\", a palavra sublinhada é pronome:",
+  "resposta": "possessivo",
+  "explicacao": "\"Meu\" diz de quem é a coisa → <b>possessivo</b>.",
+  "alternativas": [
+   "possessivo",
+   "indefinido",
+   "pessoal",
+   "demonstrativo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-004",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"<u>Quem</u> chegou primeiro?\", a palavra sublinhada é pronome:",
+  "resposta": "interrogativo",
+  "explicacao": "Serve pra perguntar → <b>interrogativo</b> (quem, que, qual, quanto).",
+  "alternativas": [
+   "interrogativo",
+   "demonstrativo",
+   "pessoal",
+   "possessivo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-005",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"___ mochila aqui na minha mão é nova.\" Qual completa?",
+  "resposta": "Esta",
+  "explicacao": "Perto de quem <b>fala</b> (\"aqui na minha mão\") → <b>esta</b>.",
+  "alternativas": [
+   "Esta",
+   "Aquela",
+   "Essa",
+   "Aquilo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-006",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Encontrei <u>a Ana</u> na escola.\" Trocando por pronome, fica:",
+  "resposta": "Encontrei-a na escola.",
+  "explicacao": "Na norma-padrão, \"a Ana\" vira <b>a</b>: encontrei-a. \"Encontrei ela\" rola na conversa, mas não na redação.",
+  "alternativas": [
+   "Encontrei-a na escola.",
+   "Encontrei-la na escola.",
+   "Encontrei-lhe na escola.",
+   "Encontrei ela na escola."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-007",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Maria perdeu o livro. ___ ficou triste.\" Qual pronome completa?",
+  "resposta": "Ela",
+  "explicacao": "<b>Ela</b> entra no lugar de \"Maria\" e é quem \"ficou\": o sujeito.",
+  "alternativas": [
+   "Ela",
+   "Ele",
+   "Sua",
+   "Lhe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-008",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase está de acordo com a norma-padrão?",
+  "resposta": "Isto é para eu fazer.",
+  "explicacao": "Se tem verbo depois, quem faz a ação é <b>eu</b>: \"para <b>eu</b> fazer\". \"Mim\" não faz nada, nem lição.",
+  "alternativas": [
+   "Isto é para eu fazer.",
+   "Isto é para mim faz.",
+   "Isto é para me fazer.",
+   "Isto é para mim fazer."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-009",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Tom tem um cachorro. ___ cachorro é bravo.\" Qual completa?",
+  "resposta": "O seu",
+  "explicacao": "O cachorro é do Tom → possessivo masculino: <b>o seu</b> (ou \"o cachorro dele\").",
+  "alternativas": [
+   "O seu",
+   "A sua",
+   "Aquele seu dela",
+   "O nosso"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-010",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é um pronome <b>indefinido</b>?",
+  "resposta": "alguém",
+  "explicacao": "<b>Alguém</b> fala de uma pessoa sem dizer quem: é o pronome do mistério.",
+  "alternativas": [
+   "alguém",
+   "meu",
+   "este",
+   "ele"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-011",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual pronome de tratamento se usa para falar com o <b>presidente da República</b>?",
+  "resposta": "Vossa Excelência",
+  "explicacao": "Presidente, ministros, juízes → <b>Vossa Excelência</b>. Papa → Vossa Santidade; rei → Vossa Majestade.",
+  "alternativas": [
+   "Vossa Excelência",
+   "Vossa Santidade",
+   "Vossa Senhoria",
+   "Vossa Majestade"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pro-012",
+  "topico": "p-pro",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é um pronome pessoal do caso <b>oblíquo</b>?",
+  "resposta": "me",
+  "explicacao": "Eu, nós e ela fazem a ação (caso reto). <b>Me</b> recebe a ação (oblíquo): \"ele <i>me</i> chamou\".",
+  "alternativas": [
+   "me",
+   "eu",
+   "ela",
+   "nós"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-001",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>discutir</b> pertence a qual conjugação?",
+  "resposta": "3ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"discutir\" termina em -ir → <b>3ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "3ª conjugação",
+   "2ª conjugação",
+   "1ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-002",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>assistiremos</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"assistiremos\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: nós assistimos / assistimos / assistíamos / assistiremos.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito perfeito",
+   "presente",
+   "pretérito imperfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-003",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>vender</b> pertence a qual conjugação?",
+  "resposta": "2ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"vender\" termina em -er → <b>2ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "2ª conjugação",
+   "1ª conjugação",
+   "3ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-004",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>assistir</b> no tempo certo:<br>Hoje em dia, eles <b>___</b>.",
+  "resposta": "assistem",
+  "explicacao": "A pista \"Hoje em dia\" pede o <b>presente</b> (ação que acontece agora ou sempre): eles <b>assistem</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-005",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>abrirão</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"abrirão\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: eles abrem / abriram / abriam / abrirão.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-006",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>bebíamos</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito imperfeito",
+  "explicacao": "\"bebíamos\" é <b>pretérito imperfeito</b>: ação que <b>costumava</b> acontecer ou durava no passado. Compare: nós bebemos / bebemos / bebíamos / beberemos.",
+  "alternativas": [
+   "pretérito imperfeito",
+   "presente",
+   "futuro do presente",
+   "pretérito perfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-007",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>abrir</b> pertence a qual conjugação?",
+  "resposta": "3ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"abrir\" termina em -ir → <b>3ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "3ª conjugação",
+   "1ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-008",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>nadar</b> pertence a qual conjugação?",
+  "resposta": "1ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"nadar\" termina em -ar → <b>1ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "1ª conjugação",
+   "3ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-009",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>vender</b> no tempo certo:<br>Hoje em dia, eu <b>___</b>.",
+  "resposta": "vendo",
+  "explicacao": "A pista \"Hoje em dia\" pede o <b>presente</b> (ação que acontece agora ou sempre): eu <b>vendo</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-010",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"ele <b>aprendia</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito imperfeito",
+  "explicacao": "\"aprendia\" é <b>pretérito imperfeito</b>: ação que <b>costumava</b> acontecer ou durava no passado. Compare: ele aprende / aprendeu / aprendia / aprenderá.",
+  "alternativas": [
+   "pretérito imperfeito",
+   "presente",
+   "futuro do presente",
+   "pretérito perfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-011",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>correr</b> pertence a qual conjugação?",
+  "resposta": "2ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"correr\" termina em -er → <b>2ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "2ª conjugação",
+   "1ª conjugação",
+   "3ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-012",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>beber</b> pertence a qual conjugação?",
+  "resposta": "2ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"beber\" termina em -er → <b>2ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "2ª conjugação",
+   "1ª conjugação",
+   "3ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-013",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>comer</b> no tempo certo:<br>Ano passado, eles <b>___</b>.",
+  "resposta": "comeram",
+  "explicacao": "A pista \"Ano passado\" pede o <b>pretérito perfeito</b> (ação que começou e <b>terminou</b> no passado): eles <b>comeram</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-014",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>escrever</b> pertence a qual conjugação?",
+  "resposta": "2ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"escrever\" termina em -er → <b>2ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "2ª conjugação",
+   "1ª conjugação",
+   "3ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-015",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eu <b>vendia</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito imperfeito",
+  "explicacao": "\"vendia\" é <b>pretérito imperfeito</b>: ação que <b>costumava</b> acontecer ou durava no passado. Compare: eu vendo / vendi / vendia / venderei.",
+  "alternativas": [
+   "pretérito imperfeito",
+   "pretérito perfeito",
+   "presente",
+   "futuro do presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-016",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>falar</b> pertence a qual conjugação?",
+  "resposta": "1ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"falar\" termina em -ar → <b>1ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "1ª conjugação",
+   "3ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-017",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eu <b>dividi</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"dividi\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: eu divido / dividi / dividia / dividirei.",
+  "alternativas": [
+   "pretérito perfeito",
+   "futuro do presente",
+   "pretérito imperfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-018",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>moraremos</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"moraremos\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: nós moramos / moramos / morávamos / moraremos.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito imperfeito",
+   "pretérito perfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-019",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>dividir</b> no tempo certo:<br>Ano que vem, ele <b>___</b>.",
+  "resposta": "dividirá",
+  "explicacao": "A pista \"Ano que vem\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): ele <b>dividirá</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-020",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>partir</b> no tempo certo:<br>Na próxima semana, ele <b>___</b>.",
+  "resposta": "partirá",
+  "explicacao": "A pista \"Na próxima semana\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): ele <b>partirá</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-021",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>vender</b> no tempo certo:<br>Quando era pequena, eles <b>___</b>.",
+  "resposta": "vendiam",
+  "explicacao": "A pista \"Quando era pequena\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): eles <b>vendiam</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-022",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>gostar</b> no tempo certo:<br>Hoje em dia, eles <b>___</b>.",
+  "resposta": "gostam",
+  "explicacao": "A pista \"Hoje em dia\" pede o <b>presente</b> (ação que acontece agora ou sempre): eles <b>gostam</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-023",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>beber</b> no tempo certo:<br>Antigamente, ele <b>___</b>.",
+  "resposta": "bebia",
+  "explicacao": "A pista \"Antigamente\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): ele <b>bebia</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-024",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>dividir</b> no tempo certo:<br>Naquela época, sempre eu <b>___</b>.",
+  "resposta": "dividia",
+  "explicacao": "A pista \"Naquela época, sempre\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): eu <b>dividia</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-025",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>dividiremos</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"dividiremos\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: nós dividimos / dividimos / dividíamos / dividiremos.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito imperfeito",
+   "pretérito perfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-026",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>aprender</b> pertence a qual conjugação?",
+  "resposta": "2ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"aprender\" termina em -er → <b>2ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "2ª conjugação",
+   "1ª conjugação",
+   "3ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-027",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>decidir</b> pertence a qual conjugação?",
+  "resposta": "3ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"decidir\" termina em -ir → <b>3ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "3ª conjugação",
+   "1ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-028",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>discutiram</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"discutiram\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: eles discutem / discutiram / discutiam / discutirão.",
+  "alternativas": [
+   "pretérito perfeito",
+   "presente",
+   "futuro do presente",
+   "pretérito imperfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-029",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eu <b>falei</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"falei\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: eu falo / falei / falava / falarei.",
+  "alternativas": [
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "futuro do presente",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-030",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>gostar</b> pertence a qual conjugação?",
+  "resposta": "1ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"gostar\" termina em -ar → <b>1ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "1ª conjugação",
+   "3ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-031",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>dividir</b> no tempo certo:<br>Ano que vem, eles <b>___</b>.",
+  "resposta": "dividirão",
+  "explicacao": "A pista \"Ano que vem\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): eles <b>dividirão</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-032",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>partir</b> no tempo certo:<br>Quando era pequena, nós <b>___</b>.",
+  "resposta": "partíamos",
+  "explicacao": "A pista \"Quando era pequena\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): nós <b>partíamos</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-033",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>decidir</b> no tempo certo:<br>Ano que vem, ele <b>___</b>.",
+  "resposta": "decidirá",
+  "explicacao": "A pista \"Ano que vem\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): ele <b>decidirá</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-034",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>dividíamos</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito imperfeito",
+  "explicacao": "\"dividíamos\" é <b>pretérito imperfeito</b>: ação que <b>costumava</b> acontecer ou durava no passado. Compare: nós dividimos / dividimos / dividíamos / dividiremos.",
+  "alternativas": [
+   "pretérito imperfeito",
+   "presente",
+   "pretérito perfeito",
+   "futuro do presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-035",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>morar</b> no tempo certo:<br>Na próxima semana, eu <b>___</b>.",
+  "resposta": "morarei",
+  "explicacao": "A pista \"Na próxima semana\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): eu <b>morarei</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-036",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>morar</b> pertence a qual conjugação?",
+  "resposta": "1ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"morar\" termina em -ar → <b>1ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "1ª conjugação",
+   "3ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-037",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"ele <b>nadou</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"nadou\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: ele nada / nadou / nadava / nadará.",
+  "alternativas": [
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "presente",
+   "futuro do presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-038",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>gostar</b> no tempo certo:<br>Ano que vem, eu <b>___</b>.",
+  "resposta": "gostarei",
+  "explicacao": "A pista \"Ano que vem\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): eu <b>gostarei</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-039",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>discutir</b> no tempo certo:<br>Na próxima semana, eu <b>___</b>.",
+  "resposta": "discutirei",
+  "explicacao": "A pista \"Na próxima semana\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): eu <b>discutirei</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-040",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>falavam</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito imperfeito",
+  "explicacao": "\"falavam\" é <b>pretérito imperfeito</b>: ação que <b>costumava</b> acontecer ou durava no passado. Compare: eles falam / falaram / falavam / falarão.",
+  "alternativas": [
+   "pretérito imperfeito",
+   "futuro do presente",
+   "pretérito perfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-041",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>discutir</b> no tempo certo:<br>Ano passado, eles <b>___</b>.",
+  "resposta": "discutiram",
+  "explicacao": "A pista \"Ano passado\" pede o <b>pretérito perfeito</b> (ação que começou e <b>terminou</b> no passado): eles <b>discutiram</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-042",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>dividiram</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"dividiram\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: eles dividem / dividiram / dividiam / dividirão.",
+  "alternativas": [
+   "pretérito perfeito",
+   "presente",
+   "pretérito imperfeito",
+   "futuro do presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-043",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"ele <b>anda</b>\", o verbo está em qual tempo?",
+  "resposta": "presente",
+  "explicacao": "\"anda\" é <b>presente</b>: ação que acontece agora ou sempre. Compare: ele anda / andou / andava / andará.",
+  "alternativas": [
+   "presente",
+   "pretérito imperfeito",
+   "pretérito perfeito",
+   "futuro do presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-044",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>andar</b> pertence a qual conjugação?",
+  "resposta": "1ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"andar\" termina em -ar → <b>1ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "1ª conjugação",
+   "3ª conjugação",
+   "2ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-045",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>andaremos</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"andaremos\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: nós andamos / andamos / andávamos / andaremos.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito perfeito",
+   "presente",
+   "pretérito imperfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-046",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>falaram</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"falaram\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: eles falam / falaram / falavam / falarão.",
+  "alternativas": [
+   "pretérito perfeito",
+   "futuro do presente",
+   "presente",
+   "pretérito imperfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-047",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>estudar</b> no tempo certo:<br>Quando era pequena, eu <b>___</b>.",
+  "resposta": "estudava",
+  "explicacao": "A pista \"Quando era pequena\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): eu <b>estudava</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-048",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"ele <b>correu</b>\", o verbo está em qual tempo?",
+  "resposta": "pretérito perfeito",
+  "explicacao": "\"correu\" é <b>pretérito perfeito</b>: ação que começou e <b>terminou</b> no passado. Compare: ele corre / correu / corria / correrá.",
+  "alternativas": [
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "futuro do presente",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-049",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>beber</b> no tempo certo:<br>Na semana passada, eu <b>___</b>.",
+  "resposta": "bebi",
+  "explicacao": "A pista \"Na semana passada\" pede o <b>pretérito perfeito</b> (ação que começou e <b>terminou</b> no passado): eu <b>bebi</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-050",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eu <b>divido</b>\", o verbo está em qual tempo?",
+  "resposta": "presente",
+  "explicacao": "\"divido\" é <b>presente</b>: ação que acontece agora ou sempre. Compare: eu divido / dividi / dividia / dividirei.",
+  "alternativas": [
+   "presente",
+   "futuro do presente",
+   "pretérito imperfeito",
+   "pretérito perfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-051",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eles <b>venderão</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"venderão\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: eles vendem / venderam / vendiam / venderão.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-052",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>assistir</b> no tempo certo:<br>Sempre, ele <b>___</b>.",
+  "resposta": "assiste",
+  "explicacao": "A pista \"Sempre\" pede o <b>presente</b> (ação que acontece agora ou sempre): ele <b>assiste</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-053",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>andar</b> no tempo certo:<br>Quando era pequena, ele <b>___</b>.",
+  "resposta": "andava",
+  "explicacao": "A pista \"Quando era pequena\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): ele <b>andava</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-054",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"nós <b>beberemos</b>\", o verbo está em qual tempo?",
+  "resposta": "futuro do presente",
+  "explicacao": "\"beberemos\" é <b>futuro do presente</b>: ação que <b>vai</b> acontecer. Compare: nós bebemos / bebemos / bebíamos / beberemos.",
+  "alternativas": [
+   "futuro do presente",
+   "pretérito perfeito",
+   "pretérito imperfeito",
+   "presente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-055",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>correr</b> no tempo certo:<br>Naquela época, sempre ele <b>___</b>.",
+  "resposta": "corria",
+  "explicacao": "A pista \"Naquela época, sempre\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): ele <b>corria</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-056",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>ajudar</b> no tempo certo:<br>Na próxima semana, eles <b>___</b>.",
+  "resposta": "ajudarão",
+  "explicacao": "A pista \"Na próxima semana\" pede o <b>futuro do presente</b> (ação que <b>vai</b> acontecer): eles <b>ajudarão</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-057",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>cantar</b> no tempo certo:<br>Hoje em dia, eu <b>___</b>.",
+  "resposta": "canto",
+  "explicacao": "A pista \"Hoje em dia\" pede o <b>presente</b> (ação que acontece agora ou sempre): eu <b>canto</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-058",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"eu <b>nado</b>\", o verbo está em qual tempo?",
+  "resposta": "presente",
+  "explicacao": "\"nado\" é <b>presente</b>: ação que acontece agora ou sempre. Compare: eu nado / nadei / nadava / nadarei.",
+  "alternativas": [
+   "presente",
+   "pretérito imperfeito",
+   "futuro do presente",
+   "pretérito perfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-059",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo <b>dividir</b> pertence a qual conjugação?",
+  "resposta": "3ª conjugação",
+  "explicacao": "Olhe o final do infinitivo: -ar = 1ª, -er = 2ª, -ir = 3ª. \"dividir\" termina em -ir → <b>3ª conjugação</b>. (O verbo \"pôr\" é da 2ª, vem do antigo \"poer\".)",
+  "alternativas": [
+   "3ª conjugação",
+   "2ª conjugação",
+   "1ª conjugação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-verb-060",
+  "topico": "p-verb",
+  "materia": "pt",
+  "tipo": "text",
+  "enunciado": "Complete com o verbo <b>abrir</b> no tempo certo:<br>Quando era pequena, eu <b>___</b>.",
+  "resposta": "abria",
+  "explicacao": "A pista \"Quando era pequena\" pede o <b>pretérito imperfeito</b> (ação que <b>costumava</b> acontecer ou durava no passado): eu <b>abria</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-001",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>jovem</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>JO</b>-vem: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-002",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>lápis</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>LÁ</b>-pis: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-003",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual paroxítona leva acento?",
+  "resposta": "lápis",
+  "explicacao": "Paroxítonas terminadas em <b>i(s), l, r, x, ão, um, ps</b> levam acento: LÁ-pis. Em -a, -e, -o, não.",
+  "alternativas": [
+   "lápis",
+   "janela",
+   "mesa",
+   "caderno"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-004",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>médico</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>MÉ</b>-di-co: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-005",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>parabéns</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "pa-ra-<b>BÉNS</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-006",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>passarinho</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "pas-sa-<b>RI</b>-nho: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-007",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra está acentuada <b>corretamente</b>?",
+  "resposta": "sofá",
+  "explicacao": "Oxítona terminada em <b>a</b> leva acento: so-FÁ. Terminada em <b>u</b>, não: urubu, caju, tatu.",
+  "alternativas": [
+   "sofá",
+   "urubú",
+   "caju̇́",
+   "tatú"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-008",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>borboleta</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "bor-bo-<b>LE</b>-ta: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-009",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>táxi</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>TÁ</b>-xi: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-010",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>pássaro</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>PÁS</b>-sa-ro: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-011",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>avenida</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "a-ve-<b>NI</b>-da: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-012",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>janela</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "ja-<b>NE</b>-la: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-013",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>árvore</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>ÁR</b>-vo-re: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-014",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>você</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "vo-<b>CÊ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-015",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>açúcar</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "a-<b>ÇÚ</b>-car: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-016",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>computador</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "com-pu-ta-<b>DOR</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-017",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual destas oxítonas <b>deve</b> ter acento?",
+  "resposta": "parabéns",
+  "explicacao": "Oxítonas terminadas em a, e, o, <b>em, ens</b> levam acento: para-BÉNS. Em z, l, r, não.",
+  "alternativas": [
+   "parabéns",
+   "feliz",
+   "papel",
+   "amor"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-018",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>mesa</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>ME</b>-sa: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-019",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>café</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "ca-<b>FÉ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-020",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Por que \"lâmpada\" tem acento?",
+  "resposta": "Porque todas as proparoxítonas são acentuadas.",
+  "explicacao": "LÂM-pa-da é proparoxítona, e aqui não tem exceção: <b>toda proparoxítona leva acento</b>.",
+  "alternativas": [
+   "Porque todas as proparoxítonas são acentuadas.",
+   "Porque tem som nasal.",
+   "Porque é oxítona.",
+   "Porque termina em -a."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-021",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>matemática</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "ma-te-<b>MÁ</b>-ti-ca: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-022",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>maracujá</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "ma-ra-cu-<b>JÁ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "proparoxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-023",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>fábula</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>FÁ</b>-bu-la: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "paroxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-024",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>feliz</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "fe-<b>LIZ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-025",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>jacaré</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "ja-ca-<b>RÉ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "proparoxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-026",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>urubu</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "u-ru-<b>BU</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-027",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>sábado</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>SÁ</b>-ba-do: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "paroxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-028",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>relâmpago</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "re-<b>LÂM</b>-pa-go: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-029",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>óculos</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>Ó</b>-cu-los: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-030",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>sofá</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "so-<b>FÁ</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-031",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>elefante</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "e-le-<b>FAN</b>-te: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-032",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>psicólogo</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "psi-<b>CÓ</b>-lo-go: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "paroxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-033",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>carro</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>CAR</b>-ro: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-034",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>caderno</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "ca-<b>DER</b>-no: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-035",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>história</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "his-<b>TÓ</b>-ria: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-036",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>ônibus</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>Ô</b>-ni-bus: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "paroxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-037",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>amor</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "a-<b>MOR</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-038",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>girassol</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "gi-ras-<b>SOL</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "proparoxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-039",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>pêssego</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>PÊS</b>-se-go: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-040",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>lâmpada</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>LÂM</b>-pa-da: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "paroxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-041",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>papel</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "pa-<b>PEL</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "paroxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-042",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>fácil</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>FÁ</b>-cil: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "oxítona",
+   "proparoxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-043",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>útil</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "<b>Ú</b>-til: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-044",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>música</b> é:",
+  "resposta": "proparoxítona",
+  "explicacao": "<b>MÚ</b>-si-ca: a sílaba forte é a antepenúltima → <b>proparoxítona</b>.",
+  "alternativas": [
+   "proparoxítona",
+   "oxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-045",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>também</b> é:",
+  "resposta": "oxítona",
+  "explicacao": "tam-<b>BÉM</b>: a sílaba forte é a última → <b>oxítona</b>.",
+  "alternativas": [
+   "oxítona",
+   "proparoxítona",
+   "paroxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-ton-046",
+  "topico": "p-ton",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quanto à sílaba tônica, a palavra <b>escola</b> é:",
+  "resposta": "paroxítona",
+  "explicacao": "es-<b>CO</b>-la: a sílaba forte é a penúltima → <b>paroxítona</b>.",
+  "alternativas": [
+   "paroxítona",
+   "proparoxítona",
+   "oxítona"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-001",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>caderno</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ca-der-no → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-002",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>carro</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "car-ro → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-003",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "pi-a-no",
+  "explicacao": "Aqui \"ia\" é hiato, cada vogal na sua: <b>pi-a-no</b>.",
+  "alternativas": [
+   "pi-a-no",
+   "p-ia-no",
+   "pi-an-o",
+   "pia-no"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-004",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "car-ro",
+  "explicacao": "<b>rr</b> sempre se separa: car-ro.",
+  "alternativas": [
+   "car-ro",
+   "ca-rro",
+   "c-arro",
+   "carr-o"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-005",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "guer-ra",
+  "explicacao": "<b>gu</b> fica junto e <b>rr</b> se separa: guer-ra.",
+  "alternativas": [
+   "guer-ra",
+   "g-uer-ra",
+   "gu-er-ra",
+   "gue-rra"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-006",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "pás-sa-ro",
+  "explicacao": "<b>ss</b> se separa: pás-sa-ro.",
+  "alternativas": [
+   "pás-sa-ro",
+   "pá-s-sa-ro",
+   "páss-a-ro",
+   "pá-ssa-ro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-007",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "ex-ce-ção",
+  "explicacao": "<b>xc</b> se separa: ex-ce-ção.",
+  "alternativas": [
+   "ex-ce-ção",
+   "exc-e-ção",
+   "ex-c-e-ção",
+   "e-xce-ção"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-008",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "fi-lho",
+  "explicacao": "<b>lh</b> é inseparável: fi-lho (igual ni-nho, chu-va).",
+  "alternativas": [
+   "fi-lho",
+   "fi-l-ho",
+   "fil-ho",
+   "f-ilho"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-009",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "nas-cer",
+  "explicacao": "<b>sc</b> se separa: nas-cer.",
+  "alternativas": [
+   "nas-cer",
+   "na-scer",
+   "nasc-er",
+   "n-as-cer"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-010",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>ônibus</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ô-ni-bus → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-011",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>borboleta</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "bor-bo-le-ta → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "dissílaba",
+   "monossílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-012",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>mar</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "mar → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "trissílaba",
+   "polissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-013",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>escola</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "es-co-la → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-014",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>elefante</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "e-le-fan-te → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "trissílaba",
+   "monossílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-015",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "quei-jo",
+  "explicacao": "<b>qu</b> não se separa e \"ei\" é ditongo (fica junto): quei-jo.",
+  "alternativas": [
+   "quei-jo",
+   "que-i-jo",
+   "qu-ei-jo",
+   "queij-o"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-016",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>pássaro</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "pás-sa-ro → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "polissílaba",
+   "monossílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-017",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual separação está correta?",
+  "resposta": "sa-ú-de",
+  "explicacao": "\"aú\" é hiato: cada vogal na sua sílaba → <b>sa-ú-de</b>.",
+  "alternativas": [
+   "sa-ú-de",
+   "s-aú-de",
+   "saú-de",
+   "sa-úde"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-018",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>amor</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "a-mor → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "trissílaba",
+   "monossílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-019",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>sol</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "sol → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "trissílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-020",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>maracujá</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "ma-ra-cu-já → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "monossílaba",
+   "trissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-021",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>pêssego</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "pês-se-go → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-022",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>pão</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "pão → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "dissílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-023",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>lâmpada</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "lâm-pa-da → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "monossílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-024",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>música</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "mú-si-ca → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "polissílaba",
+   "monossílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-025",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>também</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "tam-bém → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-026",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>passarinho</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "pas-sa-ri-nho → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "monossílaba",
+   "trissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-027",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>flor</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "flor → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "dissílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-028",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>psicólogo</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "psi-có-lo-go → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "dissílaba",
+   "monossílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-029",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>parabéns</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "pa-ra-béns → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-030",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>girassol</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "gi-ras-sol → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "polissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-031",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>café</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "ca-fé → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-032",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>táxi</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "tá-xi → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "trissílaba",
+   "monossílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-033",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>jovem</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "jo-vem → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-034",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>sofá</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "so-fá → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-035",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>computador</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "com-pu-ta-dor → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "trissílaba",
+   "monossílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-036",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>sábado</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "sá-ba-do → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "polissílaba",
+   "dissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-037",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>árvore</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ár-vo-re → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "polissílaba",
+   "monossílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-038",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>lápis</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "lá-pis → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-039",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>açúcar</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "a-çú-car → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-040",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>pé</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "pé → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "dissílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-041",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>óculos</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ó-cu-los → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-042",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>urubu</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "u-ru-bu → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-043",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>história</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "his-tó-ria → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-044",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>matemática</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "ma-te-má-ti-ca → 5 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "trissílaba",
+   "dissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-045",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>fácil</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "fá-cil → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "polissílaba",
+   "trissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-046",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>você</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "vo-cê → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "trissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-047",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>papel</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "pa-pel → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-048",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>janela</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ja-ne-la → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "polissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-049",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>médico</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "mé-di-co → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "polissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-050",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>fábula</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "fá-bu-la → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "monossílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-051",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>avenida</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "a-ve-ni-da → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "monossílaba",
+   "trissílaba",
+   "dissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-052",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>relâmpago</b>?",
+  "resposta": "polissílaba",
+  "explicacao": "re-lâm-pa-go → 4 sílabas → <b>polissílaba</b>.",
+  "alternativas": [
+   "polissílaba",
+   "dissílaba",
+   "trissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-053",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>céu</b>?",
+  "resposta": "monossílaba",
+  "explicacao": "céu → 1 sílaba → <b>monossílaba</b>.",
+  "alternativas": [
+   "monossílaba",
+   "trissílaba",
+   "dissílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-054",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>jacaré</b>?",
+  "resposta": "trissílaba",
+  "explicacao": "ja-ca-ré → 3 sílabas → <b>trissílaba</b>.",
+  "alternativas": [
+   "trissílaba",
+   "dissílaba",
+   "monossílaba",
+   "polissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-055",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>feliz</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "fe-liz → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "trissílaba",
+   "polissílaba",
+   "monossílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-056",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>útil</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "ú-til → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "monossílaba",
+   "polissílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-sil-057",
+  "topico": "p-sil",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quantas sílabas tem <b>mesa</b>?",
+  "resposta": "dissílaba",
+  "explicacao": "me-sa → 2 sílabas → <b>dissílaba</b>.",
+  "alternativas": [
+   "dissílaba",
+   "polissílaba",
+   "monossílaba",
+   "trissílaba"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-001",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase usa a vírgula corretamente?",
+  "resposta": "Comprei pão, leite, ovos e frutas.",
+  "explicacao": "A vírgula separa os <b>itens da lista</b>; antes do \"e\" final, normalmente não vai.",
+  "alternativas": [
+   "Comprei pão, leite, ovos e frutas.",
+   "Comprei pão, leite ovos e, frutas.",
+   "Comprei, pão leite ovos e frutas.",
+   "Comprei pão leite, ovos, e, frutas."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-002",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "As <b>aspas</b> em: A placa dizia \"Proibido pisar na grama\" servem para:",
+  "resposta": "reproduzir exatamente o que estava escrito",
+  "explicacao": "Aspas marcam <b>citação</b>: as palavras exatas de alguém.",
+  "alternativas": [
+   "reproduzir exatamente o que estava escrito",
+   "separar itens",
+   "mostrar surpresa",
+   "fazer uma pergunta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-003",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Você terminou a lição?\" é uma frase:",
+  "resposta": "interrogativa",
+  "explicacao": "Fez uma pergunta → <b>interrogativa</b>.",
+  "alternativas": [
+   "interrogativa",
+   "exclamativa",
+   "declarativa",
+   "imperativa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-004",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase é <b>declarativa</b>?",
+  "resposta": "O ônibus chegou atrasado.",
+  "explicacao": "Declarativa só <b>informa</b> e fecha com ponto final.",
+  "alternativas": [
+   "O ônibus chegou atrasado.",
+   "O ônibus chegou atrasado?",
+   "Que atraso!",
+   "Chegue cedo amanhã."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-005",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Que dia lindo!\" é uma frase:",
+  "resposta": "exclamativa",
+  "explicacao": "Emoção + ponto de exclamação → <b>exclamativa</b>.",
+  "alternativas": [
+   "exclamativa",
+   "declarativa",
+   "interrogativa",
+   "imperativa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-006",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Não sei... talvez amanhã\", as <b>reticências</b> indicam:",
+  "resposta": "hesitação ou dúvida",
+  "explicacao": "Reticências deixam o pensamento <b>no ar</b>... dúvida, hesitação ou interrupção.",
+  "alternativas": [
+   "hesitação ou dúvida",
+   "uma ordem",
+   "o fim da história",
+   "uma pergunta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-007",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Feche a porta, por favor.\" é uma frase:",
+  "resposta": "imperativa",
+  "explicacao": "Ordem ou pedido (\"Arruma o quarto!\") → <b>imperativa</b>.",
+  "alternativas": [
+   "imperativa",
+   "exclamativa",
+   "interrogativa",
+   "declarativa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-008",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase está pontuada corretamente?",
+  "resposta": "Mãe, posso sair?",
+  "explicacao": "\"Mãe\" é quem está sendo chamada: <b>vocativo</b>, e vem separado por vírgula.",
+  "alternativas": [
+   "Mãe, posso sair?",
+   "Mãe posso, sair?",
+   "Mãe, posso, sair?",
+   "Mãe posso sair?"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-009",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em um diálogo, o <b>travessão</b> (—) serve para:",
+  "resposta": "indicar a fala de um personagem",
+  "explicacao": "O travessão avisa: <b>um personagem começou a falar</b>.",
+  "alternativas": [
+   "indicar a fala de um personagem",
+   "terminar a frase",
+   "fazer uma pergunta",
+   "separar sílabas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pon-010",
+  "topico": "p-pon",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Os <b>dois-pontos</b> em \"Levei três coisas: lápis, borracha e régua\" anunciam:",
+  "resposta": "uma enumeração",
+  "explicacao": "Dois-pontos anunciam o que vem aí. Aqui, uma <b>lista</b>.",
+  "alternativas": [
+   "uma enumeração",
+   "uma emoção",
+   "o fim do texto",
+   "uma pergunta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-001",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"___ você faltou ontem?\"",
+  "resposta": "Por que",
+  "explicacao": "Começo de <b>pergunta</b> → <b>por que</b> (separado).",
+  "alternativas": [
+   "Por que",
+   "Por quê",
+   "Porque",
+   "Porquê"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-002",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Ninguém sabe o ___ da briga.\"",
+  "resposta": "porquê",
+  "explicacao": "\"O porquê\" = <b>o motivo</b>. Vem com artigo, junto e com acento.",
+  "alternativas": [
+   "porquê",
+   "por que",
+   "por quê",
+   "porque"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-003",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"O lobo ___ assustou a vovó.\"",
+  "resposta": "mau",
+  "explicacao": "Oposto de \"bom\" (lobo bom × lobo mau) → <b>mau</b>.",
+  "alternativas": [
+   "mau",
+   "mão",
+   "mais",
+   "mal"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-004",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"___ você vai no sábado?\"",
+  "resposta": "Aonde",
+  "explicacao": "Verbo de movimento, \"ir <b>a</b>\" algum lugar → <b>aonde</b>.",
+  "alternativas": [
+   "Aonde",
+   "Onde",
+   "Hà onde",
+   "Donde"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-005",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Daqui ___ dois dias é meu aniversário.\"",
+  "resposta": "a",
+  "explicacao": "Tempo que <b>ainda vai chegar</b> → <b>a</b>, tipo \"daqui a pouco\".",
+  "alternativas": [
+   "a",
+   "há",
+   "ah",
+   "à"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-006",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Dormi ___ esta noite.\"",
+  "resposta": "mal",
+  "explicacao": "Oposto de \"bem\" (dormi bem × dormi mal) → <b>mal</b>.",
+  "alternativas": [
+   "mal",
+   "mau",
+   "mais",
+   "mas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-007",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Moro nesta cidade ___ dez anos.\"",
+  "resposta": "há",
+  "explicacao": "Tempo que já passou (dá pra trocar por \"faz\": faz dez anos) → <b>há</b>.",
+  "alternativas": [
+   "há",
+   "a",
+   "à",
+   "á"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-008",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Você saiu mais cedo por ___?\"",
+  "resposta": "quê",
+  "explicacao": "No <b>fim</b> da pergunta, o \"que\" ganha chapéu: por <b>quê</b>?",
+  "alternativas": [
+   "quê",
+   "porque",
+   "que",
+   "porquê"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-009",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quero ___ sorvete, por favor.\"",
+  "resposta": "mais",
+  "explicacao": "Fala de quantidade, o contrário de \"menos\" → <b>mais</b>.",
+  "alternativas": [
+   "mais",
+   "maz",
+   "más",
+   "mas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-010",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"___ você mora?\"",
+  "resposta": "Onde",
+  "explicacao": "Lugar onde algo está (quem mora, mora <i>em</i>) → <b>onde</b>.",
+  "alternativas": [
+   "Onde",
+   "Aonde",
+   "Adonde",
+   "Donde"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-011",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Estudei muito, ___ não fui bem na prova.\"",
+  "resposta": "mas",
+  "explicacao": "Se dá pra trocar por \"porém\", é <b>mas</b>.",
+  "alternativas": [
+   "mas",
+   "más",
+   "mais",
+   "mais que"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conf-012",
+  "topico": "p-conf",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Ele não veio ___ estava doente.\"",
+  "resposta": "porque",
+  "explicacao": "É explicação ou resposta → <b>porque</b> (junto, sem acento).",
+  "alternativas": [
+   "porque",
+   "por quê",
+   "por que",
+   "porquê"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-001",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"— Vamos embora! — gritou João.\" Isso é um exemplo de:",
+  "resposta": "discurso direto",
+  "explicacao": "A fala aparece <b>exatamente como foi dita</b>, com travessão → discurso direto. No indireto ficaria: João gritou que era para irem embora.",
+  "alternativas": [
+   "discurso direto",
+   "narrador observador",
+   "moral",
+   "discurso indireto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-002",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O <b>clímax</b> de uma narrativa é:",
+  "resposta": "o momento de maior tensão",
+  "explicacao": "É o <b>ponto alto</b>: o momento mais tenso, logo antes do desfecho. Tipo o penúltimo episódio da série.",
+  "alternativas": [
+   "o momento de maior tensão",
+   "o começo da história",
+   "o título",
+   "a apresentação dos personagens"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-003",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Um texto com <b>ingredientes e modo de preparo</b> é:",
+  "resposta": "uma receita (texto instrucional)",
+  "explicacao": "Ensina a fazer algo passo a passo (receita, tutorial) → <b>texto instrucional</b>.",
+  "alternativas": [
+   "uma receita (texto instrucional)",
+   "uma carta",
+   "uma fábula",
+   "uma crônica"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-004",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O lugar onde a história acontece é chamado de:",
+  "resposta": "espaço",
+  "explicacao": "Onde a história rola = <b>espaço</b>. Quando = tempo. O que acontece = enredo.",
+  "alternativas": [
+   "espaço",
+   "enredo",
+   "clímax",
+   "tempo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-005",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A <b>fábula</b> costuma terminar com:",
+  "resposta": "uma moral",
+  "explicacao": "Fábula sempre fecha com uma lição: a <b>moral da história</b>.",
+  "alternativas": [
+   "uma moral",
+   "uma notícia",
+   "um sumário",
+   "uma receita"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-006",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Ela abriu a porta devagar e olhou para os lados.\" O narrador é:",
+  "resposta": "de 3ª pessoa (observador)",
+  "explicacao": "Conta o que <b>ela</b> fez, de fora da história → <b>3ª pessoa</b>.",
+  "alternativas": [
+   "de 3ª pessoa (observador)",
+   "de 1ª pessoa (narrador-personagem)",
+   "o leitor",
+   "o protagonista"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-007",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A parte da narrativa em que o problema é resolvido é o:",
+  "resposta": "desfecho",
+  "explicacao": "Desfecho = <b>final</b>, quando o conflito se resolve.",
+  "alternativas": [
+   "desfecho",
+   "espaço",
+   "conflito",
+   "clímax"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-008",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Eu acordei assustada e corri até a janela.\" O narrador é:",
+  "resposta": "de 1ª pessoa (narrador-personagem)",
+  "explicacao": "O narrador diz \"eu\" e está dentro da história → <b>1ª pessoa</b>.",
+  "alternativas": [
+   "de 1ª pessoa (narrador-personagem)",
+   "de 3ª pessoa (observador)",
+   "um vocativo",
+   "o autor do livro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-009",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Nas fábulas, os personagens costumam ser:",
+  "resposta": "animais que agem como pessoas",
+  "explicacao": "Na fábula, <b>animais</b> falam e agem como gente (cigarra e formiga, raposa e uvas).",
+  "alternativas": [
+   "animais que agem como pessoas",
+   "pessoas reais famosas",
+   "objetos sem vida própria",
+   "cientistas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-010",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O personagem principal de uma história é o:",
+  "resposta": "protagonista",
+  "explicacao": "Personagem principal = <b>protagonista</b>. Quem se opõe a ele = antagonista.",
+  "alternativas": [
+   "protagonista",
+   "narrador-observador",
+   "antagonista",
+   "figurante"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-nar-011",
+  "topico": "p-nar",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual gênero informa fatos <b>reais e recentes</b>?",
+  "resposta": "notícia",
+  "explicacao": "A <b>notícia</b> conta fatos reais e responde: o quê, quem, quando, onde, como e por quê.",
+  "alternativas": [
+   "notícia",
+   "fábula",
+   "conto de fadas",
+   "poema"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-001",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual trecho mostra um elemento <b>fantástico</b> (sobrenatural) de uma novela de cavalaria?",
+  "resposta": "Uma fada que mora no fundo de um lago entrega uma espada mágica ao rei.",
+  "explicacao": "Fada e espada mágica não existem no mundo real → <b>fantástico</b>. As outras opções poderiam ter acontecido de verdade na Idade Média: são elementos históricos.",
+  "alternativas": [
+   "Uma fada que mora no fundo de um lago entrega uma espada mágica ao rei.",
+   "Os soldados defenderam o castelo durante o inverno.",
+   "Com a morte do rei, o reino ficou sem governante.",
+   "O cavaleiro se casou com a filha de um nobre."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-002",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O <b>Santo Graal</b>, que os cavaleiros procuravam, era:",
+  "resposta": "a taça usada por Cristo na Última Ceia",
+  "explicacao": "Santo Graal = <b>a taça da Última Ceia</b>. A espada é a Excalibur; o castelo, Camelot; a mesa, a Távola Redonda.",
+  "alternativas": [
+   "a taça usada por Cristo na Última Ceia",
+   "o castelo onde ficava a corte",
+   "a mesa redonda dos cavaleiros",
+   "a espada mágica de Artur"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-003",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual trecho traz um elemento <b>histórico</b> (poderia ter acontecido de verdade)?",
+  "resposta": "Depois da morte do rei, vários nobres disputaram o trono.",
+  "explicacao": "Disputa pelo trono é coisa que aconteceu muito na Idade Média → <b>histórico</b>. Dragão, feitiço e espada que escolhe o rei são fantasia.",
+  "alternativas": [
+   "Depois da morte do rei, vários nobres disputaram o trono.",
+   "O mago transformou o cavaleiro em pedra.",
+   "Um dragão guardava o tesouro na montanha.",
+   "A espada só saía da rocha para o rei verdadeiro."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-004",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Na lenda, como Artur mostrou que era o rei legítimo?",
+  "resposta": "Tirou uma espada cravada numa rocha, o que ninguém tinha conseguido",
+  "explicacao": "Merlin prendeu uma espada na rocha: quem a tirasse seria o rei. Muitos tentaram, só <b>Artur</b> conseguiu.",
+  "alternativas": [
+   "Tirou uma espada cravada numa rocha, o que ninguém tinha conseguido",
+   "Encontrou o Santo Graal",
+   "Casou-se com Guinevere",
+   "Venceu um dragão numa luta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-005",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Com raiva, um cavaleiro quis se vingar na hora, mas parou, pensou e resolveu conversar. Isso mostra a regra:",
+  "resposta": "Não se deixar levar pela ira, colocando a razão acima da emoção",
+  "explicacao": "Segurou a raiva e pensou antes de agir → <b>razão acima da emoção</b>.",
+  "alternativas": [
+   "Não se deixar levar pela ira, colocando a razão acima da emoção",
+   "Sempre defender os mais fracos",
+   "Não abandonar a batalha",
+   "Jamais mentir"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-006",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Na Idade Média, os <b>cavaleiros negros</b> eram:",
+  "resposta": "cavaleiros que traíam o código de honra e lutavam por dinheiro para reinos inimigos",
+  "explicacao": "Não tem nada a ver com a cor da armadura: eram <b>traidores que viravam mercenários</b> (lutavam por dinheiro) contra o próprio reino.",
+  "alternativas": [
+   "cavaleiros que traíam o código de honra e lutavam por dinheiro para reinos inimigos",
+   "cavaleiros que usavam armadura preta por tradição",
+   "os cavaleiros que encontraram o Santo Graal",
+   "os guardas pessoais do Rei Artur"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-007",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Os cavaleiros lutam contra dragões e invasores para proteger o reino. Qual regra do código combina melhor com isso?",
+  "resposta": "Defender, se necessário até a morte, a fé cristã e o reino onde vive",
+  "explicacao": "Proteger o reino contra ameaças, arriscando a vida → <b>defender a fé e o reino até a morte</b>. Foi exatamente essa a resposta esperada no simulado para a frase dos dragões, gigantes e cavaleiros negros.",
+  "alternativas": [
+   "Defender, se necessário até a morte, a fé cristã e o reino onde vive",
+   "Não buscar vantagens pessoais",
+   "Não se deixar levar pela ira",
+   "Jamais mentir"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-008",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "As novelas de cavalaria surgiram em qual período?",
+  "resposta": "Idade Média",
+  "explicacao": "Época dos castelos, reis e cavaleiros: <b>Idade Média</b>.",
+  "alternativas": [
+   "Idade Média",
+   "Grécia Antiga",
+   "Pré-História",
+   "Século XXI"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-009",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Quem entregou a espada <b>Excalibur</b> a Artur?",
+  "resposta": "A Dama (Senhora) do Lago",
+  "explicacao": "Uma mão misteriosa saiu das águas de um lago: era a <b>Dama do Lago</b>. É um dos elementos mais claramente fantásticos da lenda.",
+  "alternativas": [
+   "A Dama (Senhora) do Lago",
+   "Merlin, que a forjou numa caverna",
+   "O rei Uther Pendragon, antes de morrer",
+   "Guinevere, no dia do casamento"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-010",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Os cavaleiros protegem uma aldeia de camponeses contra saqueadores. Que regra do código aparece aí?",
+  "resposta": "Sempre defender os mais fracos",
+  "explicacao": "Camponeses indefesos = os mais fracos. Regra: <b>sempre defender os mais fracos</b>.",
+  "alternativas": [
+   "Sempre defender os mais fracos",
+   "Não abandonar a batalha sem ordem do comandante",
+   "Jamais mentir",
+   "Não se deixar levar pela ira"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-011",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Um cavaleiro vê o inimigo caído e sem espada e decide <b>não</b> atacá-lo. Qual regra do código de honra ele segue?",
+  "resposta": "Jamais atacar um inimigo pelas costas, ferido ou desarmado",
+  "explicacao": "Inimigo desarmado não se ataca: seria covardia. Regra: <b>nunca atacar pelas costas, ferido ou desarmado</b>.",
+  "alternativas": [
+   "Jamais atacar um inimigo pelas costas, ferido ou desarmado",
+   "Não buscar fama nem riqueza",
+   "Jamais mentir",
+   "Jamais abandonar a batalha sem autorização"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-012",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Um cavaleiro recusou um baú de ouro oferecido para trair o rei. Que regra ele seguiu?",
+  "resposta": "Não usar sua condição para obter vantagens pessoais, como fama e riqueza",
+  "explicacao": "Recusou riqueza e ficou fiel à cavalaria → <b>não buscar vantagens pessoais</b>. Se aceitasse, viraria um \"cavaleiro negro\".",
+  "alternativas": [
+   "Não usar sua condição para obter vantagens pessoais, como fama e riqueza",
+   "Não abandonar a batalha",
+   "Não atacar inimigo desarmado",
+   "Sempre defender os mais fracos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-cav-013",
+  "topico": "p-cav",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Dizer que a novela de cavalaria tem estrutura <b>episódica</b> significa que:",
+  "resposta": "cada episódio narra uma aventura completa, e o que liga os episódios são os personagens",
+  "explicacao": "Cada episódio tem <b>seu próprio desfecho</b>. O ponto em comum é a presença dos mesmos personagens, como nas histórias da mitologia. Por isso dá para ler fora de ordem.",
+  "alternativas": [
+   "cada episódio narra uma aventura completa, e o que liga os episódios são os personagens",
+   "não há aventuras, só a descrição da rotina dos cavaleiros",
+   "cada capítulo termina em suspense, como novela de TV",
+   "a história só faz sentido lida do começo ao fim, em ordem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-001",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Meninas são mais organizadas que meninos.\" O presente expressa:",
+  "resposta": "generalização",
+  "explicacao": "Parece verdade absoluta, mas é só opinião: tem menina bagunceira e menino organizado → <b>generalização</b>.",
+  "alternativas": [
+   "generalização",
+   "fato científico",
+   "ação habitual",
+   "futuro próximo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-002",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase é uma <b>generalização</b> (e não um fato científico)?",
+  "resposta": "Todo mundo odeia segunda-feira.",
+  "explicacao": "Dá pra discordar (\"eu não odeio!\") → <b>generalização</b>. As outras são comprovadas pela ciência.",
+  "alternativas": [
+   "Todo mundo odeia segunda-feira.",
+   "O gelo derrete com o calor.",
+   "A Lua gira em torno da Terra.",
+   "O coração humano tem quatro cavidades."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-003",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Em 1969, o homem pisa na Lua pela primeira vez.\" O presente expressa:",
+  "resposta": "passado revivido (presente histórico)",
+  "explicacao": "Aconteceu em 1969 (passado), mas foi contado no presente → <b>presente histórico</b>. Cuidado: ser verdade não faz virar fato científico!",
+  "alternativas": [
+   "passado revivido (presente histórico)",
+   "futuro próximo",
+   "ação habitual",
+   "fato científico"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-004",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Minha avó toma café às seis da manhã, todos os dias.\" O presente expressa:",
+  "resposta": "ação habitual",
+  "explicacao": "Descreve a <b>rotina</b> de uma pessoa → ação habitual.",
+  "alternativas": [
+   "ação habitual",
+   "generalização",
+   "fato científico",
+   "futuro próximo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-005",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "— Você está me ouvindo? — perguntou a professora ao aluno distraído. O presente expressa:",
+  "resposta": "ação simultânea à fala",
+  "explicacao": "A pergunta é sobre o que acontece <b>no exato momento</b> em que ela fala → simultâneo à enunciação.",
+  "alternativas": [
+   "ação simultânea à fala",
+   "generalização",
+   "futuro próximo",
+   "ação habitual"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-006",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Sábado que vem a gente viaja para a praia.\" O presente expressa:",
+  "resposta": "futuro próximo",
+  "explicacao": "\"Sábado que vem\" = futuro. O verbo está no presente, mas indica algo que ainda vai acontecer → <b>futuro próximo</b>.",
+  "alternativas": [
+   "futuro próximo",
+   "ação habitual",
+   "generalização",
+   "passado revivido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-007",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Na semana que vem começam as provas.\" O presente expressa:",
+  "resposta": "futuro próximo",
+  "explicacao": "\"Semana que vem\" é futuro → <b>futuro próximo</b>.",
+  "alternativas": [
+   "futuro próximo",
+   "ação simultânea à fala",
+   "passado revivido",
+   "ação habitual"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-008",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"A água ferve a 100 °C ao nível do mar.\" O presente expressa:",
+  "resposta": "fato científico",
+  "explicacao": "Verdade comprovada em laboratório → <b>fato científico</b>.",
+  "alternativas": [
+   "fato científico",
+   "ação simultânea à fala",
+   "generalização",
+   "passado revivido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-009",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Todo carioca adora praia.\" O presente expressa:",
+  "resposta": "generalização",
+  "explicacao": "É opinião apresentada como se fosse verdade absoluta, e tem muita exceção → <b>generalização</b>.",
+  "alternativas": [
+   "generalização",
+   "fato científico",
+   "ação habitual",
+   "ação simultânea à fala"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-010",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"A Terra gira em torno do Sol.\" O presente expressa:",
+  "resposta": "fato científico",
+  "explicacao": "É uma verdade comprovada pela ciência, ninguém discorda com razão → <b>fato científico</b>.",
+  "alternativas": [
+   "fato científico",
+   "passado revivido",
+   "generalização",
+   "ação habitual"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-011",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"O ônibus da escola passa na minha rua às 6h40.\" O presente expressa:",
+  "resposta": "ação habitual",
+  "explicacao": "Rotina de uma máquina/serviço também conta → <b>habitual</b> (igual ao semáforo que troca de cor a cada 30 segundos).",
+  "alternativas": [
+   "ação habitual",
+   "generalização",
+   "fato científico",
+   "futuro próximo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-012",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase expressa <b>ação habitual</b>?",
+  "resposta": "Meu pai corre no parque todo domingo.",
+  "explicacao": "\"Todo domingo\" = <b>rotina</b> de uma pessoa específica → habitual. A primeira errada é generalização; a segunda, futuro próximo; a terceira, presente histórico.",
+  "alternativas": [
+   "Meu pai corre no parque todo domingo.",
+   "Todo brasileiro gosta de futebol.",
+   "Amanhã meu pai corre a maratona.",
+   "Em 2016, o Brasil sedia a Olimpíada."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pres-013",
+  "topico": "p-pres",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Em 1822, Dom Pedro proclama a independência do Brasil.\" O presente expressa:",
+  "resposta": "passado revivido (presente histórico)",
+  "explicacao": "A data mostra que é passado, mas o verbo está no presente pra dar vida à cena → <b>presente histórico</b>.",
+  "alternativas": [
+   "passado revivido (presente histórico)",
+   "futuro próximo",
+   "fato científico",
+   "ação habitual"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-001",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase está no modo <b>imperativo</b>?",
+  "resposta": "Não corra no corredor!",
+  "explicacao": "Proibição/ordem → <b>imperativo</b>. \"Talvez\" e \"se\" pedem subjuntivo; \"corri\" é indicativo.",
+  "alternativas": [
+   "Não corra no corredor!",
+   "Se eu corresse, chegaria antes.",
+   "Talvez eu corra amanhã.",
+   "Eu corri no corredor."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-002",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase está no modo <b>subjuntivo</b>?",
+  "resposta": "Espero que você venha à festa.",
+  "explicacao": "\"Espero que você venha\" = <b>desejo</b> → subjuntivo. \"Veio\" e \"virá\" são fatos (indicativo); \"Venha!\" é convite/ordem (imperativo).",
+  "alternativas": [
+   "Espero que você venha à festa.",
+   "Você virá à festa.",
+   "Venha à festa!",
+   "Você veio à festa."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-003",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Em 1500, a esquadra de Cabral <b>chega</b> ao litoral da Bahia.\" O verbo indica:",
+  "resposta": "fato passado indicado por verbo no presente",
+  "explicacao": "1500 é passado, mas o verbo está no presente → <b>presente histórico</b>.",
+  "alternativas": [
+   "fato passado indicado por verbo no presente",
+   "fato mais antigo que outro fato passado",
+   "fato futuro indicado por verbo no presente",
+   "ação que era rotina no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-004",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quando a polícia chegou, o ladrão já <b>fugira</b>.\" O verbo indica:",
+  "resposta": "fato mais antigo que outro fato passado (mais-que-perfeito)",
+  "explicacao": "Primeiro o ladrão fugiu, depois a polícia chegou: a fuga é <b>mais antiga</b> que outro fato passado → mais-que-perfeito.",
+  "alternativas": [
+   "fato mais antigo que outro fato passado (mais-que-perfeito)",
+   "fato que vai acontecer",
+   "fato do passado indicado pelo presente",
+   "ação que era rotina no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-005",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Ontem à noite, <b>houve</b> um apagão no bairro.\" O verbo indica:",
+  "resposta": "fato que aconteceu uma vez no passado (pretérito perfeito)",
+  "explicacao": "Aconteceu ontem, uma vez, e acabou → <b>pretérito perfeito</b>.",
+  "alternativas": [
+   "fato que aconteceu uma vez no passado (pretérito perfeito)",
+   "fato futuro indicado pelo presente",
+   "fato mais antigo que outro fato passado",
+   "ação que era rotina no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-006",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Nas férias, eu <b>brincava</b> na casa da minha avó todas as tardes.\" O verbo indica:",
+  "resposta": "ação que era rotina no passado (pretérito imperfeito)",
+  "explicacao": "\"Todas as tardes\" = costume, rotina no passado → <b>imperfeito</b>.",
+  "alternativas": [
+   "ação que era rotina no passado (pretérito imperfeito)",
+   "fato que aconteceu uma vez só (pretérito perfeito)",
+   "fato futuro indicado pelo presente",
+   "fato anterior a outro fato passado (mais-que-perfeito)"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-007",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Ele já <b>saíra</b> quando o telefone tocou.\" A forma \"saíra\" equivale a:",
+  "resposta": "tinha saído",
+  "explicacao": "Mais-que-perfeito simples (-ra) = <b>tinha + particípio</b>: saíra = <b>tinha saído</b>.",
+  "alternativas": [
+   "tinha saído",
+   "saiu",
+   "sairia",
+   "sairá"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-008",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"<b>Estude</b> para a prova!\" O verbo está no modo:",
+  "resposta": "imperativo",
+  "explicacao": "É uma <b>ordem/conselho</b> → imperativo.",
+  "alternativas": [
+   "imperativo",
+   "subjuntivo",
+   "particípio",
+   "indicativo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-009",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O modo <b>indicativo</b> expressa:",
+  "resposta": "fatos tidos como certos: que aconteceram, acontecem ou vão acontecer",
+  "explicacao": "Indicativo = <b>certeza</b>. Subjuntivo = hipótese/dúvida/desejo. Imperativo = ordem/pedido/conselho.",
+  "alternativas": [
+   "fatos tidos como certos: que aconteceram, acontecem ou vão acontecer",
+   "ordens, pedidos e conselhos",
+   "apenas ações que acontecem agora",
+   "hipóteses, dúvidas e desejos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-010",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Após a faculdade, <b>moro</b> em Portugal: esse é o plano.\" O verbo indica:",
+  "resposta": "fato futuro indicado por verbo no presente",
+  "explicacao": "\"Após a faculdade\" + \"plano\" = futuro. Mas o verbo está no presente → <b>futuro indicado pelo presente</b>.",
+  "alternativas": [
+   "fato futuro indicado por verbo no presente",
+   "ação que era rotina no passado",
+   "fato passado indicado por verbo no presente",
+   "fato que aconteceu uma vez no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-011",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se eu <b>tivesse</b> tempo, iria ao cinema.\" O verbo destacado está no modo:",
+  "resposta": "subjuntivo",
+  "explicacao": "\"Se eu tivesse\" = <b>hipótese</b> (não tenho tempo de verdade) → subjuntivo.",
+  "alternativas": [
+   "subjuntivo",
+   "imperativo",
+   "indicativo",
+   "infinitivo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-pret-012",
+  "topico": "p-pret",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Em outubro houve uma palestra, a mesma que já <b>fora</b> dada no mês anterior.\" \"Fora\" indica:",
+  "resposta": "fato mais antigo que outro fato do passado",
+  "explicacao": "A palestra de setembro é <b>anterior</b> à de outubro, que também é passado → mais-que-perfeito (fora = tinha sido).",
+  "alternativas": [
+   "fato mais antigo que outro fato do passado",
+   "fato que aconteceu apenas uma vez",
+   "fato futuro",
+   "ação que virou rotina no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-001",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra está no <b>infinitivo</b>?",
+  "resposta": "partir",
+  "explicacao": "Infinitivo é o \"nome\" do verbo, termina em <b>-r</b>: partir.",
+  "alternativas": [
+   "partir",
+   "partindo",
+   "partido",
+   "parti"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-002",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"5 novidades para <b>deixar</b> você de boca aberta.\" Por que o infinitivo?",
+  "resposta": "Porque indica a ação em si, que pode acontecer a qualquer momento",
+  "explicacao": "O infinitivo não se prende a passado, presente nem futuro: o chocolate pode deixar você de boca aberta <b>a qualquer momento</b>.",
+  "alternativas": [
+   "Porque indica a ação em si, que pode acontecer a qualquer momento",
+   "Porque a ação já terminou",
+   "Porque é uma ordem",
+   "Porque a ação está acontecendo agora"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-003",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"A menina tinha <b>quebrado</b> o vaso\", a palavra destacada é:",
+  "resposta": "o verbo principal, no particípio",
+  "explicacao": "Tinha = auxiliar; <b>quebrado</b> = principal, no particípio (ação concluída).",
+  "alternativas": [
+   "o verbo principal, no particípio",
+   "o verbo auxiliar, no particípio",
+   "o verbo principal, no gerúndio",
+   "o verbo auxiliar, no infinitivo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-004",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O <b>gerúndio</b> geralmente indica:",
+  "resposta": "uma ação em andamento, contínua",
+  "explicacao": "Gerúndio = <b>acontecendo</b>. Por isso \"Tá chovendo hambúrguer\": a chuva não é de um instante só, dura o filme todo.",
+  "alternativas": [
+   "uma ação em andamento, contínua",
+   "a ação em si, sem indicar tempo",
+   "uma ordem",
+   "uma ação já terminada"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-005",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Por que um livro se chamaria <b>\"Aprendendo tudo\"</b>, no gerúndio?",
+  "resposta": "Porque aprender é um processo que continua em andamento",
+  "explicacao": "Quem lê ainda está aprendendo: o processo <b>não acabou</b>, segue em andamento → gerúndio.",
+  "alternativas": [
+   "Porque aprender é um processo que continua em andamento",
+   "Porque o gerúndio indica passado",
+   "Porque o aprendizado já terminou",
+   "Porque é uma ordem para o leitor"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-006",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O <b>particípio</b> geralmente indica:",
+  "resposta": "uma ação já concluída",
+  "explicacao": "Particípio = <b>já aconteceu</b>. \"A bola tinha furado\": o furo já estava lá.",
+  "alternativas": [
+   "uma ação já concluída",
+   "uma dúvida",
+   "uma ação em andamento",
+   "a ação em si, sem indicar tempo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-007",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra está no <b>particípio</b>?",
+  "resposta": "vendido",
+  "explicacao": "Particípio termina em <b>-ado/-ido</b>: vendido.",
+  "alternativas": [
+   "vendido",
+   "vendeu",
+   "vender",
+   "vendendo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-008",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Já <b>havia chovido</b> quando saímos.\" A forma nominal indica que a chuva:",
+  "resposta": "já tinha terminado",
+  "explicacao": "Chovido = particípio = <b>ação concluída</b>.",
+  "alternativas": [
+   "já tinha terminado",
+   "ainda estava acontecendo",
+   "acontecia todo dia",
+   "ia acontecer depois"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-009",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Numa locução verbal, qual verbo muda para concordar com o sujeito?",
+  "resposta": "o verbo auxiliar",
+  "explicacao": "\"Está chovendo hambúrguer\" → \"<b>Estão</b> chovendo hambúrgueres\". Só o auxiliar mudou.",
+  "alternativas": [
+   "o verbo auxiliar",
+   "os dois verbos",
+   "o verbo principal",
+   "nenhum dos dois"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-010",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Os alunos <b>estão estudando</b>\", qual é o verbo auxiliar?",
+  "resposta": "estão",
+  "explicacao": "O auxiliar é o que \"ajuda\" e concorda com o sujeito: <b>estão</b>. O principal (estudando) é quem traz o sentido.",
+  "alternativas": [
+   "estão",
+   "estudando",
+   "alunos",
+   "estão estudando"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-011",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra está no <b>gerúndio</b>?",
+  "resposta": "correndo",
+  "explicacao": "Gerúndio termina em <b>-ndo</b>: correndo. Correr = infinitivo; corrido = particípio; corri = verbo conjugado.",
+  "alternativas": [
+   "correndo",
+   "corri",
+   "correr",
+   "corrido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-locvn-012",
+  "topico": "p-locvn",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em qual frase há uma <b>locução verbal</b>?",
+  "resposta": "Nós vamos viajar amanhã.",
+  "explicacao": "\"Vamos viajar\" = auxiliar (vamos) + principal no infinitivo (viajar) → <b>locução verbal</b>.",
+  "alternativas": [
+   "Nós vamos viajar amanhã.",
+   "Nós viajamos ontem.",
+   "A viagem foi longa.",
+   "Viajar é ótimo."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-001",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"A professora <b>parece</b> cansada\", o verbo expressa:",
+  "resposta": "estado ou qualidade",
+  "explicacao": "Parecer não é fazer nada: liga a professora a uma qualidade (cansada) → <b>estado</b>.",
+  "alternativas": [
+   "estado ou qualidade",
+   "fenômeno da natureza",
+   "ação",
+   "ordem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-002",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Ontem <b>trovejou</b> a noite toda\", o verbo expressa:",
+  "resposta": "fenômeno da natureza",
+  "explicacao": "Trovejar é coisa que só a natureza faz → <b>fenômeno da natureza</b>.",
+  "alternativas": [
+   "fenômeno da natureza",
+   "ação",
+   "qualidade",
+   "estado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-003",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual verbo expressa um <b>fenômeno da natureza</b>?",
+  "resposta": "nevar",
+  "explicacao": "Só a natureza neva → <b>nevar</b>. Soprar é ação (pegadinha!).",
+  "alternativas": [
+   "nevar",
+   "parecer",
+   "soprar",
+   "correr"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-004",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"O vento <b>sopra</b> forte\", por que \"sopra\" é verbo de <b>ação</b> e não fenômeno da natureza?",
+  "resposta": "Porque pessoas, animais e máquinas também sopram",
+  "explicacao": "Fenômeno é o que só a natureza faz. <b>Soprar</b> qualquer um faz (a criança sopra a vela) → ação.",
+  "alternativas": [
+   "Porque pessoas, animais e máquinas também sopram",
+   "Porque está no presente",
+   "Porque todo verbo é de ação",
+   "Porque o vento é um substantivo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-005",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual verbo expressa <b>estado</b>?",
+  "resposta": "permanecer",
+  "explicacao": "Permanecer (continuar do mesmo jeito) → <b>estado</b>. Ventar é fenômeno; pular e escrever, ação.",
+  "alternativas": [
+   "permanecer",
+   "pular",
+   "escrever",
+   "ventar"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-006",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"O goleiro <b>chutou</b> a bola\", o verbo expressa:",
+  "resposta": "ação",
+  "explicacao": "Chutar é algo que alguém faz → <b>ação</b>.",
+  "alternativas": [
+   "ação",
+   "estado",
+   "fenômeno da natureza",
+   "qualidade"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-007",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"A <b>leitura</b> do livro levou uma semana\", a palavra destacada é:",
+  "resposta": "um substantivo que expressa uma ação",
+  "explicacao": "\"A leitura\" = ação de ler, mas em forma de <b>substantivo</b>.",
+  "alternativas": [
+   "um substantivo que expressa uma ação",
+   "um adjetivo que expressa uma ação",
+   "um verbo de estado",
+   "um verbo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-008",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"<b>Amanhece</b> mais cedo no verão\", o verbo expressa:",
+  "resposta": "fenômeno da natureza",
+  "explicacao": "O dia clarear é coisa da natureza → <b>fenômeno</b>.",
+  "alternativas": [
+   "fenômeno da natureza",
+   "qualidade",
+   "ação",
+   "estado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-009",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"<b>Choveram</b> reclamações no site da loja\", o verbo expressa:",
+  "resposta": "ação, em sentido figurado",
+  "explicacao": "Não é chuva de água: as reclamações \"caíram\" em grande quantidade → sentido figurado, <b>ação</b>. Mesmo caso de \"Tá chovendo hambúrguer\".",
+  "alternativas": [
+   "ação, em sentido figurado",
+   "estado",
+   "fenômeno da natureza",
+   "qualidade"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-010",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Meu irmão <b>ficou</b> nervoso\", o verbo expressa:",
+  "resposta": "estado",
+  "explicacao": "\"Ficou nervoso\" = mudou de <b>estado</b>. Ninguém \"faz\" ficar.",
+  "alternativas": [
+   "estado",
+   "nenhuma dessas",
+   "ação",
+   "fenômeno da natureza"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-011",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Agosto é o mês mais <b>ventilado</b> do ano\", a palavra destacada é:",
+  "resposta": "um adjetivo que expressa uma ação",
+  "explicacao": "Caracteriza o mês (adjetivo) e carrega a ação de ventilar → <b>adjetivo que expressa ação</b>. No mesmo período, \"<b>é</b>\" seria verbo de estado.",
+  "alternativas": [
+   "um adjetivo que expressa uma ação",
+   "um verbo de fenômeno da natureza",
+   "um substantivo que expressa uma ação",
+   "um verbo de estado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-012",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Comprei um celular <b>quebrado</b> sem saber\", a palavra destacada é:",
+  "resposta": "um adjetivo que expressa uma ação",
+  "explicacao": "\"Quebrado\" caracteriza o celular (adjetivo) e carrega a ação de quebrar → <b>adjetivo que expressa ação</b>.",
+  "alternativas": [
+   "um adjetivo que expressa uma ação",
+   "um substantivo que expressa uma ação",
+   "um verbo de fenômeno",
+   "um verbo que expressa uma ação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-conc-013",
+  "topico": "p-conc",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"A <b>chegada</b> do ônibus atrasou\", a palavra destacada é:",
+  "resposta": "um substantivo que expressa uma ação",
+  "explicacao": "\"A chegada\" tem artigo na frente: é <b>substantivo</b>, mas expressa a ação de chegar.",
+  "alternativas": [
+   "um substantivo que expressa uma ação",
+   "um verbo que expressa uma ação",
+   "um adjetivo que expressa uma ação",
+   "um verbo de estado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-001",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A frase de Whitman com um verbo no <b>pretérito imperfeito do subjuntivo</b> fica:",
+  "resposta": "Haveria grandes poetas, se houvesse também um grande público.",
+  "explicacao": "Haver: eles <b>houveram</b> − ram = houve- + <b>sse</b> = <b>houvesse</b>. \"Houver\" é futuro do subjuntivo; \"haver\" é infinitivo; \"houve\" é pretérito perfeito do indicativo; \"havendo\" é gerúndio.",
+  "alternativas": [
+   "Haveria grandes poetas, se houvesse também um grande público.",
+   "Haverá grandes poetas, havendo também um grande público.",
+   "Haverá grandes poetas, quando houver também um grande público.",
+   "Para haver grandes poetas, tem de haver também um grande público.",
+   "Houve grandes poetas, porque houve também um grande público."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-002",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Na regra da subtração, de qual forma verbal tiramos o \"-ram\"?",
+  "resposta": "3ª pessoa do plural do pretérito perfeito do indicativo",
+  "explicacao": "O tempo primitivo é o <b>pretérito perfeito</b>, com <b>eles</b>: eles estiveram, puderam, fizeram. Tira o -ram e sobra a base.",
+  "alternativas": [
+   "3ª pessoa do plural do pretérito perfeito do indicativo",
+   "3ª pessoa do plural do futuro do subjuntivo",
+   "infinitivo do verbo",
+   "3ª pessoa do plural do presente do indicativo",
+   "1ª pessoa do singular do pretérito perfeito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-003",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se eu <b>______</b> uma solução, todos aceitariam.\" (propor)",
+  "resposta": "propusesse",
+  "explicacao": "Hipótese com \"se\" + \"aceitariam\" → imperfeito do subjuntivo: propuse- + <b>sse</b>. \"Propuser\" é futuro; \"propusera\" é mais-que-perfeito do indicativo; \"proponha\", presente.",
+  "alternativas": [
+   "propusesse",
+   "propuser",
+   "propusera",
+   "proponha",
+   "propor"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-004",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quando vós <b>ESTIVERDES</b> perto da cidade, <b>ENXERGAREIS</b> o fim da estrada.\" Os verbos estão, respectivamente, no:",
+  "resposta": "futuro do subjuntivo e futuro do presente do indicativo",
+  "explicacao": "\"Estiverdes\" tem o <b>-r-</b> do futuro do subjuntivo (e vem depois de \"quando\"). \"Enxergareis\" é certeza no futuro → futuro do presente do indicativo. Futuro do pretérito seria \"enxergaríeis\"; imperfeito seria \"estivésseis\".",
+  "alternativas": [
+   "futuro do subjuntivo e futuro do presente do indicativo",
+   "presente do indicativo e presente do subjuntivo",
+   "pretérito imperfeito do subjuntivo e futuro do subjuntivo",
+   "futuro do subjuntivo e futuro do pretérito do indicativo",
+   "pretérito imperfeito do subjuntivo e gerúndio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-005",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quem sabe eu <b>obtenha</b> meu visto... ainda não sei se vou conseguir.\" O subjuntivo expressa:",
+  "resposta": "dúvida",
+  "explicacao": "\"Quem sabe\" + \"não sei se vou conseguir\" = <b>dúvida</b>.",
+  "alternativas": [
+   "dúvida",
+   "hipótese descartada em qualquer tempo",
+   "hipótese descartada no passado",
+   "hipótese futura"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-006",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Pela regra da subtração, qual é a base do verbo <b>propor</b>?",
+  "resposta": "propuse-",
+  "explicacao": "Eles <b>propuseram</b> − ram = <b>propuse-</b>. Daí: propusesse, propuser, propusera.",
+  "alternativas": [
+   "propuse-",
+   "propus-",
+   "propo-",
+   "propôs-",
+   "proponh-"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-007",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se eu <b>______</b> tempo, iria ao parque.\" (ter)",
+  "resposta": "tivesse",
+  "explicacao": "Eles <b>tiveram</b> − ram = tive- + sse = tivesse. A base vem do pretérito perfeito, não do infinitivo — por isso \"tesse\" está errado.",
+  "alternativas": [
+   "tivesse",
+   "tivera",
+   "tiver",
+   "tenha",
+   "tesse"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-008",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quando nós <b>______</b> a ideia ao diretor, ele vai gostar.\" (propor)",
+  "resposta": "propusermos",
+  "explicacao": "\"Quando\" + futuro → futuro do subjuntivo: propuse- + <b>r</b> + mos = propusermos. \"Propormos\" (sem a base) é erro comum!",
+  "alternativas": [
+   "propusermos",
+   "propormos",
+   "proponhamos",
+   "propuséramos",
+   "propuséssemos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-009",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Tomara que <b>DÊ</b> tudo certo!\" O presente do subjuntivo expressa:",
+  "resposta": "desejo ou esperança",
+  "explicacao": "\"Tomara que\" = <b>desejo</b> (frase optativa). Fala de um sentimento, não de uma hipótese. Não é ação concreta (seria indicativo) nem ordem/pedido (imperativo).",
+  "alternativas": [
+   "desejo ou esperança",
+   "ordem ou comando",
+   "ação concreta",
+   "hipótese",
+   "pedido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-010",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"No dia em que <b>obtiver</b> meu visto, poderei visitar os Estados Unidos.\" O subjuntivo expressa:",
+  "resposta": "hipótese futura",
+  "explicacao": "É um plano para o futuro: quando conseguir o visto, viaja → <b>hipótese futura</b> (futuro do subjuntivo).",
+  "alternativas": [
+   "hipótese futura",
+   "hipótese descartada em qualquer tempo",
+   "dúvida",
+   "hipótese descartada no passado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-011",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o <b>futuro do subjuntivo</b> de <b>estar</b> para \"tu\"?",
+  "resposta": "estiveres",
+  "explicacao": "Futuro = base estive- + <b>r</b> + es = estiveres. \"Estivesses\" é imperfeito; \"estiveras\", mais-que-perfeito; \"estejas\", presente.",
+  "alternativas": [
+   "estiveres",
+   "estejas",
+   "estiveras",
+   "estivesses",
+   "estares"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-012",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual forma de <b>haver</b> está no <b>futuro do subjuntivo</b>?",
+  "resposta": "houver",
+  "explicacao": "Eles houveram − ram = houve- + <b>r</b> = houver. Houvesse = imperfeito; houvera = mais-que-perfeito; haja = presente; haver = infinitivo.",
+  "alternativas": [
+   "houver",
+   "houvesse",
+   "haver",
+   "houvera",
+   "haja"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-013",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Numa campanha: \"E se você <b>pudesse</b> fazer a diferença na vida de alguém?\" O verbo destacado está no:",
+  "resposta": "pretérito imperfeito do subjuntivo, expressando uma hipótese",
+  "explicacao": "\"Se você pudesse\" tem a desinência <b>-sse</b> → pretérito imperfeito do <b>subjuntivo</b>. E o subjuntivo nunca afirma fato: é <b>hipótese</b>. Não é indicativo (seria \"podia\"), nem imperativo (não é ordem), nem mais-que-perfeito (seria \"pudera\").",
+  "alternativas": [
+   "pretérito imperfeito do subjuntivo, expressando uma hipótese",
+   "imperativo afirmativo, dando uma ordem",
+   "pretérito imperfeito do subjuntivo, expressando um fato",
+   "pretérito mais-que-perfeito do indicativo, ação muito antiga",
+   "pretérito imperfeito do indicativo, expressando uma hipótese"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-014",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Para que <b>haja</b> grandes poetas, é preciso que haja também um grande público.\" (Walt Whitman). O verbo \"haja\" sugere que:",
+  "resposta": "a existência de grandes poetas depende da existência de um grande público",
+  "explicacao": "Presente do subjuntivo = <b>incerteza</b>: não diz que existem nem que não existem; diz que uma coisa <b>depende</b> da outra. Afirmar que existem seria indicativo; \"poderiam ter existido\" seria hipótese descartada.",
+  "alternativas": [
+   "a existência de grandes poetas depende da existência de um grande público",
+   "grandes poetas vão existir no futuro, quando houver público",
+   "jamais existirão grandes poetas nem um grande público",
+   "poderiam ter existido, mas não é mais possível",
+   "já existem grandes poetas e um grande público"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-015",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual frase usa o subjuntivo para dar uma <b>ordem indireta</b>?",
+  "resposta": "É uma exigência que você retorne antes do meio-dia.",
+  "explicacao": "Com \"que\" antes, \"retorne\" é <b>subjuntivo</b> (ordem indireta). Sem nada antes, \"Retorne!\" é <b>imperativo</b> (ordem direta). As formas são iguais: quem decide é o \"que\".",
+  "alternativas": [
+   "É uma exigência que você retorne antes do meio-dia.",
+   "Retorne antes do meio-dia!",
+   "Você retornou antes do meio-dia.",
+   "Você retornará antes do meio-dia."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-016",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se vocês <b>______</b> a resposta, me contem!\" (saber)",
+  "resposta": "souberem",
+  "explicacao": "Condição futura + pedido → futuro do subjuntivo. Eles <b>souberam</b> − ram = soube- + r + em = souberem. \"Saberem\" é infinitivo pessoal.",
+  "alternativas": [
+   "souberem",
+   "soubessem",
+   "saberem",
+   "souberam",
+   "saibam"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-017",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Nem se a vaca <b>tossir</b> eu entro naquela montanha-russa!\" O subjuntivo expressa:",
+  "resposta": "hipótese descartada em qualquer tempo",
+  "explicacao": "Compara com algo absurdo (vaca tossindo) para dizer que <b>nunca</b>, em tempo nenhum, vai acontecer → descartada em <b>qualquer tempo</b>.",
+  "alternativas": [
+   "hipótese descartada em qualquer tempo",
+   "hipótese descartada no passado",
+   "dúvida",
+   "hipótese futura"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-018",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se ela <b>______</b> a verdade, tudo mudaria.\" (dizer)",
+  "resposta": "dissesse",
+  "explicacao": "Eles <b>disseram</b> − ram = disse- + sse = dissesse. \"Dizesse\" não existe.",
+  "alternativas": [
+   "dissesse",
+   "dizesse",
+   "diga",
+   "dissera",
+   "disser"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-019",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é o <b>pretérito imperfeito do subjuntivo</b> de <b>estar</b> para \"nós\"?",
+  "resposta": "estivéssemos",
+  "explicacao": "estive- + <b>sse</b> + mos, com acento: estivéssemos. \"Estivermos\" é futuro; \"estivéramos\", mais-que-perfeito.",
+  "alternativas": [
+   "estivéssemos",
+   "estejamos",
+   "estarmos",
+   "estivéramos",
+   "estivermos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-020",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Naquela época, ele já <b>______</b> o problema.\" Qual forma do <b>mais-que-perfeito do indicativo</b> de conter completa?",
+  "resposta": "contivera",
+  "explicacao": "Mais-que-perfeito simples = base + <b>-ra</b>: contive- + ra = contivera (= tinha contido).",
+  "alternativas": [
+   "contivera",
+   "contera",
+   "contiver",
+   "conteve",
+   "contivesse"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-021",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Numa campanha de doação: \"Aposte na vida. Se <b>puder</b>, doe sangue.\" O futuro do subjuntivo indica que:",
+  "resposta": "a doação vai depender da possibilidade do leitor",
+  "explicacao": "Futuro do subjuntivo = <b>possibilidade futura, uma condição</b>: só doa quem puder. Cuidado: o <b>pedido</b> está em \"doe\" (imperativo), não em \"puder\". Nada aqui fala de passado nem de hábito.",
+  "alternativas": [
+   "a doação vai depender da possibilidade do leitor",
+   "é por esse verbo que se faz o pedido ao leitor",
+   "a doação é uma ação habitual",
+   "é uma ação que poderia ter ocorrido no passado",
+   "a ação jamais ocorrerá"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-022",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Caso eu <b>tivesse obtido</b> o visto a tempo, teria viajado nas últimas férias, porém só farei isso no próximo ano.\" O subjuntivo expressa:",
+  "resposta": "hipótese descartada no passado",
+  "explicacao": "Ele <b>não</b> conseguiu o visto a tempo: aquela possibilidade já passou e foi adiada → hipótese <b>descartada no passado</b>.",
+  "alternativas": [
+   "hipótese descartada no passado",
+   "dúvida",
+   "hipótese futura",
+   "hipótese descartada em qualquer tempo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-023",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Se vocês <b>______</b> a raiva, a briga não teria acontecido.\" (conter)",
+  "resposta": "contivessem",
+  "explicacao": "Hipótese com \"se\" + \"teria\" → imperfeito: contive- + sse + <b>m</b> = contivessem.",
+  "alternativas": [
+   "contivessem",
+   "contiveram",
+   "contiverem",
+   "contenham",
+   "contessem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-024",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A desinência <b>-sse</b> indica qual tempo?",
+  "resposta": "pretérito imperfeito do subjuntivo",
+  "explicacao": "-sse → imperfeito do subjuntivo (estivesse). -r → futuro do subjuntivo (estiver). -ra → mais-que-perfeito do indicativo (estivera).",
+  "alternativas": [
+   "pretérito imperfeito do subjuntivo",
+   "presente do subjuntivo",
+   "futuro do pretérito",
+   "pretérito mais-que-perfeito do indicativo",
+   "futuro do subjuntivo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-025",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O verbo \"pudesse\", na <b>2ª pessoa do plural</b> (vós), fica:",
+  "resposta": "pudésseis",
+  "explicacao": "Imperfeito do subjuntivo, vós = base pude- + <b>-sse</b> + <b>-is</b> = pudésseis. \"Pudesses\" é tu; \"pudéssemos\" é nós; \"puderdes\" é vós no <b>futuro</b> (-r); \"possais\" é vós no <b>presente</b>.",
+  "alternativas": [
+   "pudésseis",
+   "possais",
+   "puderdes",
+   "pudéssemos",
+   "pudesses"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-026",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Quando você <b>______</b> a lição, pode jogar.\" (fazer)",
+  "resposta": "fizer",
+  "explicacao": "Eles <b>fizeram</b> − ram = fize- + r = fizer. \"Quando você fazer\" é um erro muito comum!",
+  "alternativas": [
+   "fizer",
+   "faça",
+   "fizera",
+   "fizesse",
+   "fazer"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-027",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Eu compraria naquele supermercado, se ele ______ os preços baixos.\" A forma certa é:",
+  "resposta": "mantivesse",
+  "explicacao": "Regra da subtração: eles <b>mantiveram</b> − ram = mantive- + <b>sse</b> = mantivesse. \"Mantesse\" não existe (pegadinha!). \"Mantendo\" é gerúndio; \"manteria\", futuro do pretérito; \"mantiver\", futuro do subjuntivo (não combina com \"compraria\").",
+  "alternativas": [
+   "mantivesse",
+   "mantendo",
+   "mantesse",
+   "mantiver",
+   "manteria"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-subj-028",
+  "topico": "p-subj",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é a forma de <b>conter</b> no pretérito imperfeito do subjuntivo, eu?",
+  "resposta": "contivesse",
+  "explicacao": "Eles <b>contiveram</b> − ram = contive- + <b>sse</b>. \"Contesse\" não existe; \"contiver\" é futuro; \"contivera\", mais-que-perfeito; \"contenha\", presente.",
+  "alternativas": [
+   "contivesse",
+   "contenha",
+   "contesse",
+   "contiver",
+   "contivera"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-001",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Numa propaganda antiga: \"Livros encapados e cadernos <b>bem</b> arrumados!\" O advérbio \"bem\" se liga a:",
+  "resposta": "o adjetivo \"arrumados\"",
+  "explicacao": "Advérbio <b>nunca</b> se liga a substantivo — isso já elimina \"livros\" e \"cadernos\". \"Bem\" vem colado em <b>arrumados</b> e diz como estão arrumados.",
+  "alternativas": [
+   "o adjetivo \"arrumados\"",
+   "o substantivo \"livros\"",
+   "o substantivo \"cadernos\"",
+   "o adjetivo \"encapados\"",
+   "nenhuma palavra do texto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-002",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A função dos advérbios é:",
+  "resposta": "modificar o sentido de verbos, adjetivos ou outros advérbios",
+  "explicacao": "Advérbio modifica <b>verbo, adjetivo ou advérbio</b>. As erradas descrevem: adjetivo (qualidades), substantivo (nomear), preposição (conectar) e pronome (substituir/acompanhar).",
+  "alternativas": [
+   "modificar o sentido de verbos, adjetivos ou outros advérbios",
+   "expressar qualidades ou características",
+   "substituir ou acompanhar os substantivos",
+   "conectar as outras palavras entre si",
+   "nomear seres, ideias, ações e sentimentos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-003",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Num anúncio antigo: \"<b>Agora ao vivo</b>, 3 grandes artistas de televisão.\" Quantos advérbios e quantas locuções adverbiais há?",
+  "resposta": "um advérbio; uma locução",
+  "explicacao": "Advérbio: <b>agora</b> (tempo). Locução adverbial: <b>ao vivo</b> (modo, duas palavras com valor de advérbio). \"Grandes\" é adjetivo, não advérbio.",
+  "alternativas": [
+   "um advérbio; uma locução",
+   "dois advérbios; duas locuções",
+   "um advérbio; duas locuções",
+   "dois advérbios; uma locução",
+   "nenhum advérbio; uma locução"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-004",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Os advérbios \"muito\", \"felizmente\" e \"não\" (da tirinha do Garfield) expressam, respectivamente:",
+  "resposta": "intensidade, modo e negação",
+  "explicacao": "\"Muito\" bom = <b>intensidade</b>; \"felizmente\" = de modo feliz = <b>modo</b>; \"não\" = <b>negação</b>.",
+  "alternativas": [
+   "intensidade, modo e negação",
+   "lugar, tempo e modo",
+   "causa, modo e lugar",
+   "tempo, dúvida e afirmação",
+   "intensidade, causa e dúvida"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-005",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Na tirinha do Garfield: \"Meu mundo é muito bom.\" / \"Acabou o xampu, então eu usei lustra-móvel!\" / \"Felizmente, Jon não está no meu mundo.\" Os três advérbios são:",
+  "resposta": "\"muito\", \"felizmente\" e \"não\"",
+  "explicacao": "\"Muito\" intensifica o adjetivo \"bom\"; \"felizmente\" e \"não\" modificam o verbo \"está\". \"Acabou\", \"usei\", \"está\" são verbos; \"bom\" é adjetivo; \"xampu\", \"mundo\", \"Jon\" são substantivos.",
+  "alternativas": [
+   "\"muito\", \"felizmente\" e \"não\"",
+   "\"bom\", \"então\" e \"não\"",
+   "\"usei\", \"Jon\" e \"está\"",
+   "\"xampu\", \"lustra-móvel\" e \"mundo\"",
+   "\"muito\", \"acabou\" e \"felizmente\""
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-006",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual palavra destacada é <b>adjetivo</b>, e não advérbio?",
+  "resposta": "Ela comprou um carro <b>rápido</b>.",
+  "explicacao": "Em \"carro rápido\", \"rápido\" dá qualidade ao <b>substantivo</b> carro → adjetivo. Em \"dirigiu rápido\", modifica o verbo → advérbio.",
+  "alternativas": [
+   "Ela comprou um carro <b>rápido</b>.",
+   "Ela dirige <b>muito</b> bem.",
+   "Ela chegou <b>cedo</b>.",
+   "Ela dirigiu <b>rápido</b>."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-007",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é uma <b>locução adverbial de tempo</b>?",
+  "resposta": "à noite",
+  "explicacao": "\"À noite\" diz <b>quando</b> → tempo. \"Ao vivo\" é modo; \"com certeza\", afirmação; \"de repente\" indica modo (súbito).",
+  "alternativas": [
+   "à noite",
+   "com certeza",
+   "ao vivo",
+   "de repente"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-008",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"<b>Certamente</b> iremos à festa\", o advérbio indica:",
+  "resposta": "afirmação",
+  "explicacao": "Certamente = com certeza = <b>afirmação</b>. Cuidado: nem todo \"-mente\" é modo!",
+  "alternativas": [
+   "afirmação",
+   "dúvida",
+   "negação",
+   "modo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-009",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"cadernos <b>bem</b> arrumados\" e \"sempre <b>bem</b> apresentados\", \"bem\" exprime:",
+  "resposta": "modo",
+  "explicacao": "\"Bem\" é o contrário de \"mal\": arrumado <b>bem</b> ou <b>mal</b> = a <b>maneira</b> → modo.",
+  "alternativas": [
+   "modo",
+   "lugar",
+   "tempo",
+   "intensidade",
+   "afirmação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-010",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"O cachorro mora <b>longe</b>\", o advérbio indica:",
+  "resposta": "lugar",
+  "explicacao": "Longe responde \"onde?\" → <b>lugar</b>.",
+  "alternativas": [
+   "lugar",
+   "tempo",
+   "modo",
+   "intensidade"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-011",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"<b>Talvez</b> eu viaje amanhã\", \"talvez\" é advérbio de:",
+  "resposta": "dúvida",
+  "explicacao": "Talvez = incerteza → <b>dúvida</b> (por isso o verbo vai para o subjuntivo: \"viaje\"). \"Amanhã\" é que é tempo.",
+  "alternativas": [
+   "dúvida",
+   "afirmação",
+   "modo",
+   "tempo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-012",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em \"Ela canta <b>muito</b> bem\", \"muito\" modifica:",
+  "resposta": "outro advérbio (\"bem\")",
+  "explicacao": "\"Muito\" intensifica \"bem\", que é advérbio de modo → advérbio modificando <b>advérbio</b>.",
+  "alternativas": [
+   "outro advérbio (\"bem\")",
+   "um adjetivo",
+   "um substantivo (\"ela\")",
+   "um verbo (\"canta\")"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-adv-013",
+  "topico": "p-adv",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "\"Todos por um trânsito melhor e <b>mais</b> seguro.\" O advérbio \"mais\" adiciona a \"seguro\" a ideia de:",
+  "resposta": "intensidade",
+  "explicacao": "\"Mais\" aumenta o grau do adjetivo: cada vez mais seguro → <b>intensidade</b>.",
+  "alternativas": [
+   "intensidade",
+   "afirmação",
+   "causa",
+   "modo",
+   "tempo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-001",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Segundo a leitura crítica do texto, Iara pode ser vista hoje como uma personagem marcada por:",
+  "resposta": "resistência e transformação",
+  "explicacao": "O texto destaca que ela começa como alguém de <b>força e coragem</b>, enfrenta castigo e renasce → resistência e transformação. A beleza vem depois e não é o centro da leitura crítica.",
+  "alternativas": [
+   "resistência e transformação",
+   "vingança e crueldade",
+   "medo e fraqueza",
+   "vaidade e beleza"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-002",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual trecho mostra que a lenda de Iara tem estrutura <b>circular</b>?",
+  "resposta": "\"Sua passagem de guerreira para Mãe-d'Água pode ser lida como um renascimento: mesmo após ser castigada e lançada ao rio, sua história não termina ali.\"",
+  "explicacao": "Circular = <b>sem fim definitivo</b>, recomeça. \"Renascimento\" + \"não termina ali\" mostram isso. Os outros trechos só contam fatos da história em sequência.",
+  "alternativas": [
+   "\"Sua passagem de guerreira para Mãe-d'Água pode ser lida como um renascimento: mesmo após ser castigada e lançada ao rio, sua história não termina ali.\"",
+   "\"Em muitas versões, seu canto atrai homens para as águas.\"",
+   "\"Incomodados com seu reconhecimento, eles teriam planejado matá-la.\"",
+   "\"Iara se destacava entre os guerreiros de seu povo, despertando a admiração de seu pai.\"",
+   "\"Ao saber do ocorrido, seu pai decidiu puni-la e ordenou que fosse lançada às águas.\""
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-003",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "A imagem mais conhecida de Iara (mulher bela, de canto que atrai homens para as águas) aparece:",
+  "resposta": "depois da transformação no rio",
+  "explicacao": "O texto diz: \"É depois dessa transformação que surge a imagem mais conhecida\". Por isso, conhecer o começo muda a forma de enxergá-la.",
+  "alternativas": [
+   "depois da transformação no rio",
+   "antes de ela virar guerreira",
+   "durante a luta com os irmãos",
+   "no começo da lenda, antes de tudo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-004",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "O que faz o pai de Iara depois da morte dos irmãos?",
+  "resposta": "Decide puni-la e manda lançá-la às águas.",
+  "explicacao": "O texto diz que o pai decidiu <b>puni-la</b> e ordenou que fosse lançada às águas.",
+  "alternativas": [
+   "Decide puni-la e manda lançá-la às águas.",
+   "Expulsa Iara para a floresta.",
+   "Perdoa Iara e a torna líder da tribo.",
+   "Pede ajuda ao rio para curar os filhos."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-005",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Qual é a diferença entre um <b>resumo</b> e uma <b>resenha crítica</b>?",
+  "resposta": "A resenha resume e também dá uma opinião fundamentada sobre a obra.",
+  "explicacao": "Resumo = só o essencial, sem opinião. Resenha crítica = resumo <b>+ avaliação</b> com argumentos (como o texto faz ao ler Iara como símbolo de resistência).",
+  "alternativas": [
+   "A resenha resume e também dá uma opinião fundamentada sobre a obra.",
+   "Os dois são iguais, só muda o tamanho.",
+   "O resumo dá opinião e a resenha não.",
+   "A resenha conta a história inteira, sem cortar nada."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-006",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Em que momento a lenda ganha seu caráter <b>fantástico</b>?",
+  "resposta": "Quando Iara é acolhida pelo rio e transformada numa figura encantada.",
+  "explicacao": "Inveja, luta e castigo poderiam acontecer na vida real. Uma pessoa ser <b>transformada pelo rio</b> em ser encantado é o elemento <b>fantástico</b>.",
+  "alternativas": [
+   "Quando Iara é acolhida pelo rio e transformada numa figura encantada.",
+   "Quando Iara luta contra os irmãos.",
+   "Quando o pai fica sabendo do ocorrido.",
+   "Quando os irmãos sentem inveja dela."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-007",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Por que a lenda da Iara tem \"várias versões\"?",
+  "resposta": "Porque foi transmitida oralmente, de geração em geração.",
+  "explicacao": "Lendas são passadas de boca em boca (<b>oralmente</b>); cada vez que alguém reconta, muda um pouco.",
+  "alternativas": [
+   "Porque foi transmitida oralmente, de geração em geração.",
+   "Porque cada tribo inventou uma Iara diferente de propósito.",
+   "Porque foi escrita por vários autores ao mesmo tempo.",
+   "Porque é uma notícia de jornal atualizada."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-008",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Antes de se transformar na criatura das águas, qual era o papel de destaque de Iara na tribo?",
+  "resposta": "Era uma grande guerreira, admirada pela coragem e habilidade na luta.",
+  "explicacao": "O texto diz que ela se destacava <b>entre os guerreiros</b> de seu povo. Nada no texto fala de chás, rituais, roupas ou negociações — são invenções para te distrair.",
+  "alternativas": [
+   "Era uma grande guerreira, admirada pela coragem e habilidade na luta.",
+   "Era a líder política que negociava com tribos vizinhas.",
+   "Era a filha do pajé responsável pelos rituais sagrados.",
+   "Era uma tecelã que fazia roupas para os caciques.",
+   "Era uma curandeira famosa por chás medicinais."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "p-iara-009",
+  "topico": "p-iara",
+  "materia": "pt",
+  "tipo": "mc",
+  "enunciado": "Por que os irmãos de Iara sentiram inveja e decidiram atacá-la?",
+  "resposta": "Porque ela era muito admirada pelo pai por suas habilidades de guerreira.",
+  "explicacao": "O texto: ela despertava a <b>admiração do pai</b> e, ao mesmo tempo, a <b>inveja dos irmãos</b>, incomodados com seu reconhecimento. As outras não aparecem no texto.",
+  "alternativas": [
+   "Porque ela era muito admirada pelo pai por suas habilidades de guerreira.",
+   "Porque ela era a mais velha e herdaria a chefia da tribo.",
+   "Porque se recusou a participar das festas sagradas.",
+   "Porque fugiu com um guerreiro de uma tribo rival.",
+   "Porque escondeu o tesouro secreto da aldeia."
+  ],
+  "bncc": null,
+  "revisado": false
+ }
+]

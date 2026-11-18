@@ -1,0 +1,4787 @@
+[
+ {
+  "id": "e-be-001",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>We <b>___</b> Brazilian.",
+  "resposta": "are",
+  "explicacao": "\"We\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-002",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>She <b>___</b> Brazilian.",
+  "resposta": "is",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-003",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> very tired.",
+  "resposta": "aren't",
+  "explicacao": "\"You\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-004",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My friends <b>___</b> hungry.",
+  "resposta": "are",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-005",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>You <b>___</b> in the kitchen.",
+  "resposta": "are",
+  "explicacao": "\"You\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-006",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>I <b>___</b> very tired.",
+  "resposta": "am",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-007",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> good at drawing.",
+  "resposta": "isn't",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-008",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>It <b>___</b> at school.",
+  "resposta": "is",
+  "explicacao": "\"It\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-009",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>She <b>___</b> happy today.",
+  "resposta": "is",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-010",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>I <b>___</b> hungry.",
+  "resposta": "am not",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>. Negativa: <b>am not</b> (ou 'm not).",
+  "respostas_aceitas": [
+   "'m not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-011",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>I <b>___</b> twelve years old.",
+  "resposta": "am",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-012",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>You <b>___</b> twelve years old.",
+  "resposta": "are",
+  "explicacao": "\"You\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-013",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> twelve years old.",
+  "resposta": "aren't",
+  "explicacao": "\"You\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-014",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Our teacher <b>___</b> very tired.",
+  "resposta": "is",
+  "explicacao": "\"Our teacher\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-015",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> twelve years old.",
+  "resposta": "isn't",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-016",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>I <b>___</b> good at drawing.",
+  "resposta": "am",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-017",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>They <b>___</b> very tired.",
+  "resposta": "are",
+  "explicacao": "\"They\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-018",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My friends <b>___</b> very tired.",
+  "resposta": "are",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-019",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>She <b>___</b> hungry.",
+  "resposta": "is",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-020",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My friends <b>___</b> twelve years old.",
+  "resposta": "are",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-021",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>It <b>___</b> good at drawing.",
+  "resposta": "is",
+  "explicacao": "\"It\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-022",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>I <b>___</b> at school.",
+  "resposta": "am",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-023",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>My friends <b>___</b> hungry.",
+  "resposta": "aren't",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-024",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My friends <b>___</b> Brazilian.",
+  "resposta": "are",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-025",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Our teacher <b>___</b> hungry.",
+  "resposta": "is",
+  "explicacao": "\"Our teacher\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-026",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>The dog <b>___</b> at school.",
+  "resposta": "isn't",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-027",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Tom and Ana <b>___</b> twelve years old.",
+  "resposta": "are",
+  "explicacao": "\"Tom and Ana\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-028",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Tom and Ana <b>___</b> good at drawing.",
+  "resposta": "are",
+  "explicacao": "\"Tom and Ana\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-029",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> very tired.",
+  "resposta": "isn't",
+  "explicacao": "\"He\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-030",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Our teacher <b>___</b> twelve years old.",
+  "resposta": "is",
+  "explicacao": "\"Our teacher\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-031",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>It <b>___</b> happy today.",
+  "resposta": "is",
+  "explicacao": "\"It\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-032",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My mother <b>___</b> Brazilian.",
+  "resposta": "is",
+  "explicacao": "\"My mother\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-033",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>He <b>___</b> very tired.",
+  "resposta": "is",
+  "explicacao": "\"He\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-034",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>We <b>___</b> happy today.",
+  "resposta": "aren't",
+  "explicacao": "\"We\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-035",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>The dog <b>___</b> hungry.",
+  "resposta": "is",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-036",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Our teacher <b>___</b> at school.",
+  "resposta": "is",
+  "explicacao": "\"Our teacher\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-037",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>We <b>___</b> in the kitchen.",
+  "resposta": "are",
+  "explicacao": "\"We\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-038",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>We <b>___</b> at school.",
+  "resposta": "are",
+  "explicacao": "\"We\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-039",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>Tom and Ana <b>___</b> Brazilian.",
+  "resposta": "are",
+  "explicacao": "\"Tom and Ana\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-040",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>My mother <b>___</b> hungry.",
+  "resposta": "isn't",
+  "explicacao": "\"My mother\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-041",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My mother <b>___</b> happy today.",
+  "resposta": "is",
+  "explicacao": "\"My mother\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-042",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>The dog <b>___</b> twelve years old.",
+  "resposta": "is",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-043",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>The dog <b>___</b> good at drawing.",
+  "resposta": "is",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-044",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>She <b>___</b> in the kitchen.",
+  "resposta": "is",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-045",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>I <b>___</b> twelve years old.",
+  "resposta": "am not",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>. Negativa: <b>am not</b> (ou 'm not).",
+  "respostas_aceitas": [
+   "'m not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-046",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>We <b>___</b> happy today.",
+  "resposta": "are",
+  "explicacao": "\"We\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-047",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My mother <b>___</b> twelve years old.",
+  "resposta": "is",
+  "explicacao": "\"My mother\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-048",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> in the kitchen.",
+  "resposta": "aren't",
+  "explicacao": "\"You\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-049",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>The dog <b>___</b> happy today.",
+  "resposta": "is",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-050",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>She <b>___</b> twelve years old.",
+  "resposta": "is",
+  "explicacao": "\"She\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-051",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>I <b>___</b> happy today.",
+  "resposta": "am",
+  "explicacao": "Com <b>I</b> sempre <b>am</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-052",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>He <b>___</b> at school.",
+  "resposta": "is",
+  "explicacao": "\"He\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-053",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>My friends <b>___</b> at school.",
+  "resposta": "are",
+  "explicacao": "\"My friends\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-054",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Tom and Ana <b>___</b> happy today.",
+  "resposta": "aren't",
+  "explicacao": "\"Tom and Ana\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-055",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>They <b>___</b> hungry.",
+  "resposta": "are",
+  "explicacao": "\"They\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-056",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> twelve years old.",
+  "resposta": "aren't",
+  "explicacao": "\"They\" é you, we, they (ou mais de um) → <b>are</b>. Negativa: <b>aren't</b> (ou are not).",
+  "respostas_aceitas": [
+   "are not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-057",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>My mother <b>___</b> good at drawing.",
+  "resposta": "isn't",
+  "explicacao": "\"My mother\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-058",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>The dog <b>___</b> happy today.",
+  "resposta": "isn't",
+  "explicacao": "\"The dog\" é uma pessoa/coisa só (he/she/it) → <b>is</b>. Negativa: <b>isn't</b> (ou is not).",
+  "respostas_aceitas": [
+   "is not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-059",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>He <b>___</b> good at drawing.",
+  "resposta": "is",
+  "explicacao": "\"He\" é uma pessoa/coisa só (he/she/it) → <b>is</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-be-060",
+  "topico": "e-be",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>am</b>, <b>is</b> ou <b>are</b>:<br>They <b>___</b> happy today.",
+  "resposta": "are",
+  "explicacao": "\"They\" é you, we, they (ou mais de um) → <b>are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-001",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "My parents and I are in the car. ___ are going to the beach.",
+  "resposta": "We",
+  "explicacao": "Meus pais e eu = <b>nós</b> → <b>We</b>.",
+  "alternativas": [
+   "We",
+   "Us",
+   "They",
+   "Our"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-002",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Lucy has a bike. ___ bike is red.",
+  "resposta": "Her",
+  "explicacao": "A bicicleta <b>dela</b> → <b>Her</b>.",
+  "alternativas": [
+   "Her",
+   "She",
+   "His",
+   "Hers"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-003",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I like ___ school.",
+  "resposta": "my",
+  "explicacao": "<b>Minha</b> escola → <b>my</b>.",
+  "alternativas": [
+   "my",
+   "mine",
+   "me",
+   "I"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-004",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "They love ___ dog.",
+  "resposta": "their",
+  "explicacao": "O cachorro <b>deles</b> → <b>their</b>. Olho vivo: there = lá. Soam igual, mas não são a mesma coisa.",
+  "alternativas": [
+   "their",
+   "them",
+   "they",
+   "there"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-005",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Look at the birds! ___ are flying.",
+  "resposta": "They",
+  "explicacao": "Os pássaros (vários) = eles → <b>They</b>.",
+  "alternativas": [
+   "They",
+   "Them",
+   "It",
+   "Their"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-006",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "The dog is wagging ___ tail.",
+  "resposta": "its",
+  "explicacao": "O rabo <b>dele</b> (do cachorro, um animal) → <b>its</b>. It's = it is.",
+  "alternativas": [
+   "its",
+   "it's",
+   "it",
+   "his"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-007",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Tom has a cat. ___ cat is black.",
+  "resposta": "His",
+  "explicacao": "O gato <b>dele</b> (do Tom) → <b>His</b>.",
+  "alternativas": [
+   "His",
+   "Its",
+   "Her",
+   "He"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-008",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "We have a new teacher. ___ teacher is nice.",
+  "resposta": "Our",
+  "explicacao": "<b>Nossa</b> professora → <b>Our</b>.",
+  "alternativas": [
+   "Our",
+   "We",
+   "Us",
+   "Their"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-009",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "This is Anna. ___ is my sister.",
+  "resposta": "She",
+  "explicacao": "Anna é menina e é o sujeito → <b>She</b>. (Her = \"dela\".)",
+  "alternativas": [
+   "She",
+   "Her",
+   "He",
+   "It"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-010",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "This is Pedro. ___ is my cousin.",
+  "resposta": "He",
+  "explicacao": "Pedro é menino e é o sujeito → <b>He</b>.",
+  "alternativas": [
+   "He",
+   "His",
+   "Him",
+   "She"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-011",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "This book is not yours. It is ___.",
+  "resposta": "mine",
+  "explicacao": "\"É meu\" no fim da frase, sem nada depois → <b>mine</b>.",
+  "alternativas": [
+   "mine",
+   "I",
+   "me",
+   "my"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pro-012",
+  "topico": "e-pro",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Are you and ___ brother at home?",
+  "resposta": "your",
+  "explicacao": "<b>Seu</b> irmão → <b>your</b>. You're = you are.",
+  "alternativas": [
+   "your",
+   "you're",
+   "yours",
+   "you"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-001",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">photo</span>",
+  "resposta": "photos",
+  "explicacao": "photo → <b>photos</b> (exceção: photo → +s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-002",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">boy</span>",
+  "resposta": "boys",
+  "explicacao": "boy → <b>boys</b> (vogal + y → só +s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-003",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">leaf</span>",
+  "resposta": "leaves",
+  "explicacao": "leaf → <b>leaves</b> (f → -ves).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-004",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">person</span>",
+  "resposta": "people",
+  "explicacao": "person → <b>people</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-005",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">bus</span>",
+  "resposta": "buses",
+  "explicacao": "bus → <b>buses</b> (termina em s → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-006",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">potato</span>",
+  "resposta": "potatoes",
+  "explicacao": "potato → <b>potatoes</b> (algumas palavras em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-007",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">tooth</span>",
+  "resposta": "teeth",
+  "explicacao": "tooth → <b>teeth</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-008",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">fish</span>",
+  "resposta": "fish",
+  "explicacao": "fish → <b>fish</b> (irregular: não muda).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-009",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">book</span>",
+  "resposta": "books",
+  "explicacao": "book → <b>books</b> (+s na maioria das palavras).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-010",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">toy</span>",
+  "resposta": "toys",
+  "explicacao": "toy → <b>toys</b> (vogal + y → só +s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-011",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">woman</span>",
+  "resposta": "women",
+  "explicacao": "woman → <b>women</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-012",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">dish</span>",
+  "resposta": "dishes",
+  "explicacao": "dish → <b>dishes</b> (termina em sh → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-013",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">tomato</span>",
+  "resposta": "tomatoes",
+  "explicacao": "tomato → <b>tomatoes</b> (algumas palavras em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-014",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">knife</span>",
+  "resposta": "knives",
+  "explicacao": "knife → <b>knives</b> (fe → -ves).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-015",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">mouse</span>",
+  "resposta": "mice",
+  "explicacao": "mouse → <b>mice</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-016",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">city</span>",
+  "resposta": "cities",
+  "explicacao": "city → <b>cities</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-017",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">watch</span>",
+  "resposta": "watches",
+  "explicacao": "watch → <b>watches</b> (termina em ch → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-018",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">box</span>",
+  "resposta": "boxes",
+  "explicacao": "box → <b>boxes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-019",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">child</span>",
+  "resposta": "children",
+  "explicacao": "child → <b>children</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-020",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">baby</span>",
+  "resposta": "babies",
+  "explicacao": "baby → <b>babies</b> (consoante + y → tira o y e põe -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-021",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">foot</span>",
+  "resposta": "feet",
+  "explicacao": "foot → <b>feet</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-plu-022",
+  "topico": "e-plu",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Write the <b>plural</b> of: <span class=\"big\">man</span>",
+  "resposta": "men",
+  "explicacao": "man → <b>men</b> (irregular).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-001",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a apple in the fridge.",
+  "resposta": "there is",
+  "explicacao": "\"a apple\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-002",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> some juice on the table.",
+  "resposta": "there is",
+  "explicacao": "juice é <b>incontável</b> (não dá para contar 1, 2, 3) → usa-se <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-003",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> some water in the bottle.",
+  "resposta": "there is",
+  "explicacao": "water é <b>incontável</b> (não dá para contar 1, 2, 3) → usa-se <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-004",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a book on the table.",
+  "resposta": "there is",
+  "explicacao": "\"a book\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-005",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a cat on the sofa.",
+  "resposta": "there is",
+  "explicacao": "\"a cat\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-006",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five pencils in my bag.",
+  "resposta": "there are",
+  "explicacao": "five pencils = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-007",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any students in the library?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any students…?",
+  "alternativas": [
+   "Are there",
+   "There are",
+   "Is there",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-008",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any pencils in my bag.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (pencils) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "Is there",
+   "There is",
+   "There isn't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-009",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a picture on the wall.",
+  "resposta": "there is",
+  "explicacao": "\"a picture\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-010",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four cats on the sofa.",
+  "resposta": "there are",
+  "explicacao": "four cats = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-011",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a student in the library.",
+  "resposta": "there is",
+  "explicacao": "\"a student\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-012",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any students in the library.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (students) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There isn't",
+   "Is there",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-013",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three cats on the sofa.",
+  "resposta": "there are",
+  "explicacao": "three cats = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-014",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four books on the table.",
+  "resposta": "there are",
+  "explicacao": "four books = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-015",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> some milk in the fridge.",
+  "resposta": "there is",
+  "explicacao": "milk é <b>incontável</b> (não dá para contar 1, 2, 3) → usa-se <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-016",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any birds in the tree.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (birds) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There is",
+   "There isn't",
+   "Is there"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-017",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> six books on the table.",
+  "resposta": "there are",
+  "explicacao": "six books = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-018",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> some rice in the bowl.",
+  "resposta": "there is",
+  "explicacao": "rice é <b>incontável</b> (não dá para contar 1, 2, 3) → usa-se <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-019",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a chair in the classroom.",
+  "resposta": "there is",
+  "explicacao": "\"a chair\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-020",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any books on the table?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any books…?",
+  "alternativas": [
+   "Are there",
+   "Is there",
+   "There are",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-021",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two pictures on the wall.",
+  "resposta": "there are",
+  "explicacao": "two pictures = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-022",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a pencil in my bag.",
+  "resposta": "there is",
+  "explicacao": "\"a pencil\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-023",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> a bird in the tree.",
+  "resposta": "there is",
+  "explicacao": "\"a bird\" é <b>uma</b> coisa só → <b>There is</b>.",
+  "respostas_aceitas": [
+   "there's"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-024",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any chairs in the classroom?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any chairs…?",
+  "alternativas": [
+   "Are there",
+   "Is there",
+   "There is",
+   "There are"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-025",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three books on the table.",
+  "resposta": "there are",
+  "explicacao": "three books = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-026",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any pencils in my bag?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any pencils…?",
+  "alternativas": [
+   "Are there",
+   "There is",
+   "Is there",
+   "There are"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-027",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any birds in the tree?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any birds…?",
+  "alternativas": [
+   "Are there",
+   "There is",
+   "There are",
+   "Is there"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-028",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five birds in the tree.",
+  "resposta": "there are",
+  "explicacao": "five birds = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-029",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> six chairs in the classroom.",
+  "resposta": "there are",
+  "explicacao": "six chairs = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-030",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four pencils in my bag.",
+  "resposta": "there are",
+  "explicacao": "four pencils = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-031",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any books on the table.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (books) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There is",
+   "Is there",
+   "There isn't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-032",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three birds in the tree.",
+  "resposta": "there are",
+  "explicacao": "three birds = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-033",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any cats on the sofa.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (cats) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There is",
+   "There isn't",
+   "Is there"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-034",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five cats on the sofa.",
+  "resposta": "there are",
+  "explicacao": "five cats = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-035",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three apples in the fridge.",
+  "resposta": "there are",
+  "explicacao": "three apples = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-036",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five apples in the fridge.",
+  "resposta": "there are",
+  "explicacao": "five apples = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-037",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five chairs in the classroom.",
+  "resposta": "there are",
+  "explicacao": "five chairs = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-038",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any chairs in the classroom.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (chairs) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There isn't",
+   "Is there",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-039",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three students in the library.",
+  "resposta": "there are",
+  "explicacao": "three students = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-040",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any pictures on the wall?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any pictures…?",
+  "alternativas": [
+   "Are there",
+   "Is there",
+   "There are",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-041",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two books on the table.",
+  "resposta": "there are",
+  "explicacao": "two books = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-042",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two cats on the sofa.",
+  "resposta": "there are",
+  "explicacao": "two cats = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-043",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four pictures on the wall.",
+  "resposta": "there are",
+  "explicacao": "four pictures = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-044",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two apples in the fridge.",
+  "resposta": "there are",
+  "explicacao": "two apples = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-045",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two birds in the tree.",
+  "resposta": "there are",
+  "explicacao": "two birds = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-046",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five pictures on the wall.",
+  "resposta": "there are",
+  "explicacao": "five pictures = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-047",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any apples in the fridge.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (apples) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "Is there",
+   "There is",
+   "There isn't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-048",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> six birds in the tree.",
+  "resposta": "there are",
+  "explicacao": "six birds = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-049",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> six pencils in my bag.",
+  "resposta": "there are",
+  "explicacao": "six pencils = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-050",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any cats on the sofa?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any cats…?",
+  "alternativas": [
+   "Are there",
+   "There are",
+   "Is there",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-051",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two chairs in the classroom.",
+  "resposta": "there are",
+  "explicacao": "two chairs = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-052",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> two students in the library.",
+  "resposta": "there are",
+  "explicacao": "two students = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-053",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four chairs in the classroom.",
+  "resposta": "there are",
+  "explicacao": "four chairs = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-054",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four birds in the tree.",
+  "resposta": "there are",
+  "explicacao": "four birds = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-055",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> six apples in the fridge.",
+  "resposta": "there are",
+  "explicacao": "six apples = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-056",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> four apples in the fridge.",
+  "resposta": "there are",
+  "explicacao": "four apples = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-057",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> three pencils in my bag.",
+  "resposta": "there are",
+  "explicacao": "three pencils = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-058",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any apples in the fridge?",
+  "resposta": "Are there",
+  "explicacao": "Pergunta com plural → inverta: <b>Are there</b> any apples…?",
+  "alternativas": [
+   "Are there",
+   "Is there",
+   "There are",
+   "There is"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-059",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Complete: <b>___</b> any pictures on the wall.",
+  "resposta": "There aren't",
+  "explicacao": "Negativa com plural (pictures) → <b>There aren't</b> any…",
+  "alternativas": [
+   "There aren't",
+   "There isn't",
+   "There is",
+   "Is there"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-there-060",
+  "topico": "e-there",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com <b>There is</b> ou <b>There are</b>:<br><b>___</b> five students in the library.",
+  "resposta": "there are",
+  "explicacao": "five students = várias coisas → <b>There are</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-001",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>Ana <b>___</b> to school by bus.",
+  "resposta": "goes",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>goes</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-002",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>wash</b>:<br>Our cat <b>___</b> the dishes.",
+  "resposta": "washes",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>washes</b> (termina em sh → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-003",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>read</b>:<br>Our cat <b>___</b> comics.",
+  "resposta": "reads",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>reads</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-004",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>have</b>:<br>She <b>___</b> lunch at noon.",
+  "resposta": "has",
+  "explicacao": "\"She\" = he/she/it → verbo com -s: <b>has</b> (irregular: have → has).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-005",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>You <b>___</b> to school by bus.",
+  "resposta": "go",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>go</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-006",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>My dad <b>___</b> to school by bus.",
+  "resposta": "goes",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>goes</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-007",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>I <b>___</b> to school by bus.",
+  "resposta": "go",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>go</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-008",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>eat</b>:<br>They <b>___</b> fruit for breakfast.",
+  "resposta": "eat",
+  "explicacao": "\"They\" = I/you/we/they → verbo <b>sem</b> -s: <b>eat</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-009",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>My friends <b>___</b> kites on the beach.",
+  "resposta": "fly",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>fly</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-010",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>play</b>:<br>You <b>___</b> video games after school.",
+  "resposta": "play",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>play</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-011",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>My friends <b>___</b> TV at night.",
+  "resposta": "watch",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>watch</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-012",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>play</b>:<br>He <b>___</b> video games after school.",
+  "resposta": "plays",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>plays</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-013",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>like</b>:<br>We <b>___</b> pizza.",
+  "resposta": "like",
+  "explicacao": "\"We\" = I/you/we/they → verbo <b>sem</b> -s: <b>like</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-014",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>She <b>___</b> TV at night.",
+  "resposta": "watches",
+  "explicacao": "\"She\" = he/she/it → verbo com -s: <b>watches</b> (termina em ch → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-015",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>eat</b>:<br>I <b>___</b> fruit for breakfast.",
+  "resposta": "eat",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>eat</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-016",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>play</b>:<br>I <b>___</b> video games after school.",
+  "resposta": "play",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>play</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-017",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>have</b>:<br>They <b>___</b> lunch at noon.",
+  "resposta": "have",
+  "explicacao": "\"They\" = I/you/we/they → verbo <b>sem</b> -s: <b>have</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-018",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>swim</b>:<br>Our cat <b>___</b> on Saturdays.",
+  "resposta": "swims",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>swims</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-019",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>We <b>___</b> TV at night.",
+  "resposta": "watch",
+  "explicacao": "\"We\" = I/you/we/they → verbo <b>sem</b> -s: <b>watch</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-020",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>Ana <b>___</b> kites on the beach.",
+  "resposta": "flies",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>flies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-021",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>You <b>___</b> kites on the beach.",
+  "resposta": "fly",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>fly</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-022",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>study</b>:<br>Ana <b>___</b> English on Mondays.",
+  "resposta": "studies",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>studies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-023",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>Ana <b>___</b> bikes.",
+  "resposta": "fixes",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>fixes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-024",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>Our cat <b>___</b> to school by bus.",
+  "resposta": "goes",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>goes</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-025",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>like</b>:<br>My sister <b>___</b> pizza.",
+  "resposta": "likes",
+  "explicacao": "\"My sister\" = he/she/it → verbo com -s: <b>likes</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-026",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>wash</b>:<br>He <b>___</b> the dishes.",
+  "resposta": "washes",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>washes</b> (termina em sh → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-027",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>She <b>___</b> kites on the beach.",
+  "resposta": "flies",
+  "explicacao": "\"She\" = he/she/it → verbo com -s: <b>flies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-028",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>He <b>___</b> to school by bus.",
+  "resposta": "goes",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>goes</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-029",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>They <b>___</b> bikes.",
+  "resposta": "fix",
+  "explicacao": "\"They\" = I/you/we/they → verbo <b>sem</b> -s: <b>fix</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-030",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>draw</b>:<br>He <b>___</b> in her sketchbook.",
+  "resposta": "draws",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>draws</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-031",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>like</b>:<br>I <b>___</b> pizza.",
+  "resposta": "like",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>like</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-032",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>study</b>:<br>Our cat <b>___</b> English on Mondays.",
+  "resposta": "studies",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>studies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-033",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>She <b>___</b> bikes.",
+  "resposta": "fixes",
+  "explicacao": "\"She\" = he/she/it → verbo com -s: <b>fixes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-034",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>swim</b>:<br>You <b>___</b> on Saturdays.",
+  "resposta": "swim",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>swim</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-035",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>draw</b>:<br>I <b>___</b> in her sketchbook.",
+  "resposta": "draw",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>draw</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-036",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>My dad <b>___</b> TV at night.",
+  "resposta": "watches",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>watches</b> (termina em ch → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-037",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>eat</b>:<br>Ana <b>___</b> fruit for breakfast.",
+  "resposta": "eats",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>eats</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-038",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>My sister <b>___</b> TV at night.",
+  "resposta": "watches",
+  "explicacao": "\"My sister\" = he/she/it → verbo com -s: <b>watches</b> (termina em ch → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-039",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>play</b>:<br>My friends <b>___</b> video games after school.",
+  "resposta": "play",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>play</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-040",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>Our cat <b>___</b> bikes.",
+  "resposta": "fixes",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>fixes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-041",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>study</b>:<br>My friends <b>___</b> English on Mondays.",
+  "resposta": "study",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>study</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-042",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>do</b>:<br>She <b>___</b> homework every day.",
+  "resposta": "does",
+  "explicacao": "\"She\" = he/she/it → verbo com -s: <b>does</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-043",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>He <b>___</b> bikes.",
+  "resposta": "fixes",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>fixes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-044",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>draw</b>:<br>Our cat <b>___</b> in her sketchbook.",
+  "resposta": "draws",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>draws</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-045",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>read</b>:<br>I <b>___</b> comics.",
+  "resposta": "read",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>read</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-046",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>He <b>___</b> kites on the beach.",
+  "resposta": "flies",
+  "explicacao": "\"He\" = he/she/it → verbo com -s: <b>flies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-047",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>do</b>:<br>Our cat <b>___</b> homework every day.",
+  "resposta": "does",
+  "explicacao": "\"Our cat\" = he/she/it → verbo com -s: <b>does</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-048",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>eat</b>:<br>My sister <b>___</b> fruit for breakfast.",
+  "resposta": "eats",
+  "explicacao": "\"My sister\" = he/she/it → verbo com -s: <b>eats</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-049",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fix</b>:<br>My dad <b>___</b> bikes.",
+  "resposta": "fixes",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>fixes</b> (termina em x → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-050",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>read</b>:<br>You <b>___</b> comics.",
+  "resposta": "read",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>read</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-051",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>swim</b>:<br>Ana <b>___</b> on Saturdays.",
+  "resposta": "swims",
+  "explicacao": "\"Ana\" = he/she/it → verbo com -s: <b>swims</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-052",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>study</b>:<br>You <b>___</b> English on Mondays.",
+  "resposta": "study",
+  "explicacao": "\"You\" = I/you/we/they → verbo <b>sem</b> -s: <b>study</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-053",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>fly</b>:<br>My dad <b>___</b> kites on the beach.",
+  "resposta": "flies",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>flies</b> (consoante + y → -ies).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-054",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>do</b>:<br>My friends <b>___</b> homework every day.",
+  "resposta": "do",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>do</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-055",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>watch</b>:<br>I <b>___</b> TV at night.",
+  "resposta": "watch",
+  "explicacao": "\"I\" = I/you/we/they → verbo <b>sem</b> -s: <b>watch</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-056",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>My friends <b>___</b> to school by bus.",
+  "resposta": "go",
+  "explicacao": "\"My friends\" = I/you/we/they → verbo <b>sem</b> -s: <b>go</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-057",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>go</b>:<br>My sister <b>___</b> to school by bus.",
+  "resposta": "goes",
+  "explicacao": "\"My sister\" = he/she/it → verbo com -s: <b>goes</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-058",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>have</b>:<br>My sister <b>___</b> lunch at noon.",
+  "resposta": "has",
+  "explicacao": "\"My sister\" = he/she/it → verbo com -s: <b>has</b> (irregular: have → has).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-059",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>eat</b>:<br>My dad <b>___</b> fruit for breakfast.",
+  "resposta": "eats",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>eats</b> (+s).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-pres-060",
+  "topico": "e-pres",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete with the verb <b>do</b>:<br>My dad <b>___</b> homework every day.",
+  "resposta": "does",
+  "explicacao": "\"My dad\" = he/she/it → verbo com -s: <b>does</b> (termina em o → +es).",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-001",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> he play the piano?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"he\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does he <b>play</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-002",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> you like pizza?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"you\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do you <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-003",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> you speak Spanish?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"you\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do you <b>speak</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-004",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your parents <b>___</b> play the piano.",
+  "resposta": "don't",
+  "explicacao": "\"your parents\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: Your parents don't <b>play</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-005",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> have a pet.",
+  "resposta": "don't",
+  "explicacao": "\"you\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: You don't <b>have</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-006",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> they play the piano?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"they\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do they <b>play</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-007",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> speak Spanish.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>speak</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-008",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your brother have a pet?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"your brother\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does your brother <b>have</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-009",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> like pizza.",
+  "resposta": "doesn't",
+  "explicacao": "\"she\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: She doesn't <b>like</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-010",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> live here.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>live</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-011",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your parents <b>___</b> like pizza.",
+  "resposta": "don't",
+  "explicacao": "\"your parents\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: Your parents don't <b>like</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-012",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your brother <b>___</b> live here.",
+  "resposta": "doesn't",
+  "explicacao": "\"your brother\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Your brother doesn't <b>live</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-013",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Ana <b>___</b> live here.",
+  "resposta": "doesn't",
+  "explicacao": "\"Ana\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Ana doesn't <b>live</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-014",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your brother <b>___</b> watch cartoons.",
+  "resposta": "doesn't",
+  "explicacao": "\"your brother\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Your brother doesn't <b>watch</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-015",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> Ana watch cartoons?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"Ana\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does Ana <b>watch</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-016",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> we live here?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"we\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do we <b>live</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-017",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your parents <b>___</b> have a pet.",
+  "resposta": "don't",
+  "explicacao": "\"your parents\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: Your parents don't <b>have</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-018",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> live here.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>live</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-019",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your brother go to the park?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"your brother\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does your brother <b>go</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-020",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> you live here?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"you\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do you <b>live</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-021",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> have a pet.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>have</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-022",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> they have a pet?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"they\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do they <b>have</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-023",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your parents live here?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"your parents\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do your parents <b>live</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-024",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> she like pizza?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"she\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does she <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-025",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your parents like pizza?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"your parents\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do your parents <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-026",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> watch cartoons.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>watch</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-027",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> like pizza.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>like</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-028",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> go to the park.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>go</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-029",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Your brother <b>___</b> like pizza.",
+  "resposta": "doesn't",
+  "explicacao": "\"your brother\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Your brother doesn't <b>like</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-030",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> Ana like pizza?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"Ana\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does Ana <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-031",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your parents go to the park?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"your parents\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do your parents <b>go</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-032",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> watch cartoons.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>watch</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-033",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> play the piano.",
+  "resposta": "doesn't",
+  "explicacao": "\"she\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: She doesn't <b>play</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-034",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> she play the piano?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"she\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does she <b>play</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-035",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> speak Spanish.",
+  "resposta": "don't",
+  "explicacao": "\"you\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: You don't <b>speak</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-036",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> watch cartoons.",
+  "resposta": "don't",
+  "explicacao": "\"you\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: You don't <b>watch</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-037",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> we speak Spanish?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"we\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do we <b>speak</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-038",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>You <b>___</b> go to the park.",
+  "resposta": "don't",
+  "explicacao": "\"you\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: You don't <b>go</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-039",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> have a pet.",
+  "resposta": "doesn't",
+  "explicacao": "\"she\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: She doesn't <b>have</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-040",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>They <b>___</b> play the piano.",
+  "resposta": "don't",
+  "explicacao": "\"they\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: They don't <b>play</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-041",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> Ana go to the park?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"Ana\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does Ana <b>go</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-042",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> he go to the park?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"he\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does he <b>go</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-043",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> he have a pet?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"he\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does he <b>have</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-044",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Ana <b>___</b> speak Spanish.",
+  "resposta": "doesn't",
+  "explicacao": "\"Ana\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Ana doesn't <b>speak</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-045",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> your parents play the piano?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"your parents\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do your parents <b>play</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-046",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>We <b>___</b> go to the park.",
+  "resposta": "don't",
+  "explicacao": "\"we\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: We don't <b>go</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-047",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>We <b>___</b> have a pet.",
+  "resposta": "don't",
+  "explicacao": "\"we\" = I/you/we/they → <b>don't</b>. Depois dele, verbo sem -s: We don't <b>have</b>…",
+  "respostas_aceitas": [
+   "do not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-048",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Ana <b>___</b> go to the park.",
+  "resposta": "doesn't",
+  "explicacao": "\"Ana\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Ana doesn't <b>go</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-049",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>Ana <b>___</b> have a pet.",
+  "resposta": "doesn't",
+  "explicacao": "\"Ana\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: Ana doesn't <b>have</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-050",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> we like pizza?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"we\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do we <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-051",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> have a pet.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>have</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-052",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> speak Spanish.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>speak</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-053",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> they watch cartoons?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"they\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do they <b>watch</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-054",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> he live here?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"he\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does he <b>live</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-055",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> he watch cartoons?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"he\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does he <b>watch</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-056",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>He <b>___</b> like pizza.",
+  "resposta": "doesn't",
+  "explicacao": "\"he\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: He doesn't <b>like</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-057",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> Ana play the piano?",
+  "resposta": "does",
+  "explicacao": "Sujeito \"Ana\" = he/she/it → <b>Does</b>. E o verbo fica sem -s: Does Ana <b>play</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-058",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> you have a pet?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"you\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do you <b>have</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-059",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete a pergunta:<br><b>___</b> they like pizza?",
+  "resposta": "do",
+  "explicacao": "Sujeito \"they\" = I/you/we/they → <b>Do</b>. E o verbo fica sem -s: Do they <b>like</b>…?",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-do-060",
+  "topico": "e-do",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete na <b>negativa</b>:<br>She <b>___</b> live here.",
+  "resposta": "doesn't",
+  "explicacao": "\"she\" = he/she/it → <b>doesn't</b>. Depois dele, verbo sem -s: She doesn't <b>live</b>…",
+  "respostas_aceitas": [
+   "does not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-001",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "\"Can your dad cook?\" — \"Yes, he ___.\"",
+  "resposta": "can",
+  "explicacao": "Resposta curta repete o can: Yes, he <b>can</b>.",
+  "alternativas": [
+   "can",
+   "does",
+   "is",
+   "cans"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-002",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Dolphins <b>___</b> swim.",
+  "resposta": "can",
+  "explicacao": "Dolphins conseguem nadar → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-003",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Elephants <b>___</b> fly.",
+  "resposta": "can't",
+  "explicacao": "Elephants não conseguem voar → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-004",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Kangaroos <b>___</b> jump.",
+  "resposta": "can",
+  "explicacao": "Kangaroos conseguem pular → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-005",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Qual frase está correta?",
+  "resposta": "She can draw very well.",
+  "explicacao": "Can é igual pra todo mundo (sem -s) e o verbo depois vem puro, sem \"to\": <b>She can draw</b>. Tipo você.",
+  "alternativas": [
+   "She can draw very well.",
+   "She cans draw very well.",
+   "She can draws very well.",
+   "She can to draw very well."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-006",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Cats <b>___</b> climb trees.",
+  "resposta": "can",
+  "explicacao": "Cats conseguem subir em árvores → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-007",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Snakes <b>___</b> walk.",
+  "resposta": "can't",
+  "explicacao": "Snakes não conseguem andar → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-008",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Parrots <b>___</b> repeat words.",
+  "resposta": "can",
+  "explicacao": "Parrots conseguem repetir palavras → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-009",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Babies <b>___</b> drive cars.",
+  "resposta": "can't",
+  "explicacao": "Babies não conseguem dirigir carros → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-010",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "\"Can you swim?\" — \"No, I ___.\"",
+  "resposta": "can't",
+  "explicacao": "Resposta curta repete o auxiliar: No, I <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "doesn't",
+   "don't",
+   "am not"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-011",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Fish <b>___</b> climb trees.",
+  "resposta": "can't",
+  "explicacao": "Fish não conseguem subir em árvores → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-012",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Fish <b>___</b> swim.",
+  "resposta": "can",
+  "explicacao": "Fish conseguem nadar → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-013",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Penguins <b>___</b> fly.",
+  "resposta": "can't",
+  "explicacao": "Penguins não conseguem voar → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-014",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Dogs <b>___</b> talk.",
+  "resposta": "can't",
+  "explicacao": "Dogs não conseguem falar → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-015",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Birds <b>___</b> fly.",
+  "resposta": "can",
+  "explicacao": "Birds conseguem voar → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-016",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Monkeys <b>___</b> climb trees.",
+  "resposta": "can",
+  "explicacao": "Monkeys conseguem subir em árvores → <b>can</b>.",
+  "alternativas": [
+   "can",
+   "can't"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-can-017",
+  "topico": "e-can",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "Cows <b>___</b> read books.",
+  "resposta": "can't",
+  "explicacao": "Cows não conseguem ler livros → <b>can't</b>.",
+  "alternativas": [
+   "can't",
+   "can"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-001",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> 7 o'clock.",
+  "resposta": "at",
+  "explicacao": "<b>at</b> 7 o'clock — usamos \"at\" com horas.",
+  "alternativas": [
+   "at",
+   "on",
+   "in"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-002",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> December.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> December — usamos \"in\" com meses.",
+  "alternativas": [
+   "in",
+   "on",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-003",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> Monday.",
+  "resposta": "on",
+  "explicacao": "<b>on</b> Monday — usamos \"on\" com dias da semana.",
+  "alternativas": [
+   "on",
+   "in",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-004",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> the morning.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> the morning — usamos \"in\" com partes do dia (morning, afternoon, evening).",
+  "alternativas": [
+   "in",
+   "at",
+   "on"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-005",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> the summer.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> the summer — usamos \"in\" com estações do ano.",
+  "alternativas": [
+   "in",
+   "on",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-006",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> night.",
+  "resposta": "at",
+  "explicacao": "<b>at</b> night — usamos \"at\" com expressão fixa: at night.",
+  "alternativas": [
+   "at",
+   "in",
+   "on"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-007",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> midnight.",
+  "resposta": "at",
+  "explicacao": "<b>at</b> midnight — usamos \"at\" com horário exato.",
+  "alternativas": [
+   "at",
+   "on",
+   "in"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-008",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> May 5th.",
+  "resposta": "on",
+  "explicacao": "<b>on</b> May 5th — usamos \"on\" com datas.",
+  "alternativas": [
+   "on",
+   "at",
+   "in"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-009",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> half past three.",
+  "resposta": "at",
+  "explicacao": "<b>at</b> half past three — usamos \"at\" com horas.",
+  "alternativas": [
+   "at",
+   "on",
+   "in"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-010",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> my birthday.",
+  "resposta": "on",
+  "explicacao": "<b>on</b> my birthday — usamos \"on\" com datas especiais / dias.",
+  "alternativas": [
+   "on",
+   "at",
+   "in"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-011",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> the afternoon.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> the afternoon — usamos \"in\" com partes do dia.",
+  "alternativas": [
+   "in",
+   "on",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-012",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> July.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> July — usamos \"in\" com meses.",
+  "alternativas": [
+   "in",
+   "at",
+   "on"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-013",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> 2026.",
+  "resposta": "in",
+  "explicacao": "<b>in</b> 2026 — usamos \"in\" com anos.",
+  "alternativas": [
+   "in",
+   "on",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-014",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> Christmas Day.",
+  "resposta": "on",
+  "explicacao": "<b>on</b> Christmas Day — usamos \"on\" com dias especiais.",
+  "alternativas": [
+   "on",
+   "in",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-015",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> Friday.",
+  "resposta": "on",
+  "explicacao": "<b>on</b> Friday — usamos \"on\" com dias da semana.",
+  "alternativas": [
+   "on",
+   "in",
+   "at"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-prep-016",
+  "topico": "e-prep",
+  "materia": "en",
+  "tipo": "mc",
+  "enunciado": "I have a drawing class <b>___</b> noon.",
+  "resposta": "at",
+  "explicacao": "<b>at</b> noon — usamos \"at\" com horário exato (noon = meio-dia).",
+  "alternativas": [
+   "at",
+   "in",
+   "on"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-001",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>play</b>:<br>I <b>___</b> right now.",
+  "resposta": "am playing",
+  "explicacao": "I → <b>am</b>. play → <b>playing</b> (+ing). Resposta: <b>am playing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-002",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are running",
+  "explicacao": "The kids → <b>are</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>are running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-003",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>He <b>___</b> right now.",
+  "resposta": "is swimming",
+  "explicacao": "He → <b>is</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>is swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-004",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is reading",
+  "explicacao": "My brother → <b>is</b>. read → <b>reading</b> (+ing). Resposta: <b>is reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-005",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are dancing",
+  "explicacao": "The kids → <b>are</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>are dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-006",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>make</b>:<br>I <b>___</b> right now.",
+  "resposta": "am making",
+  "explicacao": "I → <b>am</b>. make → <b>making</b> (termina em e → tira o e). Resposta: <b>am making</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-007",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>I <b>___</b> right now.",
+  "resposta": "am running",
+  "explicacao": "I → <b>am</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>am running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-008",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>watch</b>:<br>They <b>___</b> right now.",
+  "resposta": "are watching",
+  "explicacao": "They → <b>are</b>. watch → <b>watching</b> (+ing). Resposta: <b>are watching</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-009",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>watch</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is watching",
+  "explicacao": "My brother → <b>is</b>. watch → <b>watching</b> (+ing). Resposta: <b>is watching</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-010",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>She <b>___</b> right now.",
+  "resposta": "is running",
+  "explicacao": "She → <b>is</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>is running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-011",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>We <b>___</b> right now.",
+  "resposta": "are swimming",
+  "explicacao": "We → <b>are</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>are swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-012",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>He <b>___</b> right now.",
+  "resposta": "is running",
+  "explicacao": "He → <b>is</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>is running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-013",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>eat</b>:<br>He <b>___</b> right now.",
+  "resposta": "is eating",
+  "explicacao": "He → <b>is</b>. eat → <b>eating</b> (+ing). Resposta: <b>is eating</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-014",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>play</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is playing",
+  "explicacao": "My brother → <b>is</b>. play → <b>playing</b> (+ing). Resposta: <b>is playing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-015",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>watch</b>:<br>We <b>___</b> right now.",
+  "resposta": "are watching",
+  "explicacao": "We → <b>are</b>. watch → <b>watching</b> (+ing). Resposta: <b>are watching</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-016",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is dancing",
+  "explicacao": "My brother → <b>is</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>is dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-017",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is swimming",
+  "explicacao": "My brother → <b>is</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>is swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-018",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>sit</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is sitting",
+  "explicacao": "My brother → <b>is</b>. sit → <b>sitting</b> (consoante-vogal-consoante → dobra). Resposta: <b>is sitting</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-019",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>They <b>___</b> right now.",
+  "resposta": "are running",
+  "explicacao": "They → <b>are</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>are running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-020",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>sit</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are sitting",
+  "explicacao": "The kids → <b>are</b>. sit → <b>sitting</b> (consoante-vogal-consoante → dobra). Resposta: <b>are sitting</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-021",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>play</b>:<br>She <b>___</b> right now.",
+  "resposta": "is playing",
+  "explicacao": "She → <b>is</b>. play → <b>playing</b> (+ing). Resposta: <b>is playing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-022",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>study</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are studying",
+  "explicacao": "The kids → <b>are</b>. study → <b>studying</b> (+ing (o y fica)). Resposta: <b>are studying</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-023",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>cry</b>:<br>I <b>___</b> right now.",
+  "resposta": "am crying",
+  "explicacao": "I → <b>am</b>. cry → <b>crying</b> (+ing (o y fica)). Resposta: <b>am crying</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-024",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>write</b>:<br>They <b>___</b> right now.",
+  "resposta": "are writing",
+  "explicacao": "They → <b>are</b>. write → <b>writing</b> (termina em e → tira o e). Resposta: <b>are writing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-025",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>They <b>___</b> right now.",
+  "resposta": "are reading",
+  "explicacao": "They → <b>are</b>. read → <b>reading</b> (+ing). Resposta: <b>are reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-026",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>study</b>:<br>She <b>___</b> right now.",
+  "resposta": "is studying",
+  "explicacao": "She → <b>is</b>. study → <b>studying</b> (+ing (o y fica)). Resposta: <b>is studying</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-027",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>He <b>___</b> right now.",
+  "resposta": "is reading",
+  "explicacao": "He → <b>is</b>. read → <b>reading</b> (+ing). Resposta: <b>is reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-028",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>She <b>___</b> right now.",
+  "resposta": "is dancing",
+  "explicacao": "She → <b>is</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>is dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-029",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>I <b>___</b> right now.",
+  "resposta": "am dancing",
+  "explicacao": "I → <b>am</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>am dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-030",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>make</b>:<br>She <b>___</b> right now.",
+  "resposta": "is making",
+  "explicacao": "She → <b>is</b>. make → <b>making</b> (termina em e → tira o e). Resposta: <b>is making</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-031",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>cry</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are crying",
+  "explicacao": "The kids → <b>are</b>. cry → <b>crying</b> (+ing (o y fica)). Resposta: <b>are crying</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-032",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>write</b>:<br>I <b>___</b> right now.",
+  "resposta": "am writing",
+  "explicacao": "I → <b>am</b>. write → <b>writing</b> (termina em e → tira o e). Resposta: <b>am writing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-033",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>watch</b>:<br>She <b>___</b> right now.",
+  "resposta": "is watching",
+  "explicacao": "She → <b>is</b>. watch → <b>watching</b> (+ing). Resposta: <b>is watching</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-034",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>make</b>:<br>They <b>___</b> right now.",
+  "resposta": "are making",
+  "explicacao": "They → <b>are</b>. make → <b>making</b> (termina em e → tira o e). Resposta: <b>are making</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-035",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>I <b>___</b> right now.",
+  "resposta": "am reading",
+  "explicacao": "I → <b>am</b>. read → <b>reading</b> (+ing). Resposta: <b>am reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-036",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are reading",
+  "explicacao": "The kids → <b>are</b>. read → <b>reading</b> (+ing). Resposta: <b>are reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-037",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>draw</b>:<br>We <b>___</b> right now.",
+  "resposta": "are drawing",
+  "explicacao": "We → <b>are</b>. draw → <b>drawing</b> (+ing). Resposta: <b>are drawing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-038",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>We <b>___</b> right now.",
+  "resposta": "are running",
+  "explicacao": "We → <b>are</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>are running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-039",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>watch</b>:<br>He <b>___</b> right now.",
+  "resposta": "is watching",
+  "explicacao": "He → <b>is</b>. watch → <b>watching</b> (+ing). Resposta: <b>is watching</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-040",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>write</b>:<br>We <b>___</b> right now.",
+  "resposta": "are writing",
+  "explicacao": "We → <b>are</b>. write → <b>writing</b> (termina em e → tira o e). Resposta: <b>are writing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-041",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>read</b>:<br>She <b>___</b> right now.",
+  "resposta": "is reading",
+  "explicacao": "She → <b>is</b>. read → <b>reading</b> (+ing). Resposta: <b>is reading</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-042",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>eat</b>:<br>She <b>___</b> right now.",
+  "resposta": "is eating",
+  "explicacao": "She → <b>is</b>. eat → <b>eating</b> (+ing). Resposta: <b>is eating</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-043",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>play</b>:<br>We <b>___</b> right now.",
+  "resposta": "are playing",
+  "explicacao": "We → <b>are</b>. play → <b>playing</b> (+ing). Resposta: <b>are playing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-044",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>They <b>___</b> right now.",
+  "resposta": "are dancing",
+  "explicacao": "They → <b>are</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>are dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-045",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>dance</b>:<br>He <b>___</b> right now.",
+  "resposta": "is dancing",
+  "explicacao": "He → <b>is</b>. dance → <b>dancing</b> (termina em e → tira o e). Resposta: <b>is dancing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-046",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>sit</b>:<br>He <b>___</b> right now.",
+  "resposta": "is sitting",
+  "explicacao": "He → <b>is</b>. sit → <b>sitting</b> (consoante-vogal-consoante → dobra). Resposta: <b>is sitting</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-047",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>They <b>___</b> right now.",
+  "resposta": "are swimming",
+  "explicacao": "They → <b>are</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>are swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-048",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>draw</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is drawing",
+  "explicacao": "My brother → <b>is</b>. draw → <b>drawing</b> (+ing). Resposta: <b>is drawing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-049",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are swimming",
+  "explicacao": "The kids → <b>are</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>are swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-050",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>run</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is running",
+  "explicacao": "My brother → <b>is</b>. run → <b>running</b> (consoante-vogal-consoante → dobra a última letra). Resposta: <b>is running</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-051",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>play</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are playing",
+  "explicacao": "The kids → <b>are</b>. play → <b>playing</b> (+ing). Resposta: <b>are playing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-052",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>write</b>:<br>The kids <b>___</b> right now.",
+  "resposta": "are writing",
+  "explicacao": "The kids → <b>are</b>. write → <b>writing</b> (termina em e → tira o e). Resposta: <b>are writing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-053",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>eat</b>:<br>I <b>___</b> right now.",
+  "resposta": "am eating",
+  "explicacao": "I → <b>am</b>. eat → <b>eating</b> (+ing). Resposta: <b>am eating</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-054",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>sit</b>:<br>I <b>___</b> right now.",
+  "resposta": "am sitting",
+  "explicacao": "I → <b>am</b>. sit → <b>sitting</b> (consoante-vogal-consoante → dobra). Resposta: <b>am sitting</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-055",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>sit</b>:<br>We <b>___</b> right now.",
+  "resposta": "are sitting",
+  "explicacao": "We → <b>are</b>. sit → <b>sitting</b> (consoante-vogal-consoante → dobra). Resposta: <b>are sitting</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-056",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>swim</b>:<br>She <b>___</b> right now.",
+  "resposta": "is swimming",
+  "explicacao": "She → <b>is</b>. swim → <b>swimming</b> (consoante-vogal-consoante → dobra). Resposta: <b>is swimming</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-057",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>write</b>:<br>My brother <b>___</b> right now.",
+  "resposta": "is writing",
+  "explicacao": "My brother → <b>is</b>. write → <b>writing</b> (termina em e → tira o e). Resposta: <b>is writing</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-058",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>cry</b>:<br>She <b>___</b> right now.",
+  "resposta": "is crying",
+  "explicacao": "She → <b>is</b>. cry → <b>crying</b> (+ing (o y fica)). Resposta: <b>is crying</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-059",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>make</b>:<br>We <b>___</b> right now.",
+  "resposta": "are making",
+  "explicacao": "We → <b>are</b>. make → <b>making</b> (termina em e → tira o e). Resposta: <b>are making</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "e-ing-060",
+  "topico": "e-ing",
+  "materia": "en",
+  "tipo": "text",
+  "enunciado": "Complete com o <b>present continuous</b> do verbo <b>eat</b>:<br>They <b>___</b> right now.",
+  "resposta": "are eating",
+  "explicacao": "They → <b>are</b>. eat → <b>eating</b> (+ing). Resposta: <b>are eating</b>.",
+  "respostas_aceitas": [],
+  "bncc": null,
+  "revisado": false
+ }
+]

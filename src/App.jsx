@@ -1,0 +1,40 @@
+import { useEffect, useState } from 'react';
+import { api } from './dados/api.js';
+import Login from './telas/Login.jsx';
+import Aluno from './telas/Aluno.jsx';
+import Professor from './telas/Professor.jsx';
+
+export default function App() {
+  const [perfil, setPerfil] = useState(undefined); // undefined = carregando
+
+  useEffect(() => {
+    api.sessaoAtual().then(setPerfil).catch(() => setPerfil(null));
+  }, []);
+
+  async function sair() {
+    await api.sair();
+    setPerfil(null);
+  }
+
+  if (perfil === undefined) return <div className="moldura"><p className="mudo">Carregando…</p></div>;
+  if (!perfil) return <div className="moldura"><Login aoEntrar={setPerfil} /></div>;
+
+  return (
+    <div className="moldura">
+      <header className="topo">
+        <span className="marca">Tutor da Cat</span>
+        <span className="quem">
+          {perfil.nome} · {perfil.papel === 'professor' ? 'Professor(a)' : 'Aluno(a)'}
+          <button className="sair" onClick={sair}>Sair</button>
+        </span>
+      </header>
+      {perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
+      {api.modo === 'demo' && (
+        <footer className="rodape pequeno mudo">
+          Modo demonstração ·{' '}
+          <button className="link" onClick={async () => { await api.reiniciarDemo(); location.reload(); }}>recomeçar do zero</button>
+        </footer>
+      )}
+    </div>
+  );
+}
