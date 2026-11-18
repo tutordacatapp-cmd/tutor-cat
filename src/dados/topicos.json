@@ -7,8 +7,12 @@
   "explicacao_html": "<p>Cada algarismo vale conforme a <b>casa</b> onde ele está, tipo um endereço. Em 47.305, o 7 mora nas unidades de milhar: vale 7 × 1.000 = <b>7.000</b>.</p><p>Antecessor = o que vem antes (número − 1). Sucessor = o que vem depois (número + 1).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA01",
+   "EF06MA02"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-exp",
@@ -18,8 +22,11 @@
   "explicacao_html": "<p>Expressão tem ordem certa, sem atalho: <b>1º</b> parênteses, <b>2º</b> multiplicação e divisão (na ordem em que aparecem), <b>3º</b> adição e subtração.</p><p>Exemplo: 5 + 3 × 2 = 5 + 6 = <b>11</b>. Quem vai direto da esquerda pra direita chega em 16, e erra.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA03"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-div",
@@ -29,8 +36,11 @@
   "explicacao_html": "<p>Atalhos de divisibilidade: por <b>2</b>, termina em par · por <b>3</b>, a soma dos algarismos dá múltiplo de 3 · por <b>5</b>, termina em 0 ou 5 · por <b>9</b>, a soma dos algarismos dá múltiplo de 9 · por <b>10</b>, termina em 0.</p><p><b>Primo</b> tem exatamente dois divisores: 1 e ele mesmo. O 1 <b>não</b> entra no clube; o 2 é o único primo par.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA05"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-mmc",
@@ -40,8 +50,11 @@
   "explicacao_html": "<p><b>MMC</b> (mínimo múltiplo comum): o menor número que aparece na tabuada dos dois. Serve pra perguntas do tipo \"quando isso acontece junto de novo?\".</p><p><b>MDC</b> (máximo divisor comum): o maior número que divide os dois. Serve pra \"dividir em partes iguais, do maior tamanho possível\".</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA06"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-frac",
@@ -51,8 +64,11 @@
   "explicacao_html": "<p>Multiplicou ou dividiu em cima e embaixo <b>pelo mesmo número</b>? A fração continua valendo o mesmo: <span class=\"frac\"><span>1</span><span>2</span></span> = <span class=\"frac\"><span>2</span><span>4</span></span> = <span class=\"frac\"><span>3</span><span>6</span></span>. Metade da pizza é metade, cortada em 2 ou em 6 pedaços.</p><p><b>Simplificar</b>: divida os dois pelo MDC até não dar mais. <span class=\"frac\"><span>12</span><span>18</span></span> → ÷6 → <span class=\"frac\"><span>2</span><span>3</span></span>.</p><p>Pra comparar frações, deixe com o <b>mesmo denominador</b>.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA07"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-fop",
@@ -62,8 +78,11 @@
   "explicacao_html": "<p><b>Mesmo denominador</b>: some ou subtraia só os numeradores; o de baixo fica igual. <span class=\"frac\"><span>2</span><span>7</span></span> + <span class=\"frac\"><span>3</span><span>7</span></span> = <span class=\"frac\"><span>5</span><span>7</span></span>.</p><p><b>Denominadores diferentes</b>: primeiro transforme em frações equivalentes com o MMC dos denominadores, depois some.</p><p><b>Fração de uma quantidade</b>: <span class=\"frac\"><span>3</span><span>4</span></span> de 20 → divide por 4 (=5) e multiplica por 3 (=15).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA10"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-dec",
@@ -73,8 +92,12 @@
   "explicacao_html": "<p>Depois da vírgula vêm os <b>décimos</b> (1 casa), <b>centésimos</b> (2 casas) e <b>milésimos</b> (3 casas). 0,7 = <span class=\"frac\"><span>7</span><span>10</span></span> · 0,07 = <span class=\"frac\"><span>7</span><span>100</span></span> · 0,007 = <span class=\"frac\"><span>7</span><span>1000</span></span>.</p><p>Leitura: 3,45 = \"três inteiros e quarenta e cinco <b>centésimos</b>\" (o nome vem da última casa).</p><p>Pegadinha: 0,5 é maior que 0,45. Iguale as casas com zeros e compare 0,50 com 0,45. Mais algarismos depois da vírgula não quer dizer número maior!</p><p>× 10, 100, 1000: a vírgula anda 1, 2, 3 casas pra <b>direita</b>. ÷ 10, 100, 1000: anda pra <b>esquerda</b>.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA01",
+   "EF06MA08"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-dop",
@@ -84,8 +107,11 @@
   "explicacao_html": "<p><b>+ e −</b>: vírgula embaixo de vírgula. Complete com zeros: 3,5 = 3,50.</p><p><b>×</b>: multiplique como se não houvesse vírgula e, no resultado, dê tantas casas decimais quanto a <b>soma</b> das casas dos fatores. 0,2 × 0,3: 2 × 3 = 6, 1 + 1 = 2 casas → <b>0,06</b>.</p><p><b>÷ por inteiro</b>: divida normalmente e, ao passar pela vírgula, coloque a vírgula no quociente. Sobrou resto? Acrescente um zero e continue: 7 ÷ 4 = 1,75.</p><p><b>÷ por decimal</b>: multiplique os dois números por 10, 100… até o divisor ficar inteiro. 4,5 ÷ 0,9 = 45 ÷ 9 = <b>5</b>.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA11"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-pct",
@@ -95,8 +121,11 @@
   "explicacao_html": "<p>Porcentagem é uma fração com 100 embaixo: 25% = <span class=\"frac\"><span>25</span><span>100</span></span> = <span class=\"frac\"><span>1</span><span>4</span></span> = <b>0,25</b>. Pra virar decimal, é só dividir por 100 (vírgula 2 casas pra esquerda): 7% = 0,07.</p><p>Atalhos: <b>10%</b> = ÷10 · <b>50%</b> = metade · <b>25%</b> = ÷4 · <b>5%</b> = metade de 10% · <b>1%</b> = ÷100 · 15% = 10% + 5%.</p><p><b>Desconto</b>: tira do preço. <b>Aumento</b> (ou juros): soma no preço.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA13"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-pot",
@@ -106,8 +135,11 @@
   "explicacao_html": "<p>2⁵ = 2 × 2 × 2 × 2 × 2 = 32. A base se repete; o expoente diz <b>quantas vezes</b>. Não é 2 × 5: esse é o erro número 1.</p><p>Qualquer número elevado a 1 é ele mesmo; elevado a 0 dá <b>1</b>. 10³ = 1.000 (expoente = número de zeros).</p><p>√49 = 7, porque 7² = 49. Raiz é a potência ao contrário.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA11"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": true
  },
  {
   "id": "m-geo",
@@ -117,8 +149,13 @@
   "explicacao_html": "<p><b>Perímetro</b> = soma de todos os lados (o contorno, tipo moldura). <b>Área</b> do retângulo = base × altura (o recheio, em cm²).</p><p>Ângulo <b>agudo</b> &lt; 90° · <b>reto</b> = 90° (o canto da folha) · <b>obtuso</b> entre 90° e 180° · <b>raso</b> = 180°.</p><p>3 lados: triângulo · 4: quadrilátero · 5: pentágono · 6: hexágono · 8: octógono.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA18",
+   "EF06MA24",
+   "EF06MA25"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-tri",
@@ -128,8 +165,11 @@
   "explicacao_html": "<p><b>Pelos lados</b>: <b>equilátero</b> = 3 lados iguais · <b>isósceles</b> = 2 lados iguais · <b>escaleno</b> = 3 lados diferentes.</p><p><b>Pelos ângulos</b>: <b>acutângulo</b> = 3 ângulos agudos (menores que 90°) · <b>retângulo</b> = 1 ângulo reto (90°) · <b>obtusângulo</b> = 1 ângulo obtuso (maior que 90°).</p><p>A soma dos 3 ângulos internos é sempre <b>180°</b>. No equilátero, cada ângulo mede <b>60°</b>. No retângulo, o lado oposto ao ângulo reto é a <b>hipotenusa</b> (o maior lado) e os outros dois são os <b>catetos</b>.</p><p>Nem sempre 3 medidas formam triângulo: o <b>maior lado</b> tem que ser <b>menor que a soma</b> dos outros dois.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA19"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "m-cons",
@@ -139,8 +179,12 @@
   "explicacao_html": "<p><b>Triângulo equilátero de lado AB</b>: 1) trace o segmento AB com a régua; 2) abra o compasso com a <b>medida de AB</b>; 3) ponta seca em <b>A</b>, faça um arco; 4) mesma abertura, ponta seca em <b>B</b>, outro arco; 5) o cruzamento dos arcos é o vértice <b>C</b>; 6) ligue A a C e B a C.</p><p>Por que funciona? AC e BC foram feitos com a mesma abertura de AB, então os 3 lados ficam iguais.</p><p><b>Triângulo retângulo</b>: o segredo é construir o <b>ângulo de 90°</b> (uma reta perpendicular) com o compasso. Depois marque as medidas dos catetos nos dois lados do ângulo reto e ligue as pontas: essa última linha é a hipotenusa.</p><p>Confira no caderno de DG o passo a passo exato que o professor usou!</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06MA19",
+   "EF06MA22"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": true
  },
  {
   "id": "m-med",
@@ -150,8 +194,11 @@
   "explicacao_html": "<p>1 m = 100 cm · 1 km = 1.000 m · 1 cm = 10 mm · 1 kg = 1.000 g · 1 L = 1.000 mL · 1 h = 60 min · 1 min = 60 s.</p><p>De unidade <b>maior pra menor</b>: multiplique (o número cresce). De <b>menor pra maior</b>: divida (o número diminui).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06MA24"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "p-sub",
@@ -161,8 +208,11 @@
   "explicacao_html": "<p>Substantivo é o nome das coisas: seres, objetos, lugares e sentimentos.</p><p><b>Próprio</b> (Brasil, Ana) × <b>comum</b> (país, menina) · <b>concreto</b> (mesa) × <b>abstrato</b> (saudade, alegria) · <b>simples</b> (sol) × <b>composto</b> (girassol) · <b>primitivo</b> (pedra) × <b>derivado</b> (pedreiro) · <b>coletivo</b> (enxame, cardume).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 14
+  "bncc": [
+   "EF06LP04"
+  ],
+  "questoes": 14,
+  "bncc_aproximado": false
  },
  {
   "id": "p-adj",
@@ -172,8 +222,11 @@
   "explicacao_html": "<p>Adjetivo dá <b>característica</b> ao substantivo: céu <i>azul</i>, gato <i>preto</i>. É o filtro da frase.</p><p><b>Locução adjetiva</b> = duas ou mais palavras fazendo papel de adjetivo: amor <i>de mãe</i> = amor <i>materno</i>.</p><p>Graus: comparativo (mais alta <i>que</i>) e superlativo (altíssima, muito alta).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LP04"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": false
  },
  {
   "id": "p-pro",
@@ -183,8 +236,12 @@
   "explicacao_html": "<p>Pronome <b>substitui</b> ou acompanha o substantivo, pra frase não ficar repetindo o mesmo nome.</p><p><b>Pessoais</b>: eu, tu, ele, nós, vós, eles (reto) · me, te, o, a, lhe, mim (oblíquo). <b>Possessivos</b>: meu, seu, nosso. <b>Demonstrativos</b>: este (perto de quem fala), esse (perto de quem ouve), aquele (longe dos dois).</p><p>\"Para <b>eu</b> fazer\" (o eu faz a ação) · \"para <b>mim</b>\" (sem verbo depois).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LP12",
+   "EF67LP36"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": true
  },
  {
   "id": "p-verb",
@@ -194,8 +251,12 @@
   "explicacao_html": "<p><b>1ª conjugação</b>: -ar (cantar) · <b>2ª</b>: -er (vender) · <b>3ª</b>: -ir (partir).</p><p>Tempos do indicativo: <b>presente</b> (eu canto) · <b>pretérito perfeito</b> (eu cantei: já acabou) · <b>pretérito imperfeito</b> (eu cantava: era costume) · <b>futuro</b> (eu cantarei).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LP04",
+   "EF06LP11"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "p-ton",
@@ -205,8 +266,11 @@
   "explicacao_html": "<p>Sílaba tônica é a que você fala mais <b>forte</b>. Conte de trás pra frente: última → <b>oxítona</b> (ca-FÉ) · penúltima → <b>paroxítona</b> (ME-sa) · antepenúltima → <b>proparoxítona</b> (LÂM-pa-da).</p><p>Proparoxítona: acento em todas, sem exceção. Oxítona: acento quando termina em <b>a, e, o, em, ens</b> (sofá, café, parabéns).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 46
+  "bncc": [
+   "EF67LP32"
+  ],
+  "questoes": 46,
+  "bncc_aproximado": true
  },
  {
   "id": "p-sil",
@@ -216,8 +280,11 @@
   "explicacao_html": "<p>Cada sílaba tem uma vogal. Se separam: <b>rr, ss, sc, sç, xc</b> (car-ro, pás-sa-ro, nas-cer) e os <b>hiatos</b> (sa-ú-de, pi-a-no).</p><p>Ficam juntos: <b>ch, lh, nh</b> (fi-lho), <b>qu, gu</b> (quei-jo) e os <b>ditongos</b> (cai-xa).</p><p>1 sílaba: monossílaba · 2: dissílaba · 3: trissílaba · 4 ou mais: polissílaba.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 57
+  "bncc": [
+   "EF67LP32"
+  ],
+  "questoes": 57,
+  "bncc_aproximado": true
  },
  {
   "id": "p-pon",
@@ -227,8 +294,11 @@
   "explicacao_html": "<p><b>.</b> declarativa · <b>?</b> interrogativa · <b>!</b> exclamativa (emoção) · ordem ou pedido: imperativa.</p><p>Vírgula: separa itens de uma lista e o <b>vocativo</b> (quem é chamado: \"Pedro, vem cá.\"). <b>Travessão</b> marca a fala do personagem. <b>Dois-pontos</b> anunciam fala, lista ou explicação. <b>Reticências</b>: hesitação, pensamento que ficou no ar...</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 10
+  "bncc": [
+   "EF67LP33"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": false
  },
  {
   "id": "p-conf",
@@ -238,8 +308,12 @@
   "explicacao_html": "<p><b>mas</b> = porém · <b>mais</b> = quantidade (oposto de menos).</p><p><b>mau</b> × bom · <b>mal</b> × bem. Na dúvida, troque pelo oposto e veja qual encaixa.</p><p><b>por que</b> (pergunta) · <b>porque</b> (resposta) · <b>por quê</b> (fim da frase) · <b>o porquê</b> (= o motivo).</p><p><b>há</b> = tempo passado (dá pra trocar por \"faz\") · <b>a</b> = tempo futuro ou distância. <b>Onde</b> = em que lugar · <b>aonde</b> = pra onde (vai aonde?).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LP12",
+   "EF67LP32"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": true
  },
  {
   "id": "p-nar",
@@ -249,8 +323,11 @@
   "explicacao_html": "<p>Toda narrativa tem <b>narrador, personagens, tempo, espaço e enredo</b>. O enredo segue: situação inicial → conflito → <b>clímax</b> (maior tensão) → desfecho. Funciona igual em livro, filme e série.</p><p>Narrador em <b>1ª pessoa</b> participa (\"eu corri\"); em <b>3ª pessoa</b> só observa (\"ela correu\").</p><p>Fábula: animais agindo como gente + <b>moral</b>. Notícia: fatos reais e recentes. Receita: texto instrucional.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 11
+  "bncc": [
+   "EF69LP47"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": false
  },
  {
   "id": "p-cav",
@@ -260,8 +337,12 @@
   "explicacao_html": "<p>Surgiram na <b>Idade Média</b> e contam aventuras de cavaleiros, como os do <b>Rei Artur</b> (Merlin, Excalibur, Távola Redonda, Camelot, Santo Graal).</p><p><b>Marca principal:</b> misturam elementos <b>históricos</b> (reis, castelos, guerras, a Grã-Bretanha) com elementos <b>fantásticos/sobrenaturais</b> (magos, fadas, dragões, espada mágica).</p><p><b>Estrutura episódica:</b> cada episódio é uma aventura com começo, meio e fim próprios. O que liga um episódio ao outro são só os <b>personagens</b>, por isso dá para ler fora de ordem.</p><p><b>Código de honra:</b> não mentir · não buscar fama nem riqueza · não atacar pelas costas, ferido ou desarmado · defender os mais fracos · não abandonar a batalha sem ordem · defender a fé e o reino até a morte · não se deixar levar pela ira.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 13
+  "bncc": [
+   "EF67LP28",
+   "EF69LP44"
+  ],
+  "questoes": 13,
+  "bncc_aproximado": false
  },
  {
   "id": "p-pres",
@@ -271,8 +352,12 @@
   "explicacao_html": "<p>O presente nem sempre fala do \"agora\". Ele tem 6 usos:</p><p><b>1. Simultâneo à fala:</b> acontece no momento em que se fala. \"Você está sentado?\"<br><b>2. Habitual:</b> rotina de alguém ou de algo. \"O ônibus passa às 7h.\"<br><b>3. Generalização:</b> opinião disfarçada de verdade absoluta, sempre tem exceção. \"Todo menino sonha ser jogador.\"<br><b>4. Fato científico:</b> verdade comprovada. \"O corpo humano tem 206 ossos.\"<br><b>5. Passado revivido (presente histórico):</b> fato passado contado no presente pra ficar mais vivo. \"Em 1991, Senna conquista o tri.\"<br><b>6. Futuro próximo:</b> fato futuro, com pista de tempo. \"Mês que vem o Papa chega ao Brasil.\"</p><p><b>Truque:</b> dá pra discordar? Então é generalização, não fato científico. Tem data no passado? Presente histórico. Pista de futuro (amanhã, mês que vem)? Futuro próximo.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 13
+  "bncc": [
+   "EF06LP04",
+   "EF06LP05"
+  ],
+  "questoes": 13,
+  "bncc_aproximado": false
  },
  {
   "id": "p-pret",
@@ -282,8 +367,12 @@
   "explicacao_html": "<p><b>Pretérito perfeito:</b> fato que aconteceu e terminou, uma vez. \"Ontem <b>houve</b> um incêndio.\"<br><b>Pretérito imperfeito:</b> rotina ou costume no passado. \"Nas festas, a família se <b>reunia</b>.\"<br><b>Pretérito mais-que-perfeito:</b> fato <b>mais antigo</b> que outro fato passado. \"A palestra já <b>fora</b> dada no mês anterior.\" Forma simples em <b>-ra</b> (fora, saíra, cantara) = forma composta <b>tinha + particípio</b> (tinha sido, tinha saído).</p><p><b>Modos verbais:</b> <b>indicativo</b> = fato certo (aconteceu, acontece ou vai acontecer) · <b>subjuntivo</b> = hipótese, dúvida, desejo (se, talvez, que, quando) · <b>imperativo</b> = ordem, pedido, conselho ou convite.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LP04",
+   "EF06LP05"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": false
  },
  {
   "id": "p-locvn",
@@ -293,8 +382,12 @@
   "explicacao_html": "<p><b>Locução verbal</b> = <b>verbo auxiliar + verbo principal</b> funcionando como um só verbo, com o mesmo sujeito: <i>está chovendo</i>, <i>vou estudar</i>, <i>tinha furado</i>.</p><p>Quem muda para concordar com o sujeito é o <b>auxiliar</b>: \"Está chovendo hambúrguer\" → \"Estão chovendo hambúrgueres\". O principal fica numa forma nominal.</p><p><b>Formas nominais:</b><br><b>Infinitivo</b> (-r: chover, deixar): a ação em si, sem passado, presente ou futuro.<br><b>Gerúndio</b> (-ndo: chovendo, aprendendo): ação <b>em andamento</b>, contínua.<br><b>Particípio</b> (-ado/-ido: chovido, furado): ação <b>já concluída</b>.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LP04",
+   "EF06LP10"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": true
  },
  {
   "id": "p-conc",
@@ -304,8 +397,11 @@
   "explicacao_html": "<p>O verbo pode expressar:<br><b>Ação:</b> correr, chutar, soprar, escrever.<br><b>Estado ou qualidade:</b> ser, estar, parecer, ficar, permanecer, continuar.<br><b>Fenômeno da natureza:</b> chover, ventar, nevar, trovejar, amanhecer.</p><p><b>Pegadinha 1:</b> \"O vento <b>sopra</b>\" é <b>ação</b>, não fenômeno: gente, animal e máquina também sopram. Fenômeno é verbo que só a natureza \"faz\".</p><p><b>Pegadinha 2:</b> em sentido figurado, \"chover\" vira ação (\"<b>choveram</b> críticas\", \"chovendo hambúrguer\" = cair, despencar).</p><p><b>E ação nem sempre é verbo:</b> há <b>substantivos</b> que expressam ação (a corrida, a chegada, a leitura) e <b>adjetivos</b> que expressam ação (vidro quebrado, mês ventilado, sala iluminada).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 13
+  "bncc": [
+   "EF06LP04"
+  ],
+  "questoes": 13,
+  "bncc_aproximado": true
  },
  {
   "id": "p-subj",
@@ -315,8 +411,12 @@
   "explicacao_html": "<p><b>Subjuntivo</b> = o verbo não afirma um fato: expressa <b>hipótese, dúvida, desejo ou possibilidade</b>. Costuma vir depois de <i>se, que, quando, talvez, caso, tomara que</i>.</p><p><b>Tempos e o que expressam:</b><br><b>Presente</b> (que eu <b>esteja</b>, que <b>haja</b>): dúvida, desejo, possibilidade. \"Tomara que <b>dê</b> certo\" = desejo.<br><b>Pretérito imperfeito</b> (se eu <b>estivesse</b>): hipótese, muitas vezes que não está acontecendo. Desinência <b>-sse</b>.<br><b>Futuro</b> (quando eu <b>estiver</b>): possibilidade no futuro, uma condição. Desinência <b>-r</b>.</p><p><b>Regra da subtração</b> (serve para o pretérito imperfeito e o futuro do subjuntivo e para o mais-que-perfeito do indicativo):<br>1. Pegue o verbo no <b>pretérito perfeito, 3ª pessoa do plural</b>: eles <b>estiveram</b>.<br>2. Tire o <b>-ram</b>: estive-.<br>3. Some a desinência: <b>-sse</b> (estivesse), <b>-r</b> (estiver), <b>-ra</b> (estivera).</p><p><b>Exemplos:</b> propor → propuseram → propuse- → propusesse / propuser / propusera.<br>conter → contiveram → contive- → contivesse / contiver / contivera.<br>manter → mantiveram → mantive- → mantivesse.<br>haver → houveram → houve- → houvesse / houver.<br>poder → puderam → pude- → pudesse / puder.</p><p><b>Pessoas do imperfeito:</b> eu estivesse · tu estivesses · ele estivesse · nós estivéssemos · vós estivésseis · eles estivessem.<br><b>Futuro:</b> eu estiver · tu estiveres · ele estiver · nós estivermos · vós estiverdes · eles estiverem.</p><p><b>Pegadinha:</b> \"pudésseis\" (imperfeito, -sse) ≠ \"puderdes\" (futuro, -r) ≠ \"possais\" (presente). Olhe a desinência!</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 28
+  "bncc": [
+   "EF06LP04",
+   "EF06LP05"
+  ],
+  "questoes": 28,
+  "bncc_aproximado": false
  },
  {
   "id": "p-adv",
@@ -326,8 +426,11 @@
   "explicacao_html": "<p><b>Advérbio</b> modifica o sentido de um <b>verbo</b>, de um <b>adjetivo</b> ou de <b>outro advérbio</b>. <b>Nunca</b> se liga a substantivo.</p><p>Ex.: correu <b>rápido</b> (verbo) · <b>muito</b> bom (adjetivo) · <b>bem</b> devagar (advérbio).</p><p><b>Circunstâncias:</b><br><b>Modo:</b> bem, mal, depressa, felizmente (= de modo feliz), palavras em <b>-mente</b>.<br><b>Intensidade:</b> muito, mais, menos, pouco, tão, bastante.<br><b>Tempo:</b> agora, hoje, ontem, já, sempre, nunca.<br><b>Lugar:</b> aqui, ali, lá, longe, perto.<br><b>Afirmação:</b> sim, certamente.<br><b>Negação:</b> não, jamais.<br><b>Dúvida:</b> talvez, provavelmente.</p><p><b>Locução adverbial</b> = duas ou mais palavras com valor de advérbio: <b>ao vivo</b> (modo), <b>de repente</b>, <b>à noite</b> (tempo), <b>com certeza</b>.</p><p><b>Não confunda:</b> adjetivo dá qualidade a substantivo; substantivo nomeia; preposição liga palavras; pronome substitui ou acompanha o substantivo.</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 13
+  "bncc": [
+   "EF06LP10"
+  ],
+  "questoes": 13,
+  "bncc_aproximado": true
  },
  {
   "id": "p-iara",
@@ -337,8 +440,12 @@
   "explicacao_html": "<p><b>Iara, a Mãe-d'Água</b> (lenda indígena amazônica; há várias versões, como em toda lenda contada oralmente).</p><p><b>Resumo da versão estudada:</b> Iara era uma jovem <b>guerreira</b>, admirada pela coragem e habilidade. O pai a admirava; os <b>irmãos sentiam inveja</b> e planejaram matá-la. Ela se defendeu e, na luta, os irmãos morreram. O pai a puniu mandando lançá-la às águas. O rio a acolheu e a <b>transformou</b> na figura encantada que vive nas águas: mulher bela, de canto que atrai homens para os rios.</p><p><b>Leitura crítica (resenha):</b> antes de ser só \"a que encanta pela beleza\", Iara é força e coragem. A passagem de guerreira para Mãe-d'Água pode ser lida como <b>renascimento</b>: castigada e jogada no rio, sua história <b>não termina ali</b>.</p><p><b>Narrativa circular:</b> não tem desfecho definitivo; a história recomeça e ganha novas versões cada vez que é recontada.</p><p><b>Resenha crítica</b> = resume a obra <b>e</b> dá uma opinião fundamentada sobre ela (não é só resumo).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 9
+  "bncc": [
+   "EF67LP28",
+   "EF69LP44"
+  ],
+  "questoes": 9,
+  "bncc_aproximado": false
  },
  {
   "id": "e-be",
@@ -348,8 +455,11 @@
   "explicacao_html": "<p><b>I</b> → am · <b>he / she / it</b> (ou uma pessoa ou coisa só) → is · <b>you / we / they</b> (ou várias) → are.</p><p>Negativa: I'm not · isn't · aren't. Pergunta: é só inverter: <i>Is she happy?</i></p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LI19"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "e-pro",
@@ -359,8 +469,11 @@
   "explicacao_html": "<p>Sujeito: <b>I, you, he, she, it, we, they</b>.</p><p>Possessivos (vêm antes do substantivo): <b>my, your, his</b> (dele), <b>her</b> (dela), <b>its</b> (de coisa ou animal), <b>our, their</b>.</p><p>Pegadinhas famosas (até nativo erra): its × it's (= it is) · their × there (= lá) · your × you're (= you are).</p>",
   "fonte": "banco",
   "mvp": true,
-  "bncc": null,
-  "questoes": 12
+  "bncc": [
+   "EF06LI23"
+  ],
+  "questoes": 12,
+  "bncc_aproximado": false
  },
  {
   "id": "e-plu",
@@ -370,8 +483,11 @@
   "explicacao_html": "<p>Regra geral: <b>+s</b> (books). Depois de <b>s, x, ch, sh</b>: <b>+es</b> (boxes). Consoante + <b>y</b> → <b>-ies</b> (babies); vogal + y → só +s (boys).</p><p>Irregulares, que não têm jeito, é decorar: child → children · man → men · woman → women · tooth → teeth · foot → feet · mouse → mice · person → people.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 22
+  "bncc": [
+   "EF06LI17"
+  ],
+  "questoes": 22,
+  "bncc_aproximado": true
  },
  {
   "id": "e-there",
@@ -381,8 +497,11 @@
   "explicacao_html": "<p><b>There is</b> + uma coisa (ou algo que não dá pra contar): <i>There is a cat. There is some milk.</i></p><p><b>There are</b> + várias: <i>There are three books.</i></p><p>Negativa: there isn't / there aren't · Pergunta: Is there…? / Are there…?</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LI17"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": true
  },
  {
   "id": "e-pres",
@@ -392,8 +511,11 @@
   "explicacao_html": "<p>Com <b>he, she, it</b> (uma pessoa ou coisa), o verbo ganha <b>-s</b>: she plays. É o detalhe que mais derruba na prova.</p><p>-es depois de <b>o, s, x, ch, sh</b> (goes, watches) · consoante + y → <b>-ies</b> (studies) · have → <b>has</b>.</p><p>Com I, you, we, they: o verbo fica como está (I play).</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LI19"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "e-do",
@@ -403,8 +525,11 @@
   "explicacao_html": "<p>Pergunta e negativa precisam de um ajudante: <b>do</b> (I, you, we, they) · <b>does</b> (he, she, it).</p><p>O does já \"pega\" o -s, então o verbo volta ao normal: <i>Does she <b>play</b>?</i> (nada de \"plays\").</p><p>don't = do not · doesn't = does not.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LI19"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "e-can",
@@ -414,8 +539,11 @@
   "explicacao_html": "<p><b>can</b> = conseguir/poder · <b>can't</b> (cannot) = não conseguir.</p><p>É igual pra todo mundo (she <b>can</b>, sem -s) e o verbo depois vem sem \"to\": <i>I can swim</i>.</p><p>Pergunta: <i>Can you draw?</i> — Yes, I can. / No, I can't.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 17
+  "bncc": [
+   "EF06LI17"
+  ],
+  "questoes": 17,
+  "bncc_aproximado": true
  },
  {
   "id": "e-prep",
@@ -425,8 +553,11 @@
   "explicacao_html": "<p><b>in</b>: meses, anos, estações, partes do dia (in July, in 2026, in the morning).</p><p><b>on</b>: dias e datas (on Monday, on my birthday).</p><p><b>at</b>: horas e momentos exatos (at 7 o'clock, at noon, <b>at night</b>).</p><p>Macete: do maior (in) pro menor (at): mês › dia › hora.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 16
+  "bncc": [
+   "EF06LI17"
+  ],
+  "questoes": 16,
+  "bncc_aproximado": true
  },
  {
   "id": "e-ing",
@@ -436,8 +567,11 @@
   "explicacao_html": "<p>Ação rolando <b>agora</b>: <b>am / is / are + verbo-ing</b>. <i>She is drawing now.</i></p><p>Ortografia: write → wri<b>ting</b> (tira o e) · run → ru<b>nn</b>ing (dobra a letra) · study → study<b>ing</b>.</p>",
   "fonte": "gerador",
   "mvp": true,
-  "bncc": null,
-  "questoes": 60
+  "bncc": [
+   "EF06LI20"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": false
  },
  {
   "id": "c-cel",

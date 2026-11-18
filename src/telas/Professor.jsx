@@ -140,7 +140,7 @@ export default function Professor({ perfil }) {
                 const n = new Set(ts.map((t) => t.aluno_id)).size;
                 return (
                   <tr key={tp.id}>
-                    <td>{tp.titulo}</td>
+                    <td>{tp.titulo}{tp.bncc?.length ? <><br /><span className="mudo pequeno" title={tp.bncc_aproximado ? 'Correspondência aproximada' : 'Habilidade da BNCC'}>{tp.bncc.join(' · ')}{tp.bncc_aproximado ? ' (aprox.)' : ''}</span></> : null}</td>
                     <td className="num">{n}</td>
                     <td className="num"><span className={'pilula ' + cor(taxa(ts))}>{pct(taxa(ts))}</span></td>
                   </tr>
