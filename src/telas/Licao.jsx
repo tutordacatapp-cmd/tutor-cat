@@ -67,11 +67,53 @@ function ModoTutor({ q, ok, escolhida }) {
   );
 }
 
+// ✏️ Rascunho com o dedo (do tutor original): para fazer conta, escrever a palavra, separar sílabas…
+function Rascunho() {
+  const ref = useRef(null);
+  const desenhando = useRef(false);
+  useEffect(() => {
+    const c = ref.current; if (!c) return;
+    const w = Math.min(c.parentElement.clientWidth || 320, 680), h = 220, dpr = window.devicePixelRatio || 1;
+    c.width = w * dpr; c.height = h * dpr; c.style.width = '100%'; c.style.maxWidth = w + 'px'; c.style.height = h + 'px';
+    const g = c.getContext('2d'); g.scale(dpr, dpr); g.lineWidth = 3; g.lineCap = 'round'; g.lineJoin = 'round';
+    g.strokeStyle = getComputedStyle(document.body).color || '#1B2340';
+    const pos = (e) => { const r = c.getBoundingClientRect(); return [(e.clientX - r.left) * w / r.width, (e.clientY - r.top) * h / r.height]; };
+    const ini = (e) => { e.preventDefault(); desenhando.current = true; c.setPointerCapture?.(e.pointerId); const [x, y] = pos(e); g.beginPath(); g.moveTo(x, y); g.lineTo(x + 0.1, y + 0.1); g.stroke(); };
+    const mov = (e) => { if (!desenhando.current) return; e.preventDefault(); const [x, y] = pos(e); g.lineTo(x, y); g.stroke(); };
+    const fim = () => { desenhando.current = false; };
+    c.addEventListener('pointerdown', ini); c.addEventListener('pointermove', mov);
+    c.addEventListener('pointerup', fim); c.addEventListener('pointercancel', fim); c.addEventListener('pointerleave', fim);
+    return () => { c.removeEventListener('pointerdown', ini); c.removeEventListener('pointermove', mov); c.removeEventListener('pointerup', fim); c.removeEventListener('pointercancel', fim); c.removeEventListener('pointerleave', fim); };
+  }, []);
+  const limpar = () => { const c = ref.current; c.getContext('2d').clearRect(0, 0, c.width, c.height); };
+  return (
+    <div className="rascunho">
+      <canvas ref={ref} />
+      <div className="linha"><button className="link" onClick={limpar}>🧽 Limpar</button><span className="mudo pequeno">Escreva com o dedo ✏️ (não vale nota)</span></div>
+    </div>
+  );
+}
+
+// "Tente lembrar primeiro": nas questões de resposta curta, o aluno escreve antes de ver as alternativas.
+const normLivre = (s) => semTags(s).toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[.!?;:,"'’]/g, '').replace(/\s+/g, ' ').trim();
+export function podeLembrar(q) {
+  if (q.tipo !== 'mc') return false;
+  const r = semTags(q.resposta);
+  if (r.length > 24 || r.split(' ').length > 3) return false;
+  if (/^(sim|não|são iguais)$/i.test(r)) return false;
+  if (/qual (frase|trecho|separação)|ordem crescente|está correta|corretamente|qual destes números|qual número é maior|o que é maior/i.test(semTags(q.enunciado))) return false;
+  return true;
+}
+
 // Uma questão: trava de leitura nas alternativas, dicas, correção e explicação.
-function Pergunta({ q, gato, aoResponder, comDicas = true }) {
+function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = false }) {
   const [valor, setValor] = useState('');
   const [res, setRes] = useState(null);
   const [lida, setLida] = useState(q.tipo !== 'mc');
+  const [fase, setFase] = useState(lembrar && podeLembrar(q) ? 'lembrar' : 'normal'); // lembrar | revelou | normal
+  const [memoria, setMemoria] = useState('');
+  const [quaseMemoria, setQuaseMemoria] = useState(null);
+  const [rascunho, setRascunho] = useState(false);
   const [nDicas, setNDicas] = useState(0);
   const inicio = useRef(Date.now());
   const opcoes = useMemo(() => (q.tipo === 'mc' ? embaralhar(q.alternativas) : []), [q]);
@@ -79,10 +121,26 @@ function Pergunta({ q, gato, aoResponder, comDicas = true }) {
   const msLeitura = useMemo(() => tempoLeitura(q), [q]);
 
   useEffect(() => {
-    if (q.tipo !== 'mc') return;
-    const t = setTimeout(() => setLida(true), msLeitura);
+    if (q.tipo !== 'mc' || fase === 'lembrar') return;
+    const t = setTimeout(() => setLida(true), fase === 'revelou' ? 800 : msLeitura);
     return () => clearTimeout(t);
-  }, [q, msLeitura]);
+  }, [q, msLeitura, fase]);
+
+  function tentarLembrar(e) {
+    e.preventDefault();
+    if (!memoria.trim()) return;
+    const ok = normLivre(memoria) === normLivre(q.resposta);
+    if (ok) {
+      const acento = semTags(memoria).trim().toLowerCase() !== semTags(q.resposta).trim().toLowerCase();
+      setRes({ ok: true, escolhida: q.resposta, frase: 'De memória! 🧠', memoria: true, aviso: acento ? `Atenção à escrita certa: ${semTags(q.resposta)}.` : null });
+      aoResponder(true, memoria, Date.now() - inicio.current, false);
+      aoLembrou && aoLembrou();
+      setFase('normal');
+    } else {
+      setQuaseMemoria(memoria);
+      setFase('revelou');
+    }
+  }
 
   function responder(v) {
     if (res && !res.invalida) return;
@@ -95,7 +153,16 @@ function Pergunta({ q, gato, aoResponder, comDicas = true }) {
   return (
     <div className="questao">
       <Html className="enunciado" html={q.enunciado} />
-      {q.tipo === 'mc' ? (
+      {fase === 'lembrar' ? (
+        <div className="lembrar">
+          <p className="pequeno"><b>🧠 Tente lembrar primeiro.</b> Escreva a resposta; as alternativas aparecem depois.</p>
+          <form className="resposta" onSubmit={tentarLembrar}>
+            <input value={memoria} onChange={(e) => setMemoria(e.target.value)} placeholder="O que você lembra?" autoCapitalize="none" />
+            <button className="btn" disabled={!memoria.trim()}>Conferir</button>
+          </form>
+          <button className="link pequeno" onClick={() => setFase('revelou')}>Não lembro, mostrar as alternativas</button>
+        </div>
+      ) : q.tipo === 'mc' && !(res?.memoria) ? (
         <>
           <div className={'opcoes' + (lida ? '' : ' travada')}>
             {opcoes.map((o, k) => {
@@ -108,8 +175,11 @@ function Pergunta({ q, gato, aoResponder, comDicas = true }) {
               );
             })}
           </div>
-          {!lida && <div className="barra-leitura"><div><i style={{ animationDuration: msLeitura + 'ms' }} /></div><span>Leia a questão com calma…</span></div>}
+          {quaseMemoria && !res && <p className="mudo pequeno">Você escreveu “{quaseMemoria}”. Não era bem isso, mas foi bom tentar: agora escolha.</p>}
+          {!lida && <div className="barra-leitura"><div><i style={{ animationDuration: (fase === 'revelou' ? 800 : msLeitura) + 'ms' }} /></div><span>Leia a questão com calma…</span></div>}
         </>
+      ) : res?.memoria ? (
+        <p className="lembrou">🧠 Você lembrou sozinho(a): <b dangerouslySetInnerHTML={{ __html: q.resposta }} /> · ⭐ dobrada!</p>
       ) : (
         <form className="resposta" onSubmit={(e) => { e.preventDefault(); if (valor.trim()) responder(valor); }}>
           <input value={valor} onChange={(e) => setValor(e.target.value)} disabled={!!res && !res.invalida}
@@ -118,6 +188,12 @@ function Pergunta({ q, gato, aoResponder, comDicas = true }) {
         </form>
       )}
 
+      {!res && (
+        <div className="pilha" style={{ gap: 6 }}>
+          <button className="link" onClick={() => setRascunho(!rascunho)}>{rascunho ? '✏️ Fechar rascunho' : '✏️ Rascunho'}</button>
+          {rascunho && <Rascunho />}
+        </div>
+      )}
       {!res && lista.length > 0 && (
         <div className="dicas">
           {lista.slice(0, nDicas).map((d, i) => <div key={i} className="dica"><b>💡 Dica {i + 1}</b><div>{d}</div></div>)}
@@ -142,7 +218,7 @@ function Pergunta({ q, gato, aoResponder, comDicas = true }) {
 
 // Lição. Fluxo de erro (tutor original): erro → tempo de leitura → questão parecida obrigatória →
 // errou de novo: explicação + mais uma parecida → libera a próxima.
-export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => {}, aoTerminar, gato, modo = 'licao' }) {
+export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => {}, aoTerminar, gato, modo = 'licao', lembrar = true }) {
   const [i, setI] = useState(0);
   const [placar, setPlacar] = useState(0);
   const [etapa, setEtapa] = useState('pergunta'); // pergunta | provar | parecida | liberado
@@ -206,7 +282,7 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
       <div className="progresso"><i style={{ width: `${(i / questoes.length) * 100}%` }} /></div>
 
       <div className="cartao pilha">
-        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} />
+        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} lembrar={lembrar} aoLembrou={() => aoEvento('lembrou')} />
 
         {etapa === 'provar' && (
           <div className="provar">

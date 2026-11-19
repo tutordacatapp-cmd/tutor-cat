@@ -236,3 +236,9 @@ a.btn { text-decoration: none; display: inline-block; }
 .mt-tag { font-size: 12px; font-weight: 800; color: var(--bad); }
 .mt-extra summary { cursor: pointer; font: 700 15px var(--display); color: var(--s); }
 .mt-extra[open] { display: flex; flex-direction: column; gap: 10px; }
+
+/* lembrar primeiro e rascunho */
+.lembrar { display: flex; flex-direction: column; gap: 8px; background: var(--s-soft); border-radius: 12px; padding: 10px 12px; }
+.lembrou { background: var(--ok-soft); border-radius: 12px; padding: 10px 12px; font-size: 17px; }
+.rascunho { display: flex; flex-direction: column; gap: 4px; }
+.rascunho canvas { display: block; border: 3px dashed var(--line); border-radius: 14px; touch-action: none; background-color: var(--surface); background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 24px 24px; }

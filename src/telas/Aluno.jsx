@@ -43,7 +43,12 @@ export default function Aluno({ perfil }) {
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
 
-  const est = useMemo(() => (tentativas ? { ...estatisticas(tentativas), diasMissao: (mascote?.missoes || []).length } : null), [tentativas, mascote?.missoes]);
+  // Lembrar de memória vale ⭐ dobrada: cada lembrança soma um acerto extra no total do gato.
+  const est = useMemo(() => {
+    if (!tentativas) return null;
+    const e = estatisticas(tentativas);
+    return { ...e, total: e.total + (mascote?.lembrou || 0), diasMissao: (mascote?.missoes || []).length };
+  }, [tentativas, mascote?.missoes, mascote?.lembrou]);
   const missoes = useMemo(() => (tentativas && mascote ? missoesDoDia(tentativas, mascote) : []), [tentativas, mascote?.dia]);
 
   // Eventos da lição alimentam as missões do dia.
@@ -53,6 +58,7 @@ export default function Aluno({ perfil }) {
       if (tipo === 'acerto') { dl.run++; dl.rb = Math.max(dl.rb, dl.run); if (extra.revisao) dl.rev++; }
       if (tipo === 'erro') dl.run = 0;
       if (tipo === 'corrigiu') dl.fix++;
+      if (tipo === 'lembrou') return { dia: dl, lembrou: (m.lembrou || 0) + 1 };
       return { dia: dl };
     });
   }
