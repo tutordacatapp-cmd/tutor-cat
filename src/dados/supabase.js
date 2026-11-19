@@ -63,6 +63,16 @@ export const supabase = sb && {
     if (error) throw error;
     return data;
   },
+  async modoLembrar(turmaId) {
+    if (!turmaId) return 'sempre';
+    const { data, error } = await sb.from('turmas').select('lembrar').eq('id', turmaId).maybeSingle();
+    if (error) return 'sempre'; // coluna ainda não criada: comportamento padrão
+    return data?.lembrar || 'sempre';
+  },
+  async definirModoLembrar(turmaId, modo) {
+    const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
+    if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
+  },
   async lerMascote(alunoId) {
     const { data, error } = await sb.from('mascotes').select('dados').eq('aluno_id', alunoId).maybeSingle();
     if (error) throw error;

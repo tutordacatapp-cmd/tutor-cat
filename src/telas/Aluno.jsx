@@ -35,11 +35,13 @@ export default function Aluno({ perfil }) {
   const [erro, setErro] = useState('');
   const [mascote, setMascote] = useState(null);
   const [fila, setFila] = useState([]);
+  const [modoLembrar, setModoLembrar] = useState('sempre');
   const salvarTimer = useRef(null);
   const [salvo, setSalvo] = useState('salvo'); // 'salvando' | 'salvo' | 'erro'
 
   useEffect(() => {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
+    api.modoLembrar?.(perfil.turma_id).then((m) => setModoLembrar(m || 'sempre')).catch(() => {});
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
 
@@ -129,6 +131,7 @@ export default function Aluno({ perfil }) {
           aoResponder={registrar}
           aoEvento={evento}
           modo={tela.modo || 'licao'}
+          lembrar={modoLembrar}
           aoTerminar={() => setTela(tela.voltar)}
           gato={gatoSVG({ eq: mascote.eq, pelagem: mascote.pelagem, rotulo: '' })}
         />

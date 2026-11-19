@@ -21,6 +21,8 @@ export default function Professor({ perfil }) {
   const [aba, setAba] = useState('alunos');
   const [materia, setMateria] = useState('mt');
   const [alunoAberto, setAlunoAberto] = useState(null);
+  const [lembrar, setLembrar] = useState(null);
+  const [msgAjuste, setMsgAjuste] = useState('');
 
   useEffect(() => {
     api.turmasDoProfessor(perfil).then((ts) => { setTurmas(ts); if (ts[0]) setTurmaId(ts[0].id); });
@@ -28,6 +30,8 @@ export default function Professor({ perfil }) {
 
   useEffect(() => {
     if (!turmaId) return;
+    setLembrar(null); setMsgAjuste('');
+    api.modoLembrar(turmaId).then(setLembrar).catch(() => setLembrar('sempre'));
     Promise.all([api.alunosDaTurma(turmaId), api.tentativasDaTurma(turmaId)]).then(([a, t]) => { setAlunos(a); setTentativas(t); });
   }, [turmaId]);
 
@@ -102,10 +106,30 @@ export default function Professor({ perfil }) {
       <p className="mudo">{turmas.find((t) => t.id === turmaId)?.nome} · {alunos.length} {alunos.length === 1 ? 'aluno' : 'alunos'}</p>
 
       <nav className="abas">
-        {[['alunos', 'Alunos'], ['topicos', 'Tópicos'], ['erros', 'Erros comuns']].map(([id, nome]) => (
+        {[['alunos', 'Alunos'], ['topicos', 'Tópicos'], ['erros', 'Erros comuns'], ['ajustes', 'Ajustes']].map(([id, nome]) => (
           <button key={id} aria-selected={aba === id} onClick={() => setAba(id)}>{nome}</button>
         ))}
       </nav>
+
+      {aba === 'ajustes' && (
+        <div className="cartao pilha">
+          <h3>🧠 Tente lembrar primeiro</h3>
+          <p className="mudo pequeno">Nas questões de resposta curta, o aluno escreve a resposta antes de ver as alternativas. Lembrar sozinho fixa muito mais o conteúdo, mas é mais difícil. Acertar de memória vale ⭐ dobrada.</p>
+          <div className="opcoes-ajuste" role="radiogroup">
+            {[['sempre', 'Sempre', 'Em todas as questões que permitem'], ['as_vezes', 'Às vezes', 'Uma questão sim, outra não'], ['nunca', 'Nunca', 'Só clicar na alternativa']].map(([id, nome, desc]) => (
+              <button key={id} role="radio" aria-checked={lembrar === id} className={'ajuste' + (lembrar === id ? ' ativo' : '')} disabled={!lembrar}
+                onClick={async () => {
+                  const antes = lembrar; setLembrar(id); setMsgAjuste('Salvando…');
+                  try { await api.definirModoLembrar(turmaId, id); setMsgAjuste('Salvo ✓ Vale a partir da próxima lição dos alunos.'); }
+                  catch (e) { setLembrar(antes); setMsgAjuste(e.message); }
+                }}>
+                <b>{nome}</b><span className="pequeno mudo">{desc}</span>
+              </button>
+            ))}
+          </div>
+          {msgAjuste && <p className="pequeno">{msgAjuste}</p>}
+        </div>
+      )}
 
       {aba === 'alunos' && (
         <div className="cartao rolavel">
@@ -127,7 +151,7 @@ export default function Professor({ perfil }) {
         </div>
       )}
 
-      {aba !== 'alunos' && (
+      {(aba === 'topicos' || aba === 'erros') && (
         <nav className="abas">
           {MATERIAS.map((m) => <button key={m.id} aria-selected={materia === m.id} onClick={() => setMateria(m.id)}>{m.nome}</button>)}
         </nav>

@@ -151,6 +151,14 @@ export const demo = {
     const u = db.usuarios.find((x) => x.id === alunoId && x.papel === 'aluno');
     u.turma_id = turmaId; gravar(db);
   },
+  async modoLembrar(turmaId) {
+    return ler().turmas.find((t) => t.id === turmaId)?.lembrar || 'sempre';
+  },
+  async definirModoLembrar(turmaId, modo) {
+    const db = ler(); const t = db.turmas.find((x) => x.id === turmaId);
+    if (!t) throw new Error('Turma não encontrada.');
+    t.lembrar = modo; gravar(db);
+  },
   async alunosDaTurma(turmaId) {
     const db = ler();
     return db.usuarios.filter((u) => u.papel === 'aluno' && u.turma_id === turmaId).map((u) => perfilPublico(u, db));

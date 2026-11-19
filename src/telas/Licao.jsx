@@ -218,13 +218,15 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
 
 // Lição. Fluxo de erro (tutor original): erro → tempo de leitura → questão parecida obrigatória →
 // errou de novo: explicação + mais uma parecida → libera a próxima.
-export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => {}, aoTerminar, gato, modo = 'licao', lembrar = true }) {
+export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => {}, aoTerminar, gato, modo = 'licao', lembrar = 'sempre' }) {
   const [i, setI] = useState(0);
   const [placar, setPlacar] = useState(0);
   const [etapa, setEtapa] = useState('pergunta'); // pergunta | provar | parecida | liberado
   const [prova, setProva] = useState(null);
   const usadas = useRef([]);
   const q = questoes[i];
+  // Ajuste da turma: 'sempre' | 'as_vezes' (uma sim, uma não) | 'nunca'
+  const lembrarAqui = lembrar === true || lembrar === 'sempre' || (lembrar === 'as_vezes' && i % 2 === 0);
   const materia = MATERIAS.find((m) => m.id === q?.materia);
 
   useEffect(() => { setEtapa('pergunta'); setProva(null); window.scrollTo({ top: 0 }); }, [i]);
@@ -282,7 +284,7 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
       <div className="progresso"><i style={{ width: `${(i / questoes.length) * 100}%` }} /></div>
 
       <div className="cartao pilha">
-        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} lembrar={lembrar} aoLembrou={() => aoEvento('lembrou')} />
+        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} lembrar={lembrarAqui} aoLembrou={() => aoEvento('lembrou')} />
 
         {etapa === 'provar' && (
           <div className="provar">

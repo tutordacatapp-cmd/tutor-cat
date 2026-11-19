@@ -242,3 +242,7 @@ a.btn { text-decoration: none; display: inline-block; }
 .lembrou { background: var(--ok-soft); border-radius: 12px; padding: 10px 12px; font-size: 17px; }
 .rascunho { display: flex; flex-direction: column; gap: 4px; }
 .rascunho canvas { display: block; border: 3px dashed var(--line); border-radius: 14px; touch-action: none; background-color: var(--surface); background-image: linear-gradient(var(--grid) 1px, transparent 1px), linear-gradient(90deg, var(--grid) 1px, transparent 1px); background-size: 24px 24px; }
+.opcoes-ajuste { display: grid; gap: 8px; }
+.ajuste { display: flex; flex-direction: column; align-items: flex-start; gap: 2px; text-align: left; padding: 12px 14px; border: 2px solid #dde3ee; border-radius: 12px; background: #fff; font: inherit; cursor: pointer; }
+.ajuste.ativo { border-color: #0e8f6e; background: #e8f6f0; }
+.ajuste:disabled { opacity: .6; }
