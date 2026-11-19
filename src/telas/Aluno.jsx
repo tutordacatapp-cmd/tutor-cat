@@ -9,7 +9,7 @@ import { resumoSemanal } from '../resumo.js';
 import { gatoSVG } from '../mascote/arte.js';
 import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
 import { missoesDoDia, contadoresDoDia, hojeStr } from '../mascote/missoes.js';
-import { topico as topicoPorId } from '../conteudo.js';
+import { topico as topicoPorId, registrarMateriais, idTopicoMaterial } from '../conteudo.js';
 import { situacaoTopico, ultimoResultado } from '../progresso.js';
 
 const MASCOTE_PADRAO = { nome: '', pelagem: 'cinza', eq: {}, cenario: 'quarto', vistos: null, missoes: [] };
@@ -36,11 +36,13 @@ export default function Aluno({ perfil }) {
   const [mascote, setMascote] = useState(null);
   const [fila, setFila] = useState([]);
   const [modoLembrar, setModoLembrar] = useState('sempre');
+  const [materiais, setMateriais] = useState([]);
   const salvarTimer = useRef(null);
   const [salvo, setSalvo] = useState('salvo'); // 'salvando' | 'salvo' | 'erro'
 
   useEffect(() => {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
+    api.materiais?.(perfil.turma_id).then((ms) => { const pub = ms.filter((m) => m.status === 'publicado'); registrarMateriais(pub); setMateriais(pub); }).catch(() => {});
     api.modoLembrar?.(perfil.turma_id).then((m) => setModoLembrar(m || 'sempre')).catch(() => {});
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
@@ -158,7 +160,7 @@ export default function Aluno({ perfil }) {
         {pend > 0 && (
           <button
             className="cartao chamada"
-            onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas, m.id).map(questao), voltar: tela })}
+            onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas, m.id).map(questao).filter(Boolean), voltar: tela })}
           >
             <b>🔁 Revisar meus erros</b>
             <span className="mudo">{pend} {pend === 1 ? 'questão' : 'questões'} para rever</span>
@@ -198,6 +200,24 @@ export default function Aluno({ perfil }) {
           <span className="mudo pequeno">{est.dormindo ? 'Está dormindo… estude para acordá-lo 😴' : 'Toque para ver roupas, cenários e medalhas'}</span>
         </span>
       </button>
+      {materiais.length > 0 && (
+        <div className="cartao pilha">
+          <h3>📚 Material da aula</h3>
+          <p className="mudo pequeno" style={{ margin: 0 }}>Questões que a professora preparou sobre o que vocês viram em aula.</p>
+          {materiais.slice(0, 5).map((m) => {
+            const tid = idTopicoMaterial(m);
+            const s = situacaoTopico(tid, tentativas);
+            const feitas = new Set(tentativas.filter((t) => t.topico_id === tid).map((t) => t.questao_id)).size;
+            const nome = MATERIAS.find((x) => x.id === m.materia)?.nome;
+            return (
+              <button key={m.id} className="mat-aluno" onClick={() => setTela({ nome: 'licao', titulo: m.titulo, questoes: montarLicao(tid, tentativas), voltar: { nome: 'inicio' } })}>
+                <span className="pilha" style={{ gap: 0 }}><b>{m.titulo}</b><span className="mudo pequeno">{nome} · {Math.min(feitas, m.questoes.length)} de {m.questoes.length} feitas{s.total ? ` · ${pct(s.taxa)}` : ''}</span></span>
+                <span className="treinar">{feitas ? 'Treinar ▸' : 'Começar ▸'}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
       <div className="cartao pilha missoes">
         <div className="linha"><h3>⚔️ Missões de hoje</h3><span className="pilula">{missoes.filter((x) => x.feita).length}/3</span></div>
         {missoes.map((x, k) => (
@@ -227,7 +247,7 @@ export default function Aluno({ perfil }) {
       {totalPend > 0 && (
         <button
           className="cartao chamada"
-          onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas).map(questao), voltar: { nome: 'inicio' } })}
+          onClick={() => setTela({ nome: 'licao', modo: 'revisao', titulo: 'Revisão de erros', questoes: montarRevisao(tentativas).map(questao).filter(Boolean), voltar: { nome: 'inicio' } })}
         >
           <b>🔁 Revisar erros de todas as matérias</b>
           <span className="mudo">{totalPend} para rever</span>

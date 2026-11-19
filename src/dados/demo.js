@@ -41,6 +41,37 @@ function semente() {
   return { usuarios, turmas: [TURMA], tentativas, sessao: null };
 }
 
+function materialExemplo() {
+  return [{
+    id: 'mat-exemplo', turma_id: TURMA.id, materia: 'pt', titulo: 'Sinais de pontuação', status: 'publicado',
+    criado_em: '2026-11-17T12:00:00Z', publicado_em: '2026-11-17T12:00:00Z',
+    questoes: [
+      { id: 'a1', tipo: 'mc', enunciado: 'Qual sinal indica uma <b>pergunta</b>?', resposta: 'ponto de interrogação', alternativas: ['ponto de interrogação', 'ponto de exclamação', 'vírgula', 'dois-pontos'], explicacao: 'Pergunta pede resposta → ponto de interrogação (?).', tutor: { alternativas: { 'ponto de exclamação': 'Exclamação mostra emoção (susto, alegria), não pergunta.', 'vírgula': 'Vírgula marca uma pausa curta dentro da frase.', 'dois-pontos': 'Dois-pontos anunciam uma fala, lista ou explicação.' }, pontos: ['Interrogação (?) = pergunta direta.', 'Exclamação (!) = emoção.'], pegadinha: 'Frase com emoção E pergunta pode usar ?! juntos.' } },
+      { id: 'a2', tipo: 'mc', enunciado: 'Em uma <b>lista</b> de itens ("comprei pão, leite e ovos"), qual sinal separa os itens?', resposta: 'vírgula', alternativas: ['vírgula', 'ponto final', 'travessão', 'reticências'], explicacao: 'Itens de uma enumeração são separados por vírgula.', tutor: { alternativas: { 'ponto final': 'Ponto final encerra a frase inteira.', 'travessão': 'Travessão marca fala de personagem.', 'reticências': 'Reticências indicam pensamento interrompido ou suspense.' }, pontos: ['Enumeração → vírgula entre os itens.', 'Antes do "e" final, normalmente não vai vírgula.'], pegadinha: 'Não se coloca vírgula antes do "e" no último item da lista.' } },
+      { id: 'a3', tipo: 'mc', enunciado: 'Qual sinal costuma indicar a <b>fala de um personagem</b> num diálogo?', resposta: 'travessão', alternativas: ['travessão', 'vírgula', 'ponto e vírgula', 'parênteses'], explicacao: 'No diálogo, o travessão (—) abre a fala do personagem.', tutor: { alternativas: { 'vírgula': 'Vírgula separa partes da frase, não abre falas.', 'ponto e vírgula': 'Ponto e vírgula separa partes longas de uma frase.', 'parênteses': 'Parênteses guardam uma informação extra.' }, pontos: ['Travessão = fala do personagem.', 'Dois-pontos geralmente vêm antes da fala.'], pegadinha: 'Travessão (—) é maior que o hífen (-) das palavras compostas.' } },
+    ],
+  }];
+}
+
+// Simulação para o modo demo: monta questões de completar a partir do texto colado.
+function simularIA(texto, n) {
+  const frases = (texto.match(/[^.!?\n]+[.!?]?/g) || []).map((f) => f.trim()).filter((f) => f.split(/\s+/).length >= 6);
+  const palavras = [...new Set((texto.match(/[A-Za-zÀ-ú]{6,}/g) || []).map((p) => p.toLowerCase()))];
+  const qs = [];
+  for (const f of frases) {
+    if (qs.length >= n) break;
+    const alvo = (f.match(/[A-Za-zÀ-ú]{6,}/g) || []).sort((a, b) => b.length - a.length)[0];
+    if (!alvo) continue;
+    const outras = palavras.filter((p) => p !== alvo.toLowerCase()).sort(() => Math.random() - 0.5).slice(0, 3);
+    if (outras.length < 3) continue;
+    qs.push({ id: 's' + qs.length, tipo: 'mc', enunciado: 'Complete: "' + f.replace(alvo, '_____') + '"', resposta: alvo.toLowerCase(),
+      alternativas: [alvo.toLowerCase(), ...outras], explicacao: 'No material: "' + f + '"',
+      tutor: { alternativas: Object.fromEntries(outras.map((o) => [o, 'Não é a palavra que o material usa aqui.'])), pontos: ['(Demonstração: no app de verdade, a IA cria questões no estilo do tutor, com o porquê de cada alternativa.)'], pegadinha: '' } });
+  }
+  if (!qs.length) throw new Error('No demo, cole um texto com algumas frases completas para simular as questões.');
+  return { titulo: (frases[0] || 'Material da aula').split(/\s+/).slice(0, 5).join(' '), questoes: qs };
+}
+
 function ler() {
   try {
     const v = JSON.parse(localStorage.getItem(CHAVE));
@@ -158,6 +189,26 @@ export const demo = {
     const db = ler(); const t = db.turmas.find((x) => x.id === turmaId);
     if (!t) throw new Error('Turma não encontrada.');
     t.lembrar = modo; gravar(db);
+  },
+  // ===== Material da aula (no demo, a "IA" é simulada) =====
+  async materiais(turmaId) {
+    const db = ler(); if (!db.materiais) db.materiais = materialExemplo();
+    return db.materiais.filter((m) => m.turma_id === turmaId).sort((a, b) => (a.criado_em < b.criado_em ? 1 : -1));
+  },
+  async salvarMaterial(m) {
+    const db = ler(); if (!db.materiais) db.materiais = materialExemplo();
+    const agora = new Date().toISOString();
+    let x = m.id && db.materiais.find((y) => y.id === m.id);
+    if (x) Object.assign(x, m, { publicado_em: m.status === 'publicado' ? x.publicado_em || agora : null });
+    else { x = { ...m, id: 'mat' + Date.now().toString(36), status: m.status || 'rascunho', criado_em: agora, publicado_em: m.status === 'publicado' ? agora : null }; db.materiais.push(x); }
+    gravar(db); return x;
+  },
+  async excluirMaterial(id) {
+    const db = ler(); db.materiais = (db.materiais || []).filter((m) => m.id !== id); gravar(db);
+  },
+  async gerarQuestoes({ texto = '', quantidade = 8 }) {
+    await new Promise((r) => setTimeout(r, 1200));
+    return simularIA(texto, quantidade);
   },
   async alunosDaTurma(turmaId) {
     const db = ler();

@@ -73,6 +73,34 @@ export const supabase = sb && {
     const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
     if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
   },
+  // ===== Material da aula =====
+  async materiais(turmaId) {
+    if (!turmaId) return [];
+    const { data, error } = await sb.from('materiais').select('*').eq('turma_id', turmaId).order('criado_em', { ascending: false });
+    if (error) { if (/materiais|schema cache/i.test(error.message)) return []; throw error; }
+    return data;
+  },
+  async salvarMaterial(m) {
+    const linha = { turma_id: m.turma_id, materia: m.materia, titulo: m.titulo, questoes: m.questoes, status: m.status || 'rascunho',
+      publicado_em: m.status === 'publicado' ? m.publicado_em || new Date().toISOString() : null };
+    const q = m.id ? sb.from('materiais').update(linha).eq('id', m.id) : sb.from('materiais').insert(linha);
+    const { data, error } = await q.select().single();
+    if (error) throw new Error(/materiais|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "Material da aula" no Supabase.' : error.message);
+    return data;
+  },
+  async excluirMaterial(id) {
+    const { error } = await sb.from('materiais').delete().eq('id', id);
+    if (error) throw error;
+  },
+  async gerarQuestoes(pedido) {
+    const { data, error } = await sb.functions.invoke('gerar-questoes', { body: pedido });
+    if (error) {
+      let msg = 'Não consegui falar com a IA agora. Tente de novo.';
+      try { const j = await error.context.json(); if (j?.erro) msg = j.erro; } catch { if (/not found|404/i.test(String(error.message))) msg = 'A função de IA ainda não foi instalada no Supabase.'; }
+      throw new Error(msg);
+    }
+    return data;
+  },
   async lerMascote(alunoId) {
     const { data, error } = await sb.from('mascotes').select('dados').eq('aluno_id', alunoId).maybeSingle();
     if (error) throw error;

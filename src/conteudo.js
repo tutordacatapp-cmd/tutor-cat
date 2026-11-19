@@ -18,9 +18,25 @@ export const QUESTOES = [...qMt, ...qPt, ...qEn].map((q) => (tutor[q.id] ? { ...
 
 const porId = new Map(QUESTOES.map((q) => [q.id, q]));
 export const questao = (id) => porId.get(id);
-export const topico = (id) => TOPICOS.find((t) => t.id === id);
+
+// "Material da aula": questões criadas pelo professor (com IA) e publicadas para a turma.
+// Ficam num registro à parte; não entram na trilha fixa, mas funcionam em lições, revisão e painel.
+const extrasTopicos = new Map();
+const extrasQuestoes = new Map(); // topicoId -> [questões]
+export const idTopicoMaterial = (m) => 'mat-' + m.id;
+export function registrarMateriais(lista) {
+  for (const m of lista || []) {
+    const tid = idTopicoMaterial(m);
+    const nome = MATERIAS.find((x) => x.id === m.materia)?.nome || '';
+    extrasTopicos.set(tid, { id: tid, materia: m.materia, materia_nome: nome, titulo: m.titulo, material: true, explicacao_html: '' });
+    const qs = (m.questoes || []).map((q, i) => ({ ...q, id: `${tid}-${q.id || i + 1}`, topico: tid, materia: m.materia, tipo: q.tipo || 'mc' }));
+    extrasQuestoes.set(tid, qs);
+    qs.forEach((q) => porId.set(q.id, q));
+  }
+}
+export const topico = (id) => TOPICOS.find((t) => t.id === id) || extrasTopicos.get(id);
 export const topicosDa = (materia) => TOPICOS.filter((t) => t.materia === materia);
-export const questoesDo = (topicoId) => QUESTOES.filter((q) => q.topico === topicoId);
+export const questoesDo = (topicoId) => extrasQuestoes.get(topicoId) || QUESTOES.filter((q) => q.topico === topicoId);
 
 // ===== Correção (mesma lógica do tutor original) =====
 const mdc = (a, b) => (b ? mdc(b, a % b) : Math.abs(a));

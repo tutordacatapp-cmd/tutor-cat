@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../dados/api.js';
-import { MATERIAS, questao, topicosDa, respostaEmTexto } from '../conteudo.js';
+import { MATERIAS, questao, topicosDa, respostaEmTexto, registrarMateriais } from '../conteudo.js';
 import { situacaoTopico, nomeTopico } from '../progresso.js';
 import Resumo from './Resumo.jsx';
+import Material from './Material.jsx';
 import { resumoSemanal } from '../resumo.js';
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
@@ -22,6 +23,7 @@ export default function Professor({ perfil }) {
   const [materia, setMateria] = useState('mt');
   const [alunoAberto, setAlunoAberto] = useState(null);
   const [lembrar, setLembrar] = useState(null);
+  const [, setVersao] = useState(0); // força redesenho quando os materiais são registrados
   const [msgAjuste, setMsgAjuste] = useState('');
 
   useEffect(() => {
@@ -31,6 +33,7 @@ export default function Professor({ perfil }) {
   useEffect(() => {
     if (!turmaId) return;
     setLembrar(null); setMsgAjuste('');
+    api.materiais?.(turmaId).then((ms) => { registrarMateriais(ms); setVersao((v) => v + 1); }).catch(() => {});
     api.modoLembrar(turmaId).then(setLembrar).catch(() => setLembrar('sempre'));
     Promise.all([api.alunosDaTurma(turmaId), api.tentativasDaTurma(turmaId)]).then(([a, t]) => { setAlunos(a); setTentativas(t); });
   }, [turmaId]);
@@ -106,10 +109,12 @@ export default function Professor({ perfil }) {
       <p className="mudo">{turmas.find((t) => t.id === turmaId)?.nome} · {alunos.length} {alunos.length === 1 ? 'aluno' : 'alunos'}</p>
 
       <nav className="abas">
-        {[['alunos', 'Alunos'], ['topicos', 'Tópicos'], ['erros', 'Erros comuns'], ['ajustes', 'Ajustes']].map(([id, nome]) => (
+        {[['alunos', 'Alunos'], ['material', 'Material'], ['topicos', 'Tópicos'], ['erros', 'Erros'], ['ajustes', 'Ajustes']].map(([id, nome]) => (
           <button key={id} aria-selected={aba === id} onClick={() => setAba(id)}>{nome}</button>
         ))}
       </nav>
+
+      {aba === 'material' && <Material turmaId={turmaId} alunos={alunos} tentativas={tentativas} aoMudar={() => setVersao((v) => v + 1)} />}
 
       {aba === 'ajustes' && (
         <div className="cartao pilha">
