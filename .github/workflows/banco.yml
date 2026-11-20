@@ -8,7 +8,7 @@ jobs:
   migrar:
     runs-on: ubuntu-latest
     env:
-      TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      TOKEN: ${{ secrets.SUPABASE_DB_TOKEN }}
       API: https://api.supabase.com/v1/projects/ekntfedgurdxiywqfxyx/database/query
     steps:
       - uses: actions/checkout@v4
