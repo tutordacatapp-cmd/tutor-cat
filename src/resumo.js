@@ -1,4 +1,4 @@
-// Resumo semanal em texto, para mandar à família pelo WhatsApp.
+// Resumo semanal em texto, para mandar à família por e-mail.
 import { MATERIAS, topico } from './conteudo.js';
 import { estatisticas, titulo } from './mascote/regras.js';
 
@@ -13,7 +13,7 @@ export function resumoSemanal(nome, tentativas, gatoNome) {
   const dias = Math.min(7, new Set(semana.map((t) => new Date(t.criado_em).toDateString())).size);
   const primeiro = nome.split(' ')[0];
 
-  const linhas = [`📚 *Tutor da Cat — semana de ${primeiro}*`, ''];
+  const linhas = [`📚 Tutor da Cat — semana de ${primeiro}`, ''];
   if (!semana.length) {
     linhas.push(`${primeiro} não estudou no app nos últimos 7 dias.`, 'Que tal 15 minutos hoje? Cada lição tem só 10 questões. 🙂');
     return linhas.join('\n');
@@ -39,7 +39,7 @@ export function resumoSemanal(nome, tentativas, gatoNome) {
 
   const est = estatisticas(tentativas);
   const tt = titulo(est);
-  linhas.push('', `🐱 ${gatoNome || 'O gato'} está no título *${tt.nm}* (${est.total} acertos no total)` +
+  linhas.push('', `🐱 ${gatoNome || 'O gato'} está no título "${tt.nm}" (${est.total} acertos no total)` +
     (est.melhorSeq >= 5 ? ` · melhor sequência: ${est.melhorSeq} acertos seguidos` : '') + '.');
   linhas.push('', 'Enviado pelo app Tutor da Cat');
   return linhas.join('\n');

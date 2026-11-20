@@ -18,7 +18,7 @@ export function sugerirUsuario(nome, existentes) {
 }
 
 async function copiar(texto, avisar) {
-  try { await navigator.clipboard.writeText(texto); avisar('Copiado! Cole no WhatsApp, e-mail ou num documento para imprimir.'); }
+  try { await navigator.clipboard.writeText(texto); avisar('Copiado! Cole num e-mail ou num documento para imprimir.'); }
   catch { avisar('Não consegui copiar. Selecione a tabela e copie manualmente.'); }
 }
 
@@ -214,7 +214,7 @@ export default function Coordenacao({ perfil }) {
                 <h3>📝 Autorização dos responsáveis</h3>
                 <p className="pequeno" style={{ margin: 0 }}><b>{alunos.length - pend.length} de {alunos.length}</b> alunos autorizados{filtro ? ' nesta turma' : ''}. Quem não tem autorização não consegue usar o app.</p>
                 {pend.length > 0 && <button className="btn" style={{ alignSelf: 'flex-start' }} onClick={() => copiar(msgFamilias, setAvisoTermo)}>📋 Copiar mensagem com os links ({pend.length})</button>}
-                <span className="mudo mini">Cada aluno tem um link próprio. Mande pelo WhatsApp da família; o responsável assina no celular, com nome e CPF. Termo em papel? Marque "Recebi em papel" na pessoa.</span>
+                <span className="mudo mini">Cada aluno tem um link próprio. Mande para o e-mail da família; o responsável assina no celular, com nome e CPF. Termo em papel? Marque "Recebi em papel" na pessoa.</span>
                 {avisoTermo && <span className="pequeno">{avisoTermo}</span>}
               </div>
             );
