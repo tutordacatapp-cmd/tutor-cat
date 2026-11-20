@@ -56,7 +56,7 @@ Regras:
 - Alternativas curtas (de preferência até 6 palavras), sem "todas as anteriores" ou "nenhuma das anteriores".
 - Ordene das mais fáceis para as mais difíceis.
 - Escreva em português do Brasil${materia === 'en' ? ' (as frases em inglês podem aparecer no enunciado e nas alternativas)' : ''}.
-Entregue usando a ferramenta entregar_questoes.`;
+Responda SOMENTE chamando a ferramenta entregar_questoes, sem texto antes ou depois.`;
 }
 
 Deno.serve(async (req) => {
@@ -110,7 +110,7 @@ Deno.serve(async (req) => {
         max_tokens: 8000,
         system: instrucoes(materia, turma?.nome || '6º ano', n),
         tools: [FERRAMENTA],
-        tool_choice: { type: 'tool', name: 'entregar_questoes' },
+        tool_choice: { type: 'auto' },
         messages: [{ role: 'user', content: conteudo }],
       }),
     });
@@ -127,7 +127,13 @@ Deno.serve(async (req) => {
   const dados = await r.json();
   await admin.from('geracoes').insert({ professor: u.user.id, tokens_in: dados.usage?.input_tokens, tokens_out: dados.usage?.output_tokens });
 
-  const saida = dados.content?.find((c: { type: string }) => c.type === 'tool_use')?.input;
+  let saida = dados.content?.find((c: { type: string }) => c.type === 'tool_use')?.input;
+  if (!saida) {
+    // Plano B: o modelo respondeu em texto; tenta achar o JSON dentro dele.
+    const txt = (dados.content || []).filter((c: { type: string }) => c.type === 'text').map((c: { text: string }) => c.text).join('\n');
+    const ini = txt.indexOf('{'), fim = txt.lastIndexOf('}');
+    if (ini >= 0 && fim > ini) { try { saida = JSON.parse(txt.slice(ini, fim + 1)); } catch { /* segue para o erro abaixo */ } }
+  }
   if (!saida?.questoes?.length) return resposta(502, { erro: 'A IA não conseguiu montar as questões. Tente com outro trecho.' });
 
   // Converte para o formato do app: primeira alternativa = correta; modo tutor com o porquê de cada errada.
