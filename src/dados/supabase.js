@@ -165,7 +165,7 @@ export const supabase = sb && {
     const { data, error } = await sb.functions.invoke('gerar-questoes', { body: pedido });
     if (error) {
       let msg = 'Não consegui falar com a IA agora. Tente de novo.';
-      try { const j = await error.context.json(); if (j?.erro) msg = j.erro; } catch { if (/not found|404/i.test(String(error.message))) msg = 'A função de IA ainda não foi instalada no Supabase.'; }
+      try { const j = await error.context.json(); if (j?.erro) msg = j.erro + (j.detalhe ? ` [${j.detalhe}]` : ''); } catch { if (/not found|404/i.test(String(error.message))) msg = 'A função de IA ainda não foi instalada no Supabase.'; }
       throw new Error(msg);
     }
     return data;

@@ -115,7 +115,9 @@ Deno.serve(async (req) => {
     const detalhe = await r.text();
     console.error('Anthropic', r.status, detalhe.slice(0, 500));
     const msg = r.status === 400 && /credit/i.test(detalhe) ? 'Acabaram os créditos da IA. Avise a coordenação.' : 'A IA não respondeu agora. Tente de novo em instantes.';
-    return resposta(502, { erro: msg });
+    let tipo = '';
+    try { const j = JSON.parse(detalhe); tipo = `${j?.error?.type || ''}: ${String(j?.error?.message || '').slice(0, 160)}`; } catch { tipo = detalhe.slice(0, 160); }
+    return resposta(502, { erro: msg, detalhe: `IA ${r.status} · ${tipo}` });
   }
   const dados = await r.json();
   await admin.from('geracoes').insert({ professor: u.user.id, tokens_in: dados.usage?.input_tokens, tokens_out: dados.usage?.output_tokens });
