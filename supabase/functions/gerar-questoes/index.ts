@@ -65,7 +65,6 @@ Deno.serve(async (req) => {
 
   const url = Deno.env.get('SUPABASE_URL')!;
   const anon = Deno.env.get('SUPABASE_ANON_KEY')!;
-  const servico = Deno.env.get('SUPABASE_SERVICE_ROLE_KEY')!;
   const chaveIA = Deno.env.get('ANTHROPIC_API_KEY');
   if (!chaveIA) return resposta(500, { erro: 'Falta o secret ANTHROPIC_API_KEY no Supabase.' });
 
@@ -88,11 +87,10 @@ Deno.serve(async (req) => {
   if (!podeGerir) return resposta(403, { erro: 'Só o professor da turma ou a coordenação pode gerar questões.' });
   const { data: turma } = await comoUsuario.from('turmas').select('nome').eq('id', turma_id).maybeSingle();
 
-  // Limite diário por professor (protege o saldo da conta).
-  const admin = createClient(url, servico);
-  const desde = new Date(Date.now() - 864e5).toISOString();
-  const { count } = await admin.from('geracoes').select('id', { count: 'exact', head: true }).eq('professor', u.user.id).gte('criado_em', desde);
-  if ((count ?? 0) >= LIMITE_DIA) return resposta(429, { erro: `Limite de ${LIMITE_DIA} gerações por dia atingido. Tente amanhã.` });
+  // Limite diário por professor (protege o saldo da conta). Conta antes de chamar a IA.
+  const { data: vez, error: erroLimite } = await comoUsuario.rpc('usar_geracao', { p_limite: LIMITE_DIA });
+  if (erroLimite) return resposta(500, { erro: 'Não consegui verificar o limite diário.', detalhe: erroLimite.message });
+  if (vez === -1) return resposta(429, { erro: `Limite de ${LIMITE_DIA} gerações por dia atingido. Tente amanhã.` });
 
   const conteudo: unknown[] = imagens.map((b64) => ({
     type: 'image',
@@ -125,7 +123,6 @@ Deno.serve(async (req) => {
     return resposta(502, { erro: msg, detalhe: `IA ${r.status} · ${tipo}` });
   }
   const dados = await r.json();
-  await admin.from('geracoes').insert({ professor: u.user.id, tokens_in: dados.usage?.input_tokens, tokens_out: dados.usage?.output_tokens });
 
   let saida = dados.content?.find((c: { type: string }) => c.type === 'tool_use')?.input;
   if (!saida) {
