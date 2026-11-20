@@ -6,6 +6,7 @@ import Resumo from './Resumo.jsx';
 import Material from './Material.jsx';
 import AnaliseQuestao from './Analise.jsx';
 import Tarefas from './Tarefas.jsx';
+import Impacto from './Impacto.jsx';
 import { NovaSenha } from './Senha.jsx';
 import { resumoSemanal } from '../resumo.js';
 
@@ -117,10 +118,12 @@ export default function Professor({ perfil }) {
       <p className="mudo">{turmas.find((t) => t.id === turmaId)?.nome} · {alunos.length} {alunos.length === 1 ? 'aluno' : 'alunos'}</p>
 
       <nav className="abas">
-        {[['alunos', 'Alunos'], ['tarefas', 'Tarefas'], ['material', 'Material'], ['topicos', 'Tópicos'], ['erros', 'Erros'], ['ajustes', 'Ajustes']].map(([id, nome]) => (
+        {[['alunos', 'Alunos'], ['impacto', 'Impacto'], ['tarefas', 'Tarefas'], ['material', 'Material'], ['topicos', 'Tópicos'], ['erros', 'Erros'], ['ajustes', 'Ajustes']].map(([id, nome]) => (
           <button key={id} aria-selected={aba === id} onClick={() => setAba(id)}>{nome}</button>
         ))}
       </nav>
+
+      {aba === 'impacto' && <Impacto turmaNome={turmas.find((t) => t.id === turmaId)?.nome || ''} alunos={alunos} tentativas={tentativas} />}
 
       {aba === 'tarefas' && <Tarefas turmaId={turmaId} alunos={alunos} tentativas={tentativas} />}
 

@@ -23,20 +23,15 @@ function semente() {
     const k = Object.keys(perfis).indexOf(aluno);
     const amostra = ['mt', 'pt', 'en', 'ci', 'hi', 'ge'].flatMap((m) =>
       QUESTOES.filter((q) => q.materia === m).filter((_, i) => i % 9 === k).slice(0, 30));
-    for (const q of amostra) {
-      tentativas.push({
-        id: 'seed-' + n++,
-        aluno_id: aluno,
-        turma_id: TURMA.id,
-        questao_id: q.id,
-        topico_id: q.topico,
-        materia: q.materia,
-        correta: Math.random() < chance,
-        resposta: '',
-        tempo_ms: 15000,
-        criado_em: new Date(Date.now() - Math.random() * 12 * 864e5).toISOString(),
-      });
-    }
+    // Ordem cronológica, com o acerto subindo um pouco e parte dos erros refeita (e acertada) depois.
+    const t0 = Date.now() - 13 * 864e5;
+    amostra.forEach((q, j) => {
+      const quando = t0 + (j / amostra.length) * 12 * 864e5;
+      const ok = Math.random() < chance - 0.1 + 0.2 * (j / amostra.length);
+      const base = { aluno_id: aluno, turma_id: TURMA.id, questao_id: q.id, topico_id: q.topico, materia: q.materia, resposta: '', tempo_ms: 15000 + Math.round(Math.random() * 20000), contexto: 'licao' };
+      tentativas.push({ ...base, id: 'seed-' + n++, correta: ok, criado_em: new Date(quando).toISOString() });
+      if (!ok && Math.random() < 0.6) tentativas.push({ ...base, id: 'seed-' + n++, correta: Math.random() < 0.7, contexto: 'revisao', criado_em: new Date(quando + 864e5 * (1 + Math.random() * 2)).toISOString() });
+    });
   }
   return { usuarios, turmas: [TURMA], tentativas, sessao: null };
 }
@@ -228,20 +223,22 @@ export const demo = {
     if (!u) return null;
     return { aluno: u.nome.split(' ')[0], escola: ESCOLA.nome, autorizado: !!autorizacoesDe(db)[u.id] };
   },
-  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao }) {
+  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao, resumo }) {
     const db = ler(); const u = db.usuarios.find((x) => x.papel === 'aluno' && 'tok-' + x.id === token);
     if (!u) throw new Error('Link inválido. Peça um novo link à escola.');
     if (responsavel.trim().length < 5 || !responsavel.trim().includes(' ')) throw new Error('Escreva o nome completo do responsável.');
     if (!parentesco) throw new Error('Informe o parentesco.');
     if (!cpfValido(cpf)) throw new Error('CPF inválido. Confira os números.');
-    autorizacoesDe(db)[u.id] = { forma: 'digital', responsavel: responsavel.trim(), parentesco, aceito_em: new Date().toISOString(), versao, contato };
+    if (resumo && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(contato || '')) throw new Error('Para receber o resumo, escreva um e-mail válido no contato.');
+    autorizacoesDe(db)[u.id] = { forma: 'digital', responsavel: responsavel.trim(), parentesco, aceito_em: new Date().toISOString(), versao, contato, quer_resumo: !!resumo };
     gravar(db);
   },
   async minhaAutorizacao(alunoId) { return !!autorizacoesDe(ler())[alunoId]; },
   async coordTermos() {
     const db = ler(); const a = autorizacoesDe(db);
-    return db.usuarios.filter((u) => u.papel === 'aluno').map((u) => ({ aluno_id: u.id, token: 'tok-' + u.id, forma: a[u.id]?.forma || null, responsavel: a[u.id]?.responsavel || null, aceito_em: a[u.id]?.aceito_em || null }));
+    return db.usuarios.filter((u) => u.papel === 'aluno').map((u) => ({ aluno_id: u.id, token: 'tok-' + u.id, forma: a[u.id]?.forma || null, responsavel: a[u.id]?.responsavel || null, aceito_em: a[u.id]?.aceito_em || null, quer_resumo: !!a[u.id]?.quer_resumo }));
   },
+  async coordPararResumo(alunoId) { const db = ler(); const a = autorizacoesDe(db)[alunoId]; if (a) a.quer_resumo = false; gravar(db); },
   async coordTermoPapel(alunoId, recebido) {
     const db = ler(); exigirCoord(db); const a = autorizacoesDe(db);
     if (recebido) a[alunoId] ||= { forma: 'papel', aceito_em: new Date().toISOString() }; else delete a[alunoId];

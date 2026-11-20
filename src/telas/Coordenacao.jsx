@@ -254,6 +254,7 @@ export default function Coordenacao({ perfil }) {
                           <div className="pilha" style={{ gap: 2, marginTop: 4 }}>
                             <span className="st-termo">{tm.forma === 'digital' ? `✅ assinado (${new Date(tm.aceito_em).toLocaleDateString('pt-BR')})` : tm.forma === 'papel' ? '📄 termo em papel' : '⏳ sem autorização'}</span>
                             {tm.forma === 'digital' && tm.responsavel && <span className="mudo mini">{tm.responsavel}</span>}
+                            {tm.quer_resumo && <span className="mini">📨 recebe resumo · <button className="link mini" disabled={ocupado} onClick={() => acao(async () => { await api.coordPararResumo(p.id); await recarregar(); })}>parar</button></span>}
                             {!tm.forma && <button className="link mini" onClick={() => copiar(`Autorização do Tutor da Cat para ${p.nome}: ${linkTermo(tm.token)}`, setAvisoTermo)}>📋 Link da família</button>}
                             {tm.forma !== 'digital' && <button className="link mini" disabled={ocupado} onClick={() => acao(async () => { await api.coordTermoPapel(p.id, tm.forma !== 'papel'); await recarregar(); })}>{tm.forma === 'papel' ? 'Desfazer papel' : '📄 Recebi em papel'}</button>}
                           </div>

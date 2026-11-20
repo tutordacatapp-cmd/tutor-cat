@@ -302,3 +302,19 @@ a.btn { text-decoration: none; display: inline-block; }
 .termo-texto p { margin: 2px 0 0; font-size: 15px; }
 .st-termo { font-size: 13px; font-weight: 700; }
 .check input[type=checkbox] { width: 22px; height: 22px; flex: none; accent-color: var(--mt); margin-top: 2px; }
+/* Impacto */
+.kpis { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; }
+.kpi { background: var(--surface); border: 2px solid var(--line); border-radius: 14px; padding: 10px 12px; display: flex; flex-direction: column; gap: 1px; }
+.kpi b { font: 800 26px var(--display); color: var(--mt); line-height: 1.1; }
+.kpi b small { font-size: 15px; color: var(--muted); }
+.kpi span { font-weight: 700; font-size: 14px; }
+.kpi em { font-style: normal; font-size: 12px; color: var(--muted); }
+.grafico { width: 100%; height: auto; }
+.g-grade { stroke: var(--line); stroke-width: 1; }
+.g-eixo { font-size: 10px; fill: var(--muted); }
+.g-barra { fill: var(--mt-soft); }
+.g-linha { fill: none; stroke: var(--mt); stroke-width: 2.5; }
+.g-ponto { fill: var(--mt); }
+.ok-txt { color: var(--mt); font-weight: 700; }
+.resumo-txt { white-space: pre-wrap; font: 14px/1.5 var(--body); background: var(--paper); border-radius: 10px; padding: 10px; margin: 0; }
+.topico-imp { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; border-top: 1px solid var(--line); padding-top: 6px; }

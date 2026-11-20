@@ -116,8 +116,8 @@ export const supabase = sb && {
     if (error) throw new Error(error.message);
     return data;
   },
-  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao }) {
-    const { error } = await sb.rpc('assinar_termo', { p_token: token, p_responsavel: responsavel, p_parentesco: parentesco, p_cpf: cpf, p_contato: contato, p_versao: versao });
+  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao, resumo }) {
+    const { error } = await sb.rpc('assinar_termo', { p_token: token, p_responsavel: responsavel, p_parentesco: parentesco, p_cpf: cpf, p_contato: contato, p_versao: versao, p_resumo: !!resumo });
     if (error) throw new Error(error.message);
   },
   async minhaAutorizacao(alunoId) {
@@ -129,6 +129,10 @@ export const supabase = sb && {
     const { data, error } = await sb.rpc('coord_termos');
     if (error) return [];
     return data;
+  },
+  async coordPararResumo(alunoId) {
+    const { error } = await sb.rpc('coord_parar_resumo', { p_aluno: alunoId });
+    if (error) throw new Error(error.message);
   },
   async coordTermoPapel(alunoId, recebido) {
     const { error } = await sb.rpc('coord_termo_papel', { p_aluno: alunoId, p_recebido: recebido });
