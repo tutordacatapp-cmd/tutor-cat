@@ -3,6 +3,11 @@ on:
   schedule:
     - cron: '7 21 * * 0'   # domingo, 18h07 em Brasília
   workflow_dispatch:
+    inputs:
+      teste:
+        description: 'Só um e-mail de teste para a caixa do projeto'
+        type: boolean
+        default: false
 jobs:
   enviar:
     runs-on: ubuntu-latest
@@ -33,5 +38,9 @@ jobs:
           npm ci --silent
           npx esbuild ferramentas/resumo-semanal.mjs --bundle --platform=node --format=esm --outfile=/tmp/resumo.mjs --log-level=error
           node /tmp/resumo.mjs dados.json emails.json
+      - name: Trocar por e-mail de teste
+        if: ${{ inputs.teste }}
+        run: |
+          jq -n --arg u "$GMAIL_USUARIO" '[{para:$u, assunto:"Tutor da Cat — teste do resumo semanal", texto:("Olá!\n\nEste é um teste do envio automático dos resumos semanais. Se chegou, está tudo funcionando.\n\nFamílias inscritas hoje: " + ($n|tostring) + ".")}]' --argjson n "$(jq '.alunos | length' dados.json)" > emails.json
       - name: Enviar
         run: python3 ferramentas/enviar-emails.py emails.json
