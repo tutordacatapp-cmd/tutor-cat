@@ -14,7 +14,7 @@ export default function AnaliseQuestao({ q, x, compacta = false }) {
       <div className="enunciado-p" dangerouslySetInnerHTML={{ __html: q.enunciado }} />
       <p className="mudo pequeno" style={{ margin: 0 }}>✅ Certa: <span dangerouslySetInnerHTML={{ __html: respostaEmTexto(q) }} /></p>
       {errada && (
-        <div className="pequeno">❌ Mais marcada errada: <b dangerouslySetInnerHTML={{ __html: errada }} /> ({n}×){porque && <div className="mudo">Confusão provável: {porque}</div>}</div>
+        <div className="pequeno">❌ Mais marcada errada: {(q.alternativas || []).includes(errada) ? <b dangerouslySetInnerHTML={{ __html: errada }} /> : <b>{errada}</b>} ({n}×){porque && <div className="mudo">Confusão provável: {porque}</div>}</div>
       )}
       {x.memoria.length > 0 && <div className="pequeno mudo">🧠 Ao tentar lembrar, escreveram: {[...new Set(x.memoria)].slice(0, 5).map((m) => `“${m}”`).join(', ')}</div>}
       {(x.lembrou > 0 || x.tempoMediano) && <div className="pequeno mudo">{x.lembrou > 0 ? `${x.lembrou} acerto(s) de memória · ` : ''}{x.tempoMediano ? `tempo típico ${Math.round(x.tempoMediano / 1000)} s` : ''}</div>}

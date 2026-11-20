@@ -211,6 +211,10 @@ export const demo = {
     if (!t) throw new Error('Turma não encontrada.');
     t.lembrar = modo; gravar(db);
   },
+  // ===== Avisos de erro em questões =====
+  async avisarErro(aviso) { const db = ler(); (db.avisos ||= []).push({ ...aviso, id: Date.now(), aluno_id: db.sessao, criado_em: new Date().toISOString() }); gravar(db); },
+  async avisos(turmaId) { return (ler().avisos || []).filter((a) => a.turma_id === turmaId).reverse(); },
+  async excluirAvisos(turmaId, questaoId) { const db = ler(); db.avisos = (db.avisos || []).filter((a) => !(a.turma_id === turmaId && a.questao_id === questaoId)); gravar(db); },
   // ===== Tarefas e provas =====
   async tarefas(turmaId) {
     const db = ler(); if (!db.tarefas) db.tarefas = tarefasExemplo();
@@ -227,7 +231,7 @@ export const demo = {
   },
   // ===== Material da aula (no demo, a "IA" é simulada) =====
   async materiais(turmaId) {
-    const db = ler(); if (!db.materiais) db.materiais = materialExemplo();
+    const db = ler(); if (!db.materiais) { db.materiais = materialExemplo(); gravar(db); }
     return db.materiais.filter((m) => m.turma_id === turmaId).sort((a, b) => (a.criado_em < b.criado_em ? 1 : -1));
   },
   async salvarMaterial(m) {

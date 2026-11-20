@@ -1,5 +1,5 @@
 // Regras de progresso: o que entra em cada lição, domínio de tópico, desbloqueio da trilha.
-import { questoesDo, topicosDa, topico } from './conteudo.js';
+import { questoesDo, topicosDa, topico, questao } from './conteudo.js';
 
 export const TAMANHO_LICAO = 10;
 export const META_DOMINIO = 0.8; // 80% de acerto
@@ -45,14 +45,14 @@ export function montarLicao(topicoId, tentativas) {
 export function montarRevisao(tentativas, materia) {
   const ult = ultimoResultado(tentativas);
   const ids = [...ult.values()]
-    .filter((t) => !t.correta && (!materia || t.materia === materia))
+    .filter((t) => !t.correta && (!materia || t.materia === materia) && questao(t.questao_id))
     .map((t) => t.questao_id);
   return embaralhar(ids).slice(0, TAMANHO_LICAO);
 }
 
 export function errosPendentes(tentativas, materia) {
   return [...ultimoResultado(tentativas).values()].filter(
-    (t) => !t.correta && (!materia || t.materia === materia)
+    (t) => !t.correta && (!materia || t.materia === materia) && questao(t.questao_id)
   ).length;
 }
 

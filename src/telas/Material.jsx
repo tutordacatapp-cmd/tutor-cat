@@ -2,7 +2,7 @@
 // o professor revisa/edita e publica para a turma.
 import { useEffect, useState } from 'react';
 import { api } from '../dados/api.js';
-import { MATERIAS, registrarMateriais, idTopicoMaterial, questao } from '../conteudo.js';
+import { MATERIAS, registrarMateriais, idTopicoMaterial, questao, limpo } from '../conteudo.js';
 import { analisarQuestoes } from '../progresso.js';
 import AnaliseQuestao from './Analise.jsx';
 
@@ -218,7 +218,7 @@ function Editor({ inicial, voltar, tentativas = [], alunos = [] }) {
           <button className="ed-topo" onClick={() => setAberta(aberta === i ? null : i)}>
             <b>{i + 1}.</b>
             <span className="pilha" style={{ gap: 2 }}>
-              <span dangerouslySetInnerHTML={{ __html: q.enunciado || '<i>(sem enunciado)</i>' }} />
+              <span dangerouslySetInnerHTML={{ __html: limpo(q.enunciado) || '<i>(sem enunciado)</i>' }} />
               <span className="pequeno">✅ {q.correta}{problemas[i] && <b className="erro-ed"> · ⚠️ {problemas[i]}</b>}
                 {statsDe(q) && <span className="mudo"> · {Math.round(statsDe(q).taxa * 100)}% acerto ({statsDe(q).nAlunos})</span>}</span>
             </span>

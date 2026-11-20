@@ -25,6 +25,7 @@ export default function Professor({ perfil }) {
   const [aba, setAba] = useState('alunos');
   const [materia, setMateria] = useState('mt');
   const [alunoAberto, setAlunoAberto] = useState(null);
+  const [avisos, setAvisos] = useState([]);
   const [trocarSenha, setTrocarSenha] = useState(false);
   const [senhaNova, setSenhaNova] = useState('');
   const [lembrar, setLembrar] = useState(null);
@@ -39,6 +40,7 @@ export default function Professor({ perfil }) {
     if (!turmaId) return;
     setLembrar(null); setMsgAjuste('');
     api.materiais?.(turmaId).then((ms) => { registrarMateriais(ms); setVersao((v) => v + 1); }).catch(() => {});
+    api.avisos?.(turmaId).then(setAvisos).catch(() => {});
     api.modoLembrar(turmaId).then(setLembrar).catch(() => setLembrar('sempre'));
     Promise.all([api.alunosDaTurma(turmaId), api.tentativasDaTurma(turmaId)]).then(([a, t]) => { setAlunos(a); setTentativas(t); });
   }, [turmaId]);
@@ -194,6 +196,24 @@ export default function Professor({ perfil }) {
         <div className="pilha">
           {errosComuns.length === 0 && <p className="mudo">Ainda não há erros nesta matéria.</p>}
           {errosComuns.map((x) => <AnaliseQuestao key={x.q.id} q={x.q} x={x} />)}
+          {(() => {
+            const porQ = new Map();
+            avisos.forEach((a) => { const q = questao(a.questao_id); if (q && q.materia === materia) (porQ.get(a.questao_id) || porQ.set(a.questao_id, { q, motivos: [] }).get(a.questao_id)).motivos.push(a.motivo); });
+            if (!porQ.size) return null;
+            return (
+              <div className="cartao pilha">
+                <h3>🚩 Questões avisadas pelos alunos</h3>
+                {[...porQ.values()].map(({ q, motivos }) => (
+                  <div key={q.id} className="pilha" style={{ gap: 2, borderTop: '1px solid var(--line)', paddingTop: 8 }}>
+                    <div className="enunciado-p" dangerouslySetInnerHTML={{ __html: q.enunciado }} />
+                    <span className="mudo pequeno">✅ <span dangerouslySetInnerHTML={{ __html: respostaEmTexto(q) }} /> · código {q.id}</span>
+                    <span className="pequeno">{[...new Set(motivos)].map((m) => `${m} (${motivos.filter((x) => x === m).length}×)`).join(' · ')}</span>
+                    <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={async () => { await api.excluirAvisos(turmaId, q.id); setAvisos((l) => l.filter((a) => a.questao_id !== q.id)); }}>Já conferi, limpar</button>
+                  </div>
+                ))}
+              </div>
+            );
+          })()}
         </div>
       )}
     </div>

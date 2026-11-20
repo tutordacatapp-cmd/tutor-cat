@@ -6,7 +6,7 @@ import { progresso, preparo, quando, dataBR, hojeStr } from '../tarefas.js';
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
 const cor = (x) => (x == null ? '' : x >= 0.8 ? 'verde' : x >= 0.6 ? 'amarelo' : 'vermelho');
-const emDias = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return d.toISOString().slice(0, 10); };
+const emDias = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`; };
 
 export default function Tarefas({ turmaId, alunos, tentativas }) {
   const [lista, setLista] = useState(null);

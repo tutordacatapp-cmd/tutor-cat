@@ -114,7 +114,8 @@ export function podeLembrar(q) {
 }
 
 // Uma questão: trava de leitura nas alternativas, dicas, correção e explicação.
-function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = false }) {
+function Pergunta({ q, gato, aoResponder, aoLembrou, aoAvisar, comDicas = true, lembrar = false }) {
+  const [avisando, setAvisando] = useState(null); // null | 'aberto' | 'enviado'
   const [valor, setValor] = useState('');
   const [res, setRes] = useState(null);
   const [lida, setLida] = useState(q.tipo !== 'mc');
@@ -222,6 +223,14 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
           </div>
           {res.aviso && <p>{res.aviso}</p>}
           <ModoTutor q={q} ok={res.ok} escolhida={res.escolhida} />
+          {aoAvisar && (avisando === 'enviado' ? <span className="mudo pequeno">Obrigado! O professor vai conferir. 🙏</span>
+            : avisando === 'aberto' ? (
+              <span className="linha" style={{ justifyContent: 'flex-start', flexWrap: 'wrap', gap: 6 }}>
+                {['A resposta certa está errada', 'Não entendi a explicação', 'A pergunta está confusa'].map((m) => (
+                  <button key={m} className="chip" onClick={() => { aoAvisar(q, m); setAvisando('enviado'); }}>{m}</button>
+                ))}
+              </span>
+            ) : <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={() => setAvisando('aberto')}>🚩 Achei um erro nesta questão</button>)}
         </div>
       )}
     </div>
@@ -230,7 +239,7 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
 
 // Lição. Fluxo de erro (tutor original): erro → tempo de leitura → questão parecida obrigatória →
 // errou de novo: explicação + mais uma parecida → libera a próxima.
-export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => {}, aoTerminar, gato, modo = 'licao', lembrar = 'sempre' }) {
+export default function Licao({ titulo, questoes, aoResponder, aoAvisar, aoEvento = () => {}, aoTerminar, gato, modo = 'licao', lembrar = 'sempre' }) {
   const [i, setI] = useState(0);
   const [placar, setPlacar] = useState(0);
   const [etapa, setEtapa] = useState('pergunta'); // pergunta | provar | parecida | liberado
@@ -298,7 +307,7 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
       <div className="progresso"><i style={{ width: `${(i / questoes.length) * 100}%` }} /></div>
 
       <div className="cartao pilha">
-        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} lembrar={lembrarAqui} aoLembrou={() => aoEvento('lembrou')} />
+        <Pergunta key={q.id + '-' + i} q={q} gato={gato} aoResponder={respondeuPrincipal} aoAvisar={aoAvisar} lembrar={lembrarAqui} aoLembrou={() => aoEvento('lembrou')} />
 
         {etapa === 'provar' && (
           <div className="provar">
@@ -310,7 +319,7 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
         {prova?.q && (
           <div className="caixa-parecida">
             <div className="titulo-parecida">{prova.nivel ? 'Mais uma parecida' : 'Uma parecida pra fixar'} <span className="mudo pequeno">· mesmo raciocínio, outros dados</span></div>
-            <Pergunta key={prova.q.id} q={prova.q} aoResponder={respondeuParecida} comDicas={false} />
+            <Pergunta key={prova.q.id} q={prova.q} aoResponder={respondeuParecida} aoAvisar={aoAvisar} comDicas={false} />
             {prova.resultado === 'ok' && <p className="veredito ok-txt">Agora sim. Entendeu! 🧠</p>}
             {prova.resultado === 'errou' && (
               <div className="provar">

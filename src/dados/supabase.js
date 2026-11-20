@@ -7,6 +7,35 @@ const url = import.meta.env.VITE_SUPABASE_URL;
 const chave = import.meta.env.VITE_SUPABASE_ANON_KEY;
 const sb = url && chave ? createClient(url, chave) : null;
 
+// O Supabase devolve no máximo 1000 linhas por consulta: busca página por página, em ordem de data.
+async function todas(montar) {
+  const out = [];
+  for (let de = 0; ; de += 1000) {
+    const { data, error } = await montar().order('criado_em').order('id').range(de, de + 999);
+    if (error) throw error;
+    out.push(...data);
+    if (data.length < 1000) return out;
+  }
+}
+
+// Fila de respostas ainda não enviadas (por aluno, neste aparelho).
+const chaveFila = (id) => 'tutor-fila-' + id;
+function lerFila(id) { try { return JSON.parse(localStorage.getItem(chaveFila(id)) || '[]'); } catch { return []; } }
+function gravarFila(id, f) { try { localStorage.setItem(chaveFila(id), JSON.stringify(f)); } catch { /* sem armazenamento */ } }
+let enviando = Promise.resolve();
+function enviarFila(id) {
+  const vez = enviando.catch(() => {}).then(async () => {
+    const fila = lerFila(id);
+    if (!fila.length) return;
+    const { error } = await sb.from('tentativas').insert(fila);
+    if (error && !error.code) throw new Error('offline'); // falha de rede: mantém na fila
+    gravarFila(id, lerFila(id).slice(fila.length)); // enviado (ou recusado pelo banco): tira da fila
+    if (error) throw error;
+  });
+  enviando = vez;
+  return vez;
+}
+
 export const emailInterno = (usuario, codigo) =>
   `${usuario.trim().toLowerCase()}.${codigo.trim().toLowerCase()}@contas.tutordacat.app`;
 
@@ -51,14 +80,14 @@ export const supabase = sb && {
     await sb.auth.signOut();
   },
   async minhasTentativas(alunoId) {
-    const { data, error } = await sb.from('tentativas').select('*').eq('aluno_id', alunoId);
-    if (error) throw error;
-    return data;
+    await enviarFila(alunoId).catch(() => {});
+    const data = await todas(() => sb.from('tentativas').select('*').eq('aluno_id', alunoId));
+    return [...data, ...lerFila(alunoId)];
   },
+  // Guarda primeiro no aparelho e depois envia: sem internet, a resposta não se perde.
   async registrarTentativa(t) {
-    const { data, error } = await sb.from('tentativas').insert(t).select().single();
-    if (error) throw error;
-    return data;
+    gravarFila(t.aluno_id, [...lerFila(t.aluno_id), { ...t, criado_em: new Date().toISOString() }]);
+    await enviarFila(t.aluno_id);
   },
   async turmasDoProfessor(perfil) {
     if (!perfil.turmas.length) return [];
@@ -80,6 +109,20 @@ export const supabase = sb && {
   async definirModoLembrar(turmaId, modo) {
     const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
     if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
+  },
+  // ===== Avisos de erro em questões =====
+  async avisarErro(aviso) {
+    const { error } = await sb.from('avisos').insert(aviso);
+    if (error) throw new Error(error.message);
+  },
+  async avisos(turmaId) {
+    const { data, error } = await sb.from('avisos').select('*').eq('turma_id', turmaId).order('criado_em', { ascending: false }).limit(100);
+    if (error) return [];
+    return data;
+  },
+  async excluirAvisos(turmaId, questaoId) {
+    const { error } = await sb.from('avisos').delete().eq('turma_id', turmaId).eq('questao_id', questaoId);
+    if (error) throw new Error(error.message);
   },
   // ===== Tarefas e provas =====
   async tarefas(turmaId) {
@@ -177,8 +220,6 @@ export const supabase = sb && {
     if (error) throw new Error(error.message);
   },
   async tentativasDaTurma(turmaId) {
-    const { data, error } = await sb.from('tentativas').select('*').eq('turma_id', turmaId);
-    if (error) throw error;
-    return data;
+    return todas(() => sb.from('tentativas').select('*').eq('turma_id', turmaId));
   },
 };

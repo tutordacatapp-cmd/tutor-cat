@@ -30,12 +30,27 @@ export const questao = (id) => porId.get(id);
 const extrasTopicos = new Map();
 const extrasQuestoes = new Map(); // topicoId -> [questões]
 export const idTopicoMaterial = (m) => 'mat-' + m.id;
+// Texto vindo de professor/IA/aluno: escapa tudo e só devolve formatação simples (negrito, itálico, quebra de linha).
+export function limpo(h) {
+  return String(h ?? '')
+    .replace(/&(?!(?:[a-z]+|#\d+);)/gi, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
+    .replace(/&lt;(\/?)(b|i|u|em|strong|sup|sub)&gt;/gi, '<$1$2>').replace(/&lt;br\s*\/?&gt;/gi, '<br>');
+}
+const limparQuestao = (q) => ({
+  ...q,
+  enunciado: limpo(q.enunciado), resposta: limpo(q.resposta), explicacao: limpo(q.explicacao),
+  alternativas: (q.alternativas || []).map(limpo),
+  tutor: q.tutor ? {
+    alternativas: Object.fromEntries(Object.entries(q.tutor.alternativas || {}).map(([k, v]) => [limpo(k), String(v ?? '')])),
+    pontos: (q.tutor.pontos || []).map(String), pegadinha: String(q.tutor.pegadinha || ''),
+  } : undefined,
+});
 export function registrarMateriais(lista) {
   for (const m of lista || []) {
     const tid = idTopicoMaterial(m);
     const nome = MATERIAS.find((x) => x.id === m.materia)?.nome || '';
-    extrasTopicos.set(tid, { id: tid, materia: m.materia, materia_nome: nome, titulo: m.titulo, material: true, explicacao_html: '' });
-    const qs = (m.questoes || []).map((q, i) => ({ ...q, id: `${tid}-${q.id || i + 1}`, topico: tid, materia: m.materia, tipo: q.tipo || 'mc' }));
+    extrasTopicos.set(tid, { id: tid, materia: m.materia, materia_nome: nome, titulo: String(m.titulo), material: true, explicacao_html: '' });
+    const qs = (m.questoes || []).map(limparQuestao).map((q, i) => ({ ...q, id: `${tid}-${q.id || i + 1}`, topico: tid, materia: m.materia, tipo: q.tipo || 'mc' }));
     extrasQuestoes.set(tid, qs);
     qs.forEach((q) => porId.set(q.id, q));
   }

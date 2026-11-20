@@ -121,7 +121,8 @@ export default function Aluno({ perfil }) {
     const local = { ...t, aluno_id: perfil.id, turma_id: perfil.turma_id, criado_em: new Date().toISOString() };
     setTentativas((ts) => [...ts, local]);
     try { await api.registrarTentativa({ ...t, aluno_id: perfil.id, turma_id: perfil.turma_id }); }
-    catch (e) { setErro('Não consegui salvar a última resposta. Verifique a internet.'); }
+    catch (e) { setErro(e.message === 'offline' ? 'Sem internet: sua resposta ficou guardada neste aparelho e será enviada quando a conexão voltar.' : 'Não consegui salvar a última resposta.'); return; }
+    setErro('');
   }
 
   if (erro && !tentativas) return <p className="aviso">{erro}</p>;
@@ -134,6 +135,7 @@ export default function Aluno({ perfil }) {
           titulo={tela.titulo}
           questoes={tela.questoes}
           aoResponder={registrar}
+          aoAvisar={(q, motivo) => api.avisarErro?.({ turma_id: perfil.turma_id, questao_id: q.id, motivo }).catch(() => {})}
           aoEvento={evento}
           modo={tela.modo || 'licao'}
           lembrar={modoLembrar}
