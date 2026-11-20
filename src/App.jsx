@@ -4,9 +4,11 @@ import Login from './telas/Login.jsx';
 import Aluno from './telas/Aluno.jsx';
 import Professor from './telas/Professor.jsx';
 import Coordenacao from './telas/Coordenacao.jsx';
+import { MinhaSenha } from './telas/Senha.jsx';
 
 export default function App() {
   const [perfil, setPerfil] = useState(undefined); // undefined = carregando
+  const [senhaAberta, setSenhaAberta] = useState(false);
 
   useEffect(() => {
     api.sessaoAtual().then(setPerfil).catch(() => setPerfil(null));
@@ -26,9 +28,11 @@ export default function App() {
         <span className="marca">Tutor da Cat</span>
         <span className="quem">
           {perfil.papel === 'coordenacao' ? perfil.escola?.nome || 'Coordenação' : perfil.nome} · {{ professor: 'Professor(a)', coordenacao: 'Coordenação', aluno: 'Aluno(a)' }[perfil.papel]}
+          <button className="sair" onClick={() => setSenhaAberta(!senhaAberta)} title="Trocar minha senha">🔑</button>
           <button className="sair" onClick={sair}>Sair</button>
         </span>
       </header>
+      {senhaAberta && <MinhaSenha aoFechar={() => setSenhaAberta(false)} />}
       {perfil.papel === 'coordenacao' ? <Coordenacao perfil={perfil} /> : perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
       {api.modo === 'demo' && (
         <footer className="rodape pequeno mudo">

@@ -274,3 +274,4 @@ a.btn { text-decoration: none; display: inline-block; }
 .tabela.compacta td.num { text-align: center; }
 .sem-quebra { white-space: nowrap; }
 .mini { font-size: 12px; }
+.caixa-senha { background: var(--mt-soft); border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-top: 6px; }

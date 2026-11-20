@@ -4,6 +4,7 @@ import { MATERIAS, questao, topicosDa, respostaEmTexto, registrarMateriais } fro
 import { situacaoTopico, nomeTopico } from '../progresso.js';
 import Resumo from './Resumo.jsx';
 import Material from './Material.jsx';
+import { NovaSenha } from './Senha.jsx';
 import { resumoSemanal } from '../resumo.js';
 
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
@@ -22,6 +23,8 @@ export default function Professor({ perfil }) {
   const [aba, setAba] = useState('alunos');
   const [materia, setMateria] = useState('mt');
   const [alunoAberto, setAlunoAberto] = useState(null);
+  const [trocarSenha, setTrocarSenha] = useState(false);
+  const [senhaNova, setSenhaNova] = useState('');
   const [lembrar, setLembrar] = useState(null);
   const [, setVersao] = useState(0); // força redesenho quando os materiais são registrados
   const [msgAjuste, setMsgAjuste] = useState('');
@@ -69,8 +72,15 @@ export default function Professor({ perfil }) {
     const ts = tentativas.filter((t) => t.aluno_id === alunoAberto.id);
     return (
       <div className="pilha">
-        <button className="voltar" onClick={() => setAlunoAberto(null)}>← Turma</button>
+        <button className="voltar" onClick={() => { setAlunoAberto(null); setTrocarSenha(false); setSenhaNova(''); }}>← Turma</button>
         <h2>{alunoAberto.nome}</h2>
+        {perfil.papel === 'professor' && (
+          <div className="pilha" style={{ gap: 6 }}>
+            {!trocarSenha && !senhaNova && <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={() => setTrocarSenha(true)}>🔑 Esqueceu a senha? Criar uma nova</button>}
+            {trocarSenha && <NovaSenha pessoa={alunoAberto} salvar={api.redefinirSenhaAluno} aoCancelar={() => setTrocarSenha(false)} aoSalvar={(s) => { setTrocarSenha(false); setSenhaNova(s); }} />}
+            {senhaNova && <p className="cartao pequeno" style={{ margin: 0 }}>Senha nova de {alunoAberto.nome.split(' ')[0]}: <b>{senhaNova}</b> (usuário: <b>{alunoAberto.usuario || '—'}</b>). Anote ou mande para a família.</p>}
+          </div>
+        )}
         <Resumo texto={resumoSemanal(alunoAberto.nome, ts)} titulo="📨 Resumo da semana para a família" />
         {MATERIAS.map((m) => (
           <div className="cartao" key={m.id}>

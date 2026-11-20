@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { api } from '../dados/api.js';
 import Professor from './Professor.jsx';
+import { gerarSenha, NovaSenha } from './Senha.jsx';
 
 // ===== geração de usuário e senha =====
 const semAcento = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -13,11 +14,6 @@ export function sugerirUsuario(nome, existentes) {
   let u = base, n = 2;
   while (existentes.has(u)) u = `${base}${n++}`;
   return u;
-}
-const BICHOS = ['gato', 'lobo', 'urso', 'leao', 'tigre', 'panda', 'coruja', 'raposa', 'sapo', 'peixe', 'pato', 'arara', 'onca', 'tatu', 'boto'];
-export function gerarSenha() {
-  const r = crypto.getRandomValues(new Uint32Array(2));
-  return `${BICHOS[r[0] % BICHOS.length]}-${1000 + (r[1] % 9000)}`;
 }
 
 async function copiar(texto, avisar) {
@@ -118,11 +114,7 @@ export default function Coordenacao({ perfil }) {
     await recarregar();
   });
 
-  const novaSenha = (p) => acao(async () => {
-    const senha = gerarSenha();
-    await api.redefinirSenha(p.id, senha);
-    setAcessos([{ nome: p.nome, usuario: p.usuario || '(veja com o suporte)', senha }]);
-  });
+  const [senhaDe, setSenhaDe] = useState(null);
 
   const alternarVinculo = (prof, turmaId) => acao(async () => {
     await api.vincularProfessor(prof.id, turmaId, !prof.turmas.includes(turmaId));
@@ -221,8 +213,12 @@ export default function Coordenacao({ perfil }) {
               <tbody>
                 {visiveis.map((p) => (
                   <tr key={p.id}>
-                    <td><b>{p.nome}</b><br /><span className="mudo pequeno">{p.papel === 'aluno' ? 'Aluno(a)' : 'Professor(a)'}</span><br /><button className="link pequeno" disabled={ocupado} onClick={() => novaSenha(p)}>🔑 Nova senha</button>
-                      {' · '}<button className="link pequeno perigo" disabled={ocupado} onClick={() => setApagar(p)}>🗑️ Excluir</button>
+                    <td><b>{p.nome}</b><br /><span className="mudo pequeno">{p.papel === 'aluno' ? 'Aluno(a)' : 'Professor(a)'}</span><br /><button className="link pequeno" disabled={ocupado} onClick={() => { setSenhaDe(p.id); setApagar(null); }}>🔑 Nova senha</button>
+                      {' · '}<button className="link pequeno perigo" disabled={ocupado} onClick={() => { setApagar(p); setSenhaDe(null); }}>🗑️ Excluir</button>
+                      {senhaDe === p.id && (
+                        <NovaSenha pessoa={p} salvar={api.redefinirSenha} aoCancelar={() => setSenhaDe(null)}
+                          aoSalvar={(senha) => { setSenhaDe(null); setAcessos([{ nome: p.nome, usuario: p.usuario || '(veja com o suporte)', senha }]); }} />
+                      )}
                       {apagar?.id === p.id && (
                         <div className="confirma">
                           <p className="pequeno">Excluir <b>{p.nome}</b>? {p.papel === 'aluno' ? 'Todo o progresso e o gato dele(a) serão apagados.' : 'Ele(a) perde o acesso às turmas.'} Não dá para desfazer.</p>

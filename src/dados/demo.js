@@ -109,6 +109,18 @@ export const demo = {
     gravar(db);
     return perfilPublico(u, db);
   },
+  async trocarMinhaSenha(senha) {
+    const db = ler(); const u = db.usuarios.find((x) => x.id === db.sessao);
+    if (!u) throw new Error('Entre de novo.');
+    u.senha = senha; gravar(db);
+  },
+  async redefinirSenhaAluno(alunoId, senha) {
+    const db = ler(); const eu = db.usuarios.find((x) => x.id === db.sessao);
+    const a = db.usuarios.find((x) => x.id === alunoId && x.papel === 'aluno');
+    if (!eu || eu.papel !== 'professor' || !a) throw new Error('Você só pode trocar a senha de alunos das suas turmas.');
+    if (senha.length < 6) throw new Error('A senha precisa ter pelo menos 6 caracteres.');
+    a.senha = senha; gravar(db);
+  },
   async sair() {
     const db = ler();
     db.sessao = null;

@@ -39,6 +39,14 @@ export const supabase = sb && {
     if (error) throw new Error('Código da escola, usuário ou senha incorretos.');
     return carregarPerfil(data.user.id);
   },
+  async trocarMinhaSenha(senha) {
+    const { error } = await sb.auth.updateUser({ password: senha });
+    if (error) throw new Error(/different|same/i.test(error.message) ? 'A senha nova precisa ser diferente da atual.' : error.message);
+  },
+  async redefinirSenhaAluno(alunoId, senha) {
+    const { error } = await sb.rpc('prof_redefinir_senha', { p_aluno: alunoId, p_senha: senha });
+    if (error) throw new Error(error.message);
+  },
   async sair() {
     await sb.auth.signOut();
   },
@@ -59,7 +67,7 @@ export const supabase = sb && {
     return data;
   },
   async alunosDaTurma(turmaId) {
-    const { data, error } = await sb.from('perfis').select('id, nome, papel, turma_id').eq('turma_id', turmaId).eq('papel', 'aluno').order('nome');
+    const { data, error } = await sb.from('perfis').select('id, nome, papel, turma_id, usuario').eq('turma_id', turmaId).eq('papel', 'aluno').order('nome');
     if (error) throw error;
     return data;
   },
