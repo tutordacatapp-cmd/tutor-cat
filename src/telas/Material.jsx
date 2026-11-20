@@ -14,13 +14,13 @@ const paraEdicao = (q) => {
   const erradas = (q.alternativas || []).slice(1, 4);
   while (erradas.length < 3) erradas.push('');
   return {
-    id: q.id || novoId(), enunciado: q.enunciado || '', correta: q.alternativas?.[0] || q.resposta || '', erradas,
+    id: q.id || novoId(), habilidade: q.habilidade || '', enunciado: q.enunciado || '', correta: q.alternativas?.[0] || q.resposta || '', erradas,
     porques: erradas.map((e) => q.tutor?.alternativas?.[e] || ''), explicacao: q.explicacao || '',
     pontos: (q.tutor?.pontos || []).join('\n'), pegadinha: q.tutor?.pegadinha || '',
   };
 };
 const paraApp = (e) => ({
-  id: e.id, tipo: 'mc', enunciado: e.enunciado.trim(), resposta: e.correta.trim(),
+  id: e.id, tipo: 'mc', ...(e.habilidade ? { habilidade: e.habilidade } : {}), enunciado: e.enunciado.trim(), resposta: e.correta.trim(),
   alternativas: [e.correta, ...e.erradas].map((x) => x.trim()), explicacao: e.explicacao.trim(),
   tutor: {
     alternativas: Object.fromEntries(e.erradas.map((x, i) => [x.trim(), (e.porques[i] || '').trim()])),
@@ -60,7 +60,7 @@ export default function Material({ turmaId, alunos, tentativas, aoMudar }) {
   useEffect(() => { setTela('lista'); setLista(null); carregar(); }, [turmaId]);
 
   if (tela === 'novo') return <Novo turmaId={turmaId} voltar={() => setTela('lista')} aoGerar={(m) => { setTela({ editar: m }); carregar(); }} />;
-  if (tela.editar) return <Editor inicial={tela.editar} tentativas={tentativas} voltar={() => { setTela('lista'); carregar(); }} />;
+  if (tela.editar) return <Editor inicial={tela.editar} tentativas={tentativas} alunos={alunos} voltar={() => { setTela('lista'); carregar(); }} />;
 
   return (
     <div className="pilha">
@@ -149,7 +149,7 @@ function Novo({ turmaId, voltar, aoGerar }) {
   );
 }
 
-function Editor({ inicial, voltar, tentativas = [] }) {
+function Editor({ inicial, voltar, tentativas = [], alunos = [] }) {
   const [m, setM] = useState(inicial);
   const [qs, setQs] = useState(() => inicial.questoes.map(paraEdicao));
   const [aberta, setAberta] = useState(null);
@@ -191,6 +191,20 @@ function Editor({ inicial, voltar, tentativas = [] }) {
           <h3>📊 Resultados da turma</h3>
           <p className="pequeno" style={{ margin: 0 }}>{nAlunos} aluno{nAlunos === 1 ? '' : 's'} praticaram · {Math.round(taxaGeral * 100)}% de acerto geral.</p>
           <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={() => setVerAnalise(!verAnalise)}>{verAnalise ? 'Esconder análise' : 'Ver onde erraram e por quê'}</button>
+          <table className="tabela compacta">
+            <thead><tr><th>Aluno</th><th className="num">Acertos</th><th>Errou em</th></tr></thead>
+            <tbody>
+              {alunos.map((a) => {
+                const ts = doMaterial.filter((t) => t.aluno_id === a.id && t.contexto !== 'parecida');
+                if (!ts.length) return <tr key={a.id}><td>{a.nome.split(' ')[0]}</td><td className="num mudo">–</td><td className="mudo pequeno">ainda não fez</td></tr>;
+                const primeira = new Map(); ts.forEach((t) => { if (!primeira.has(t.questao_id)) primeira.set(t.questao_id, t); });
+                const vals = [...primeira.values()]; const ac = vals.filter((t) => t.correta).length;
+                const errou = vals.filter((t) => !t.correta).map((t) => { const qq = questao(t.questao_id); const n = qs.findIndex((x) => `${tid}-${x.id}` === t.questao_id) + 1; return qq?.habilidade || (n ? `questão ${n}` : ''); }).filter(Boolean);
+                return <tr key={a.id}><td>{a.nome.split(' ')[0]}</td><td className="num"><span className={'pilula ' + (ac / vals.length >= 0.8 ? 'verde' : ac / vals.length >= 0.6 ? 'amarelo' : 'vermelho')}>{ac}/{vals.length}</span></td><td className="pequeno">{errou.join(' · ') || '—'}</td></tr>;
+              })}
+            </tbody>
+          </table>
+          <span className="mudo mini">Conta a primeira resposta de cada aluno em cada questão.</span>
           {verAnalise && qs.map((q) => {
             const x = statsDe(q); const qq = questao(`${tid}-${q.id}`);
             return x && qq && x.acertos < x.total ? <AnaliseQuestao key={q.id} q={qq} x={x} /> : null;

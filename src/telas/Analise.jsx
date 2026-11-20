@@ -10,7 +10,7 @@ export default function AnaliseQuestao({ q, x, compacta = false }) {
   const porque = errada && q.tutor?.alternativas?.[errada];
   return (
     <div className={'cartao erro-comum' + (compacta ? ' compacta' : '')}>
-      {!compacta && <div className="linha"><span className="etiqueta">{nomeTopico(q.topico)}</span><span className={'pilula ' + cor(x.taxa)}>{pct(x.taxa)} de acerto · {x.nAlunos} aluno{x.nAlunos === 1 ? '' : 's'}</span></div>}
+      {!compacta && <div className="linha"><span className="etiqueta">{q.habilidade || nomeTopico(q.topico)}</span><span className={'pilula ' + cor(x.taxa)}>{pct(x.taxa)} de acerto · {x.nAlunos} aluno{x.nAlunos === 1 ? '' : 's'}</span></div>}
       <div className="enunciado-p" dangerouslySetInnerHTML={{ __html: q.enunciado }} />
       <p className="mudo pequeno" style={{ margin: 0 }}>✅ Certa: <span dangerouslySetInnerHTML={{ __html: respostaEmTexto(q) }} /></p>
       {errada && (

@@ -204,7 +204,7 @@ export default function Aluno({ perfil }) {
         <div className="cartao pilha">
           <h3>📚 Material da aula</h3>
           <p className="mudo pequeno" style={{ margin: 0 }}>Questões que a professora preparou sobre o que vocês viram em aula.</p>
-          {materiais.slice(0, 5).map((m) => {
+          {materiais.slice(0, 10).map((m) => {
             const tid = idTopicoMaterial(m);
             const s = situacaoTopico(tid, tentativas);
             const feitas = new Set(tentativas.filter((t) => t.topico_id === tid).map((t) => t.questao_id)).size;
