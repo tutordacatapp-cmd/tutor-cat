@@ -88,3 +88,26 @@ export function resumoMateria(materia, tentativas) {
 }
 
 export const nomeTopico = (id) => topico(id)?.titulo ?? id;
+
+// Como a turma respondeu cada questão: acertos, a alternativa errada mais marcada,
+// o que escreveram ao tentar lembrar e o tempo típico. Base para o professor ver o "porquê" do erro.
+export function analisarQuestoes(tentativas, filtro = () => true) {
+  const m = new Map();
+  for (const t of tentativas) {
+    if (!filtro(t) || t.contexto === 'parecida') continue;
+    let x = m.get(t.questao_id);
+    if (!x) m.set(t.questao_id, (x = { total: 0, acertos: 0, alunos: new Set(), errados: {}, memoria: [], tempos: [], lembrou: 0 }));
+    x.total++; x.alunos.add(t.aluno_id);
+    if (t.correta) x.acertos++; else if (t.resposta) x.errados[t.resposta] = (x.errados[t.resposta] || 0) + 1;
+    if (t.lembrou) x.lembrou++;
+    if (t.tentativa_memoria) x.memoria.push(t.tentativa_memoria);
+    if (t.tempo_ms) x.tempos.push(t.tempo_ms);
+  }
+  for (const x of m.values()) {
+    x.taxa = x.total ? x.acertos / x.total : null;
+    x.maisMarcada = Object.entries(x.errados).sort((a, b) => b[1] - a[1])[0] || null;
+    x.tempoMediano = x.tempos.length ? x.tempos.sort((a, b) => a - b)[Math.floor(x.tempos.length / 2)] : null;
+    x.nAlunos = x.alunos.size;
+  }
+  return m;
+}

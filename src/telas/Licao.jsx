@@ -133,7 +133,7 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
     if (ok) {
       const acento = semTags(memoria).trim().toLowerCase() !== semTags(q.resposta).trim().toLowerCase();
       setRes({ ok: true, escolhida: q.resposta, frase: 'De memória! 🧠', memoria: true, aviso: acento ? `Atenção à escrita certa: ${semTags(q.resposta)}.` : null });
-      aoResponder(true, memoria, Date.now() - inicio.current, false);
+      aoResponder(true, memoria, Date.now() - inicio.current, false, { lembrou: true });
       aoLembrou && aoLembrou();
       setFase('normal');
     } else {
@@ -147,7 +147,7 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
     const r = corrigir(q, v);
     if (r.invalida) { setRes({ invalida: true }); setTimeout(() => setRes(null), 1800); return; }
     setRes({ ...r, escolhida: v, frase: sortear(r.ok ? FRASES_OK : FRASES_ERRO) });
-    aoResponder(!!r.ok, String(v), Date.now() - inicio.current, nDicas > 0);
+    aoResponder(!!r.ok, String(v), Date.now() - inicio.current, nDicas > 0, { lembrou: false, tentativa_memoria: quaseMemoria || null });
   }
 
   return (
@@ -231,8 +231,9 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
 
   useEffect(() => { setEtapa('pergunta'); setProva(null); window.scrollTo({ top: 0 }); }, [i]);
 
-  const registrar = (questao, ok, resposta, tempo) => aoResponder({
+  const registrar = (questao, ok, resposta, tempo, contexto, dica, extra = {}) => aoResponder({
     questao_id: questao.id, topico_id: questao.topico, materia: questao.materia, correta: ok, resposta, tempo_ms: tempo,
+    contexto, usou_dica: !!dica, lembrou: !!extra.lembrou, tentativa_memoria: extra.tentativa_memoria || null,
   });
 
   if (!questoes.length)
@@ -253,8 +254,8 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
       </div>
     );
 
-  function respondeuPrincipal(ok, resposta, tempo) {
-    registrar(q, ok, resposta, tempo);
+  function respondeuPrincipal(ok, resposta, tempo, dica, extra) {
+    registrar(q, ok, resposta, tempo, modo === 'revisao' ? 'revisao' : 'licao', dica, extra);
     aoEvento(ok ? 'acerto' : 'erro', { revisao: modo === 'revisao' });
     if (ok) { setPlacar((p) => p + 1); setEtapa('liberado'); } else setEtapa('provar');
   }
@@ -267,8 +268,8 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
     setEtapa('parecida');
   }
 
-  function respondeuParecida(ok, resposta, tempo) {
-    registrar(prova.q, ok, resposta, tempo);
+  function respondeuParecida(ok, resposta, tempo, dica, extra) {
+    registrar(prova.q, ok, resposta, tempo, 'parecida', dica, extra);
     aoEvento(ok ? 'acerto' : 'erro', {});
     if (ok) { if (prova.nivel === 0) aoEvento('corrigiu'); setProva({ ...prova, resultado: 'ok' }); setEtapa('liberado'); return; }
     if (prova.nivel >= 1) { setProva({ ...prova, resultado: 'travou' }); setEtapa('liberado'); return; }

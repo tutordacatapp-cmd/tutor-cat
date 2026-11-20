@@ -2,7 +2,9 @@
 // o professor revisa/edita e publica para a turma.
 import { useEffect, useState } from 'react';
 import { api } from '../dados/api.js';
-import { MATERIAS, registrarMateriais, idTopicoMaterial } from '../conteudo.js';
+import { MATERIAS, registrarMateriais, idTopicoMaterial, questao } from '../conteudo.js';
+import { analisarQuestoes } from '../progresso.js';
+import AnaliseQuestao from './Analise.jsx';
 
 const novoId = () => Math.random().toString(36).slice(2, 8);
 const pct = (x) => (x == null ? '–' : Math.round(x * 100) + '%');
@@ -58,7 +60,7 @@ export default function Material({ turmaId, alunos, tentativas, aoMudar }) {
   useEffect(() => { setTela('lista'); setLista(null); carregar(); }, [turmaId]);
 
   if (tela === 'novo') return <Novo turmaId={turmaId} voltar={() => setTela('lista')} aoGerar={(m) => { setTela({ editar: m }); carregar(); }} />;
-  if (tela.editar) return <Editor inicial={tela.editar} voltar={() => { setTela('lista'); carregar(); }} />;
+  if (tela.editar) return <Editor inicial={tela.editar} tentativas={tentativas} voltar={() => { setTela('lista'); carregar(); }} />;
 
   return (
     <div className="pilha">
@@ -147,7 +149,7 @@ function Novo({ turmaId, voltar, aoGerar }) {
   );
 }
 
-function Editor({ inicial, voltar }) {
+function Editor({ inicial, voltar, tentativas = [] }) {
   const [m, setM] = useState(inicial);
   const [qs, setQs] = useState(() => inicial.questoes.map(paraEdicao));
   const [aberta, setAberta] = useState(null);
@@ -156,6 +158,13 @@ function Editor({ inicial, voltar }) {
   const mudarQ = (i, campo, v) => setQs((l) => l.map((q, k) => (k === i ? { ...q, [campo]: v } : q)));
   const mudarArr = (i, campo, j, v) => setQs((l) => l.map((q, k) => (k === i ? { ...q, [campo]: q[campo].map((x, y) => (y === j ? v : x)) } : q)));
   const problemas = qs.map(problema);
+  const [verAnalise, setVerAnalise] = useState(false);
+  const tid = inicial.id ? idTopicoMaterial(inicial) : null;
+  const doMaterial = tid ? tentativas.filter((t) => t.topico_id === tid) : [];
+  const analise = analisarQuestoes(doMaterial);
+  const statsDe = (q) => analise.get(`${tid}-${q.id}`);
+  const nAlunos = new Set(doMaterial.filter((t) => t.contexto !== 'parecida').map((t) => t.aluno_id)).size;
+  const taxaGeral = doMaterial.length ? doMaterial.filter((t) => t.correta).length / doMaterial.length : null;
   const comProblema = problemas.filter(Boolean).length;
 
   async function salvar(status) {
@@ -177,13 +186,27 @@ function Editor({ inicial, voltar }) {
         <span className="pequeno">Revise cada questão: a IA pode errar. Toque numa questão para editar.</span>
       </div>
 
+      {nAlunos > 0 && (
+        <div className="cartao pilha">
+          <h3>📊 Resultados da turma</h3>
+          <p className="pequeno" style={{ margin: 0 }}>{nAlunos} aluno{nAlunos === 1 ? '' : 's'} praticaram · {Math.round(taxaGeral * 100)}% de acerto geral.</p>
+          <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={() => setVerAnalise(!verAnalise)}>{verAnalise ? 'Esconder análise' : 'Ver onde erraram e por quê'}</button>
+          {verAnalise && qs.map((q) => {
+            const x = statsDe(q); const qq = questao(`${tid}-${q.id}`);
+            return x && qq && x.acertos < x.total ? <AnaliseQuestao key={q.id} q={qq} x={x} /> : null;
+          })}
+          {verAnalise && qs.every((q) => { const x = statsDe(q); return !x || x.acertos === x.total; }) && <p className="mudo pequeno">Ninguém errou até agora.</p>}
+        </div>
+      )}
+
       {qs.map((q, i) => (
         <div key={q.id} className={'cartao pilha questao-ed' + (problemas[i] ? ' problema' : '')}>
           <button className="ed-topo" onClick={() => setAberta(aberta === i ? null : i)}>
             <b>{i + 1}.</b>
             <span className="pilha" style={{ gap: 2 }}>
               <span dangerouslySetInnerHTML={{ __html: q.enunciado || '<i>(sem enunciado)</i>' }} />
-              <span className="pequeno">✅ {q.correta}{problemas[i] && <b className="erro-ed"> · ⚠️ {problemas[i]}</b>}</span>
+              <span className="pequeno">✅ {q.correta}{problemas[i] && <b className="erro-ed"> · ⚠️ {problemas[i]}</b>}
+                {statsDe(q) && <span className="mudo"> · {Math.round(statsDe(q).taxa * 100)}% acerto ({statsDe(q).nAlunos})</span>}</span>
             </span>
             <span className="mudo">{aberta === i ? '▴' : '✎'}</span>
           </button>

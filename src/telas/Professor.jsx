@@ -1,9 +1,10 @@
 import { useEffect, useMemo, useState } from 'react';
 import { api } from '../dados/api.js';
 import { MATERIAS, questao, topicosDa, respostaEmTexto, registrarMateriais } from '../conteudo.js';
-import { situacaoTopico, nomeTopico } from '../progresso.js';
+import { situacaoTopico, nomeTopico , analisarQuestoes } from '../progresso.js';
 import Resumo from './Resumo.jsx';
 import Material from './Material.jsx';
+import AnaliseQuestao from './Analise.jsx';
 import { NovaSenha } from './Senha.jsx';
 import { resumoSemanal } from '../resumo.js';
 
@@ -50,16 +51,10 @@ export default function Professor({ perfil }) {
   }), [alunos, tentativas]);
 
   const errosComuns = useMemo(() => {
-    const m = new Map();
-    for (const t of tentativas) {
-      if (t.materia !== materia) continue;
-      const x = m.get(t.questao_id) || { total: 0, erros: 0 };
-      x.total++; if (!t.correta) x.erros++;
-      m.set(t.questao_id, x);
-    }
-    return [...m.entries()]
-      .filter(([, x]) => x.total >= 2 && x.erros > 0)
-      .sort((a, b) => b[1].erros / b[1].total - a[1].erros / a[1].total || b[1].total - a[1].total)
+    const an = analisarQuestoes(tentativas, (t) => t.materia === materia);
+    return [...an.entries()]
+      .filter(([, x]) => x.acertos < x.total)
+      .sort((a, b) => (b[1].total - b[1].acertos) - (a[1].total - a[1].acertos) || a[1].taxa - b[1].taxa)
       .slice(0, 8)
       .map(([id, x]) => ({ q: questao(id), ...x }))
       .filter((x) => x.q);
@@ -194,14 +189,8 @@ export default function Professor({ perfil }) {
 
       {aba === 'erros' && (
         <div className="pilha">
-          {errosComuns.length === 0 && <p className="mudo">Ainda não há erros repetidos nesta matéria.</p>}
-          {errosComuns.map(({ q, total, erros }) => (
-            <div className="cartao erro-comum" key={q.id}>
-              <div className="linha"><span className="etiqueta">{nomeTopico(q.topico)}</span><span className="pilula vermelho">{erros} de {total} erraram</span></div>
-              <div className="enunciado-p" dangerouslySetInnerHTML={{ __html: q.enunciado }} />
-              <p className="mudo pequeno">Resposta certa: <span dangerouslySetInnerHTML={{ __html: respostaEmTexto(q) }} /></p>
-            </div>
-          ))}
+          {errosComuns.length === 0 && <p className="mudo">Ainda não há erros nesta matéria.</p>}
+          {errosComuns.map((x) => <AnaliseQuestao key={x.q.id} q={x.q} x={x} />)}
         </div>
       )}
     </div>
