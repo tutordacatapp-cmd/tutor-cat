@@ -4,17 +4,23 @@ import topicosTodos from './dados/topicos.json';
 import qMt from './dados/questoes-mt.json';
 import qPt from './dados/questoes-pt.json';
 import qEn from './dados/questoes-en.json';
+import qCi from './dados/questoes-ci.json';
+import qHi from './dados/questoes-hi.json';
+import qGe from './dados/questoes-ge.json';
 import tutor from './dados/tutor.json';
 
 export const MATERIAS = [
   { id: 'mt', nome: 'Matemática', cor: 'var(--mt)', suave: 'var(--mt-soft)' },
   { id: 'pt', nome: 'Português', cor: 'var(--pt)', suave: 'var(--pt-soft)' },
   { id: 'en', nome: 'Inglês', cor: 'var(--en)', suave: 'var(--en-soft)' },
+  { id: 'ci', nome: 'Ciências', cor: 'var(--ci)', suave: 'var(--ci-soft)' },
+  { id: 'hi', nome: 'História', cor: 'var(--hi)', suave: 'var(--hi-soft)' },
+  { id: 'ge', nome: 'Geografia', cor: 'var(--ge)', suave: 'var(--ge-soft)' },
 ];
 
 export const TOPICOS = topicosTodos.filter((t) => t.mvp);
 // Modo tutor (estilo Mehlman): explicação de cada alternativa, pontos-chave e pegadinha, quando já escritos.
-export const QUESTOES = [...qMt, ...qPt, ...qEn].map((q) => (tutor[q.id] ? { ...q, tutor: tutor[q.id] } : q));
+export const QUESTOES = [...qMt, ...qPt, ...qEn, ...qCi, ...qHi, ...qGe].map((q) => (tutor[q.id] ? { ...q, tutor: tutor[q.id] } : q));
 
 const porId = new Map(QUESTOES.map((q) => [q.id, q]));
 export const questao = (id) => porId.get(id);

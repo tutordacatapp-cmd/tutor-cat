@@ -1,0 +1,1056 @@
+[
+ {
+  "id": "c-cel-001",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual estrutura envolve a célula e controla o que entra e sai?",
+  "resposta": "membrana plasmática",
+  "explicacao": "A <b>membrana plasmática</b> é o segurança da porta: decide o que entra e o que sai.",
+  "alternativas": [
+   "membrana plasmática",
+   "citoplasma",
+   "núcleo",
+   "cloroplasto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-002",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual instrumento usamos para observar células?",
+  "resposta": "microscópio",
+  "explicacao": "Célula é minúscula: precisa de <b>microscópio</b>. Telescópio é pra olhar o céu.",
+  "alternativas": [
+   "microscópio",
+   "telescópio",
+   "estetoscópio",
+   "periscópio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-003",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A região gelatinosa entre a membrana e o núcleo se chama:",
+  "resposta": "citoplasma",
+  "explicacao": "O <b>citoplasma</b> é o recheio da célula, onde ficam as organelas.",
+  "alternativas": [
+   "citoplasma",
+   "parede celular",
+   "núcleo",
+   "cloroplasto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-004",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Um conjunto de células parecidas que fazem a mesma função forma um:",
+  "resposta": "tecido",
+  "explicacao": "Células iguais fazendo o mesmo trabalho = <b>tecido</b> (ex.: tecido muscular).",
+  "alternativas": [
+   "tecido",
+   "sistema",
+   "órgão",
+   "organismo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-005",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Coração, estômago e pulmões são exemplos de:",
+  "resposta": "órgãos",
+  "explicacao": "São <b>órgãos</b>: vários tecidos trabalhando em equipe.",
+  "alternativas": [
+   "órgãos",
+   "tecidos",
+   "células",
+   "organismos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-006",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Para que servem os cloroplastos?",
+  "resposta": "para fazer fotossíntese",
+  "explicacao": "Nos cloroplastos fica a clorofila, que usa a luz do Sol pra fabricar alimento: <b>fotossíntese</b>. A planta carrega a bateria com energia solar.",
+  "alternativas": [
+   "para fazer fotossíntese",
+   "para guardar água",
+   "para a célula se locomover",
+   "para digerir alimentos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-007",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é a ordem correta dos níveis de organização?",
+  "resposta": "célula → tecido → órgão → sistema → organismo",
+  "explicacao": "Do menor pro maior: <b>célula → tecido → órgão → sistema → organismo</b>.",
+  "alternativas": [
+   "célula → tecido → órgão → sistema → organismo",
+   "célula → órgão → tecido → sistema → organismo",
+   "tecido → célula → órgão → sistema → organismo",
+   "órgão → célula → tecido → organismo → sistema"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-008",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual estrutura existe na célula vegetal, mas não na animal?",
+  "resposta": "cloroplasto",
+  "explicacao": "<b>Cloroplastos</b> (e parede celular) são exclusivos da célula vegetal. Núcleo, membrana e citoplasma, as duas têm.",
+  "alternativas": [
+   "cloroplasto",
+   "citoplasma",
+   "membrana plasmática",
+   "núcleo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-009",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Um ser vivo formado por uma única célula, como a bactéria, é:",
+  "resposta": "unicelular",
+  "explicacao": "\"Uni\" = um. <b>Unicelular</b> = uma célula só. A gente é pluricelular (trilhões delas).",
+  "alternativas": [
+   "unicelular",
+   "um órgão",
+   "pluricelular",
+   "um tecido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-010",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é a menor unidade viva que forma os seres vivos?",
+  "resposta": "célula",
+  "explicacao": "A <b>célula</b> é a menor parte com vida. Átomos formam tudo, mas sozinhos não estão vivos.",
+  "alternativas": [
+   "célula",
+   "órgão",
+   "átomo",
+   "tecido"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-cel-011",
+  "topico": "c-cel",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual parte da célula controla suas atividades e guarda o material genético?",
+  "resposta": "núcleo",
+  "explicacao": "O <b>núcleo</b> é o centro de comando da célula e guarda o DNA.",
+  "alternativas": [
+   "núcleo",
+   "citoplasma",
+   "parede celular",
+   "membrana plasmática"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-001",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Quem tem miopia enxerga mal:",
+  "resposta": "de longe",
+  "explicacao": "Na <b>miopia</b>, o que está longe fica borrado (a lousa, por exemplo). Corrige com lente divergente.",
+  "alternativas": [
+   "de longe",
+   "de perto",
+   "as cores",
+   "só à noite"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-002",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Encéfalo e medula espinal formam o:",
+  "resposta": "sistema nervoso central",
+  "explicacao": "Encéfalo + medula = <b>sistema nervoso central</b>. Os nervos espalhados pelo corpo formam o periférico.",
+  "alternativas": [
+   "sistema nervoso central",
+   "sistema nervoso periférico",
+   "sistema digestório",
+   "sistema locomotor"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-003",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual célula transmite as mensagens do sistema nervoso?",
+  "resposta": "neurônio",
+  "explicacao": "O <b>neurônio</b> leva os impulsos nervosos, tipo o cabo de internet do corpo.",
+  "alternativas": [
+   "neurônio",
+   "célula da pele",
+   "célula muscular",
+   "glóbulo vermelho"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-004",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A abertura do olho que controla a entrada de luz é a:",
+  "resposta": "pupila",
+  "explicacao": "A <b>pupila</b> fecha no claro e abre no escuro, igual câmera ajustando a luz.",
+  "alternativas": [
+   "pupila",
+   "pálpebra",
+   "córnea",
+   "retina"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-005",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Em qual parte do olho a imagem se forma?",
+  "resposta": "retina",
+  "explicacao": "A imagem se forma na <b>retina</b>, no fundo do olho (é a \"tela\"), e o nervo óptico manda pro cérebro.",
+  "alternativas": [
+   "retina",
+   "íris",
+   "pupila",
+   "córnea"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-006",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Por que álcool e outras drogas são perigosos para o sistema nervoso?",
+  "resposta": "Porque alteram a comunicação entre os neurônios.",
+  "explicacao": "Essas substâncias <b>bagunçam a comunicação entre os neurônios</b>: atenção, reflexos e decisões pioram.",
+  "alternativas": [
+   "Porque alteram a comunicação entre os neurônios.",
+   "Porque mudam a cor dos olhos.",
+   "Porque só afetam o estômago.",
+   "Porque deixam os ossos mais fracos na hora."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-007",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual parte do encéfalo cuida do equilíbrio e da coordenação dos movimentos?",
+  "resposta": "cerebelo",
+  "explicacao": "O <b>cerebelo</b> cuida do equilíbrio: é ele que te mantém em cima da bicicleta.",
+  "alternativas": [
+   "cerebelo",
+   "nervo óptico",
+   "medula espinal",
+   "cérebro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-008",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Quem tem hipermetropia enxerga mal:",
+  "resposta": "de perto",
+  "explicacao": "Na <b>hipermetropia</b>, o que está perto fica borrado. Corrige com lente convergente.",
+  "alternativas": [
+   "de perto",
+   "só no escuro",
+   "as cores",
+   "de longe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-009",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O reflexo do joelho (quando o médico bate com o martelinho) é comandado pela:",
+  "resposta": "medula espinal",
+  "explicacao": "Reflexos rápidos passam pela <b>medula espinal</b>, sem esperar o cérebro \"pensar\".",
+  "alternativas": [
+   "medula espinal",
+   "pupila",
+   "retina",
+   "cerebelo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-nerv-010",
+  "topico": "c-nerv",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O olfato é o sentido ligado ao:",
+  "resposta": "nariz",
+  "explicacao": "Olfato = cheiro = <b>nariz</b>. Paladar = língua, audição = orelha.",
+  "alternativas": [
+   "nariz",
+   "língua",
+   "ouvido",
+   "olho"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-001",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "As costelas protegem principalmente:",
+  "resposta": "o coração e os pulmões",
+  "explicacao": "As costelas formam uma gaiola que protege <b>coração e pulmões</b>.",
+  "alternativas": [
+   "o coração e os pulmões",
+   "os rins e a bexiga",
+   "o estômago e o intestino",
+   "os olhos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-002",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é o maior osso do corpo humano?",
+  "resposta": "fêmur",
+  "explicacao": "O <b>fêmur</b> é o osso da coxa, o maior do corpo.",
+  "alternativas": [
+   "fêmur",
+   "tíbia",
+   "úmero",
+   "crânio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-003",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual estrutura liga o músculo ao osso?",
+  "resposta": "tendão",
+  "explicacao": "<b>Tendão</b> liga músculo a osso. Ligamento liga osso a osso.",
+  "alternativas": [
+   "tendão",
+   "cartilagem",
+   "nervo",
+   "ligamento"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-004",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Os músculos do estômago e do intestino, que trabalham sem a gente perceber, são do tipo:",
+  "resposta": "liso",
+  "explicacao": "Músculo <b>liso</b>: fica nos órgãos internos e trabalha sozinho (involuntário).",
+  "alternativas": [
+   "liso",
+   "esquelético",
+   "cardíaco",
+   "voluntário"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-005",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Quem manda o músculo se contrair?",
+  "resposta": "o sistema nervoso",
+  "explicacao": "O <b>sistema nervoso</b> manda o sinal que faz o músculo contrair.",
+  "alternativas": [
+   "o sistema nervoso",
+   "o sistema digestório",
+   "a pele",
+   "o próprio osso"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-006",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Chutar uma bola usa músculos do tipo:",
+  "resposta": "esquelético",
+  "explicacao": "Movimento que você decide fazer usa músculo <b>esquelético</b> (voluntário).",
+  "alternativas": [
+   "esquelético",
+   "liso",
+   "involuntário",
+   "cardíaco"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-007",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Como os músculos produzem movimento?",
+  "resposta": "contraindo e relaxando",
+  "explicacao": "O músculo <b>contrai</b> (encurta) e puxa o osso; depois <b>relaxa</b>.",
+  "alternativas": [
+   "contraindo e relaxando",
+   "ficando mais duros sem mudar de tamanho",
+   "girando em volta do osso",
+   "se soltando dos ossos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-008",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual osso protege o encéfalo?",
+  "resposta": "crânio",
+  "explicacao": "O <b>crânio</b> é o capacete natural do encéfalo.",
+  "alternativas": [
+   "crânio",
+   "esterno",
+   "fêmur",
+   "úmero"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-009",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O músculo do coração é do tipo:",
+  "resposta": "cardíaco",
+  "explicacao": "Músculo <b>cardíaco</b> só existe no coração: trabalha 24/7 sem você mandar.",
+  "alternativas": [
+   "cardíaco",
+   "voluntário",
+   "esquelético",
+   "liso"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-loc-010",
+  "topico": "c-loc",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O ponto de encontro entre dois ossos se chama:",
+  "resposta": "articulação",
+  "explicacao": "Onde dois ossos se encontram e se mexem: <b>articulação</b> (joelho, cotovelo, ombro…).",
+  "alternativas": [
+   "articulação",
+   "músculo",
+   "tendão",
+   "medula"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-001",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Para separar a farinha de pedaços maiores, usamos:",
+  "resposta": "peneiração",
+  "explicacao": "A peneira só deixa passar o que é fino: <b>peneiração</b>.",
+  "alternativas": [
+   "peneiração",
+   "evaporação",
+   "imantação",
+   "destilação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-002",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Para obter água pura da água salgada, evaporando e recolhendo o vapor, usamos:",
+  "resposta": "destilação",
+  "explicacao": "<b>Destilação</b>: evapora, o vapor esfria e vira água pura; o sal fica pra trás.",
+  "alternativas": [
+   "destilação",
+   "filtração",
+   "peneiração",
+   "catação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-003",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Deixar a água barrenta parada até a terra ir para o fundo é:",
+  "resposta": "decantação",
+  "explicacao": "O mais pesado desce sozinho e fica no fundo: <b>decantação</b>.",
+  "alternativas": [
+   "decantação",
+   "destilação",
+   "catação",
+   "imantação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-004",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Para separar limalha de ferro misturada com areia, usamos:",
+  "resposta": "imantação",
+  "explicacao": "O <b>ímã</b> puxa o ferro e deixa a areia pra trás.",
+  "alternativas": [
+   "imantação",
+   "filtração",
+   "decantação",
+   "evaporação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-005",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Escolher o feijão tirando pedrinhas com a mão é:",
+  "resposta": "catação",
+  "explicacao": "Separar com a mão = <b>catação</b>. Tipo tirar a cebola do prato.",
+  "alternativas": [
+   "catação",
+   "destilação",
+   "decantação",
+   "peneiração"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-006",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Nas salinas, o sal é obtido da água do mar por:",
+  "resposta": "evaporação",
+  "explicacao": "O Sol evapora a água e o sal fica: <b>evaporação</b>. É assim que funcionam as salinas.",
+  "alternativas": [
+   "evaporação",
+   "filtração",
+   "peneiração",
+   "imantação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-007",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Água com sal totalmente dissolvido forma uma mistura:",
+  "resposta": "homogênea",
+  "explicacao": "O sal some na água e fica uma fase só → <b>homogênea</b>.",
+  "alternativas": [
+   "homogênea",
+   "heterogênea",
+   "impossível de separar",
+   "com duas fases"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-008",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O ar que respiramos é:",
+  "resposta": "uma mistura homogênea de gases",
+  "explicacao": "O ar mistura nitrogênio, oxigênio e outros gases por igual: <b>mistura homogênea</b>.",
+  "alternativas": [
+   "uma mistura homogênea de gases",
+   "um único gás",
+   "uma substância pura",
+   "uma mistura heterogênea visível"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-009",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Água e óleo formam uma mistura:",
+  "resposta": "heterogênea",
+  "explicacao": "Dá pra ver o óleo separado da água: <b>heterogênea</b>.",
+  "alternativas": [
+   "heterogênea",
+   "gasosa",
+   "homogênea",
+   "pura"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-mist-010",
+  "topico": "c-mist",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Para separar areia da água usando papel de filtro, usamos:",
+  "resposta": "filtração",
+  "explicacao": "O filtro deixa a água passar e segura a areia: <b>filtração</b>, igual coador de café.",
+  "alternativas": [
+   "filtração",
+   "destilação",
+   "catação",
+   "imantação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-001",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "No estado sólido, as partículas:",
+  "resposta": "ficam bem juntas e só vibram no lugar",
+  "explicacao": "No sólido, as partículas ficam <b>bem grudadas</b>, por isso ele tem forma própria.",
+  "alternativas": [
+   "ficam bem juntas e só vibram no lugar",
+   "ficam muito afastadas e soltas",
+   "escorrem umas sobre as outras",
+   "desaparecem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-002",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Cozinhar um ovo é uma transformação:",
+  "resposta": "química",
+  "explicacao": "Ovo cozido não volta a ser cru: virou outra coisa → <b>química</b>.",
+  "alternativas": [
+   "química",
+   "de estado",
+   "de fusão",
+   "física"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-003",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A água fervendo e virando vapor é:",
+  "resposta": "vaporização",
+  "explicacao": "Líquido → gás = <b>vaporização</b>.",
+  "alternativas": [
+   "vaporização",
+   "solidificação",
+   "condensação",
+   "fusão"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-004",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A naftalina \"some\" no armário sem virar líquido. Isso é:",
+  "resposta": "sublimação",
+  "explicacao": "Sólido → gás direto, sem passar pelo líquido = <b>sublimação</b>.",
+  "alternativas": [
+   "sublimação",
+   "fusão",
+   "condensação",
+   "solidificação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-005",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é uma transformação química?",
+  "resposta": "queimar papel",
+  "explicacao": "Queimar cria coisas novas (cinzas, gases): <b>química</b>. As outras não mudam a substância.",
+  "alternativas": [
+   "queimar papel",
+   "dissolver açúcar na água",
+   "rasgar papel",
+   "derreter gelo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-006",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Água virando gelo no congelador é:",
+  "resposta": "solidificação",
+  "explicacao": "Líquido → sólido = <b>solidificação</b> (água virando gelo).",
+  "alternativas": [
+   "solidificação",
+   "condensação",
+   "vaporização",
+   "fusão"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-007",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Gelo derretendo é um exemplo de:",
+  "resposta": "fusão",
+  "explicacao": "Sólido → líquido = <b>fusão</b> (sorvete derretendo).",
+  "alternativas": [
+   "fusão",
+   "solidificação",
+   "sublimação",
+   "condensação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-008",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Gotinhas de água no espelho depois do banho quente são resultado de:",
+  "resposta": "condensação",
+  "explicacao": "O vapor do banho esfria no espelho e vira gotinha: <b>condensação</b>.",
+  "alternativas": [
+   "condensação",
+   "fusão",
+   "vaporização",
+   "sublimação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-009",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Um prego enferrujando sofre uma transformação:",
+  "resposta": "química",
+  "explicacao": "Ferrugem é uma substância nova: transformação <b>química</b>.",
+  "alternativas": [
+   "química",
+   "física",
+   "reversível",
+   "de estado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-trans-010",
+  "topico": "c-trans",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual NÃO é sinal de transformação química?",
+  "resposta": "mudar de forma ao ser amassado",
+  "explicacao": "Amassar só muda a forma; continua o mesmo material: <b>física</b>.",
+  "alternativas": [
+   "mudar de forma ao ser amassado",
+   "liberar luz e calor",
+   "mudar de cor",
+   "liberar gás"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-001",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O arenito, formado por camadas de areia compactadas, é uma rocha:",
+  "resposta": "sedimentar",
+  "explicacao": "Camadas e mais camadas de sedimentos = <b>sedimentar</b>.",
+  "alternativas": [
+   "sedimentar",
+   "magmática",
+   "metamórfica",
+   "vulcânica"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-002",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A camada central da Terra, muito quente e rica em ferro e níquel, é o:",
+  "resposta": "núcleo",
+  "explicacao": "O <b>núcleo</b> é o centro da Terra.",
+  "alternativas": [
+   "núcleo",
+   "magma",
+   "crosta",
+   "manto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-003",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O gnômon (uma vareta fincada no chão) é usado para:",
+  "resposta": "acompanhar o movimento aparente do Sol pela sombra",
+  "explicacao": "A sombra muda de tamanho e direção ao longo do dia: vira um <b>relógio de sol</b>.",
+  "alternativas": [
+   "acompanhar o movimento aparente do Sol pela sombra",
+   "medir a temperatura",
+   "medir a chuva",
+   "ver as estrelas de dia"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-004",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Em que tipo de rocha é mais comum encontrar fósseis?",
+  "resposta": "sedimentar",
+  "explicacao": "Restos de seres vivos ficam presos entre as camadas: rochas <b>sedimentares</b>.",
+  "alternativas": [
+   "sedimentar",
+   "metamórfica",
+   "magmática",
+   "vulcânica"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-005",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Granito e basalto, formados pelo resfriamento do magma, são rochas:",
+  "resposta": "magmáticas",
+  "explicacao": "Magma que esfriou = rocha <b>magmática</b> (ou ígnea).",
+  "alternativas": [
+   "magmáticas",
+   "metamórficas",
+   "sedimentares",
+   "fósseis"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-006",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O movimento da Terra em volta do Sol, que dura cerca de 365 dias, é a:",
+  "resposta": "translação",
+  "explicacao": "<b>Translação</b>: uma volta completa em torno do Sol = um ano. Cada aniversário seu = uma translação.",
+  "alternativas": [
+   "translação",
+   "erosão",
+   "condensação",
+   "rotação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-007",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O movimento da Terra em torno de si mesma, que causa o dia e a noite, é a:",
+  "resposta": "rotação",
+  "explicacao": "<b>Rotação</b>: a Terra gira em torno de si mesma em cerca de 24 horas.",
+  "alternativas": [
+   "rotação",
+   "translação",
+   "precessão",
+   "revolução lunar"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-008",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "A camada abaixo da crosta, onde há magma, é o:",
+  "resposta": "manto",
+  "explicacao": "O <b>manto</b> tem rochas derretidas (magma).",
+  "alternativas": [
+   "manto",
+   "solo",
+   "relevo",
+   "núcleo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-009",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "O mármore, que vem do calcário transformado por calor e pressão, é uma rocha:",
+  "resposta": "metamórfica",
+  "explicacao": "\"Meta\" = mudança. Calor + pressão transformam a rocha = <b>metamórfica</b>.",
+  "alternativas": [
+   "metamórfica",
+   "sedimentar",
+   "vulcânica",
+   "magmática"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-010",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é a camada mais externa da Terra, onde vivemos?",
+  "resposta": "crosta",
+  "explicacao": "A <b>crosta</b> é a casca da Terra, onde a gente vive.",
+  "alternativas": [
+   "crosta",
+   "núcleo",
+   "manto",
+   "atmosfera"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "c-terra-011",
+  "topico": "c-terra",
+  "materia": "ci",
+  "tipo": "mc",
+  "enunciado": "Qual é uma evidência de que a Terra é arredondada?",
+  "resposta": "A sombra da Terra na Lua, no eclipse, é curva.",
+  "explicacao": "No eclipse lunar, a sombra da Terra na Lua é <b>arredondada</b>, uma pista de que a Terra é redonda.",
+  "alternativas": [
+   "A sombra da Terra na Lua, no eclipse, é curva.",
+   "A água do mar é salgada.",
+   "O Sol nasce todos os dias.",
+   "Chove mais no verão."
+  ],
+  "bncc": null,
+  "revisado": false
+ }
+]

@@ -1,0 +1,2728 @@
+[
+ {
+  "id": "h-tempo-001",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>V</b>",
+  "resposta": 5,
+  "explicacao": "V → 5. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-002",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "750 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 750 a.C. aconteceu antes de 400 a.C.",
+  "alternativas": [
+   "750 a.C.",
+   "400 a.C.",
+   "As duas são do mesmo ano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-003",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1000 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1000 a.C. aconteceu antes de 700 a.C.",
+  "alternativas": [
+   "1000 a.C.",
+   "As duas são do mesmo ano",
+   "700 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-004",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>346</b> pertence a qual século?",
+  "resposta": "IV",
+  "explicacao": "Tire os dois últimos algarismos (3) e some 1 = 4. Século <b>IV</b> (de 301 a 400).",
+  "alternativas": [
+   "IV",
+   "VIII",
+   "V",
+   "III"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-005",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1250 a.C.</b> pertence a qual século?",
+  "resposta": "XIII a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1250 a.C. → século <b>XIII a.C.</b>",
+  "alternativas": [
+   "XIII a.C.",
+   "XII a.C.",
+   "XIV a.C.",
+   "XIII d.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-006",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>VII</b>",
+  "resposta": 7,
+  "explicacao": "V I I → 7. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-007",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1400 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1400 a.C. aconteceu antes de 800 a.C.",
+  "alternativas": [
+   "1400 a.C.",
+   "800 a.C.",
+   "As duas são do mesmo ano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-008",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>II</b> vai de:",
+  "resposta": "101 a 200",
+  "explicacao": "Século II = 2º século: começa em <b>101</b> e termina em <b>200</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "101 a 200",
+   "100 a 199",
+   "200 a 299",
+   "201 a 300"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-009",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>850 a.C.</b> pertence a qual século?",
+  "resposta": "IX a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 850 a.C. → século <b>IX a.C.</b>",
+  "alternativas": [
+   "IX a.C.",
+   "VIII a.C.",
+   "IX d.C.",
+   "X a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-010",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>950 a.C.</b> pertence a qual século?",
+  "resposta": "X a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 950 a.C. → século <b>X a.C.</b>",
+  "alternativas": [
+   "X a.C.",
+   "IX a.C.",
+   "XI a.C.",
+   "X d.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-011",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XV</b>",
+  "resposta": 15,
+  "explicacao": "X V → 15. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-012",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>IX</b>",
+  "resposta": 9,
+  "explicacao": "I X → 9. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-013",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XIII</b> vai de:",
+  "resposta": "1201 a 1300",
+  "explicacao": "Século XIII = 13º século: começa em <b>1201</b> e termina em <b>1300</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1201 a 1300",
+   "1301 a 1400",
+   "1200 a 1299",
+   "1300 a 1399"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-014",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1300 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1300 a.C. aconteceu antes de 900 a.C.",
+  "alternativas": [
+   "1300 a.C.",
+   "As duas são do mesmo ano",
+   "900 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-015",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>VII</b> vai de:",
+  "resposta": "601 a 700",
+  "explicacao": "Século VII = 7º século: começa em <b>601</b> e termina em <b>700</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "601 a 700",
+   "700 a 799",
+   "600 a 699",
+   "701 a 800"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-016",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1450 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1450 a.C. aconteceu antes de 1250 a.C.",
+  "alternativas": [
+   "1450 a.C.",
+   "1250 a.C.",
+   "As duas são do mesmo ano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-017",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1900 a.C.</b> pertence a qual século?",
+  "resposta": "XIX a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1900 a.C. → século <b>XIX a.C.</b>",
+  "alternativas": [
+   "XIX a.C.",
+   "XIX d.C.",
+   "XX a.C.",
+   "XVIII a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-018",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1200 a.C.</b> pertence a qual século?",
+  "resposta": "XII a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1200 a.C. → século <b>XII a.C.</b>",
+  "alternativas": [
+   "XII a.C.",
+   "XIII a.C.",
+   "XII d.C.",
+   "XI a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-019",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XVI</b> vai de:",
+  "resposta": "1501 a 1600",
+  "explicacao": "Século XVI = 16º século: começa em <b>1501</b> e termina em <b>1600</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1501 a 1600",
+   "1600 a 1699",
+   "1500 a 1599",
+   "1601 a 1700"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-020",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>550 a.C.</b> pertence a qual século?",
+  "resposta": "VI a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 550 a.C. → século <b>VI a.C.</b>",
+  "alternativas": [
+   "VI a.C.",
+   "VII a.C.",
+   "V a.C.",
+   "VI d.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-021",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1500</b> pertence a qual século?",
+  "resposta": "XV",
+  "explicacao": "Termina em 00: é o último ano do século XV. Século <b>XV</b> (de 1401 a 1500).",
+  "alternativas": [
+   "XV",
+   "XVII",
+   "XIV",
+   "XVI"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-022",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "750 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 750 a.C. aconteceu antes de 650 a.C.",
+  "alternativas": [
+   "750 a.C.",
+   "As duas são do mesmo ano",
+   "650 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-023",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XIX</b> vai de:",
+  "resposta": "1801 a 1900",
+  "explicacao": "Século XIX = 19º século: começa em <b>1801</b> e termina em <b>1900</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1801 a 1900",
+   "1900 a 1999",
+   "1800 a 1899",
+   "1901 a 2000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-024",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "750 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 750 a.C. aconteceu antes de 200 a.C.",
+  "alternativas": [
+   "750 a.C.",
+   "As duas são do mesmo ano",
+   "200 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-025",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>300 a.C.</b> pertence a qual século?",
+  "resposta": "III a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 300 a.C. → século <b>III a.C.</b>",
+  "alternativas": [
+   "III a.C.",
+   "III d.C.",
+   "IV a.C.",
+   "II a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-026",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>900 a.C.</b> pertence a qual século?",
+  "resposta": "IX a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 900 a.C. → século <b>IX a.C.</b>",
+  "alternativas": [
+   "IX a.C.",
+   "X a.C.",
+   "VIII a.C.",
+   "IX d.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-027",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XVIII</b> vai de:",
+  "resposta": "1701 a 1800",
+  "explicacao": "Século XVIII = 18º século: começa em <b>1701</b> e termina em <b>1800</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1701 a 1800",
+   "1801 a 1900",
+   "1800 a 1899",
+   "1700 a 1799"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-028",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1150 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1150 a.C. aconteceu antes de 800 a.C.",
+  "alternativas": [
+   "1150 a.C.",
+   "As duas são do mesmo ano",
+   "800 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-029",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1350 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1350 a.C. aconteceu antes de 1150 a.C.",
+  "alternativas": [
+   "1350 a.C.",
+   "1150 a.C.",
+   "As duas são do mesmo ano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-030",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>VIII</b> vai de:",
+  "resposta": "701 a 800",
+  "explicacao": "Século VIII = 8º século: começa em <b>701</b> e termina em <b>800</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "701 a 800",
+   "700 a 799",
+   "800 a 899",
+   "801 a 900"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-031",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XIV</b>",
+  "resposta": 14,
+  "explicacao": "X I V → 14. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-032",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>650 a.C.</b> pertence a qual século?",
+  "resposta": "VII a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 650 a.C. → século <b>VII a.C.</b>",
+  "alternativas": [
+   "VII a.C.",
+   "VIII a.C.",
+   "VII d.C.",
+   "VI a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-033",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1200</b> pertence a qual século?",
+  "resposta": "XII",
+  "explicacao": "Termina em 00: é o último ano do século XII. Século <b>XII</b> (de 1101 a 1200).",
+  "alternativas": [
+   "XII",
+   "XIII",
+   "XIV",
+   "XI"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-034",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1600</b> pertence a qual século?",
+  "resposta": "XVI",
+  "explicacao": "Termina em 00: é o último ano do século XVI. Século <b>XVI</b> (de 1501 a 1600).",
+  "alternativas": [
+   "XVI",
+   "XVII",
+   "XVIII",
+   "XV"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-035",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>X</b>",
+  "resposta": 10,
+  "explicacao": "X → 10. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-036",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1200 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1200 a.C. aconteceu antes de 300 a.C.",
+  "alternativas": [
+   "1200 a.C.",
+   "As duas são do mesmo ano",
+   "300 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-037",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>IV</b>",
+  "resposta": 4,
+  "explicacao": "I V → 4. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-038",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1120</b> pertence a qual século?",
+  "resposta": "XII",
+  "explicacao": "Tire os dois últimos algarismos (11) e some 1 = 12. Século <b>XII</b> (de 1101 a 1200).",
+  "alternativas": [
+   "XII",
+   "XIII",
+   "XVI",
+   "XI"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-039",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XI</b>",
+  "resposta": 11,
+  "explicacao": "X I → 11. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-040",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XII</b> vai de:",
+  "resposta": "1101 a 1200",
+  "explicacao": "Século XII = 12º século: começa em <b>1101</b> e termina em <b>1200</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1101 a 1200",
+   "1100 a 1199",
+   "1201 a 1300",
+   "1200 a 1299"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-041",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>IV</b> vai de:",
+  "resposta": "301 a 400",
+  "explicacao": "Século IV = 4º século: começa em <b>301</b> e termina em <b>400</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "301 a 400",
+   "401 a 500",
+   "400 a 499",
+   "300 a 399"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-042",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XXI</b>",
+  "resposta": 21,
+  "explicacao": "X X I → 21. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-043",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>350 a.C.</b> pertence a qual século?",
+  "resposta": "IV a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 350 a.C. → século <b>IV a.C.</b>",
+  "alternativas": [
+   "IV a.C.",
+   "IV d.C.",
+   "III a.C.",
+   "V a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-044",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1400</b> pertence a qual século?",
+  "resposta": "XIV",
+  "explicacao": "Termina em 00: é o último ano do século XIV. Século <b>XIV</b> (de 1301 a 1400).",
+  "alternativas": [
+   "XIV",
+   "XV",
+   "XVI",
+   "XIII"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-045",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1450 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1450 a.C. aconteceu antes de 650 a.C.",
+  "alternativas": [
+   "1450 a.C.",
+   "As duas são do mesmo ano",
+   "650 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-046",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "1000 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 1000 a.C. aconteceu antes de 400 a.C.",
+  "alternativas": [
+   "1000 a.C.",
+   "As duas são do mesmo ano",
+   "400 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-047",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>V</b> vai de:",
+  "resposta": "401 a 500",
+  "explicacao": "Século V = 5º século: começa em <b>401</b> e termina em <b>500</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "401 a 500",
+   "501 a 600",
+   "500 a 599",
+   "400 a 499"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-048",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1950 a.C.</b> pertence a qual século?",
+  "resposta": "XX a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1950 a.C. → século <b>XX a.C.</b>",
+  "alternativas": [
+   "XX a.C.",
+   "XX d.C.",
+   "XIX a.C.",
+   "XXI a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-049",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XVIII</b>",
+  "resposta": 18,
+  "explicacao": "X V I I I → 18. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-050",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1207</b> pertence a qual século?",
+  "resposta": "XIII",
+  "explicacao": "Tire os dois últimos algarismos (12) e some 1 = 13. Século <b>XIII</b> (de 1201 a 1300).",
+  "alternativas": [
+   "XIII",
+   "XII",
+   "XIV",
+   "XVII"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-051",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1550 a.C.</b> pertence a qual século?",
+  "resposta": "XVI a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1550 a.C. → século <b>XVI a.C.</b>",
+  "alternativas": [
+   "XVI a.C.",
+   "XVI d.C.",
+   "XVII a.C.",
+   "XV a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-052",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>814</b> pertence a qual século?",
+  "resposta": "IX",
+  "explicacao": "Tire os dois últimos algarismos (8) e some 1 = 9. Século <b>IX</b> (de 801 a 900).",
+  "alternativas": [
+   "IX",
+   "X",
+   "XIII",
+   "VIII"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-053",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1400 a.C.</b> pertence a qual século?",
+  "resposta": "XIV a.C.",
+  "explicacao": "A regra é a mesma, mas contando para trás a partir do nascimento de Cristo: 1400 a.C. → século <b>XIV a.C.</b>",
+  "alternativas": [
+   "XIV a.C.",
+   "XIII a.C.",
+   "XV a.C.",
+   "XIV d.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-054",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O século <b>XVII</b> vai de:",
+  "resposta": "1601 a 1700",
+  "explicacao": "Século XVII = 17º século: começa em <b>1601</b> e termina em <b>1700</b>. Todo século termina num ano \"redondo\".",
+  "alternativas": [
+   "1601 a 1700",
+   "1701 a 1800",
+   "1700 a 1799",
+   "1600 a 1699"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-055",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>1323</b> pertence a qual século?",
+  "resposta": "XIV",
+  "explicacao": "Tire os dois últimos algarismos (13) e some 1 = 14. Século <b>XIV</b> (de 1301 a 1400).",
+  "alternativas": [
+   "XIV",
+   "XIII",
+   "XV",
+   "XVIII"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-056",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XVI</b>",
+  "resposta": 16,
+  "explicacao": "X V I → 16. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-057",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O ano <b>735</b> pertence a qual século?",
+  "resposta": "VIII",
+  "explicacao": "Tire os dois últimos algarismos (7) e some 1 = 8. Século <b>VIII</b> (de 701 a 800).",
+  "alternativas": [
+   "VIII",
+   "XII",
+   "VII",
+   "IX"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-058",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XII</b>",
+  "resposta": 12,
+  "explicacao": "X I I → 12. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-059",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "num",
+  "enunciado": "Escreva em números arábicos: século <b>XIII</b>",
+  "resposta": 13,
+  "explicacao": "X I I I → 13. Lembre: I=1, V=5, X=10, L=50; um símbolo menor <b>antes</b> de um maior subtrai (IV=4, IX=9, XL=40).",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-tempo-060",
+  "topico": "h-tempo",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual data é <b>mais antiga</b>?",
+  "resposta": "750 a.C.",
+  "explicacao": "Antes de Cristo, os anos são contados <b>para trás</b>: quanto maior o número, mais antigo. 750 a.C. aconteceu antes de 350 a.C.",
+  "alternativas": [
+   "750 a.C.",
+   "350 a.C.",
+   "As duas são do mesmo ano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-001",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Uma carta antiga é uma fonte histórica:",
+  "resposta": "escrita",
+  "explicacao": "Tem texto escrito → fonte <b>escrita</b>.",
+  "alternativas": [
+   "escrita",
+   "oral",
+   "iconográfica",
+   "material"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-002",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é a função principal de um museu?",
+  "resposta": "guardar, estudar e mostrar objetos do patrimônio",
+  "explicacao": "Museus <b>guardam, pesquisam e mostram</b> o patrimônio.",
+  "alternativas": [
+   "guardar, estudar e mostrar objetos do patrimônio",
+   "fabricar réplicas para lojas",
+   "guardar apenas obras de arte modernas",
+   "vender objetos antigos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-003",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Uma pintura ou fotografia antiga é uma fonte:",
+  "resposta": "iconográfica",
+  "explicacao": "Imagem = fonte <b>iconográfica</b> (visual). Seus desenhos também seriam uma.",
+  "alternativas": [
+   "iconográfica",
+   "oral",
+   "sonora",
+   "escrita"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-004",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é um exemplo de patrimônio cultural imaterial do Brasil?",
+  "resposta": "a roda de capoeira",
+  "explicacao": "Imaterial = saberes, danças, festas. A <b>roda de capoeira</b> é patrimônio imaterial; os outros são materiais.",
+  "alternativas": [
+   "a roda de capoeira",
+   "uma estátua de bronze",
+   "uma igreja colonial",
+   "um vaso indígena"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-005",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que é uma fonte histórica?",
+  "resposta": "Qualquer vestígio humano que ajuda a entender o passado.",
+  "explicacao": "Fonte histórica é <b>qualquer vestígio</b>: brinquedo, foto, receita, música. Até um post.",
+  "alternativas": [
+   "Qualquer vestígio humano que ajuda a entender o passado.",
+   "Somente objetos guardados em museus.",
+   "Só livros escritos por historiadores.",
+   "Apenas documentos oficiais do governo."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-006",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O profissional que escava e estuda vestígios materiais do passado é o:",
+  "resposta": "arqueólogo",
+  "explicacao": "O <b>arqueólogo</b> estuda objetos, construções e restos deixados pelos humanos.",
+  "alternativas": [
+   "arqueólogo",
+   "geólogo",
+   "astrônomo",
+   "biólogo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-007",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Um vaso de cerâmica encontrado numa escavação é uma fonte:",
+  "resposta": "material",
+  "explicacao": "Objeto = fonte <b>material</b>.",
+  "alternativas": [
+   "material",
+   "escrita",
+   "iconográfica",
+   "oral"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-008",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Por que o historiador compara várias fontes sobre o mesmo fato?",
+  "resposta": "Porque cada fonte mostra um ponto de vista diferente.",
+  "explicacao": "Cada fonte conta a história do seu <b>ponto de vista</b>; comparando várias, você entende melhor o fato.",
+  "alternativas": [
+   "Porque cada fonte mostra um ponto de vista diferente.",
+   "Porque as fontes estão sempre erradas.",
+   "Para copiar a mais antiga.",
+   "Porque é obrigatório usar dez fontes."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-009",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O profissional que estuda fósseis de seres vivos muito antigos é o:",
+  "resposta": "paleontólogo",
+  "explicacao": "Fóssil (dinossauro, planta antiga) = <b>paleontólogo</b>.",
+  "alternativas": [
+   "paleontólogo",
+   "antropólogo",
+   "historiador de arte",
+   "arqueólogo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-fontes-010",
+  "topico": "h-fontes",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Uma entrevista com sua avó sobre a infância dela é uma fonte:",
+  "resposta": "oral",
+  "explicacao": "Alguém contando = fonte <b>oral</b>.",
+  "alternativas": [
+   "oral",
+   "escrita",
+   "material",
+   "iconográfica"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-001",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Período em que os humanos eram nômades, caçavam, coletavam e aprenderam a controlar o fogo:",
+  "resposta": "Paleolítico",
+  "explicacao": "\"Paleo\" = antigo. <b>Paleolítico</b>: pedra lascada, vida nômade, fogo.",
+  "alternativas": [
+   "Paleolítico",
+   "Idade Média",
+   "Neolítico",
+   "Idade dos Metais"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-002",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Período em que surgiram a agricultura e a domesticação de animais:",
+  "resposta": "Neolítico",
+  "explicacao": "\"Neo\" = novo. No <b>Neolítico</b> começa a agricultura.",
+  "alternativas": [
+   "Neolítico",
+   "Paleolítico",
+   "Idade Moderna",
+   "Idade Contemporânea"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-003",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Pinturas feitas nas paredes de cavernas e rochas são chamadas de:",
+  "resposta": "arte rupestre",
+  "explicacao": "\"Rupestre\" = feito na rocha: <b>arte rupestre</b>. Os primeiros artistas usavam a parede da caverna como tela.",
+  "alternativas": [
+   "arte rupestre",
+   "hieróglifos",
+   "mosaicos",
+   "afrescos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-004",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Segundo a teoria mais aceita, os primeiros humanos chegaram à América atravessando o:",
+  "resposta": "Estreito de Bering",
+  "explicacao": "Antigamente, uma \"ponte\" de terra ligava a Ásia à América no <b>Estreito de Bering</b>.",
+  "alternativas": [
+   "Estreito de Bering",
+   "Canal do Panamá",
+   "Estreito de Gibraltar",
+   "Oceano Índico"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-005",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Montes de conchas e restos deixados por povos do litoral brasileiro são chamados de:",
+  "resposta": "sambaquis",
+  "explicacao": "<b>Sambaquis</b>: montes de conchas, ossos e objetos deixados por povos antigos.",
+  "alternativas": [
+   "sambaquis",
+   "zigurates",
+   "pirâmides",
+   "menires"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-006",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Sítio arqueológico no Piauí famoso por milhares de pinturas rupestres:",
+  "resposta": "Serra da Capivara",
+  "explicacao": "O Parque Nacional da <b>Serra da Capivara</b> (PI) é Patrimônio Mundial.",
+  "alternativas": [
+   "Serra da Capivara",
+   "Lagoa Santa",
+   "Chapada Diamantina",
+   "Pantanal"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-007",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A Idade dos Metais é marcada pelo uso de:",
+  "resposta": "cobre, bronze e ferro",
+  "explicacao": "Os humanos passaram a fazer ferramentas e armas de <b>metal</b>.",
+  "alternativas": [
+   "cobre, bronze e ferro",
+   "plástico e vidro",
+   "papel e tinta",
+   "somente pedra lascada"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-008",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Com a agricultura, muitos grupos humanos passaram a:",
+  "resposta": "se fixar em um lugar",
+  "explicacao": "Quem planta precisa ficar perto da plantação: <b>sedentarização</b>.",
+  "alternativas": [
+   "se fixar em um lugar",
+   "abandonar os animais",
+   "viver só em cavernas",
+   "viajar mais ainda"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-009",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Um dos fósseis humanos mais antigos da América, encontrado em Minas Gerais, recebeu o nome de:",
+  "resposta": "Luzia",
+  "explicacao": "<b>Luzia</b> foi achada em Lagoa Santa (MG). Lucy é outro fóssil, da África. Não confunde.",
+  "alternativas": [
+   "Luzia",
+   "Iracema",
+   "Lucy",
+   "Capitu"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-010",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Em qual continente surgiu a espécie humana (Homo sapiens)?",
+  "resposta": "África",
+  "explicacao": "Os fósseis mais antigos de Homo sapiens estão na <b>África</b>.",
+  "alternativas": [
+   "África",
+   "Ásia",
+   "Europa",
+   "América"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-pre-011",
+  "topico": "h-pre",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Tradicionalmente, o fim da Pré-história é marcado pela:",
+  "resposta": "invenção da escrita",
+  "explicacao": "A História \"começa\" com a <b>escrita</b>, lá por 4000 a.C.",
+  "alternativas": [
+   "invenção da escrita",
+   "descoberta do fogo",
+   "chegada dos europeus",
+   "invenção da roda"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-001",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Por que os egípcios mumificavam os mortos?",
+  "resposta": "porque acreditavam na vida após a morte",
+  "explicacao": "Conservar o corpo era essencial pra <b>vida após a morte</b>.",
+  "alternativas": [
+   "porque acreditavam na vida após a morte",
+   "porque era proibido enterrar",
+   "para evitar doenças",
+   "para exibir em museus"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-002",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual pedra ajudou a decifrar os hieróglifos?",
+  "resposta": "Pedra de Roseta",
+  "explicacao": "A <b>Pedra de Roseta</b> tinha o mesmo texto em hieróglifos e em grego: foi a \"legenda\" que ajudou a decifrar tudo.",
+  "alternativas": [
+   "Pedra de Roseta",
+   "Pedra do Reino",
+   "Pedra de Gizé",
+   "Pedra Filosofal"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-003",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O conjunto de leis da Babilônia conhecido pela ideia de \"olho por olho, dente por dente\" é o:",
+  "resposta": "Código de Hamurabi",
+  "explicacao": "<b>Código de Hamurabi</b>, rei da Babilônia. É o famoso \"olho por olho\".",
+  "alternativas": [
+   "Código de Hamurabi",
+   "Constituição de Atenas",
+   "Lei das Doze Tábuas",
+   "Código de Napoleão"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-004",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "As pirâmides de Gizé eram:",
+  "resposta": "túmulos de faraós",
+  "explicacao": "As pirâmides eram <b>túmulos</b>.",
+  "alternativas": [
+   "túmulos de faraós",
+   "observatórios de estrelas",
+   "palácios de moradia",
+   "mercados"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-005",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "No Egito Antigo, o rei, considerado um deus, era o:",
+  "resposta": "faraó",
+  "explicacao": "O <b>faraó</b> mandava na política e na religião.",
+  "alternativas": [
+   "faraó",
+   "xá",
+   "cônsul",
+   "imperador"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-006",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A escrita egípcia formada por desenhos e símbolos é a:",
+  "resposta": "hieroglífica",
+  "explicacao": "<b>Hieróglifos</b> = escrita sagrada, feita de desenhos.",
+  "alternativas": [
+   "hieroglífica",
+   "cuneiforme",
+   "árabe",
+   "romana"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-007",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A Mesopotâmia ficava entre quais rios?",
+  "resposta": "Tigre e Eufrates",
+  "explicacao": "\"Mesopotâmia\" = terra entre rios: <b>Tigre e Eufrates</b>.",
+  "alternativas": [
+   "Tigre e Eufrates",
+   "Nilo e Jordão",
+   "Reno e Danúbio",
+   "Amazonas e Negro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-008",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A escrita dos sumérios, feita com cunhas em placas de argila, é a:",
+  "resposta": "cuneiforme",
+  "explicacao": "Escrita com marcas em formato de cunha → <b>cuneiforme</b>.",
+  "alternativas": [
+   "cuneiforme",
+   "hieroglífica",
+   "alfabética grega",
+   "latina"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-009",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Uma religião com muitos deuses, como a egípcia, é chamada de:",
+  "resposta": "politeísta",
+  "explicacao": "\"Poli\" = muitos: <b>politeísta</b>, vários deuses.",
+  "alternativas": [
+   "politeísta",
+   "monoteísta",
+   "budista",
+   "ateísta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-010",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os templos em forma de torre com degraus da Mesopotâmia eram os:",
+  "resposta": "zigurates",
+  "explicacao": "<b>Zigurates</b>: templos em degraus.",
+  "alternativas": [
+   "zigurates",
+   "pirâmides",
+   "aquedutos",
+   "coliseus"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-egito-011",
+  "topico": "h-egito",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual rio foi essencial para o Egito, com cheias que fertilizavam as margens?",
+  "resposta": "Nilo",
+  "explicacao": "O Egito é um \"presente do <b>Nilo</b>\": sem o rio, seria só deserto.",
+  "alternativas": [
+   "Nilo",
+   "Eufrates",
+   "Ganges",
+   "Tigre"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-001",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Alexandre, o Grande, foi um rei da Macedônia que:",
+  "resposta": "espalhou a cultura grega por um grande império",
+  "explicacao": "As conquistas dele espalharam a cultura grega: o <b>helenismo</b>.",
+  "alternativas": [
+   "espalhou a cultura grega por um grande império",
+   "construiu as pirâmides",
+   "criou os Jogos Olímpicos",
+   "fundou a cidade de Roma"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-002",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como se chamavam as cidades-Estado gregas?",
+  "resposta": "pólis",
+  "explicacao": "Cada <b>pólis</b> tinha governo e leis próprios.",
+  "alternativas": [
+   "pólis",
+   "províncias",
+   "feudos",
+   "capitanias"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-003",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual pólis era famosa pela educação militar rigorosa?",
+  "resposta": "Esparta",
+  "explicacao": "Em <b>Esparta</b>, os meninos treinavam pra guerra desde cedo.",
+  "alternativas": [
+   "Esparta",
+   "Olímpia",
+   "Atenas",
+   "Tebas do Egito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-004",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual filósofo foi condenado a beber cicuta?",
+  "resposta": "Sócrates",
+  "explicacao": "<b>Sócrates</b> foi acusado de \"corromper a juventude\", basicamente por fazer perguntas demais.",
+  "alternativas": [
+   "Sócrates",
+   "Homero",
+   "Aristóteles",
+   "Platão"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-005",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Na democracia de Atenas, quem podia votar?",
+  "resposta": "homens livres nascidos em Atenas",
+  "explicacao": "Só os <b>cidadãos</b>: homens livres atenienses. Mulheres, estrangeiros e escravizados ficavam de fora. Democracia bem incompleta.",
+  "alternativas": [
+   "homens livres nascidos em Atenas",
+   "todos os moradores",
+   "mulheres e estrangeiros",
+   "somente os escravizados"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-006",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os poemas \"Ilíada\" e \"Odisseia\" são atribuídos a:",
+  "resposta": "Homero",
+  "explicacao": "<b>Homero</b>: poemas sobre a Guerra de Troia e a volta de Ulisses pra casa.",
+  "alternativas": [
+   "Homero",
+   "Péricles",
+   "Alexandre",
+   "Sócrates"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-007",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual destes é um legado da Grécia Antiga?",
+  "resposta": "o teatro",
+  "explicacao": "Tragédia e comédia nasceram na Grécia: o <b>teatro</b>.",
+  "alternativas": [
+   "o teatro",
+   "a escrita cuneiforme",
+   "o Código de Hamurabi",
+   "as pirâmides"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-008",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os Jogos Olímpicos da Grécia Antiga eram realizados em homenagem a:",
+  "resposta": "Zeus",
+  "explicacao": "Em Olímpia, em homenagem a <b>Zeus</b>, o chefe dos deuses gregos.",
+  "alternativas": [
+   "Zeus",
+   "Rá",
+   "Júpiter",
+   "Odin"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-009",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A palavra \"democracia\" significa:",
+  "resposta": "governo do povo",
+  "explicacao": "\"Demos\" = povo, \"kratos\" = poder: <b>governo do povo</b>.",
+  "alternativas": [
+   "governo do povo",
+   "governo dos ricos",
+   "governo dos deuses",
+   "governo de um rei"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-grecia-010",
+  "topico": "h-grecia",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Em qual pólis surgiu a democracia?",
+  "resposta": "Atenas",
+  "explicacao": "A democracia nasceu em <b>Atenas</b>, lá pelo século VI a.C.",
+  "alternativas": [
+   "Atenas",
+   "Roma",
+   "Babilônia",
+   "Esparta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-001",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A palavra <b>oligarquia</b> quer dizer:",
+  "resposta": "governo de poucos",
+  "explicacao": "Macete: <b>oligo = poucos</b>. Demo = povo, cracia = poder → democracia = poder do povo.",
+  "alternativas": [
+   "governo de poucos",
+   "governo de um só rei",
+   "governo dos soldados estrangeiros",
+   "governo de todos os cidadãos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-002",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como era a <b>sociedade ateniense</b>, comparada à espartana?",
+  "resposta": "Mais aberta e urbana",
+  "explicacao": "Atenas: <b>aberta e urbana</b>. Esparta: <b>militarizada</b>.",
+  "alternativas": [
+   "Mais aberta e urbana",
+   "Mais fechada e militarizada",
+   "Proibida de fazer comércio",
+   "Sem cidades, só no campo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-003",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem podia <b>participar</b> da democracia ateniense?",
+  "resposta": "Homens livres, maiores de idade e filhos de cidadãos",
+  "explicacao": "As 3 condições juntas: <b>homem</b> + <b>livre</b> + <b>maior de idade</b> e <b>filho de cidadãos</b>.",
+  "alternativas": [
+   "Homens livres, maiores de idade e filhos de cidadãos",
+   "Estrangeiros ricos que moravam em Atenas",
+   "Homens e mulheres livres",
+   "Todos os moradores de Atenas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-004",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual frase descreve melhor a democracia de Atenas?",
+  "resposta": "Era uma democracia limitada, porque muitos moradores não podiam participar",
+  "explicacao": "Atenas criou a democracia, mas ela era <b>restrita</b>: mulheres, estrangeiros e escravizados ficavam de fora.",
+  "alternativas": [
+   "Era uma democracia limitada, porque muitos moradores não podiam participar",
+   "Era igual à democracia de hoje, com voto para todos os adultos",
+   "Só estrangeiros podiam votar",
+   "Era um governo de poucos, igual ao de Esparta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-005",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem <b>não</b> participava da democracia ateniense?",
+  "resposta": "Mulheres, estrangeiros e escravizados",
+  "explicacao": "Ficavam de fora: <b>mulheres, estrangeiros e escravizados</b>.",
+  "alternativas": [
+   "Mulheres, estrangeiros e escravizados",
+   "Homens livres maiores de idade",
+   "Os cidadãos de Atenas",
+   "Filhos de cidadãos atenienses"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-006",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Para que era voltada a <b>educação em Esparta</b>?",
+  "resposta": "Para a guerra",
+  "explicacao": "Esparta: educação para a <b>guerra</b>, com <b>disciplina e obediência</b>.",
+  "alternativas": [
+   "Para a guerra",
+   "Para o comércio",
+   "Para as artes",
+   "Para a filosofia"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-007",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como era a <b>sociedade espartana</b>?",
+  "resposta": "Militarizada, com disciplina e obediência",
+  "explicacao": "Palavras-chave de Esparta: <b>militarizada, disciplina, obediência, guerra</b>.",
+  "alternativas": [
+   "Militarizada, com disciplina e obediência",
+   "Governada por todos os cidadãos em assembleia",
+   "Voltada principalmente para a filosofia",
+   "Aberta e urbana, focada no comércio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-008",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como era o <b>governo de Esparta</b>?",
+  "resposta": "Oligárquico (poder de poucos)",
+  "explicacao": "<b>Oligarquia</b> = oligo (poucos) + arquia (governo): o poder ficava nas mãos de poucos.",
+  "alternativas": [
+   "Oligárquico (poder de poucos)",
+   "Sem governo nenhum",
+   "Governado pelo Império Persa",
+   "Democrático, com todos votando"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-009",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual das duas cidades era <b>mais preparada para o confronto militar</b>?",
+  "resposta": "Esparta",
+  "explicacao": "Educação para a guerra → Esparta é a <b>mais preparada para o confronto militar</b>.",
+  "alternativas": [
+   "Esparta",
+   "As duas eram iguais",
+   "Atenas",
+   "Nenhuma tinha exército"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-010",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que <b>Atenas</b> valorizava?",
+  "resposta": "A filosofia, as artes e o comércio",
+  "explicacao": "Atenas: <b>filosofia, artes e comércio</b>, sociedade <b>aberta e urbana</b>.",
+  "alternativas": [
+   "A filosofia, as artes e o comércio",
+   "Apenas o treinamento para a guerra",
+   "Só a agricultura, sem comércio",
+   "A obediência total ao Império Persa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-atesp-011",
+  "topico": "h-atesp",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como era o <b>governo de Atenas</b>?",
+  "resposta": "Democrático",
+  "explicacao": "Atenas = <b>democracia</b>. Esparta = <b>oligarquia</b>. Essa dupla é a base da prova.",
+  "alternativas": [
+   "Democrático",
+   "Governado pelos sacerdotes",
+   "Oligárquico (poder de poucos)",
+   "Monarquia de um rei persa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-001",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual frase liga as duas guerras corretamente?",
+  "resposta": "Atenas saiu fortalecida das Guerras Médicas, e a rivalidade com Esparta levou à Guerra do Peloponeso",
+  "explicacao": "Atenas forte depois das Médicas → rivalidade com Esparta → <b>Peloponeso</b>.",
+  "alternativas": [
+   "Atenas saiu fortalecida das Guerras Médicas, e a rivalidade com Esparta levou à Guerra do Peloponeso",
+   "A Macedônia provocou as Guerras Médicas",
+   "As duas guerras foram contra o Império Persa",
+   "Esparta perdeu as Guerras Médicas e por isso atacou os persas de novo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-002",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual foi uma <b>consequência</b> da Guerra do Peloponeso?",
+  "resposta": "O enfraquecimento das pólis e a dominação macedônica",
+  "explicacao": "Pólis cansadas e fracas pela guerra → a <b>Macedônia</b> conquista a Grécia.",
+  "alternativas": [
+   "O enfraquecimento das pólis e a dominação macedônica",
+   "O início das Guerras Médicas",
+   "A vitória dos persas sobre todos os gregos",
+   "O fortalecimento de Atenas e da cultura grega"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-003",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A <b>Guerra do Peloponeso</b> foi um conflito entre:",
+  "resposta": "Atenas e Esparta",
+  "explicacao": "Peloponeso = as duas grandes pólis <b>uma contra a outra</b>.",
+  "alternativas": [
+   "Atenas e Esparta",
+   "Esparta e Roma",
+   "Gregos e persas",
+   "Gregos e macedônios"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-004",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Em que período aconteceu a <b>Guerra do Peloponeso</b>?",
+  "resposta": "431 – 404 a.C.",
+  "explicacao": "Peloponeso: <b>431–404 a.C.</b>",
+  "alternativas": [
+   "431 – 404 a.C.",
+   "404 – 431 d.C.",
+   "331 – 304 a.C.",
+   "499 – 449 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-005",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "As <b>Guerras Médicas</b> foram um conflito entre:",
+  "resposta": "As pólis gregas (com destaque para Atenas) e o Império Persa",
+  "explicacao": "Médicas = gregos <b>juntos</b> contra os <b>persas</b>. Peloponeso = gregos <b>contra gregos</b>.",
+  "alternativas": [
+   "As pólis gregas (com destaque para Atenas) e o Império Persa",
+   "A Grécia e a Macedônia",
+   "Atenas e Esparta",
+   "Esparta e o Império Persa, sem Atenas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-006",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual foi o <b>resultado</b> das Guerras Médicas?",
+  "resposta": "Vitória grega, com fortalecimento de Atenas e da cultura grega",
+  "explicacao": "Médicas → Atenas <b>se fortalece</b>. Peloponeso → Atenas <b>se enfraquece</b>.",
+  "alternativas": [
+   "Vitória grega, com fortalecimento de Atenas e da cultura grega",
+   "Vitória de Esparta sobre Atenas",
+   "Dominação macedônica da Grécia",
+   "Vitória persa e fim das pólis gregas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-007",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Atenas e Esparta eram <b>pólis</b>. Pólis era:",
+  "resposta": "uma cidade-Estado grega, com governo e leis próprios",
+  "explicacao": "Cada pólis era <b>independente</b>: por isso Atenas e Esparta podiam ser tão diferentes e até guerrear.",
+  "alternativas": [
+   "uma cidade-Estado grega, com governo e leis próprios",
+   "um tipo de escola de filosofia",
+   "um exército persa",
+   "um templo dedicado aos deuses"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-008",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem <b>perdeu</b> a Guerra do Peloponeso?",
+  "resposta": "Atenas, que perdeu o poder e a liderança no mundo grego",
+  "explicacao": "Resultado do Peloponeso: <b>Atenas perde o poder</b> e a liderança.",
+  "alternativas": [
+   "Atenas, que perdeu o poder e a liderança no mundo grego",
+   "O Império Persa",
+   "Esparta, que foi destruída",
+   "A Macedônia"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-009",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é a <b>ordem certa</b> dos acontecimentos?",
+  "resposta": "Guerras Médicas → Guerra do Peloponeso → dominação macedônica",
+  "explicacao": "Em a.C. o tempo corre com os números <b>diminuindo</b>: 499 → 449 → 431 → 404.",
+  "alternativas": [
+   "Guerras Médicas → Guerra do Peloponeso → dominação macedônica",
+   "Guerras Médicas → dominação macedônica → Guerra do Peloponeso",
+   "Guerra do Peloponeso → Guerras Médicas → dominação macedônica",
+   "Dominação macedônica → Guerras Médicas → Guerra do Peloponeso"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-010",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Em que período aconteceram as <b>Guerras Médicas</b>?",
+  "resposta": "499 – 449 a.C.",
+  "explicacao": "Médicas: <b>499–449 a.C.</b> (vieram primeiro). Peloponeso: <b>431–404 a.C.</b>",
+  "alternativas": [
+   "499 – 449 a.C.",
+   "449 – 499 d.C.",
+   "431 – 404 a.C.",
+   "404 – 431 a.C."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-guerras-011",
+  "topico": "h-guerras",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "As Guerras Médicas terminaram em <b>449 a.C.</b> e a Guerra do Peloponeso começou em <b>431 a.C.</b> Quantos anos se passaram entre as duas?",
+  "resposta": "18 anos",
+  "explicacao": "As duas datas são a.C.: <b>449 − 431 = 18 anos</b>.",
+  "alternativas": [
+   "18 anos",
+   "12 anos",
+   "45 anos",
+   "880 anos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-001",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os aquedutos romanos serviam para:",
+  "resposta": "levar água até as cidades",
+  "explicacao": "<b>Aquedutos</b> levavam água até as cidades.",
+  "alternativas": [
+   "levar água até as cidades",
+   "proteger contra invasões",
+   "guardar grãos",
+   "observar as estrelas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-002",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual língua falada pelos romanos deu origem ao português?",
+  "resposta": "latim",
+  "explicacao": "Português, espanhol, italiano e francês vêm do <b>latim</b>. Por isso parecem primos.",
+  "alternativas": [
+   "latim",
+   "grego",
+   "egípcio",
+   "árabe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-003",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A grande construção romana onde aconteciam lutas de gladiadores é o:",
+  "resposta": "Coliseu",
+  "explicacao": "O <b>Coliseu</b> é um anfiteatro em Roma.",
+  "alternativas": [
+   "Coliseu",
+   "Partenon",
+   "Aqueduto",
+   "Zigurate"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-004",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Comerciantes, artesãos e camponeses livres formavam os:",
+  "resposta": "plebeus",
+  "explicacao": "A maior parte da população era de <b>plebeus</b>.",
+  "alternativas": [
+   "plebeus",
+   "faraós",
+   "patrícios",
+   "senadores"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-005",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Segundo a lenda, Roma foi fundada por:",
+  "resposta": "Rômulo e Remo",
+  "explicacao": "Os gêmeos que, segundo a lenda, foram amamentados por uma loba: <b>Rômulo e Remo</b>.",
+  "alternativas": [
+   "Rômulo e Remo",
+   "Zeus e Hera",
+   "Hamurabi e Nabucodonosor",
+   "Péricles e Sócrates"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-006",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Na Roma Antiga, os ricos proprietários de terras eram os:",
+  "resposta": "patrícios",
+  "explicacao": "<b>Patrícios</b> eram a elite.",
+  "alternativas": [
+   "patrícios",
+   "plebeus",
+   "clientes",
+   "escravizados"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-007",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Em que ano caiu o Império Romano do Ocidente?",
+  "resposta": "476",
+  "explicacao": "Em <b>476</b>, data que marca o começo da Idade Média.",
+  "alternativas": [
+   "476",
+   "1453",
+   "753 a.C.",
+   "1500"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-008",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual religião se tornou oficial no Império Romano?",
+  "resposta": "cristianismo",
+  "explicacao": "Primeiro perseguido, o <b>cristianismo</b> virou religião oficial no século IV.",
+  "alternativas": [
+   "cristianismo",
+   "budismo",
+   "islamismo",
+   "judaísmo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-009",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem foi o primeiro imperador romano?",
+  "resposta": "Otávio Augusto",
+  "explicacao": "<b>Otávio Augusto</b> começou o Império em 27 a.C. Júlio César nunca foi imperador (pegadinha clássica).",
+  "alternativas": [
+   "Otávio Augusto",
+   "Júlio César",
+   "Nero",
+   "Constantino"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-010",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A política do \"pão e circo\" consistia em:",
+  "resposta": "dar comida e espetáculos para acalmar a população",
+  "explicacao": "Dar comida e espetáculo pro povo não se revoltar. Distração total.",
+  "alternativas": [
+   "dar comida e espetáculos para acalmar a população",
+   "construir padarias",
+   "cobrar impostos sobre o pão",
+   "proibir festas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-roma-011",
+  "topico": "h-roma",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é a ordem das fases políticas de Roma?",
+  "resposta": "Monarquia → República → Império",
+  "explicacao": "A ordem é <b>Monarquia → República → Império</b>.",
+  "alternativas": [
+   "Monarquia → República → Império",
+   "República → Monarquia → Império",
+   "Império → República → Monarquia",
+   "Monarquia → Império → República"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-001",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Na sociedade romana, quem eram os <b>patrícios</b>?",
+  "resposta": "Os donos do poder e das terras, que controlavam o governo",
+  "explicacao": "Patrícios = topo: poder e terras. Esses eram os plebeus.",
+  "alternativas": [
+   "Os donos do poder e das terras, que controlavam o governo",
+   "Dependentes e agregados de famílias ricas",
+   "A grande maioria: lavradores, comerciantes e artesãos",
+   "Pessoas obtidas por guerra ou dívidas",
+   "Os soldados estrangeiros"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-002",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A palavra <b>República</b> (Res Publica) significa:",
+  "resposta": "coisa do povo (coisa pública)",
+  "explicacao": "Res Publica = coisa pública, coisa do povo. Governo de um só lembra monarquia.",
+  "alternativas": [
+   "coisa do povo (coisa pública)",
+   "governo de um só",
+   "governo dos generais",
+   "lei escrita",
+   "nosso mar"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-003",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Segundo a <b>História</b> (e a arqueologia), como surgiram os primeiros povoados da Península Itálica?",
+  "resposta": "Por diversas migrações de etruscos, latinos e gregos",
+  "explicacao": "Mito × História: lenda da loba × migrações (etruscos, latinos e gregos). Isso é o mito, não o que a arqueologia mostra.",
+  "alternativas": [
+   "Por diversas migrações de etruscos, latinos e gregos",
+   "Pela chegada de Otávio Augusto",
+   "Pela fundação feita por Rômulo e Remo",
+   "Por uma invasão do Império Persa",
+   "Por ordem do Senado romano"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-004",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é o grande legado de Roma que usamos até hoje, inclusive na Constituição do Brasil?",
+  "resposta": "O Direito Romano, um sistema de leis escritas e lógicas",
+  "explicacao": "Leis escritas de Roma → base do Direito ocidental. Arte rupestre é da Pré-história.",
+  "alternativas": [
+   "O Direito Romano, um sistema de leis escritas e lógicas",
+   "A democracia de Atenas",
+   "A arte rupestre",
+   "As pirâmides",
+   "A escrita cuneiforme"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-005",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os <b>plebeus</b> eram:",
+  "resposta": "a grande maioria (lavradores, comerciantes, artesãos e a massa do exército), sem direitos políticos no início",
+  "explicacao": "Plebe = maioria que trabalhava e lutava, sem voz no começo. Esses eram os patrícios.",
+  "alternativas": [
+   "a grande maioria (lavradores, comerciantes, artesãos e a massa do exército), sem direitos políticos no início",
+   "os reis etruscos",
+   "dependentes e agregados dos patrícios",
+   "os donos das terras e do governo",
+   "considerados 'instrumentos de trabalho'"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-006",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que foi o <b>Tribuno da Plebe</b>?",
+  "resposta": "O direito de a plebe ter representantes no Senado para vetar leis injustas",
+  "explicacao": "Degrau 1: Tribuno da Plebe → poder de veto. Roma já não tinha rei.",
+  "alternativas": [
+   "O direito de a plebe ter representantes no Senado para vetar leis injustas",
+   "Um rei escolhido pela plebe",
+   "A primeira lei escrita",
+   "Um tribunal que condenava patrícios",
+   "Um general que comandava o exército"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-007",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quais eram os três problemas que pressionavam a plebe (a \"panela de pressão\")?",
+  "resposta": "Alistamento obrigatório, alta exploração e escravidão por dívidas",
+  "explicacao": "1 Alistamento obrigatório · 2 Alta exploração · 3 Escravidão por dívidas. Não são os três pontos estudados.",
+  "alternativas": [
+   "Alistamento obrigatório, alta exploração e escravidão por dívidas",
+   "Excesso de terras, de escravos e de dinheiro",
+   "Impostos altos, falta de escolas e frio",
+   "Proibição de religião, de festas e de comércio",
+   "Guerras Púnicas, triunviratos e êxodo rural"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-008",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os <b>escravos</b> eram considerados \"instrumentos de trabalho\". Como uma pessoa virava escrava em Roma?",
+  "resposta": "Por guerra (prisioneiros) ou por dívidas",
+  "explicacao": "Escravidão: guerra ou dívidas. Eram a base da atividade produtiva. As formas citadas são guerra ou dívidas.",
+  "alternativas": [
+   "Por guerra (prisioneiros) ou por dívidas",
+   "Por escolha, para ganhar salário",
+   "Só por nascer na cidade de Roma",
+   "Por votação no Senado",
+   "Por ser filho de patrício"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-009",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é a ordem correta das fases políticas de Roma?",
+  "resposta": "Monarquia → República → Império",
+  "explicacao": "Linha do tempo: Monarquia → República → Império. A Monarquia veio primeiro.",
+  "alternativas": [
+   "Monarquia → República → Império",
+   "República → Império → Monarquia",
+   "Monarquia → Império → República",
+   "Império → República → Monarquia",
+   "República → Monarquia → Império"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-010",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Os <b>clientes</b>, na Roma antiga, eram:",
+  "resposta": "dependentes e agregados dos patrícios",
+  "explicacao": "Cliente romano ≠ cliente de loja: era dependente de um patrício. Não é o sentido de hoje: eram dependentes dos patrícios.",
+  "alternativas": [
+   "dependentes e agregados dos patrícios",
+   "os tribunos da plebe",
+   "prisioneiros de guerra",
+   "compradores das lojas romanas",
+   "os donos das terras"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-011",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual foi a importância da <b>Lei das 12 Tábuas</b>?",
+  "resposta": "Foram as primeiras leis escritas de Roma, impedindo os patrícios de inventar regras de cabeça",
+  "explicacao": "Degrau 2: leis escritas = regras iguais e conhecidas. Acabar com a escravidão por dívidas foi outro degrau.",
+  "alternativas": [
+   "Foram as primeiras leis escritas de Roma, impedindo os patrícios de inventar regras de cabeça",
+   "Acabou com a escravidão de todos",
+   "Criou o cargo de imperador",
+   "Deu aos escravos o direito de votar",
+   "Dividiu as terras dos ricos com a plebe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-012",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Por que se diz que a República romana era uma \"coisa pública\" que era privada?",
+  "resposta": "Porque o Senado ditava as regras e só os patrícios tinham o poder; os plebeus ficavam de fora",
+  "explicacao": "Teoria: governo para todos. Realidade: só os patrícios mandavam. Era o contrário: a desigualdade continuou gigantesca.",
+  "alternativas": [
+   "Porque o Senado ditava as regras e só os patrícios tinham o poder; os plebeus ficavam de fora",
+   "Porque os escravos governavam",
+   "Porque o rei etrusco continuou mandando",
+   "Porque todos os cidadãos votavam igualmente",
+   "Porque só os plebeus podiam ser senadores"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-013",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual foi a principal arma da plebe para conquistar direitos?",
+  "resposta": "Greves e manifestações: se recusaram a lutar e a trabalhar",
+  "explicacao": "Sem plebe, Roma não tinha exército nem comida — por isso a greve funcionou. Cartago era inimiga de Roma, não aliada da plebe.",
+  "alternativas": [
+   "Greves e manifestações: se recusaram a lutar e a trabalhar",
+   "A compra de cargos no Senado",
+   "Uma guerra contra Cartago",
+   "O assassinato dos patrícios",
+   "A fuga para a Grécia"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-014",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como terminou a Monarquia em Roma?",
+  "resposta": "Os patrícios, insatisfeitos em dividir o poder com os reis etruscos, deram um golpe",
+  "explicacao": "Fim da Monarquia = golpe dos patrícios contra os reis etruscos. As greves da plebe aconteceram já na República.",
+  "alternativas": [
+   "Os patrícios, insatisfeitos em dividir o poder com os reis etruscos, deram um golpe",
+   "O rei renunciou para criar uma democracia",
+   "A plebe fez uma greve e derrubou o rei",
+   "Otávio venceu os rivais e virou rei",
+   "Cartago invadiu Roma e matou o rei"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-015",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Durante a Monarquia, quem governava ao lado do rei?",
+  "resposta": "O Senado, formado por uma maioria patrícia",
+  "explicacao": "Senado = conselho dos patrícios, ao lado do rei. A plebe não tinha direitos políticos no início.",
+  "alternativas": [
+   "O Senado, formado por uma maioria patrícia",
+   "Os tribunos da plebe",
+   "A Assembleia da plebe",
+   "Os escravos mais antigos",
+   "Os três generais do Triunvirato"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-016",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Segundo a lenda contada na <b>Eneida</b>, de Virgílio, quem fundou Roma?",
+  "resposta": "Os gêmeos Rômulo e Remo, salvos e amamentados por uma loba",
+  "explicacao": "Mito = Rômulo e Remo + a loba (Eneida de Virgílio). Os Graco foram tribunos da plebe muito depois, já na República.",
+  "alternativas": [
+   "Os gêmeos Rômulo e Remo, salvos e amamentados por uma loba",
+   "Júlio César e Pompeu",
+   "Otávio e Marco Antônio",
+   "Os irmãos Tibério e Caio Graco",
+   "Os reis etruscos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-017",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual destas foi uma conquista da plebe?",
+  "resposta": "O fim da escravidão por dívidas",
+  "explicacao": "Degrau 3: nenhum cidadão romano perderia a liberdade por falta de dinheiro. O exército continuou e cresceu.",
+  "alternativas": [
+   "O fim da escravidão por dívidas",
+   "O fim do exército romano",
+   "A criação dos latifúndios",
+   "A volta da monarquia",
+   "O controle total do Senado pela plebe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep1-018",
+  "topico": "h-rep1",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "A região do sul da Península Itálica ocupada pelos gregos ficou conhecida como:",
+  "resposta": "Magna Grécia",
+  "explicacao": "Magna Grécia = área de colonização grega no sul da Itália. Mare Nostrum é o Mar Mediterrâneo dominado por Roma.",
+  "alternativas": [
+   "Magna Grécia",
+   "Mare Nostrum",
+   "Etrúria",
+   "Res Publica",
+   "Cartago"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-001",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual foi o grande inimigo enfrentado e destruído por Roma nas <b>Guerras Púnicas</b>?",
+  "resposta": "Cartago",
+  "explicacao": "Guerras Púnicas = Roma × Cartago. Esparta é da Grécia; não lutou as Guerras Púnicas.",
+  "alternativas": [
+   "Cartago",
+   "O Império Persa",
+   "Esparta",
+   "A Macedônia",
+   "O Egito"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-002",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Com o Senado em crise, qual instituição ainda tinha força, organização e respeito do povo?",
+  "resposta": "O Exército",
+  "explicacao": "Os soldados passaram a ser leais aos generais, não a Roma. A monarquia já tinha acabado.",
+  "alternativas": [
+   "O Exército",
+   "A monarquia etrusca",
+   "Os comerciantes de Cartago",
+   "A Assembleia dos escravos",
+   "Os tribunos da plebe"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-003",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Por que os pequenos agricultores plebeus perderam suas terras?",
+  "resposta": "Não conseguiam competir com os latifúndios dos patrícios, que usavam trabalho escravo de graça",
+  "explicacao": "Trabalho escravo gratuito × pequeno agricultor = competição impossível. Não foi a causa estudada.",
+  "alternativas": [
+   "Não conseguiam competir com os latifúndios dos patrícios, que usavam trabalho escravo de graça",
+   "Porque a Lei das 12 Tábuas tomou as terras",
+   "Porque preferiram morar nas cidades",
+   "Porque o Tribuno da Plebe vendeu as terras",
+   "Porque Cartago invadiu suas fazendas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-004",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que propuseram os irmãos <b>Tibério e Caio Graco</b>, tribunos da plebe?",
+  "resposta": "Uma reforma agrária: tirar terras não usadas dos ricos e devolver para a plebe plantar",
+  "explicacao": "Graco = reforma agrária. Eles queriam consertar a República.",
+  "alternativas": [
+   "Uma reforma agrária: tirar terras não usadas dos ricos e devolver para a plebe plantar",
+   "Uma guerra contra Cartago",
+   "A volta da monarquia etrusca",
+   "Acabar com o Senado",
+   "Dar todo o poder aos generais"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-005",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que foram os <b>Triunviratos</b>?",
+  "resposta": "Governos de três generais que concentravam o poder",
+  "explicacao": "Triunvirato = 3 generais no poder; decisões pela espada, não pelo voto. Eram só três homens.",
+  "alternativas": [
+   "Governos de três generais que concentravam o poder",
+   "Três reis etruscos",
+   "Assembleias com três mil plebeus",
+   "As três primeiras leis escritas",
+   "Três guerras contra Cartago"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-006",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Como os patrícios responderam à proposta dos irmãos Graco?",
+  "resposta": "Ignoraram a lei e assassinaram os irmãos e seus apoiadores",
+  "explicacao": "Resposta sangrenta: o diálogo político acabou, a violência tomou conta. A reforma foi barrada.",
+  "alternativas": [
+   "Ignoraram a lei e assassinaram os irmãos e seus apoiadores",
+   "Convidaram os Graco para o Triunvirato",
+   "Mudaram-se para Cartago",
+   "Fizeram uma greve",
+   "Aprovaram a reforma e dividiram as terras"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-007",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Qual é a sequência correta da \"engrenagem da crise\" causada pelas conquistas?",
+  "resposta": "Guerras vencidas → escravos → latifúndios → plebe sem terra → êxodo rural",
+  "explicacao": "Guerra → prisioneiros escravos → fazendas gigantes → pequeno agricultor quebra → vai para a cidade. O êxodo rural é a consequência final, não o começo.",
+  "alternativas": [
+   "Guerras vencidas → escravos → latifúndios → plebe sem terra → êxodo rural",
+   "Plebe sem terra → êxodo rural → guerras vencidas → escravos → latifúndios",
+   "Escravos → êxodo rural → latifúndios → guerras vencidas → plebe sem terra",
+   "Êxodo rural → guerras vencidas → escravos → latifúndios → plebe sem terra",
+   "Latifúndios → guerras vencidas → plebe sem terra → escravos → êxodo rural"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-008",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "O que foi o <b>êxodo rural</b> em Roma?",
+  "resposta": "A fuga da plebe do campo para as cidades, criando uma população enorme, faminta e marginalizada",
+  "explicacao": "Êxodo rural = campo → cidade. Foi o contrário: a plebe saiu do campo.",
+  "alternativas": [
+   "A fuga da plebe do campo para as cidades, criando uma população enorme, faminta e marginalizada",
+   "A mudança da capital para a Grécia",
+   "A libertação dos escravos",
+   "A saída dos romanos para Cartago",
+   "A volta dos patrícios para o campo"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-009",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Depois de vencer, Roma dominou todo o Mar Mediterrâneo e passou a chamá-lo de:",
+  "resposta": "Mare Nostrum (\"Nosso Mar\")",
+  "explicacao": "Mare Nostrum = Mediterrâneo inteiro sob controle romano. Res Publica é a República.",
+  "alternativas": [
+   "Mare Nostrum (\"Nosso Mar\")",
+   "Res Publica",
+   "Magna Grécia",
+   "Mar Egeu",
+   "Mar Romano Interior"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-010",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem formou o <b>1º Triunvirato</b>?",
+  "resposta": "Crasso, Pompeu e Júlio César",
+  "explicacao": "1º: Crasso, Pompeu, Júlio César. 2º: Lépido, Marco Antônio, Otávio. Esse foi o 2º Triunvirato.",
+  "alternativas": [
+   "Crasso, Pompeu e Júlio César",
+   "Rômulo, Remo e Pompeu",
+   "Júlio César, Otávio e Lépido",
+   "Lépido, Marco Antônio e Otávio",
+   "Tibério, Caio Graco e Crasso"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "h-rep2-011",
+  "topico": "h-rep2",
+  "materia": "hi",
+  "tipo": "mc",
+  "enunciado": "Quem venceu todos os rivais, acumulou o poder e encerrou a República, preparando o Império?",
+  "resposta": "Otávio",
+  "explicacao": "Otávio vence os generais rivais → fim da República → começa o Império. César foi do 1º Triunvirato; quem fecha a República é Otávio.",
+  "alternativas": [
+   "Otávio",
+   "Caio Graco",
+   "Júlio César",
+   "Marco Antônio",
+   "Crasso"
+  ],
+  "bncc": null,
+  "revisado": false
+ }
+]

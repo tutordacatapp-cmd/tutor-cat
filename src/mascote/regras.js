@@ -17,8 +17,20 @@ export const ITENS = [
   { id: 'en2', m: 'en', slot: 'hand', em: '☂️', nm: 'Guarda-chuva', need: 40 },
   { id: 'en3', m: 'en', slot: 'head', em: '🎩', nm: 'Cartola britânica', need: 100 },
   { id: 'en4', m: 'en', slot: 'float', em: '🫖', nm: 'Chá das cinco', need: 200 },
+  { id: 'ci1', m: 'ci', slot: 'eyes', em: '🥽', nm: 'Óculos de laboratório', need: 10 },
+  { id: 'ci2', m: 'ci', slot: 'hand', em: '🧪', nm: 'Tubo de ensaio', need: 40 },
+  { id: 'ci3', m: 'ci', slot: 'body', em: '🥼', nm: 'Jaleco', need: 100 },
+  { id: 'ci4', m: 'ci', slot: 'float', em: '⚛️', nm: 'Átomo flutuante', need: 200 },
+  { id: 'hi1', m: 'hi', slot: 'head', em: '🤠', nm: 'Chapéu de exploradora', need: 10 },
+  { id: 'hi2', m: 'hi', slot: 'hand', em: '🔍', nm: 'Lupa de pistas', need: 40 },
+  { id: 'hi3', m: 'hi', slot: 'back', em: '🛡️', nm: 'Capa de centurião', need: 100 },
+  { id: 'hi4', m: 'hi', slot: 'head', em: '⚔️', nm: 'Elmo romano', need: 200 },
+  { id: 'ge1', m: 'ge', slot: 'neck', em: '🧭', nm: 'Bússola no pescoço', need: 10 },
+  { id: 'ge2', m: 'ge', slot: 'back', em: '🎒', nm: 'Mochila de viagem', need: 40 },
+  { id: 'ge3', m: 'ge', slot: 'hand', em: '🗺️', nm: 'Mapa do tesouro', need: 100 },
+  { id: 'ge4', m: 'ge', slot: 'float', em: '🌍', nm: 'Globo terrestre', need: 200 },
 ];
-export const PERSONAGEM = { mt: 'Mago', pt: 'Escriba', en: 'Viajante' };
+export const PERSONAGEM = { mt: 'Mago', pt: 'Escriba', en: 'Viajante', ci: 'Alquimista', hi: 'Exploradora', ge: 'Cartógrafa' };
 
 // Títulos pelo total de acertos.
 export const TITULOS = [[0, 'Aprendiz'], [80, 'Escudeira'], [200, 'Aventureira'], [400, 'Cavaleira'], [700, 'Guardiã do Saber'], [1100, 'Arquimaga'], [1700, 'Lenda do Reino']];

@@ -1,6 +1,7 @@
 :root {
   --paper: #F2F5FB; --grid: #E0E7F3; --ink: #1B2340; --muted: #5B6482; --surface: #fff; --line: #D6DDEB;
   --mt: #0B8A74; --pt: #B8246F; --en: #2F52CF; --mt-soft: #DDF3EE; --pt-soft: #F9E1EE; --en-soft: #E1E8FC;
+  --ci: #4F7A12; --hi: #A0520A; --ge: #6A44C2; --ci-soft: #E9F3DA; --hi-soft: #F7E8D8; --ge-soft: #ECE6FA;
   --ok: #1F8A4A; --ok-soft: #E1F4E7; --bad: #C42B2B; --bad-soft: #FBE4E4; --gold: #E0A100; --warn-soft: #FFF1CC;
   --s: var(--mt); --s-soft: var(--mt-soft);
   --display: "Baloo 2", "Trebuchet MS", system-ui, sans-serif;
@@ -12,6 +13,7 @@
     color-scheme: dark;
     --paper: #121726; --grid: #1B2236; --ink: #E7EBF5; --muted: #9AA3BD; --surface: #1A2133; --line: #2B3452;
     --mt: #3CC7AE; --pt: #F06BAE; --en: #86A0FF; --mt-soft: #15342F; --pt-soft: #3A1A2C; --en-soft: #1D2750;
+    --ci: #9BCB4F; --hi: #E39A52; --ge: #A98BF0; --ci-soft: #243015; --hi-soft: #3A2715; --ge-soft: #2A2148;
     --ok: #5FCB8A; --ok-soft: #173222; --bad: #F28585; --bad-soft: #3B1C1C; --gold: #F2C14E; --warn-soft: #3A3118;
   }
 }

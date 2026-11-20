@@ -21,7 +21,7 @@ function semente() {
   let n = 0;
   for (const [aluno, chance] of Object.entries(perfis)) {
     const k = Object.keys(perfis).indexOf(aluno);
-    const amostra = ['mt', 'pt', 'en'].flatMap((m) =>
+    const amostra = ['mt', 'pt', 'en', 'ci', 'hi', 'ge'].flatMap((m) =>
       QUESTOES.filter((q) => q.materia === m).filter((_, i) => i % 9 === k).slice(0, 30));
     for (const q of amostra) {
       tentativas.push({

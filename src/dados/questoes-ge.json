@@ -1,0 +1,1712 @@
+[
+ {
+  "id": "g-pais-001",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Uma paisagem com pouca ou nenhuma interferência humana é chamada de:",
+  "resposta": "natural",
+  "explicacao": "Sem mudança humana relevante = <b>natural</b>.",
+  "alternativas": [
+   "natural",
+   "urbana",
+   "humanizada",
+   "industrial"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-002",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Em Geografia, \"lugar\" é:",
+  "resposta": "o espaço com o qual temos laços de convivência e afeto",
+  "explicacao": "Sua casa, seu bairro e sua escola são <b>lugares</b> pra você: espaços com os quais você tem vínculo.",
+  "alternativas": [
+   "o espaço com o qual temos laços de convivência e afeto",
+   "qualquer ponto do mapa",
+   "um tipo de relevo",
+   "somente as cidades grandes"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-003",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "As paisagens mudam com o tempo?",
+  "resposta": "Sim, pela ação da natureza e das pessoas.",
+  "explicacao": "Chuva, vento e rios mudam a paisagem. As pessoas também.",
+  "alternativas": [
+   "Sim, pela ação da natureza e das pessoas.",
+   "Só mudam por causa das pessoas.",
+   "Só mudam por causa da natureza.",
+   "Não, são sempre iguais."
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-004",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual é um elemento cultural (humano) da paisagem?",
+  "resposta": "uma plantação de café",
+  "explicacao": "A <b>plantação</b> foi feita por gente.",
+  "alternativas": [
+   "uma plantação de café",
+   "uma montanha",
+   "uma cachoeira",
+   "uma floresta nativa"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-005",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O espaço geográfico é:",
+  "resposta": "o espaço transformado pela sociedade",
+  "explicacao": "É o espaço <b>produzido e transformado</b> pelos seres humanos.",
+  "alternativas": [
+   "o espaço transformado pela sociedade",
+   "somente as áreas sem pessoas",
+   "apenas o espaço sideral",
+   "o mapa desenhado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-006",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Tudo o que percebemos em um lugar, como formas, cores, sons e cheiros, é a:",
+  "resposta": "paisagem",
+  "explicacao": "<b>Paisagem</b> é tudo que seus sentidos captam de um lugar: o que você vê, ouve e sente.",
+  "alternativas": [
+   "paisagem",
+   "escala",
+   "bússola",
+   "latitude"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-007",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual é um elemento natural da paisagem?",
+  "resposta": "um rio",
+  "explicacao": "O <b>rio</b> é natural; o resto foi construído.",
+  "alternativas": [
+   "um rio",
+   "uma rodovia",
+   "um prédio",
+   "uma ponte"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-pais-008",
+  "topico": "g-pais",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Uma paisagem com prédios, ruas e plantações é chamada de:",
+  "resposta": "humanizada (cultural)",
+  "explicacao": "Construída ou modificada pelas pessoas = <b>humanizada</b>.",
+  "alternativas": [
+   "humanizada (cultural)",
+   "natural",
+   "intocada",
+   "selvagem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-001",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O Sol nasce aproximadamente no:",
+  "resposta": "leste",
+  "explicacao": "Nascente (onde o Sol nasce) = <b>leste</b>.",
+  "alternativas": [
+   "leste",
+   "norte",
+   "sul",
+   "oeste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-002",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual é a direção oposta ao nordeste?",
+  "resposta": "sudoeste",
+  "explicacao": "O oposto de nordeste é <b>sudoeste</b>: troca as duas partes.",
+  "alternativas": [
+   "sudoeste",
+   "sul",
+   "sudeste",
+   "noroeste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-003",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A direção entre o norte e o leste é o:",
+  "resposta": "nordeste",
+  "explicacao": "Norte + leste = <b>nordeste</b>.",
+  "alternativas": [
+   "nordeste",
+   "sudeste",
+   "sudoeste",
+   "noroeste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-004",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A direção entre o sul e o oeste é o:",
+  "resposta": "sudoeste",
+  "explicacao": "Sul + oeste = <b>sudoeste</b>.",
+  "alternativas": [
+   "sudoeste",
+   "noroeste",
+   "nordeste",
+   "sudeste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-005",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O Sol se põe aproximadamente no:",
+  "resposta": "oeste",
+  "explicacao": "Poente (onde o Sol se põe) = <b>oeste</b>.",
+  "alternativas": [
+   "oeste",
+   "leste",
+   "norte",
+   "sul"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-006",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual sistema usa satélites para mostrar sua localização no celular?",
+  "resposta": "GPS",
+  "explicacao": "<b>GPS</b>: posição por satélites. É o que o mapa do celular usa.",
+  "alternativas": [
+   "GPS",
+   "gnômon",
+   "bússola",
+   "astrolábio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-007",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O desenho que mostra os pontos cardeais e colaterais é a:",
+  "resposta": "rosa dos ventos",
+  "explicacao": "É a <b>rosa dos ventos</b>.",
+  "alternativas": [
+   "rosa dos ventos",
+   "latitude",
+   "escala",
+   "legenda"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-008",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A agulha da bússola aponta para o:",
+  "resposta": "norte magnético",
+  "explicacao": "A agulha imantada aponta pro <b>norte magnético</b>.",
+  "alternativas": [
+   "norte magnético",
+   "sul geográfico",
+   "leste",
+   "centro da Terra"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-009",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "No hemisfério sul, qual constelação ajuda a encontrar o sul?",
+  "resposta": "Cruzeiro do Sul",
+  "explicacao": "O <b>Cruzeiro do Sul</b> aponta pro sul.",
+  "alternativas": [
+   "Cruzeiro do Sul",
+   "Escorpião",
+   "Órion",
+   "Ursa Maior"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-orient-010",
+  "topico": "g-orient",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Com o braço direito apontando para onde o Sol nasce, você fica de frente para o:",
+  "resposta": "norte",
+  "explicacao": "Braço direito apontando pro nascer do Sol: direita = leste, esquerda = oeste, frente = <b>norte</b>, costas = sul.",
+  "alternativas": [
+   "norte",
+   "sul",
+   "oeste",
+   "leste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-001",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A maior parte do Brasil está nos hemisférios:",
+  "resposta": "sul e oeste",
+  "explicacao": "Abaixo do Equador e a oeste de Greenwich: <b>sul e oeste</b>.",
+  "alternativas": [
+   "sul e oeste",
+   "norte e leste",
+   "norte e oeste",
+   "sul e leste"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-002",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "As linhas imaginárias que vão de um polo ao outro se chamam:",
+  "resposta": "meridianos",
+  "explicacao": "<b>Meridianos</b> ligam o Polo Norte ao Polo Sul.",
+  "alternativas": [
+   "meridianos",
+   "paralelos",
+   "círculos polares",
+   "trópicos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-003",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual trópico passa pelo estado de São Paulo?",
+  "resposta": "Trópico de Capricórnio",
+  "explicacao": "O <b>Trópico de Capricórnio</b> atravessa SP.",
+  "alternativas": [
+   "Trópico de Capricórnio",
+   "Círculo Polar Antártico",
+   "Trópico de Câncer",
+   "Linha do Equador"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-004",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual meridiano é o 0° e divide a Terra em leste e oeste?",
+  "resposta": "Greenwich",
+  "explicacao": "O meridiano de <b>Greenwich</b> passa por Londres.",
+  "alternativas": [
+   "Greenwich",
+   "Tordesilhas",
+   "Equador",
+   "Trópico de Capricórnio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-005",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A latitude varia de:",
+  "resposta": "0° a 90°, norte ou sul",
+  "explicacao": "Latitude vai do Equador (0°) até os polos (<b>90°</b>).",
+  "alternativas": [
+   "0° a 90°, norte ou sul",
+   "0° a 360°",
+   "0° a 180°, leste ou oeste",
+   "0° a 45°"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-006",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual linha imaginária divide a Terra em hemisférios norte e sul?",
+  "resposta": "Linha do Equador",
+  "explicacao": "O <b>Equador</b> é o paralelo 0°.",
+  "alternativas": [
+   "Linha do Equador",
+   "Círculo Polar Ártico",
+   "Trópico de Câncer",
+   "Meridiano de Greenwich"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-007",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A latitude mede a distância em graus de um ponto até o:",
+  "resposta": "Equador",
+  "explicacao": "Latitude se mede a partir do <b>Equador</b>; longitude, a partir de Greenwich.",
+  "alternativas": [
+   "Equador",
+   "Sol",
+   "Polo Norte",
+   "meridiano de Greenwich"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-008",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A longitude varia de:",
+  "resposta": "0° a 180°, leste ou oeste",
+  "explicacao": "Longitude vai de Greenwich (0°) até <b>180°</b>.",
+  "alternativas": [
+   "0° a 180°, leste ou oeste",
+   "0° a 90°, norte ou sul",
+   "0° a 24°",
+   "0° a 360°"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-009",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "As linhas imaginárias paralelas ao Equador se chamam:",
+  "resposta": "paralelos",
+  "explicacao": "São os <b>paralelos</b>.",
+  "alternativas": [
+   "paralelos",
+   "fusos",
+   "meridianos",
+   "escalas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-coord-010",
+  "topico": "g-coord",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Um ponto com latitude 0° está:",
+  "resposta": "sobre a Linha do Equador",
+  "explicacao": "Latitude 0° = <b>Equador</b>.",
+  "alternativas": [
+   "sobre a Linha do Equador",
+   "no Polo Norte",
+   "no Polo Sul",
+   "sobre Greenwich"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-001",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 5 km</b>. Um rio mede <b>9 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 45,
+  "explicacao": "Cada centímetro vale 5 km: 9 × 5 = <b>45 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-002",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 100.000</b>, duas cidades estão a <b>4 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 4,
+  "explicacao": "1 cm = 100.000 cm = 1 km. Então 4 × 1 = <b>4 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-003",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 10.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000",
+   "1 : 5.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-004",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 10.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000.000",
+   "1 : 10.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-005",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 5.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 5.000.000",
+   "1 : 25.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-006",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 50 km</b>. Um rio mede <b>12 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 600,
+  "explicacao": "Cada centímetro vale 50 km: 12 × 50 = <b>600 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-007",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 5.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 5.000.000",
+   "1 : 5.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-008",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 2 km</b>. Um rio mede <b>6 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 12,
+  "explicacao": "Cada centímetro vale 2 km: 6 × 2 = <b>12 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-009",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 5 km</b>. Um rio mede <b>5 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 25,
+  "explicacao": "Cada centímetro vale 5 km: 5 × 5 = <b>25 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-010",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 25.000</b>, duas cidades estão a <b>6 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 1.5,
+  "explicacao": "1 cm = 25.000 cm = 0,25 km. Então 6 × 0,25 = <b>1,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-011",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 500.000</b>, duas cidades estão a <b>5 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 25,
+  "explicacao": "1 cm = 500.000 cm = 5 km. Então 5 × 5 = <b>25 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-012",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 10 km</b>. Um rio mede <b>3 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 30,
+  "explicacao": "Cada centímetro vale 10 km: 3 × 10 = <b>30 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-013",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 50 km</b>. Um rio mede <b>3 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 150,
+  "explicacao": "Cada centímetro vale 50 km: 3 × 50 = <b>150 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-014",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 2 km</b>. Um rio mede <b>7 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 14,
+  "explicacao": "Cada centímetro vale 2 km: 7 × 2 = <b>14 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-015",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 25.000</b>, duas cidades estão a <b>5 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 1.25,
+  "explicacao": "1 cm = 25.000 cm = 0,25 km. Então 5 × 0,25 = <b>1,25 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-016",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 10 km</b>. Um rio mede <b>10 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 100,
+  "explicacao": "Cada centímetro vale 10 km: 10 × 10 = <b>100 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-017",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 1.000.000</b>, duas cidades estão a <b>2 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 20,
+  "explicacao": "1 cm = 1.000.000 cm = 10 km. Então 2 × 10 = <b>20 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-018",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 5 km</b>. Um rio mede <b>12 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 60,
+  "explicacao": "Cada centímetro vale 5 km: 12 × 5 = <b>60 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-019",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 50.000</b>, duas cidades estão a <b>8 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 4,
+  "explicacao": "1 cm = 50.000 cm = 0,5 km. Então 8 × 0,5 = <b>4 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-020",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 10.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000",
+   "1 : 1.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-021",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 10.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000",
+   "1 : 10.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-022",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 500.000</b>, duas cidades estão a <b>10 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 50,
+  "explicacao": "1 cm = 500.000 cm = 5 km. Então 10 × 5 = <b>50 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-023",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 500.000</b>, duas cidades estão a <b>11 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 55,
+  "explicacao": "1 cm = 500.000 cm = 5 km. Então 11 × 5 = <b>55 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-024",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 50 km</b>. Um rio mede <b>11 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 550,
+  "explicacao": "Cada centímetro vale 50 km: 11 × 50 = <b>550 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-025",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 1.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 1.000.000",
+   "1 : 10.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-026",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 25.000</b>, duas cidades estão a <b>12 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 3,
+  "explicacao": "1 cm = 25.000 cm = 0,25 km. Então 12 × 0,25 = <b>3 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-027",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 100.000</b>, duas cidades estão a <b>12 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 12,
+  "explicacao": "1 cm = 100.000 cm = 1 km. Então 12 × 1 = <b>12 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-028",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 50.000</b>, duas cidades estão a <b>7 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 3.5,
+  "explicacao": "1 cm = 50.000 cm = 0,5 km. Então 7 × 0,5 = <b>3,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-029",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 1.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 1.000.000",
+   "1 : 5.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-030",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 250.000</b>, duas cidades estão a <b>7 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 17.5,
+  "explicacao": "1 cm = 250.000 cm = 2,5 km. Então 7 × 2,5 = <b>17,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-031",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 5.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 5.000.000",
+   "1 : 10.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-032",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 500.000</b>, duas cidades estão a <b>8 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 40,
+  "explicacao": "1 cm = 500.000 cm = 5 km. Então 8 × 5 = <b>40 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-033",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 100.000</b>, duas cidades estão a <b>2 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 2,
+  "explicacao": "1 cm = 100.000 cm = 1 km. Então 2 × 1 = <b>2 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-034",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 50.000</b>, duas cidades estão a <b>9 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 4.5,
+  "explicacao": "1 cm = 50.000 cm = 0,5 km. Então 9 × 0,5 = <b>4,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-035",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 10.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000.000",
+   "1 : 5.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-036",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 200.000</b>, duas cidades estão a <b>12 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 24,
+  "explicacao": "1 cm = 200.000 cm = 2 km. Então 12 × 2 = <b>24 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-037",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 20 km</b>. Um rio mede <b>10 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 200,
+  "explicacao": "Cada centímetro vale 20 km: 10 × 20 = <b>200 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-038",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 25.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 25.000",
+   "1 : 10.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-039",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 20 km</b>. Um rio mede <b>11 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 220,
+  "explicacao": "Cada centímetro vale 20 km: 11 × 20 = <b>220 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-040",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 50 km</b>. Um rio mede <b>4 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 200,
+  "explicacao": "Cada centímetro vale 50 km: 4 × 50 = <b>200 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-041",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 100.000</b>, duas cidades estão a <b>3 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 3,
+  "explicacao": "1 cm = 100.000 cm = 1 km. Então 3 × 1 = <b>3 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-042",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 1.000.000</b>, duas cidades estão a <b>12 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 120,
+  "explicacao": "1 cm = 1.000.000 cm = 10 km. Então 12 × 10 = <b>120 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-043",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 50 km</b>. Um rio mede <b>9 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 450,
+  "explicacao": "Cada centímetro vale 50 km: 9 × 50 = <b>450 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-044",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 20 km</b>. Um rio mede <b>7 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 140,
+  "explicacao": "Cada centímetro vale 20 km: 7 × 20 = <b>140 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-045",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 25.000</b>, duas cidades estão a <b>3 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 0.75,
+  "explicacao": "1 cm = 25.000 cm = 0,25 km. Então 3 × 0,25 = <b>0,75 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-046",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 250.000</b>, duas cidades estão a <b>4 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 10,
+  "explicacao": "1 cm = 250.000 cm = 2,5 km. Então 4 × 2,5 = <b>10 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-047",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 2 km</b>. Um rio mede <b>12 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 24,
+  "explicacao": "Cada centímetro vale 2 km: 12 × 2 = <b>24 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-048",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 50.000</b>, duas cidades estão a <b>3 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 1.5,
+  "explicacao": "1 cm = 50.000 cm = 0,5 km. Então 3 × 0,5 = <b>1,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-049",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 5.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 5.000",
+   "1 : 5.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-050",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 250.000</b>, duas cidades estão a <b>11 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 27.5,
+  "explicacao": "1 cm = 250.000 cm = 2,5 km. Então 11 × 2,5 = <b>27,5 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-051",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 250.000</b>, duas cidades estão a <b>10 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 25,
+  "explicacao": "1 cm = 250.000 cm = 2,5 km. Então 10 × 2,5 = <b>25 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-052",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 5.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 5.000",
+   "1 : 10.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-053",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 1.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 1.000.000",
+   "1 : 25.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-054",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 20 km</b>. Um rio mede <b>9 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 180,
+  "explicacao": "Cada centímetro vale 20 km: 9 × 20 = <b>180 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-055",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 50.000</b>, duas cidades estão a <b>12 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 6,
+  "explicacao": "1 cm = 50.000 cm = 0,5 km. Então 12 × 0,5 = <b>6 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-056",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Num mapa na escala <b>1 : 100.000</b>, duas cidades estão a <b>6 cm</b> de distância. Qual é a distância real, em <b>km</b>?",
+  "resposta": 6,
+  "explicacao": "1 cm = 100.000 cm = 1 km. Então 6 × 1 = <b>6 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-057",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>uma área maior (com menos detalhes)</b>?",
+  "resposta": "1 : 10.000.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 10.000.000",
+   "1 : 25.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-058",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 2 km</b>. Um rio mede <b>8 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 16,
+  "explicacao": "Cada centímetro vale 2 km: 8 × 2 = <b>16 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-059",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual escala mostra <b>mais detalhes</b>?",
+  "resposta": "1 : 25.000",
+  "explicacao": "Quanto <b>menor o número</b> depois dos dois-pontos, maior a escala e mais detalhes (ideal para planta de bairro). Número grande = área grande, pouco detalhe (mapa do Brasil).",
+  "alternativas": [
+   "1 : 25.000",
+   "1 : 5.000.000"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-esc-060",
+  "topico": "g-esc",
+  "materia": "ge",
+  "tipo": "num",
+  "enunciado": "Na escala gráfica de um mapa, <b>1 cm = 20 km</b>. Um rio mede <b>4 cm</b> no mapa. Quantos km ele tem na realidade?",
+  "resposta": 80,
+  "explicacao": "Cada centímetro vale 20 km: 4 × 20 = <b>80 km</b>.",
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-001",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Quanto tempo dura, aproximadamente, a translação da Terra?",
+  "resposta": "365 dias e 6 horas",
+  "explicacao": "<b>Translação</b>: cerca de 365 dias e 6 horas.",
+  "alternativas": [
+   "365 dias e 6 horas",
+   "100 anos",
+   "24 horas",
+   "30 dias"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-002",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "As estações do ano acontecem principalmente por causa:",
+  "resposta": "da inclinação do eixo da Terra durante a translação",
+  "explicacao": "A <b>inclinação do eixo</b> faz cada hemisfério receber mais ou menos luz ao longo do ano.",
+  "alternativas": [
+   "da inclinação do eixo da Terra durante a translação",
+   "das fases da Lua",
+   "da rotação da Terra",
+   "da distância entre a Terra e o Sol"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-003",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O dia em que o dia e a noite têm quase a mesma duração se chama:",
+  "resposta": "equinócio",
+  "explicacao": "\"Equi\" = igual: dia e noite com a mesma duração = <b>equinócio</b>.",
+  "alternativas": [
+   "equinócio",
+   "eclipse",
+   "solstício",
+   "rotação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-004",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O movimento de rotação é responsável:",
+  "resposta": "pela sucessão dos dias e das noites",
+  "explicacao": "Um lado da Terra recebe luz, o outro fica no escuro: <b>dia e noite</b>.",
+  "alternativas": [
+   "pela sucessão dos dias e das noites",
+   "pelos terremotos",
+   "pelas estações do ano",
+   "pelas marés altas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-005",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Quanto tempo dura, aproximadamente, a rotação da Terra?",
+  "resposta": "24 horas",
+  "explicacao": "<b>Rotação</b>: cerca de 24 horas.",
+  "alternativas": [
+   "24 horas",
+   "365 dias",
+   "30 dias",
+   "12 horas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-006",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Quando é verão no hemisfério sul, no hemisfério norte é:",
+  "resposta": "inverno",
+  "explicacao": "Os hemisférios têm estações <b>opostas</b>: Natal aqui é no verão; no hemisfério norte, é no inverno.",
+  "alternativas": [
+   "inverno",
+   "verão",
+   "outono",
+   "primavera"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-007",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O dia mais longo do ano é o:",
+  "resposta": "solstício de verão",
+  "explicacao": "<b>Solstício de verão</b>: o dia com mais horas de luz.",
+  "alternativas": [
+   "solstício de verão",
+   "equinócio de outono",
+   "equinócio de primavera",
+   "solstício de inverno"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-008",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A Terra gira de oeste para leste. Por isso, o Sol parece:",
+  "resposta": "nascer a leste e se pôr a oeste",
+  "explicacao": "A Terra gira pro leste, então o Sol parece andar ao contrário: <b>nasce a leste</b>.",
+  "alternativas": [
+   "nascer a leste e se pôr a oeste",
+   "nascer a oeste e se pôr a leste",
+   "nascer ao norte",
+   "ficar sempre parado"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-009",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Por que existe o ano bissexto, com 29 de fevereiro?",
+  "resposta": "porque sobram cerca de 6 horas por ano, que somam 1 dia a cada 4 anos",
+  "explicacao": "6 h × 4 anos = <b>24 h</b>: um dia a mais. É o ano bissexto.",
+  "alternativas": [
+   "porque sobram cerca de 6 horas por ano, que somam 1 dia a cada 4 anos",
+   "para ter mais feriados",
+   "porque a Terra gira mais rápido em fevereiro",
+   "porque a Lua atrasa o calendário"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-mov-010",
+  "topico": "g-mov",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Cada fuso horário corresponde a quantos graus de longitude?",
+  "resposta": "15°",
+  "explicacao": "360° ÷ 24 horas = <b>15°</b> por fuso.",
+  "alternativas": [
+   "15°",
+   "90°",
+   "30°",
+   "24°"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-001",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Forma de relevo plana e baixa, onde se acumulam sedimentos:",
+  "resposta": "planície",
+  "explicacao": "Na <b>planície</b>, chega mais sedimento do que sai: predomina a deposição.",
+  "alternativas": [
+   "planície",
+   "serra",
+   "montanha",
+   "planalto"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-002",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Área mais baixa que as terras ao redor:",
+  "resposta": "depressão",
+  "explicacao": "<b>Depressão</b> = área mais baixa que o entorno.",
+  "alternativas": [
+   "depressão",
+   "cordilheira",
+   "planalto",
+   "montanha"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-003",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Os terremotos são causados principalmente:",
+  "resposta": "pelo movimento das placas tectônicas",
+  "explicacao": "Placas tectônicas se chocam ou se afastam: <b>tremores</b>.",
+  "alternativas": [
+   "pelo movimento das placas tectônicas",
+   "pela rotação da Terra",
+   "pela chuva forte",
+   "pelo vento"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-004",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Por que o desmatamento aumenta a erosão?",
+  "resposta": "porque o solo fica sem a proteção das plantas",
+  "explicacao": "Sem raízes e folhas pra segurar, a chuva <b>arrasta o solo</b>.",
+  "alternativas": [
+   "porque o solo fica sem a proteção das plantas",
+   "porque as árvores atraem chuva",
+   "porque diminui o vento",
+   "porque o solo fica mais duro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-005",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Quais são agentes externos do relevo?",
+  "resposta": "chuva, vento e rios",
+  "explicacao": "Agem por fora, desgastando: <b>chuva, vento, rios</b>.",
+  "alternativas": [
+   "chuva, vento e rios",
+   "o núcleo da Terra",
+   "o magma",
+   "vulcões e terremotos"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-006",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Grandes elevações com picos altos, como os Andes, são:",
+  "resposta": "montanhas (cordilheira)",
+  "explicacao": "Os Andes formam uma <b>cordilheira</b>.",
+  "alternativas": [
+   "montanhas (cordilheira)",
+   "depressões",
+   "planícies",
+   "várzeas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-007",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Quais são agentes internos do relevo?",
+  "resposta": "vulcanismo e tectonismo",
+  "explicacao": "Vêm de dentro da Terra: <b>vulcões e movimento das placas</b>.",
+  "alternativas": [
+   "vulcanismo e tectonismo",
+   "chuva e vento",
+   "raízes e animais",
+   "rios e ondas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-008",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "São José dos Campos fica no Vale do Paraíba, entre duas serras. Quais?",
+  "resposta": "Serra da Mantiqueira e Serra do Mar",
+  "explicacao": "O Vale do Paraíba fica entre a <b>Mantiqueira</b> e a <b>Serra do Mar</b>, bem onde fica SJC.",
+  "alternativas": [
+   "Serra da Mantiqueira e Serra do Mar",
+   "Serra Gaúcha e Serra Geral",
+   "Serra do Espinhaço e Serra da Canastra",
+   "Serra dos Carajás e Serra do Roncador"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-009",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O desgaste e a decomposição das rochas pela ação do clima se chama:",
+  "resposta": "intemperismo",
+  "explicacao": "<b>Intemperismo</b>: sol, chuva e seres vivos vão quebrando as rochas aos poucos.",
+  "alternativas": [
+   "intemperismo",
+   "vulcanismo",
+   "tectonismo",
+   "sedimentação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-rel-010",
+  "topico": "g-rel",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Forma de relevo elevada, com superfície irregular, onde predomina o desgaste:",
+  "resposta": "planalto",
+  "explicacao": "No <b>planalto</b>, a erosão ganha.",
+  "alternativas": [
+   "planalto",
+   "praia",
+   "planície",
+   "depressão"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-001",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O instrumento que mede a quantidade de chuva é o:",
+  "resposta": "pluviômetro",
+  "explicacao": "<b>Pluviômetro</b> (pluvial = chuva). Termômetro mede temperatura.",
+  "alternativas": [
+   "pluviômetro",
+   "barômetro",
+   "termômetro",
+   "anemômetro"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-002",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "No ciclo da água, a formação das nuvens acontece por:",
+  "resposta": "condensação",
+  "explicacao": "O vapor esfria lá em cima e vira gotinhas: <b>condensação</b>. É isso que forma as nuvens.",
+  "alternativas": [
+   "condensação",
+   "fusão",
+   "infiltração",
+   "evaporação"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-003",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual rio atravessa São José dos Campos e o Vale do Paraíba?",
+  "resposta": "Paraíba do Sul",
+  "explicacao": "O <b>Paraíba do Sul</b> dá nome ao Vale e passa por SJC.",
+  "alternativas": [
+   "Paraíba do Sul",
+   "Tietê",
+   "São Francisco",
+   "Amazonas"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-004",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Um rio que deságua em outro rio maior é um:",
+  "resposta": "afluente",
+  "explicacao": "<b>Afluente</b> é o rio que \"alimenta\" o principal.",
+  "alternativas": [
+   "afluente",
+   "lago",
+   "foz",
+   "lençol freático"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-005",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Onde está a maior parte da água do planeta?",
+  "resposta": "nos oceanos",
+  "explicacao": "Cerca de 97% está nos <b>oceanos</b>, e é salgada.",
+  "alternativas": [
+   "nos oceanos",
+   "nas geleiras",
+   "nas nuvens",
+   "nos rios"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-006",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "A área drenada por um rio principal e seus afluentes é a:",
+  "resposta": "bacia hidrográfica",
+  "explicacao": "É a <b>bacia hidrográfica</b>.",
+  "alternativas": [
+   "bacia hidrográfica",
+   "planície",
+   "nascente",
+   "foz"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-007",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O local onde um rio deságua se chama:",
+  "resposta": "foz",
+  "explicacao": "Onde o rio termina = <b>foz</b>.",
+  "alternativas": [
+   "foz",
+   "nascente",
+   "leito",
+   "margem"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-008",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "O local onde um rio nasce se chama:",
+  "resposta": "nascente",
+  "explicacao": "Onde o rio começa = <b>nascente</b>.",
+  "alternativas": [
+   "nascente",
+   "foz",
+   "afluente",
+   "delta"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-009",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual é o clima que predomina no Brasil?",
+  "resposta": "tropical",
+  "explicacao": "A maior parte do Brasil tem clima <b>tropical</b>.",
+  "alternativas": [
+   "tropical",
+   "polar",
+   "desértico",
+   "temperado frio"
+  ],
+  "bncc": null,
+  "revisado": false
+ },
+ {
+  "id": "g-agua-010",
+  "topico": "g-agua",
+  "materia": "ge",
+  "tipo": "mc",
+  "enunciado": "Qual é a diferença entre tempo e clima?",
+  "resposta": "Tempo é a condição do momento; clima é o padrão de muitos anos.",
+  "explicacao": "\"Hoje está chovendo\" = <b>tempo</b> (o agora). \"No verão costuma chover\" = <b>clima</b> (o padrão).",
+  "alternativas": [
+   "Tempo é a condição do momento; clima é o padrão de muitos anos.",
+   "Clima muda todo dia; tempo não muda.",
+   "São a mesma coisa.",
+   "Tempo só existe no verão."
+  ],
+  "bncc": null,
+  "revisado": false
+ }
+]

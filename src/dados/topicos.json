@@ -580,9 +580,13 @@
   "titulo": "Célula e níveis de organização",
   "explicacao_html": "<p>A <b>célula</b> é a menor unidade viva. Níveis: célula → <b>tecido</b> → <b>órgão</b> → <b>sistema</b> → organismo.</p><p>Partes: <b>membrana</b> (o segurança que controla o que entra e sai), <b>citoplasma</b> (a parte gelatinosa), <b>núcleo</b> (o comando, com o material genético). A célula vegetal ainda tem <b>parede celular</b> e <b>cloroplastos</b> (fotossíntese).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06CI05",
+   "EF06CI06"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "c-nerv",
@@ -591,9 +595,13 @@
   "titulo": "Sistema nervoso e visão",
   "explicacao_html": "<p>O <b>neurônio</b> leva as mensagens do corpo (impulsos nervosos). <b>Encéfalo + medula espinal</b> = sistema nervoso central. O <b>cerebelo</b> cuida do equilíbrio.</p><p>Na visão, a luz entra pela <b>pupila</b> e a imagem se forma na <b>retina</b>. <b>Miopia</b>: vê mal de longe (lente divergente). <b>Hipermetropia</b>: vê mal de perto (lente convergente).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06CI07",
+   "EF06CI08"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "c-loc",
@@ -602,9 +610,12 @@
   "titulo": "Ossos, músculos e movimento",
   "explicacao_html": "<p>O <b>esqueleto</b> sustenta o corpo, protege órgãos e, junto com os músculos, faz você se mexer. <b>Articulação</b> = encontro de dois ossos. <b>Tendão</b> liga músculo a osso.</p><p>Músculos: <b>esquelético</b> (você controla), <b>liso</b> (órgãos, trabalha sozinho), <b>cardíaco</b> (coração). O sistema nervoso manda o músculo contrair.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06CI09"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "c-mist",
@@ -613,9 +624,13 @@
   "titulo": "Misturas e separação",
   "explicacao_html": "<p><b>Homogênea</b>: uma fase só, não dá pra ver as partes (água + sal). <b>Heterogênea</b>: dá pra ver (água + óleo).</p><p>Separação: <b>filtração</b> (filtro), <b>decantação</b> (esperar o mais pesado ir pro fundo), <b>evaporação</b> (salinas), <b>destilação</b> (evaporar e recolher o vapor), <b>catação</b> (com a mão), <b>peneiração</b>, <b>imantação</b> (ímã).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06CI01",
+   "EF06CI03"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "c-trans",
@@ -624,9 +639,12 @@
   "titulo": "Estados físicos e transformações",
   "explicacao_html": "<p>Mudanças de estado (transformações <b>físicas</b>): <b>fusão</b> (sólido→líquido), <b>solidificação</b> (líquido→sólido), <b>vaporização</b> (líquido→gás), <b>condensação</b> (gás→líquido), <b>sublimação</b> (sólido→gás direto).</p><p><b>Transformação química</b> cria substância nova: queima, ferrugem, ovo cozido. Pistas: muda a cor, sai gás, calor, luz ou cheiro.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06CI02"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "c-terra",
@@ -635,9 +653,13 @@
   "titulo": "Planeta Terra e rochas",
   "explicacao_html": "<p>Camadas: <b>crosta</b> (onde a gente vive), <b>manto</b> (magma), <b>núcleo</b> (o centro, muito quente).</p><p>Rochas: <b>magmáticas</b> (magma que esfriou: granito, basalto), <b>sedimentares</b> (camadas de sedimentos; guardam fósseis), <b>metamórficas</b> (transformadas por calor e pressão: mármore).</p><p><b>Rotação</b> (24 h): dia e noite. <b>Translação</b> (≈365 dias): volta ao Sol.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06CI11",
+   "EF06CI12"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-tempo",
@@ -646,9 +668,12 @@
   "titulo": "Tempo histórico e séculos",
   "explicacao_html": "<p><b>Século</b> = 100 anos, escrito em algarismos romanos. O século XV vai de <b>1401 a 1500</b>.</p><p>Macete: corta os dois últimos algarismos e soma 1 (1789 → 17 + 1 = século <b>XVIII</b>). Se terminar em 00, não soma (1500 → século XV). Você nasceu no século XXI.</p><p><b>a.C.</b> (antes de Cristo) conta de trás pra frente: 500 a.C. é <b>mais antigo</b> que 200 a.C.</p>",
   "fonte": "gerador",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 60
+  "mvp": true,
+  "bncc": [
+   "EF06HI01"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": true
  },
  {
   "id": "h-fontes",
@@ -657,9 +682,12 @@
   "titulo": "Fontes históricas e patrimônio",
   "explicacao_html": "<p><b>Fonte histórica</b> = qualquer vestígio humano que ajuda a entender o passado. Tipos: <b>escritas</b> (cartas, jornais), <b>orais</b> (entrevistas), <b>materiais</b> (objetos, construções), <b>iconográficas</b> (pinturas, fotos, desenhos).</p><p><b>Arqueólogo</b> estuda vestígios materiais. <b>Patrimônio imaterial</b>: festas, saberes, danças (ex.: a capoeira).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06HI02"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "h-pre",
@@ -668,9 +696,14 @@
   "titulo": "Pré-história e povoamento da América",
   "explicacao_html": "<p><b>Paleolítico</b>: nômades, caça e coleta, domínio do fogo. <b>Neolítico</b>: agricultura, domesticação de animais, gente se fixando num lugar (sedentarização). <b>Idade dos Metais</b>: cobre, bronze e ferro.</p><p>A espécie humana surgiu na <b>África</b>. Teoria mais aceita pra chegada à América: travessia pelo <b>Estreito de Bering</b>. No Brasil: <b>Serra da Capivara</b> (PI), <b>Luzia</b> (MG), sambaquis.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI03",
+   "EF06HI04",
+   "EF06HI05"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-egito",
@@ -679,9 +712,12 @@
   "titulo": "Mesopotâmia e Egito",
   "explicacao_html": "<p><b>Mesopotâmia</b> (\"entre rios\"): Tigre e Eufrates. Escrita <b>cuneiforme</b>, <b>zigurates</b>, <b>Código de Hamurabi</b>.</p><p><b>Egito</b>: rio <b>Nilo</b>, <b>faraó</b> (rei e deus ao mesmo tempo), escrita <b>hieroglífica</b>, pirâmides (túmulos), mumificação (pra garantir a vida após a morte). Religião <b>politeísta</b>.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI07"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-grecia",
@@ -690,9 +726,13 @@
   "titulo": "Grécia Antiga",
   "explicacao_html": "<p>A Grécia era dividida em <b>pólis</b> (cidades-Estado, cada uma com suas regras). <b>Atenas</b>: berço da democracia (mas só homens livres atenienses votavam). <b>Esparta</b>: educação militar pesada.</p><p>Heranças que usamos até hoje: democracia, filosofia (Sócrates, Platão, Aristóteles), teatro, <b>Jogos Olímpicos</b>, mitologia (Zeus).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06HI09",
+   "EF06HI10"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "h-atesp",
@@ -701,9 +741,13 @@
   "titulo": "Atenas × Esparta",
   "explicacao_html": "<p><b>Atenas</b>: governo <b>democrático</b>; sociedade mais <b>aberta e urbana</b>; valorizava <b>filosofia, artes e comércio</b>.</p><p><b>Esparta</b>: governo <b>oligárquico</b> (poder de poucos); sociedade <b>militarizada</b>, com disciplina e obediência; educação voltada para a <b>guerra</b>. Era a mais preparada para o confronto militar.</p><p><b>Democracia ateniense</b>: só participavam <b>homens livres, maiores de idade e filhos de cidadãos</b>. <b>Mulheres, estrangeiros e escravizados</b> ficavam de fora.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI10",
+   "EF06HI12"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-guerras",
@@ -712,9 +756,12 @@
   "titulo": "Guerras Médicas × Guerra do Peloponeso",
   "explicacao_html": "<p><b>Guerras Médicas (499–449 a.C.)</b>: Atenas e outras pólis gregas contra o <b>Império Persa</b>. Resultado: vitória grega, com destaque para Atenas → <b>fortalecimento de Atenas</b> e da cultura grega.</p><p><b>Guerra do Peloponeso (431–404 a.C.)</b>: <b>Atenas contra Esparta</b>. Resultado: Atenas perde o poder e a liderança → <b>enfraquecimento das pólis</b> e <b>dominação macedônica</b>.</p><p>Em a.C., número maior = mais antigo: 499 → 449 → 431 → 404. Macete: Médicas = gregos × persas; Peloponeso = gregos × gregos.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI09"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-roma",
@@ -723,9 +770,12 @@
   "titulo": "Roma Antiga",
   "explicacao_html": "<p>Fases: <b>Monarquia → República → Império</b>. Sociedade: <b>patrícios</b> (ricos proprietários) e <b>plebeus</b> (a maioria).</p><p>Império: primeiro imperador, <b>Otávio Augusto</b>; \"pão e circo\"; Coliseu; aquedutos; direito romano; <b>latim</b> (de onde vem o português). Queda do Império do Ocidente: <b>476</b>.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI11"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "h-rep1",
@@ -734,9 +784,12 @@
   "titulo": "Roma: da fundação à República",
   "explicacao_html": "<p><b>Mito:</b> Rômulo e Remo, salvos e amamentados por uma loba (Eneida de Virgílio). <b>História:</b> migrações de etruscos, latinos e gregos (o sul da Itália virou a <b>Magna Grécia</b>).</p><p><b>Monarquia</b> (reis etruscos + Senado patrício) → fim por um <b>golpe dos patrícios</b> → <b>República</b> (Res Publica = coisa do povo), mas só os <b>patrícios</b> mandavam.</p><p>Sociedade: <b>patrícios</b> (poder e terras) · <b>clientes</b> (dependentes dos patrícios) · <b>plebeus</b> (maioria, sem direitos no início) · <b>escravos</b> (guerra ou dívidas).</p><p>Plebe: alistamento obrigatório, exploração e escravidão por dívidas → <b>greves</b> → Tribuno da Plebe, <b>Lei das 12 Tábuas</b>, fim da escravidão por dívidas. Legado: <b>Direito Romano</b>.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 18
+  "mvp": true,
+  "bncc": [
+   "EF06HI11"
+  ],
+  "questoes": 18,
+  "bncc_aproximado": true
  },
  {
   "id": "h-rep2",
@@ -745,9 +798,13 @@
   "titulo": "Roma: expansão e fim da República",
   "explicacao_html": "<p><b>Guerras Púnicas</b>: Roma destrói <b>Cartago</b> e domina o Mediterrâneo, o <b>Mare Nostrum</b>.</p><p><b>Engrenagem da crise</b>: guerras vencidas → escravos → latifúndios → plebe sem terra → <b>êxodo rural</b>.</p><p>Irmãos <b>Tibério e Caio Graco</b> (tribunos): reforma agrária → assassinados pelos patrícios. O <b>Exército</b> vira a força principal, leal aos generais.</p><p><b>1º Triunvirato</b>: Crasso, Pompeu e Júlio César. <b>2º</b>: Lépido, Marco Antônio e Otávio. <b>Otávio</b> vence → fim da República → prepara-se o Império.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 11
+  "mvp": true,
+  "bncc": [
+   "EF06HI10",
+   "EF06HI11"
+  ],
+  "questoes": 11,
+  "bncc_aproximado": true
  },
  {
   "id": "g-pais",
@@ -756,9 +813,12 @@
   "titulo": "Paisagem, lugar e espaço",
   "explicacao_html": "<p><b>Paisagem</b>: tudo que você percebe num lugar (o que vê, ouve e cheira). Pode ser <b>natural</b> (pouca ação humana) ou <b>humanizada/cultural</b> (cidades, plantações).</p><p><b>Lugar</b>: espaço com que você tem vínculo (casa, bairro, escola). <b>Espaço geográfico</b>: espaço transformado pela sociedade.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 8
+  "mvp": true,
+  "bncc": [
+   "EF06GE01"
+  ],
+  "questoes": 8,
+  "bncc_aproximado": true
  },
  {
   "id": "g-orient",
@@ -767,9 +827,10 @@
   "titulo": "Orientação e pontos cardeais",
   "explicacao_html": "<p>Pontos cardeais: <b>Norte, Sul, Leste, Oeste</b>. Colaterais (os do meio): nordeste, sudeste, sudoeste, noroeste.</p><p>O Sol nasce a <b>leste</b> e se põe a <b>oeste</b>. Braço direito apontando pro nascente → na sua frente fica o <b>norte</b>.</p><p>A bússola aponta o <b>norte magnético</b>. No hemisfério sul, o <b>Cruzeiro do Sul</b> indica o sul.</p>",
   "fonte": "banco",
-  "mvp": false,
+  "mvp": true,
   "bncc": null,
-  "questoes": 10
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "g-coord",
@@ -778,9 +839,10 @@
   "titulo": "Coordenadas geográficas",
   "explicacao_html": "<p><b>Paralelos</b>: linhas paralelas ao <b>Equador</b> (0°); medem a <b>latitude</b>, de 0° a 90° norte ou sul.</p><p><b>Meridianos</b>: vão de polo a polo; o de <b>Greenwich</b> é o 0°; medem a <b>longitude</b>, de 0° a 180° leste ou oeste.</p><p>Latitude + longitude = o \"endereço\" de qualquer ponto do planeta. É assim que o GPS te acha. O Trópico de Capricórnio passa pelo estado de São Paulo.</p>",
   "fonte": "banco",
-  "mvp": false,
+  "mvp": true,
   "bncc": null,
-  "questoes": 10
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "g-esc",
@@ -789,9 +851,12 @@
   "titulo": "Escala cartográfica",
   "explicacao_html": "<p>Escala <b>1 : 100.000</b> = 1 cm no mapa vale 100.000 cm de verdade = <b>1 km</b>.</p><p>Distância real = distância no mapa × denominador. Depois converta: ÷ 100 → metros; ÷ 100.000 → km.</p><p>Escala <b>grande</b> (1:10.000) mostra área pequena com muito detalhe, tipo dar zoom no mapa do celular; escala <b>pequena</b> (1:10.000.000) mostra área grande com pouco detalhe.</p>",
   "fonte": "gerador",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 60
+  "mvp": true,
+  "bncc": [
+   "EF06GE08"
+  ],
+  "questoes": 60,
+  "bncc_aproximado": true
  },
  {
   "id": "g-mov",
@@ -800,9 +865,12 @@
   "titulo": "Movimentos da Terra e estações",
   "explicacao_html": "<p><b>Rotação</b> (≈24 h, de oeste pra leste): dia e noite. <b>Translação</b> (≈365 dias e 6 h): volta ao Sol; a cada 4 anos, ano <b>bissexto</b>.</p><p>As estações acontecem por causa da <b>inclinação do eixo</b> da Terra durante a translação, e não pela distância do Sol (esse é o mito mais comum). <b>Equinócio</b>: dia e noite iguais. <b>Solstício de verão</b>: dia mais longo.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06GE03"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "g-rel",
@@ -811,9 +879,12 @@
   "titulo": "Relevo e agentes que o transformam",
   "explicacao_html": "<p>Formas: <b>planalto</b> (alto, predomina desgaste), <b>planície</b> (baixa e plana, predomina deposição), <b>depressão</b> (mais baixa que o entorno), <b>montanha</b>.</p><p>Agentes <b>internos</b> (de dentro da Terra): tectonismo (terremotos) e vulcanismo. Agentes <b>externos</b> (de fora): chuva, vento, rios, seres vivos (erosão e intemperismo).</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06GE05"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  },
  {
   "id": "g-agua",
@@ -822,8 +893,11 @@
   "titulo": "Água, rios e clima",
   "explicacao_html": "<p>Ciclo da água: <b>evaporação → condensação</b> (nuvens) <b>→ precipitação</b> (chuva) <b>→ infiltração</b>. A água que você bebe já foi nuvem muitas vezes.</p><p>Rio: <b>nascente</b> (onde nasce), <b>foz</b> (onde deságua), <b>afluente</b> (rio que deságua em outro). <b>Bacia hidrográfica</b>: área drenada por um rio e seus afluentes. Em SJC passa o <b>Paraíba do Sul</b>.</p><p><b>Tempo</b> = como está agora; <b>clima</b> = o padrão de muitos anos.</p>",
   "fonte": "banco",
-  "mvp": false,
-  "bncc": null,
-  "questoes": 10
+  "mvp": true,
+  "bncc": [
+   "EF06GE04"
+  ],
+  "questoes": 10,
+  "bncc_aproximado": true
  }
 ]
