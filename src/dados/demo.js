@@ -41,6 +41,15 @@ function semente() {
   return { usuarios, turmas: [TURMA], tentativas, sessao: null };
 }
 
+function tarefasExemplo() {
+  const dia = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return d.toISOString().slice(0, 10); };
+  const ontem = new Date(Date.now() - 864e5).toISOString();
+  return [
+    { id: 'tar-ex1', turma_id: TURMA.id, tipo: 'tarefa', titulo: 'Frações para sexta', materia: 'mt', topicos: ['m-frac', 'm-fop'], meta: 10, data: dia(3), criado_em: ontem },
+    { id: 'tar-ex2', turma_id: TURMA.id, tipo: 'prova', titulo: 'Prova de Português', materia: 'pt', topicos: ['p-sub', 'p-adj', 'p-verb'], meta: 10, data: dia(6), criado_em: ontem },
+  ];
+}
+
 function materialExemplo() {
   return [{
     id: 'mat-exemplo', turma_id: TURMA.id, materia: 'pt', titulo: 'Sinais de pontuação', status: 'publicado',
@@ -201,6 +210,20 @@ export const demo = {
     const db = ler(); const t = db.turmas.find((x) => x.id === turmaId);
     if (!t) throw new Error('Turma não encontrada.');
     t.lembrar = modo; gravar(db);
+  },
+  // ===== Tarefas e provas =====
+  async tarefas(turmaId) {
+    const db = ler(); if (!db.tarefas) db.tarefas = tarefasExemplo();
+    return db.tarefas.filter((t) => t.turma_id === turmaId).sort((a, b) => (a.data < b.data ? -1 : 1));
+  },
+  async salvarTarefa(t) {
+    const db = ler(); if (!db.tarefas) db.tarefas = tarefasExemplo();
+    let x = t.id && db.tarefas.find((y) => y.id === t.id);
+    if (x) Object.assign(x, t); else { x = { ...t, id: 'tar' + Date.now().toString(36), criado_em: new Date().toISOString() }; db.tarefas.push(x); }
+    gravar(db); return x;
+  },
+  async excluirTarefa(id) {
+    const db = ler(); db.tarefas = (db.tarefas || []).filter((t) => t.id !== id); gravar(db);
   },
   // ===== Material da aula (no demo, a "IA" é simulada) =====
   async materiais(turmaId) {

@@ -81,6 +81,24 @@ export const supabase = sb && {
     const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
     if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
   },
+  // ===== Tarefas e provas =====
+  async tarefas(turmaId) {
+    if (!turmaId) return [];
+    const { data, error } = await sb.from('tarefas').select('*').eq('turma_id', turmaId).order('data');
+    if (error) { if (/tarefas|schema cache/i.test(error.message)) return []; throw error; }
+    return data;
+  },
+  async salvarTarefa(t) {
+    const linha = { turma_id: t.turma_id, tipo: t.tipo, titulo: t.titulo, materia: t.materia, topicos: t.topicos, meta: t.meta, data: t.data };
+    const q = t.id ? sb.from('tarefas').update(linha).eq('id', t.id) : sb.from('tarefas').insert(linha);
+    const { data, error } = await q.select().single();
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async excluirTarefa(id) {
+    const { error } = await sb.from('tarefas').delete().eq('id', id);
+    if (error) throw error;
+  },
   // ===== Material da aula =====
   async materiais(turmaId) {
     if (!turmaId) return [];

@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { corrigir, respostaEmTexto, MATERIAS, parecida, dicas, tempoLeitura, tempoExplicacao, topico } from '../conteudo.js';
 import { nomeTopico } from '../progresso.js';
+import { BotaoOuvir, parar } from '../fala.jsx';
 
 const embaralhar = (a) => a.map((x) => [Math.random(), x]).sort((p, q) => p[0] - q[0]).map((p) => p[1]);
 const Html = ({ html, className }) => <div className={className} dangerouslySetInnerHTML={{ __html: html }} />;
@@ -59,7 +60,14 @@ function ModoTutor({ q, ok, escolhida }) {
   );
   return (
     <div className={'mtutor' + (ok ? '' : ' err')}>
-      <div className="mt-h">{ok ? 'Modo tutor' : 'Modo tutor · bora entender o que rolou'}</div>
+      <div className="mt-h linha" style={{ justifyContent: 'space-between' }}><span>{ok ? 'Modo tutor' : 'Modo tutor · bora entender o que rolou'}</span>
+        <BotaoOuvir id={'tutor-' + q.id} rotulo="Ouvir explicação" partes={() => [
+          !ok && { texto: `Você marcou ${escolhida}. A certa é ${certa}.` },
+          { texto: `Por que é ${certa}: ${T.certa || q.explicacao || ''}` },
+          ...(!ok && T.alternativas?.[escolhida] ? [{ texto: `Sobre ${escolhida}: ${T.alternativas[escolhida]}` }] : []),
+          { texto: pontos.length ? 'O que cai na prova: ' + pontos.join('. ') : '' },
+          { texto: T.pegadinha ? 'Cuidado com a pegadinha: ' + T.pegadinha : '' },
+        ].filter(Boolean)} /></div>
       {!ok && <div className="mt-sec mt-mine"><b>✏️ Você marcou: <span dangerouslySetInnerHTML={{ __html: escolhida }} /></b><div>A certa é <b dangerouslySetInnerHTML={{ __html: certa }} />. Tranquilo: errar aqui é melhor que errar na prova.</div></div>}
       <div className="mt-sec mt-ok"><b>✅ Por que é <span dangerouslySetInnerHTML={{ __html: certa }} /></b><Html html={T.certa || q.explicacao || ''} /></div>
       {ok ? <details className="mt-extra"><summary>Ver o que cai na prova{outras.length ? ' e por que as outras não rolam' : ''}</summary>{extra}</details> : extra}
@@ -153,6 +161,10 @@ function Pergunta({ q, gato, aoResponder, aoLembrou, comDicas = true, lembrar = 
   return (
     <div className="questao">
       <Html className="enunciado" html={q.enunciado} />
+      <BotaoOuvir id={'q-' + q.id} rotulo="Ouvir a questão" partes={() => [
+        { texto: q.enunciado, lang: q.materia === 'en' && /[a-z]{3,} [a-z]{2,}/i.test(semTags(q.enunciado)) && !/[ãçéêíóôõú]/i.test(semTags(q.enunciado)) ? 'en-US' : 'pt-BR' },
+        ...(q.tipo === 'mc' && fase !== 'lembrar' && lida ? opcoes.map((o, k) => ({ texto: `${'ABCDE'[k]}: ${o}`, lang: q.materia === 'en' && !/[ãçéêíóôõú]/i.test(o) ? 'en-US' : 'pt-BR' })) : []),
+      ]} />
       {fase === 'lembrar' ? (
         <div className="lembrar">
           <p className="pequeno"><b>🧠 Tente lembrar primeiro.</b> Escreva a resposta; as alternativas aparecem depois.</p>
@@ -229,7 +241,8 @@ export default function Licao({ titulo, questoes, aoResponder, aoEvento = () => 
   const lembrarAqui = lembrar === true || lembrar === 'sempre' || (lembrar === 'as_vezes' && i % 2 === 0);
   const materia = MATERIAS.find((m) => m.id === q?.materia);
 
-  useEffect(() => { setEtapa('pergunta'); setProva(null); window.scrollTo({ top: 0 }); }, [i]);
+  useEffect(() => { setEtapa('pergunta'); setProva(null); parar(); window.scrollTo({ top: 0 }); }, [i]);
+  useEffect(() => () => parar(), []);
 
   const registrar = (questao, ok, resposta, tempo, contexto, dica, extra = {}) => aoResponder({
     questao_id: questao.id, topico_id: questao.topico, materia: questao.materia, correta: ok, resposta, tempo_ms: tempo,

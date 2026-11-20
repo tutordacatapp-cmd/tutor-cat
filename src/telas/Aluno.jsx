@@ -10,6 +10,7 @@ import { gatoSVG } from '../mascote/arte.js';
 import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
 import { missoesDoDia, contadoresDoDia, hojeStr } from '../mascote/missoes.js';
 import { topico as topicoPorId, registrarMateriais, idTopicoMaterial } from '../conteudo.js';
+import { paraFazer, progresso, preparo, quando, dataBR, diasAte, licaoCombinada } from '../tarefas.js';
 import { situacaoTopico, ultimoResultado } from '../progresso.js';
 
 const MASCOTE_PADRAO = { nome: '', pelagem: 'cinza', eq: {}, cenario: 'quarto', vistos: null, missoes: [] };
@@ -37,12 +38,14 @@ export default function Aluno({ perfil }) {
   const [fila, setFila] = useState([]);
   const [modoLembrar, setModoLembrar] = useState('sempre');
   const [materiais, setMateriais] = useState([]);
+  const [tarefas, setTarefas] = useState([]);
   const salvarTimer = useRef(null);
   const [salvo, setSalvo] = useState('salvo'); // 'salvando' | 'salvo' | 'erro'
 
   useEffect(() => {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
     api.materiais?.(perfil.turma_id).then((ms) => { const pub = ms.filter((m) => m.status === 'publicado'); registrarMateriais(pub); setMateriais(pub); }).catch(() => {});
+    api.tarefas?.(perfil.turma_id).then(setTarefas).catch(() => {});
     api.modoLembrar?.(perfil.turma_id).then((m) => setModoLembrar(m || 'sempre')).catch(() => {});
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
@@ -190,8 +193,31 @@ export default function Aluno({ perfil }) {
   // Início
   const totalPend = errosPendentes(tentativas);
   const fracos = pontosFracos(tentativas);
+  const pendentes = paraFazer(tarefas, tentativas);
   return (
     <div className="pilha">
+      {pendentes.length > 0 && (
+        <div className="cartao pilha para-fazer">
+          <h3>📌 Para fazer</h3>
+          {pendentes.map((t) => {
+            const ehProva = t.tipo === 'prova';
+            const p = progresso(t, tentativas), r = preparo(t, tentativas), n = diasAte(t.data);
+            return (
+              <button key={t.id} className="pf-item" onClick={() => setTela({ nome: 'licao', titulo: t.titulo, questoes: licaoCombinada(t.topicos, tentativas), voltar: { nome: 'inicio' } })}>
+                {ehProva ? <span className="contagem">{n}<small>{n === 1 ? 'dia' : 'dias'}</small></span> : <span style={{ fontSize: 26 }}>📌</span>}
+                <span className="pilha" style={{ gap: 0 }}>
+                  <b>{t.titulo}</b>
+                  <span className="mudo pequeno">{ehProva ? `Prova ${dataBR(t.data)} · ${quando(t.data, t.tipo)}` : `Prazo ${dataBR(t.data)} · ${quando(t.data, t.tipo)}`}</span>
+                  {ehProva
+                    ? <span className="pequeno">{r.feitas ? `Seu acerto nesses tópicos: ${pct(r.taxa)}` : 'Comece a revisar: o app puxa primeiro o que você errou.'}</span>
+                    : <><span className="pequeno">{Math.min(p.feitas, p.alvo)} de {p.alvo} questões</span><span className="barra"><i style={{ width: p.frac * 100 + '%' }} /></span></>}
+                </span>
+                <span className="treinar">{ehProva ? 'Revisar ▸' : 'Fazer ▸'}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
       <button className="cartao g-cartao" onClick={() => setTela({ nome: 'gato' })}>
         <span className="g-cartao-gato" dangerouslySetInnerHTML={{ __html: gatoMini }} />
         <span className="pilha" style={{ gap: 2 }}>

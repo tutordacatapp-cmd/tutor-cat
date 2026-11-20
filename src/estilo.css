@@ -275,3 +275,25 @@ a.btn { text-decoration: none; display: inline-block; }
 .sem-quebra { white-space: nowrap; }
 .mini { font-size: 12px; }
 .caixa-senha { background: var(--mt-soft); border: 2px solid var(--line); border-radius: 12px; padding: 10px 12px; margin-top: 6px; }
+/* Tarefas e provas */
+.lista-check { display: flex; flex-direction: column; gap: 4px; max-height: 320px; overflow-y: auto; border: 2px solid var(--line); border-radius: 12px; padding: 6px; }
+.check { display: flex; gap: 8px; align-items: center; padding: 6px 8px; border-radius: 8px; font-size: 15px; font-weight: 400; cursor: pointer; }
+.check.on { background: var(--mt-soft); font-weight: 700; }
+.tarefa.passada { opacity: .7; }
+.para-fazer { border-color: var(--hi); }
+.pf-item { display: grid; grid-template-columns: auto 1fr auto; gap: 10px; align-items: center; width: 100%; text-align: left; background: none; border: 0; border-top: 1px solid var(--line); padding: 10px 0 2px; cursor: pointer; font: inherit; color: inherit; }
+.pf-item .barra { height: 6px; border-radius: 4px; background: var(--line); overflow: hidden; margin-top: 4px; }
+.pf-item .barra i { display: block; height: 100%; background: var(--mt); }
+.contagem { font: 800 22px var(--display); color: var(--hi); text-align: center; min-width: 46px; line-height: 1; }
+.contagem small { display: block; font: 600 11px var(--body); color: var(--muted); }
+.ouvir { align-self: flex-start; white-space: nowrap; }
+/* Boas-vindas */
+.bv-fundo { position: fixed; inset: 0; background: #0009; display: grid; place-items: center; padding: 16px; z-index: 50; }
+.bv { max-width: 440px; width: 100%; display: flex; flex-direction: column; gap: 8px; }
+.bv h2 { margin: 0; }
+.bv p { margin: 0; }
+.bv-em { font-size: 56px; text-align: center; line-height: 1.1; }
+.bv-em svg { width: 150px; height: auto; }
+.bv-pontos { display: flex; gap: 6px; justify-content: center; margin: 6px 0; }
+.bv-pontos i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
+.bv-pontos i.on { background: var(--mt); }

@@ -5,10 +5,12 @@ import Aluno from './telas/Aluno.jsx';
 import Professor from './telas/Professor.jsx';
 import Coordenacao from './telas/Coordenacao.jsx';
 import { MinhaSenha } from './telas/Senha.jsx';
+import Boasvindas, { jaViu } from './telas/Boasvindas.jsx';
 
 export default function App() {
   const [perfil, setPerfil] = useState(undefined); // undefined = carregando
   const [senhaAberta, setSenhaAberta] = useState(false);
+  const [bv, setBv] = useState(null); // null = decidir pelo histórico
 
   useEffect(() => {
     api.sessaoAtual().then(setPerfil).catch(() => setPerfil(null));
@@ -20,7 +22,7 @@ export default function App() {
   }
 
   if (perfil === undefined) return <div className="moldura"><p className="mudo">Carregando…</p></div>;
-  if (!perfil) return <div className="moldura"><Login aoEntrar={setPerfil} /></div>;
+  if (!perfil) return <div className="moldura"><Login aoEntrar={(p) => { setBv(null); setPerfil(p); }} /></div>;
 
   return (
     <div className="moldura">
@@ -32,8 +34,10 @@ export default function App() {
           <button className="sair" onClick={sair}>Sair</button>
         </span>
       </header>
+      {(bv ?? !jaViu(perfil.id)) && <Boasvindas perfil={perfil} aoFechar={() => setBv(false)} />}
       {senhaAberta && <MinhaSenha aoFechar={() => setSenhaAberta(false)} />}
       {perfil.papel === 'coordenacao' ? <Coordenacao perfil={perfil} /> : perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
+      <footer className="rodape pequeno mudo"><button className="link" onClick={() => setBv(true)}>Como funciona?</button></footer>
       {api.modo === 'demo' && (
         <footer className="rodape pequeno mudo">
           Modo demonstração ·{' '}
