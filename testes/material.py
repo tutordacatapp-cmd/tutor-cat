@@ -1,0 +1,36 @@
+import sys
+from playwright.sync_api import sync_playwright
+url='file://'+sys.argv[1]; out=sys.argv[2]; erros=[]
+TXT="""A fotossíntese é o processo pelo qual as plantas produzem o próprio alimento. As plantas usam a energia da luz solar, a água e o gás carbônico. O pigmento verde chamado clorofila captura a energia da luz. Como resultado, a planta produz glicose e libera oxigênio para o ambiente. A fotossíntese acontece principalmente nas folhas, dentro dos cloroplastos."""
+def entrar(pg,u):
+    pg.fill('input >> nth=1',u); pg.fill('input[type=password]','1234'); pg.click('text=Entrar'); pg.wait_for_timeout(600)
+    if pg.locator('.bv').count(): pg.click('.bv >> text=Pular'); pg.wait_for_timeout(200)
+with sync_playwright() as p:
+    b=p.chromium.launch(executable_path='/usr/bin/google-chrome')
+    pg=b.new_page(viewport={'width':390,'height':844}); pg.on('pageerror',lambda e:erros.append(str(e)))
+    pg.goto(url); pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(400)
+    entrar(pg,'professora'); pg.click('nav.abas >> text=Material'); pg.wait_for_timeout(300)
+    pg.screenshot(path=out+'/m1-lista.png',full_page=True)
+    pg.click('text=+ Novo material'); pg.select_option('select >> nth=0','pt'); pg.fill('textarea',TXT); pg.select_option('select >> nth=1','5')
+    pg.screenshot(path=out+'/m2-novo.png',full_page=True)
+    pg.click('text=✨ Gerar questões'); pg.wait_for_timeout(300); print('gerando:',pg.locator('.gerando').count())
+    pg.wait_for_selector('.questao-ed',timeout=8000); pg.wait_for_timeout(200)
+    print('questoes geradas:',pg.locator('.questao-ed').count())
+    pg.locator('.ed-topo').first.click(); pg.wait_for_timeout(200)
+    pg.locator('.questao-ed').first.locator('textarea').first.fill('Qual pigmento verde captura a energia da luz?')
+    pg.screenshot(path=out+'/m3-editor.png',full_page=True)
+    pg.click('text=📢 Publicar para a turma'); pg.wait_for_timeout(400)
+    print(pg.inner_text('.cartao.pilha:last-child p.pequeno'))
+    pg.click('text=← Materiais'); pg.wait_for_timeout(300); pg.screenshot(path=out+'/m4-lista2.png',full_page=True)
+    print('itens:',pg.locator('.material-item').count())
+    pg.click('text=Sair'); pg.wait_for_timeout(300)
+    entrar(pg,'catarina')
+    while pg.locator('.g-pop').count(): pg.locator('.g-pop .btn').last.click(force=True); pg.wait_for_timeout(250)
+    pg.screenshot(path=out+'/m5-aluno.png')
+    print('materiais aluno:',pg.locator('.mat-aluno').count())
+    pg.locator('.mat-aluno').first.click(); pg.wait_for_timeout(300)
+    if pg.locator('text=Não lembro').count(): pg.click('text=Não lembro'); pg.wait_for_timeout(900)
+    pg.locator('.cartao > .questao .opcoes button').nth(1).click(); pg.wait_for_timeout(400)
+    pg.screenshot(path=out+'/m6-licao.png',full_page=True)
+    b.close()
+print('ERROS:',erros)

@@ -83,8 +83,8 @@ Deno.serve(async (req) => {
   if (!MATERIAS[materia]) return resposta(400, { erro: 'Matéria inválida.' });
   if (texto.trim().length < 80 && !imagens.length) return resposta(400, { erro: 'Mande um texto maior ou fotos do material.' });
 
-  const { data: ehProf } = await comoUsuario.rpc('professor_da_turma', { t: turma_id });
-  if (!ehProf) return resposta(403, { erro: 'Só o professor da turma pode gerar questões.' });
+  const { data: podeGerir } = await comoUsuario.rpc('gere_turma', { t: turma_id });
+  if (!podeGerir) return resposta(403, { erro: 'Só o professor da turma ou a coordenação pode gerar questões.' });
   const { data: turma } = await comoUsuario.from('turmas').select('nome').eq('id', turma_id).maybeSingle();
 
   // Limite diário por professor (protege o saldo da conta).

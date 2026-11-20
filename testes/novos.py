@@ -1,0 +1,35 @@
+import sys
+from playwright.sync_api import sync_playwright
+url='file://'+sys.argv[1]; out=sys.argv[2]; erros=[]
+def login(pg,u):
+    pg.fill('input >> nth=1',u); pg.fill('input[type=password]','1234'); pg.click('text=Entrar'); pg.wait_for_timeout(600)
+def pops(pg):
+    while pg.locator('.g-pop').count(): pg.locator('.g-pop .btn').last.click(force=True); pg.wait_for_timeout(250)
+with sync_playwright() as p:
+    b=p.chromium.launch(executable_path='/usr/bin/google-chrome')
+    pg=b.new_page(viewport={'width':390,'height':844}); pg.on('pageerror',lambda e:erros.append(str(e)))
+    pg.add_init_script("window.__falas=[]; const S=window.speechSynthesis; if(S){S.speak=(u)=>{window.__falas.push(u.text)}; S.cancel=()=>{};}")
+    pg.goto(url); pg.evaluate("localStorage.clear()"); pg.reload(); pg.wait_for_timeout(400)
+    login(pg,'catarina')
+    print('bv aluno:', pg.locator('.bv').count()); pg.screenshot(path=out+'/n1-bv.png')
+    pg.click('.bv >> text=Próximo'); pg.click('.bv >> text=Próximo'); pg.click('.bv >> text=Começar'); pg.wait_for_timeout(200)
+    pops(pg); print('bv fechou:', pg.locator('.bv').count()==0)
+    print('para fazer:', pg.locator('.pf-item').count()); pg.screenshot(path=out+'/n2-parafazer.png')
+    pg.locator('.pf-item').first.click(); pg.wait_for_timeout(300)
+    pg.click('text=🔊 Ouvir a questão'); pg.wait_for_timeout(200); print('falou:', pg.evaluate('window.__falas.length'), pg.evaluate('window.__falas[0]')[:60])
+    if pg.locator('text=Não lembro').count(): pg.click('text=Não lembro'); pg.wait_for_timeout(900)
+    bt=pg.locator('.cartao > .questao .opcoes button')
+    if bt.count(): bt.nth(1).click()
+    else: pg.locator('.questao input').first.fill('1'); pg.keyboard.press('Enter')
+    pg.wait_for_timeout(400); pg.click('text=🔊 Ouvir explicação'); pg.wait_for_timeout(200); print('explicou:', pg.evaluate('window.__falas.length'))
+    pg.screenshot(path=out+'/n3-audio.png', full_page=True)
+    pg.goto(url); pg.wait_for_timeout(500); print('bv não volta:', pg.locator('.bv').count()==0)
+    pops(pg); pg.click('button.sair:has-text("Sair")'); pg.wait_for_timeout(300)
+    login(pg,'professora'); print('bv prof:', pg.locator('.bv h2').inner_text()); pg.click('.bv >> text=Pular')
+    pg.click('nav.abas >> text=Tarefas'); pg.wait_for_timeout(300); pg.screenshot(path=out+'/n4-tarefas.png', full_page=True)
+    pg.click('text=+ Prova'); pg.select_option('.campo select >> nth=0','hi'); pg.wait_for_timeout(200)
+    pg.locator('.check').nth(0).click(); pg.locator('.check').nth(2).click(); pg.screenshot(path=out+'/n5-form.png', full_page=True)
+    pg.click('text=Salvar e mostrar aos alunos'); pg.wait_for_timeout(400); print('tarefas:', pg.locator('.tarefa').count())
+    pg.locator('.tarefa').first.locator('.ed-topo').click(); pg.wait_for_timeout(200); pg.screenshot(path=out+'/n6-detalhe.png', full_page=True)
+    b.close()
+print('ERROS:',erros)

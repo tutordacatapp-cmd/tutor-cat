@@ -4,6 +4,8 @@ on:
     branches: [main]
     paths: ['supabase/migrations/**', '.github/workflows/banco.yml']
   workflow_dispatch:
+  schedule:
+    - cron: '17 9 * * 1,4'  # 2x por semana: mantém o projeto gratuito do Supabase acordado
 jobs:
   migrar:
     runs-on: ubuntu-latest
