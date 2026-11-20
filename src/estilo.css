@@ -265,3 +265,12 @@ a.btn { text-decoration: none; display: inline-block; }
 .errada-ed { display: flex; flex-direction: column; gap: 4px; }
 .errada-ed > input { font-size: 14px; padding: 6px 10px; }
 .mat-aluno { display: flex; justify-content: space-between; align-items: center; gap: 10px; width: 100%; text-align: left; background: none; border: 0; border-top: 1px solid var(--line); padding: 10px 0 2px; cursor: pointer; }
+
+/* Tabela de alunos com 6 matérias cabendo no celular */
+.tabela.compacta th, .tabela.compacta td { padding: 8px 3px; }
+.tabela.compacta td:first-child { padding-right: 6px; }
+.tabela.compacta .pilula { min-width: 0; width: 40px; padding: 1px 0; font-size: 12.5px; }
+.tabela.compacta th.num { text-align: center; }
+.tabela.compacta td.num { text-align: center; }
+.sem-quebra { white-space: nowrap; }
+.mini { font-size: 12px; }

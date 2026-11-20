@@ -138,21 +138,20 @@ export default function Professor({ perfil }) {
 
       {aba === 'alunos' && (
         <div className="cartao rolavel">
-          <table className="tabela">
+          <table className="tabela compacta">
             <thead>
-              <tr><th>Aluno</th><th className="num">Questões</th>{MATERIAS.map((m) => <th key={m.id} className="num" title={m.nome}>{m.nome.slice(0, 3)}.</th>)}</tr>
+              <tr><th>Aluno</th>{MATERIAS.map((m) => <th key={m.id} className="num" title={m.nome}>{m.nome.slice(0, 3)}</th>)}</tr>
             </thead>
             <tbody>
               {linhas.map((a) => (
                 <tr key={a.id} className="clicavel" onClick={() => setAlunoAberto(a)}>
-                  <td><b>{a.nome}</b><br /><span className="mudo pequeno">{a.ultima ? 'usou em ' + new Date(a.ultima).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : 'ainda não usou'}</span></td>
-                  <td className="num">{a.semana}</td>
+                  <td title={a.nome}><b>{a.nome.split(' ')[0]}</b><br /><span className="mudo mini sem-quebra">{a.semana} quest.</span><br /><span className="mudo mini sem-quebra">{a.ultima ? new Date(a.ultima).toLocaleDateString('pt-BR', { day: '2-digit', month: '2-digit' }) : 'não usou'}</span></td>
                   {MATERIAS.map((m) => <td key={m.id} className="num"><span className={'pilula ' + cor(a.porMateria[m.id])}>{pct(a.porMateria[m.id])}</span></td>)}
                 </tr>
               ))}
             </tbody>
           </table>
-          <p className="mudo pequeno">Questões e acerto dos últimos 7 dias. Vermelho: abaixo de 60% · amarelo: 60–79% · verde: 80% ou mais. Toque num aluno para ver os tópicos.</p>
+          <p className="mudo pequeno">Questões feitas e acerto dos últimos 7 dias; a data é o último uso. Vermelho: abaixo de 60% · amarelo: 60–79% · verde: 80% ou mais. Toque num aluno para ver os tópicos.</p>
         </div>
       )}
 
