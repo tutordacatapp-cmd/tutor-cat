@@ -1,0 +1,37 @@
+name: Resumo semanal para as famílias
+on:
+  schedule:
+    - cron: '7 21 * * 0'   # domingo, 18h07 em Brasília
+  workflow_dispatch:
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.SUPABASE_DB_TOKEN }}
+      GMAIL_USUARIO: ${{ secrets.GMAIL_USUARIO }}
+      GMAIL_SENHA_APP: ${{ secrets.GMAIL_SENHA_APP }}
+      API: https://api.supabase.com/v1/projects/ekntfedgurdxiywqfxyx/database/query
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - name: Buscar dados (sem imprimir nada pessoal)
+        run: |
+          set -euo pipefail
+          if [ -z "${GMAIL_SENHA_APP:-}" ]; then echo "Envio ainda não configurado (faltam GMAIL_USUARIO/GMAIL_SENHA_APP)."; echo '{"alunos":[]}' > dados.json; exit 0; fi
+          SQL="select json_build_object('alunos', coalesce(json_agg(json_build_object(
+              'nome', p.nome, 'email', a.contato, 'responsavel', coalesce(a.responsavel, ''),
+              'gato', (select m.dados->>'nome' from mascotes m where m.aluno_id = p.id),
+              'tentativas', coalesce((select json_agg(json_build_object('questao_id', t.questao_id, 'topico_id', t.topico_id, 'materia', t.materia, 'correta', t.correta, 'contexto', t.contexto, 'lembrou', t.lembrou, 'criado_em', t.criado_em)) from tentativas t where t.aluno_id = p.id), '[]'::json)
+            )), '[]'::json)) as d
+            from autorizacoes a join perfis p on p.id = a.aluno_id
+            where a.quer_resumo and a.contato ~ '^[^@[:space:]]+@[^@[:space:]]+[.][^@[:space:]]+$'"
+          jq -n --arg q "$SQL" '{query:$q}' | curl -sS --fail-with-body -X POST "$API" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" --data @- | jq '.[0].d' > dados.json
+          echo "famílias inscritas: $(jq '.alunos | length' dados.json)"
+      - name: Montar os resumos
+        run: |
+          npm ci --silent
+          npx esbuild ferramentas/resumo-semanal.mjs --bundle --platform=node --format=esm --outfile=/tmp/resumo.mjs --log-level=error
+          node /tmp/resumo.mjs dados.json emails.json
+      - name: Enviar
+        run: python3 ferramentas/enviar-emails.py emails.json
