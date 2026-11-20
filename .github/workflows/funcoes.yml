@@ -15,4 +15,4 @@ jobs:
         with:
           version: latest
       - name: Publicar gerar-questoes
-        run: supabase functions deploy gerar-questoes --project-ref ekntfedgurdxiywqfxyx --use-api --yes
+        run: supabase functions deploy gerar-questoes --project-ref ekntfedgurdxiywqfxyx --use-api --yes --no-verify-jwt
