@@ -110,6 +110,30 @@ export const supabase = sb && {
     const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
     if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
   },
+  // ===== Termo de autorização dos responsáveis =====
+  async termoInfo(token) {
+    const { data, error } = await sb.rpc('termo_info', { p_token: token });
+    if (error) throw new Error(error.message);
+    return data;
+  },
+  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao }) {
+    const { error } = await sb.rpc('assinar_termo', { p_token: token, p_responsavel: responsavel, p_parentesco: parentesco, p_cpf: cpf, p_contato: contato, p_versao: versao });
+    if (error) throw new Error(error.message);
+  },
+  async minhaAutorizacao(alunoId) {
+    const { data, error } = await sb.from('autorizacoes').select('aluno_id').eq('aluno_id', alunoId).maybeSingle();
+    if (error) return true; // tabela ainda não criada: não bloqueia
+    return !!data;
+  },
+  async coordTermos() {
+    const { data, error } = await sb.rpc('coord_termos');
+    if (error) return [];
+    return data;
+  },
+  async coordTermoPapel(alunoId, recebido) {
+    const { error } = await sb.rpc('coord_termo_papel', { p_aluno: alunoId, p_recebido: recebido });
+    if (error) throw new Error(error.message);
+  },
   // ===== Avisos de erro em questões =====
   async avisarErro(aviso) {
     const { error } = await sb.from('avisos').insert(aviso);

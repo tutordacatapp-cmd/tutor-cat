@@ -6,12 +6,15 @@ import Professor from './telas/Professor.jsx';
 import Coordenacao from './telas/Coordenacao.jsx';
 import { MinhaSenha } from './telas/Senha.jsx';
 import Boasvindas, { jaViu } from './telas/Boasvindas.jsx';
+import Termo from './telas/Termo.jsx';
 
 export default function App() {
   const [perfil, setPerfil] = useState(undefined); // undefined = carregando
   const [senhaAberta, setSenhaAberta] = useState(false);
   const [bv, setBv] = useState(null); // null = decidir pelo histórico
 
+  const [, setHash] = useState(location.hash);
+  useEffect(() => { const f = () => setHash(location.hash); addEventListener('hashchange', f); return () => removeEventListener('hashchange', f); }, []);
   useEffect(() => {
     api.sessaoAtual().then(setPerfil).catch(() => setPerfil(null));
   }, []);
@@ -21,6 +24,8 @@ export default function App() {
     setPerfil(null);
   }
 
+  const tokenTermo = (location.hash.match(/^#termo=([A-Za-z0-9-]+)/) || [])[1];
+  if (tokenTermo) return <div className="moldura"><header className="topo"><span className="marca">Tutor da Cat</span></header><Termo token={tokenTermo} /></div>;
   if (perfil === undefined) return <div className="moldura"><p className="mudo">Carregando…</p></div>;
   if (!perfil) return <div className="moldura"><Login aoEntrar={(p) => { setBv(null); setPerfil(p); }} /></div>;
 

@@ -41,6 +41,17 @@ function semente() {
   return { usuarios, turmas: [TURMA], tentativas, sessao: null };
 }
 
+function autorizacoesDe(db) {
+  if (!db.autorizacoes) db.autorizacoes = Object.fromEntries(db.usuarios.filter((u) => u.papel === 'aluno' && u.usuario !== 'pedro').map((u) => [u.id, { forma: 'papel', aceito_em: '2026-11-18T12:00:00Z' }]));
+  return db.autorizacoes;
+}
+function cpfValido(c) {
+  const d = String(c).replace(/\D/g, '');
+  if (d.length !== 11 || /^(\d)\1{10}$/.test(d)) return false;
+  const dv = (n) => { let s = 0; for (let i = 0; i < n; i++) s += +d[i] * (n + 1 - i); const r = (s * 10) % 11; return r === 10 ? 0 : r; };
+  return dv(9) === +d[9] && dv(10) === +d[10];
+}
+
 function tarefasExemplo() {
   const dia = (n) => { const d = new Date(); d.setDate(d.getDate() + n); return d.toISOString().slice(0, 10); };
   const ontem = new Date(Date.now() - 864e5).toISOString();
@@ -210,6 +221,31 @@ export const demo = {
     const db = ler(); const t = db.turmas.find((x) => x.id === turmaId);
     if (!t) throw new Error('Turma não encontrada.');
     t.lembrar = modo; gravar(db);
+  },
+  // ===== Termo de autorização dos responsáveis =====
+  async termoInfo(token) {
+    const db = ler(); const u = db.usuarios.find((x) => x.papel === 'aluno' && 'tok-' + x.id === token);
+    if (!u) return null;
+    return { aluno: u.nome.split(' ')[0], escola: ESCOLA.nome, autorizado: !!autorizacoesDe(db)[u.id] };
+  },
+  async assinarTermo({ token, responsavel, parentesco, cpf, contato, versao }) {
+    const db = ler(); const u = db.usuarios.find((x) => x.papel === 'aluno' && 'tok-' + x.id === token);
+    if (!u) throw new Error('Link inválido. Peça um novo link à escola.');
+    if (responsavel.trim().length < 5 || !responsavel.trim().includes(' ')) throw new Error('Escreva o nome completo do responsável.');
+    if (!parentesco) throw new Error('Informe o parentesco.');
+    if (!cpfValido(cpf)) throw new Error('CPF inválido. Confira os números.');
+    autorizacoesDe(db)[u.id] = { forma: 'digital', responsavel: responsavel.trim(), parentesco, aceito_em: new Date().toISOString(), versao, contato };
+    gravar(db);
+  },
+  async minhaAutorizacao(alunoId) { return !!autorizacoesDe(ler())[alunoId]; },
+  async coordTermos() {
+    const db = ler(); const a = autorizacoesDe(db);
+    return db.usuarios.filter((u) => u.papel === 'aluno').map((u) => ({ aluno_id: u.id, token: 'tok-' + u.id, forma: a[u.id]?.forma || null, responsavel: a[u.id]?.responsavel || null, aceito_em: a[u.id]?.aceito_em || null }));
+  },
+  async coordTermoPapel(alunoId, recebido) {
+    const db = ler(); exigirCoord(db); const a = autorizacoesDe(db);
+    if (recebido) a[alunoId] ||= { forma: 'papel', aceito_em: new Date().toISOString() }; else delete a[alunoId];
+    gravar(db);
   },
   // ===== Avisos de erro em questões =====
   async avisarErro(aviso) { const db = ler(); (db.avisos ||= []).push({ ...aviso, id: Date.now(), aluno_id: db.sessao, criado_em: new Date().toISOString() }); gravar(db); },

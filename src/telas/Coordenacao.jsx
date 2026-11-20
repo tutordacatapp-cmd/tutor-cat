@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { api } from '../dados/api.js';
 import Professor from './Professor.jsx';
 import { gerarSenha, NovaSenha } from './Senha.jsx';
+import { linkTermo } from './Termo.jsx';
 
 // ===== geração de usuário e senha =====
 const semAcento = (s) => s.normalize('NFD').replace(/[̀-ͯ]/g, '');
@@ -66,11 +67,13 @@ export default function Coordenacao({ perfil }) {
   const [turmaSel, setTurmaSel] = useState('');
   const [filtro, setFiltro] = useState('');
   const [apagar, setApagar] = useState(null);
+  const [termos, setTermos] = useState({});
+  const [avisoTermo, setAvisoTermo] = useState('');
 
   async function recarregar() {
     try {
-      const [t, p] = await Promise.all([api.turmasDaEscola(), api.pessoasDaEscola()]);
-      setTurmas(t); setPessoas(p);
+      const [t, p, tm] = await Promise.all([api.turmasDaEscola(), api.pessoasDaEscola(), api.coordTermos ? api.coordTermos() : []]);
+      setTurmas(t); setPessoas(p); setTermos(Object.fromEntries(tm.map((x) => [x.aluno_id, x])));
       if (!turmaSel && t[0]) setTurmaSel(t[0].id);
     } catch (e) { setErro(e.message); }
   }
@@ -200,6 +203,22 @@ export default function Coordenacao({ perfil }) {
             <p className="mudo pequeno">O app cria o usuário (ex.: ana.souza) e uma senha fácil (ex.: tigre-4821) para cada pessoa.</p>
           </div>
 
+          {(() => {
+            const alunos = visiveis.filter((p) => p.papel === 'aluno');
+            const pend = alunos.filter((p) => termos[p.id] && !termos[p.id].forma);
+            if (!alunos.length || !Object.keys(termos).length) return null;
+            const msgFamilias = 'Olá! A escola está testando o app de estudos Tutor da Cat. Para seu filho(a) participar, precisamos da sua autorização: abra o link, leia e assine (leva 2 minutos).\n\n' +
+              pend.map((p) => `${p.nome}: ${linkTermo(termos[p.id].token)}`).join('\n');
+            return (
+              <div className="cartao pilha">
+                <h3>📝 Autorização dos responsáveis</h3>
+                <p className="pequeno" style={{ margin: 0 }}><b>{alunos.length - pend.length} de {alunos.length}</b> alunos autorizados{filtro ? ' nesta turma' : ''}. Quem não tem autorização não consegue usar o app.</p>
+                {pend.length > 0 && <button className="btn" style={{ alignSelf: 'flex-start' }} onClick={() => copiar(msgFamilias, setAvisoTermo)}>📋 Copiar mensagem com os links ({pend.length})</button>}
+                <span className="mudo mini">Cada aluno tem um link próprio. Mande pelo WhatsApp da família; o responsável assina no celular, com nome e CPF. Termo em papel? Marque "Recebi em papel" na pessoa.</span>
+                {avisoTermo && <span className="pequeno">{avisoTermo}</span>}
+              </div>
+            );
+          })()}
           <div className="linha">
             <h3>Pessoas</h3>
             <select value={filtro} onChange={(e) => setFiltro(e.target.value)}>
@@ -228,7 +247,19 @@ export default function Coordenacao({ perfil }) {
                           </div>
                         </div>
                       )}</td>
-                    <td><code>{p.usuario || '—'}</code></td>
+                    <td><code>{p.usuario || '—'}</code>
+                      {p.papel === 'aluno' && termos[p.id] && (() => {
+                        const tm = termos[p.id];
+                        return (
+                          <div className="pilha" style={{ gap: 2, marginTop: 4 }}>
+                            <span className="st-termo">{tm.forma === 'digital' ? `✅ assinado (${new Date(tm.aceito_em).toLocaleDateString('pt-BR')})` : tm.forma === 'papel' ? '📄 termo em papel' : '⏳ sem autorização'}</span>
+                            {tm.forma === 'digital' && tm.responsavel && <span className="mudo mini">{tm.responsavel}</span>}
+                            {!tm.forma && <button className="link mini" onClick={() => copiar(`Autorização do Tutor da Cat para ${p.nome}: ${linkTermo(tm.token)}`, setAvisoTermo)}>📋 Link da família</button>}
+                            {tm.forma !== 'digital' && <button className="link mini" disabled={ocupado} onClick={() => acao(async () => { await api.coordTermoPapel(p.id, tm.forma !== 'papel'); await recarregar(); })}>{tm.forma === 'papel' ? 'Desfazer papel' : '📄 Recebi em papel'}</button>}
+                          </div>
+                        );
+                      })()}
+                    </td>
                     <td>
                       {p.papel === 'aluno' ? (
                         <select value={p.turma_id || ''} disabled={ocupado} onChange={(e) => mudarTurma(p, e.target.value)}>

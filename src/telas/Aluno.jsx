@@ -39,6 +39,7 @@ export default function Aluno({ perfil }) {
   const [modoLembrar, setModoLembrar] = useState('sempre');
   const [materiais, setMateriais] = useState([]);
   const [tarefas, setTarefas] = useState([]);
+  const [autorizado, setAutorizado] = useState(true);
   const salvarTimer = useRef(null);
   const [salvo, setSalvo] = useState('salvo'); // 'salvando' | 'salvo' | 'erro'
 
@@ -46,6 +47,7 @@ export default function Aluno({ perfil }) {
     api.minhasTentativas(perfil.id).then(setTentativas).catch((e) => setErro(e.message));
     api.materiais?.(perfil.turma_id).then((ms) => { const pub = ms.filter((m) => m.status === 'publicado'); registrarMateriais(pub); setMateriais(pub); }).catch(() => {});
     api.tarefas?.(perfil.turma_id).then(setTarefas).catch(() => {});
+    api.minhaAutorizacao?.(perfil.id).then(setAutorizado).catch(() => {});
     api.modoLembrar?.(perfil.turma_id).then((m) => setModoLembrar(m || 'sempre')).catch(() => {});
     api.lerMascote(perfil.id).then((m) => setMascote({ ...MASCOTE_PADRAO, ...(m || {}) })).catch(() => setMascote({ ...MASCOTE_PADRAO }));
   }, [perfil.id]);
@@ -125,6 +127,14 @@ export default function Aluno({ perfil }) {
     setErro('');
   }
 
+  if (!autorizado) return (
+    <div className="cartao pilha">
+      <h2>Quase lá! 🐱</h2>
+      <p>Para começar a usar o app, um responsável precisa autorizar. A escola enviou um link para a sua família; leva 2 minutos.</p>
+      <p className="mudo pequeno">Já autorizaram? Toque abaixo para conferir.</p>
+      <button className="btn" onClick={() => api.minhaAutorizacao(perfil.id).then(setAutorizado)}>Conferir de novo</button>
+    </div>
+  );
   if (erro && !tentativas) return <p className="aviso">{erro}</p>;
   if (!tentativas || !mascote) return <p className="mudo">Carregando…</p>;
 

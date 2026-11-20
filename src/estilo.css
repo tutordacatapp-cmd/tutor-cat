@@ -298,3 +298,7 @@ a.btn { text-decoration: none; display: inline-block; }
 .bv-pontos i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
 .bv-pontos i.on { background: var(--mt); }
 .aviso-leve { color: var(--hi); font-weight: 700; }
+.termo-texto { gap: 10px; }
+.termo-texto p { margin: 2px 0 0; font-size: 15px; }
+.st-termo { font-size: 13px; font-weight: 700; }
+.check input[type=checkbox] { width: 22px; height: 22px; flex: none; accent-color: var(--mt); margin-top: 2px; }
