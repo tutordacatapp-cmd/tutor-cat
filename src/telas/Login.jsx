@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import { api } from '../dados/api.js';
+import { BotaoLeitura } from '../leitura.jsx';
 
 export default function Login({ aoEntrar }) {
   const [codigo, setCodigo] = useState(api.modo === 'demo' ? 'PILOTO' : '');
@@ -18,7 +19,8 @@ export default function Login({ aoEntrar }) {
   }
 
   return (
-    <div className="login">
+    <div className="login" style={{ position: 'relative' }}>
+      <BotaoLeitura />
       <h1>Tutor da Cat</h1>
       <p className="mudo">Estudar do jeito certo, um passo de cada vez.</p>
       <form className="cartao pilha" onSubmit={entrar}>

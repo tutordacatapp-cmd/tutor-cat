@@ -1,0 +1,17 @@
+name: Lembretes de estudo
+on:
+  schedule:
+    - cron: '13 21 * * *'   # todo dia, 18h13 em Brasília
+  workflow_dispatch:
+jobs:
+  enviar:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.SUPABASE_DB_TOKEN }}
+      API: https://api.supabase.com/v1/projects/ekntfedgurdxiywqfxyx/database/query
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: npm ci --silent
+      - run: node ferramentas/lembretes.mjs

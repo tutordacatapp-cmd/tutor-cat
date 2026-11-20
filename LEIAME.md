@@ -33,9 +33,9 @@ e alunos de exemplo (escola `PILOTO`, senha `1234`, usuários `catarina`, `profe
 
 ## Ligar ao Supabase (modo real)
 
-1. Criar o projeto em supabase.com e rodar `supabase/instalar.sql` no SQL Editor.
+1. Criar o projeto em supabase.com e rodar `supabase/esquema.sql` no SQL Editor.
 2. Copiar `.env.exemplo` para `.env.local` e preencher a URL e a chave anon do projeto.
-3. Criar as contas com `select criar_conta(...)` (exemplos no fim de `supabase/instalar.sql`) (quem cria as contas é a escola, não há cadastro aberto).
+3. Criar as contas como explicado no fim do `esquema.sql` (quem cria as contas é a escola, não há cadastro aberto).
 
 As regras de acesso foram testadas num Postgres local:
 - O aluno só lê e grava as próprias respostas e não consegue gravar no nome de outro aluno.
@@ -52,7 +52,7 @@ src/dados/demo.js      modo demo (localStorage)
 src/dados/supabase.js  modo real
 src/telas/             Login, Aluno, Licao, Professor
 src/dados/*.json       banco de questões (exportado do tutor original)
-supabase/instalar.sql  tabelas, regras de acesso e função criar_conta
+supabase/esquema.sql   tabelas e regras de acesso
 ```
 
 ## Ainda não tem (próximas etapas)

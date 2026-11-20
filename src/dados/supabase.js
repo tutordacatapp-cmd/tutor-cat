@@ -110,6 +110,14 @@ export const supabase = sb && {
     const { error } = await sb.rpc('prof_modo_lembrar', { p_turma: turmaId, p_modo: modo });
     if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Falta rodar o SQL do "lembrar" no Supabase.' : error.message);
   },
+  // ===== Lembretes (notificações) =====
+  async vapidPublica() { const { data } = await sb.rpc('vapid_publica'); return data || null; },
+  async tenhoLembrete() { const { data } = await sb.rpc('tenho_lembrete'); return !!data; },
+  async salvarInscricao(sub) {
+    const { error } = await sb.rpc('salvar_inscricao', { p_endpoint: sub.endpoint, p_p256dh: sub.keys?.p256dh, p_auth: sub.keys?.auth });
+    if (error) throw new Error(/function|schema cache/i.test(error.message) ? 'Os lembretes ainda estão sendo preparados. Tente amanhã.' : error.message);
+  },
+  async removerInscricao(endpoint) { await sb.rpc('remover_inscricao', { p_endpoint: endpoint }); },
   // ===== Termo de autorização dos responsáveis =====
   async termoInfo(token) {
     const { data, error } = await sb.rpc('termo_info', { p_token: token });

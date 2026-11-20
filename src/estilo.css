@@ -318,3 +318,22 @@ a.btn { text-decoration: none; display: inline-block; }
 .ok-txt { color: var(--mt); font-weight: 700; }
 .resumo-txt { white-space: pre-wrap; font: 14px/1.5 var(--body); background: var(--paper); border-radius: 10px; padding: 10px; margin: 0; }
 .topico-imp { display: grid; grid-template-columns: 1fr auto; gap: 8px; align-items: center; border-top: 1px solid var(--line); padding-top: 6px; }
+/* Ajustes de leitura */
+html[data-tamanho="grande"] .moldura { zoom: 1.15; }
+html[data-tamanho="maior"] .moldura { zoom: 1.3; }
+html[data-fonte="dislexia"] { --body: "OpenDyslexic", "Atkinson Hyperlegible", system-ui, sans-serif; --display: "OpenDyslexic", "Baloo 2", system-ui, sans-serif; }
+html[data-fonte="dislexia"] body { line-height: 1.65; letter-spacing: -.03em; word-spacing: -.25em; }
+html[data-fonte="dislexia"] :is(input, textarea, button, select) { word-spacing: -.25em; letter-spacing: -.03em; }
+html[data-fonte="dislexia"] h1, html[data-fonte="dislexia"] h2 { letter-spacing: -.01em; }
+.leitura-wrap { position: relative; }
+.leitura-painel { position: absolute; right: 0; top: 40px; width: 270px; z-index: 40; gap: 8px; box-shadow: 0 8px 30px #0004; }
+.seg { display: flex; border: 2px solid var(--line); border-radius: 10px; overflow: hidden; }
+.seg button { flex: 1; padding: 8px 4px; border: 0; background: none; font-weight: 700; cursor: pointer; color: inherit; }
+.seg button.on { background: var(--mt); color: #fff; }
+.login .leitura-wrap { position: absolute; top: 14px; right: 14px; }
+/* Janelas sobrepostas não herdam o zoom (senão saem da tela); o conteúdo delas é ampliado por dentro. */
+.g-pop, .bv-fundo { overflow-y: auto; }
+html[data-tamanho="grande"] :is(.g-pop, .bv-fundo) { zoom: calc(1 / 1.15); }
+html[data-tamanho="grande"] :is(.g-pop, .bv-fundo) > * { zoom: 1.15; }
+html[data-tamanho="maior"] :is(.g-pop, .bv-fundo) { zoom: calc(1 / 1.3); }
+html[data-tamanho="maior"] :is(.g-pop, .bv-fundo) > * { zoom: 1.3; }

@@ -1,6 +1,9 @@
 import { Component } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.jsx';
+import { aplicarPrefs } from './leitura.jsx';
+
+aplicarPrefs();
 import './estilo.css';
 
 // Se algo quebrar, mostra uma mensagem em vez de tela branca.

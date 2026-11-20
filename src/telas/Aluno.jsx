@@ -10,6 +10,7 @@ import { gatoSVG } from '../mascote/arte.js';
 import { estatisticas, conquistas, descreverConquista, titulo } from '../mascote/regras.js';
 import { missoesDoDia, contadoresDoDia, hojeStr } from '../mascote/missoes.js';
 import { topico as topicoPorId, registrarMateriais, idTopicoMaterial } from '../conteudo.js';
+import Lembretes from './Lembretes.jsx';
 import { paraFazer, progresso, preparo, quando, dataBR, diasAte, licaoCombinada } from '../tarefas.js';
 import { situacaoTopico, ultimoResultado } from '../progresso.js';
 
@@ -256,6 +257,7 @@ export default function Aluno({ perfil }) {
           })}
         </div>
       )}
+      <Lembretes />
       <div className="cartao pilha missoes">
         <div className="linha"><h3>⚔️ Missões de hoje</h3><span className="pilula">{missoes.filter((x) => x.feita).length}/3</span></div>
         {missoes.map((x, k) => (
