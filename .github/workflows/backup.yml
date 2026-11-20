@@ -1,0 +1,41 @@
+name: Backup semanal do banco
+on:
+  schedule:
+    - cron: '23 6 * * 0'   # domingo, 3h23 em Brasília
+  workflow_dispatch:
+jobs:
+  backup:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.SUPABASE_DB_TOKEN }}
+      SENHA: ${{ secrets.BACKUP_SENHA }}
+      API: https://api.supabase.com/v1/projects/ekntfedgurdxiywqfxyx/database/query
+    steps:
+      - name: Exportar e criptografar
+        run: |
+          set -euo pipefail
+          if [ -z "${SENHA:-}" ] || [ ${#SENHA} -lt 12 ]; then echo "Falta o segredo BACKUP_SENHA (mínimo 12 caracteres)."; exit 1; fi
+          q() { jq -n --arg q "$1" '{query:$q}' | curl -sS --fail-with-body -X POST "$API" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" --data @-; }
+          mkdir -p bk
+          for t in escolas turmas perfis turma_professores tentativas mascotes materiais tarefas avisos geracoes _migracoes; do
+            existe=$(q "select to_regclass('public.$t') is not null as ok" | jq -r '.[0].ok')
+            if [ "$existe" != "true" ]; then echo "pulando $t (não existe)"; continue; fi
+            q "select coalesce(json_agg(x), '[]'::json) as d from public.$t x" | jq '.[0].d' > "bk/$t.json"
+            echo "$t: $(jq length bk/$t.json) linhas"
+          done
+          # Logins (com a senha já embaralhada pelo Supabase) para poder restaurar as contas.
+          q "select coalesce(json_agg(x), '[]'::json) as d from (select id, email, encrypted_password, email_confirmed_at, created_at, raw_app_meta_data from auth.users) x" | jq '.[0].d' > bk/auth_users.json
+          q "select coalesce(json_agg(x), '[]'::json) as d from (select id, user_id, provider_id, identity_data, provider, created_at from auth.identities) x" | jq '.[0].d' > bk/auth_identities.json
+          echo "contas: $(jq length bk/auth_users.json)"
+          nome="tutor-cat-backup-$(date -u +%Y-%m-%d)"
+          tar czf - -C bk . | openssl enc -aes-256-cbc -pbkdf2 -iter 300000 -salt -pass env:SENHA -out "$nome.tgz.enc"
+          rm -rf bk
+          echo "NOME=$nome" >> "$GITHUB_ENV"
+          ls -la "$nome.tgz.enc"
+      - name: Guardar (90 dias)
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ env.NOME }}
+          path: ${{ env.NOME }}.tgz.enc
+          retention-days: 90
+          if-no-files-found: error
