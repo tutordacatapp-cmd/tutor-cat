@@ -54,7 +54,9 @@ async function carregarPerfil(userId) {
     const { data } = await sb.from('turma_professores').select('turma_id').eq('professor_id', userId);
     turmas = (data || []).map((x) => x.turma_id);
   }
-  return { ...p, turmas };
+  // Senha provisória (consulta separada: se a coluna ainda não existir, o login continua funcionando).
+  const { data: f } = await sb.from('perfis').select('trocar_senha').eq('id', userId).maybeSingle();
+  return { ...p, turmas, trocar_senha: !!f?.trocar_senha };
 }
 
 export const supabase = sb && {

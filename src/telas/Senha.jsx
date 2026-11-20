@@ -67,3 +67,34 @@ export function MinhaSenha({ aoFechar }) {
     </form>
   );
 }
+
+// Primeiro acesso (ou depois que a escola trocou a senha): a pessoa escolhe a própria senha antes de continuar.
+export function PrimeiraSenha({ perfil, aoTrocar, aoSair }) {
+  const [a, setA] = useState('');
+  const [b, setB] = useState('');
+  const [msg, setMsg] = useState('');
+  const [ocupado, setOcupado] = useState(false);
+  async function ok(e) {
+    e.preventDefault();
+    if (a.length < 6) return setMsg('Use pelo menos 6 letras ou números.');
+    if (a !== b) return setMsg('As duas senhas não são iguais.');
+    setOcupado(true);
+    try { await api.trocarMinhaSenha(a); aoTrocar(); }
+    catch (er) { setMsg(er.message); }
+    finally { setOcupado(false); }
+  }
+  return (
+    <form className="cartao pilha primeira-senha" onSubmit={ok}>
+      <h2>🔑 Crie a sua senha</h2>
+      <p className="mudo" style={{ margin: 0 }}>Olá, {perfil.nome.split(' ')[0]}! Você entrou com uma senha provisória da escola. Agora escolha uma senha só sua, que você vai lembrar.</p>
+      <label className="campo">Senha nova<input type="password" value={a} onChange={(e) => setA(e.target.value)} autoComplete="new-password" autoFocus /></label>
+      <label className="campo">Repita a senha nova<input type="password" value={b} onChange={(e) => setB(e.target.value)} autoComplete="new-password" /></label>
+      <span className="mini mudo">Dica: pelo menos 6 letras ou números. Não conte para ninguém e não use a mesma da escola.</span>
+      {msg && <p className="aviso pequeno" style={{ margin: 0 }}>{msg}</p>}
+      <div className="linha" style={{ justifyContent: 'flex-start' }}>
+        <button className="btn" type="submit" disabled={ocupado}>{ocupado ? 'Salvando…' : 'Salvar e continuar'}</button>
+        <button className="btn fantasma" type="button" onClick={aoSair}>Sair</button>
+      </div>
+    </form>
+  );
+}

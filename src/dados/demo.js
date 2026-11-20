@@ -102,6 +102,7 @@ function gravar(db) {
 const perfilPublico = (u, db) => ({
   id: u.id, nome: u.nome, papel: u.papel, turma_id: u.turma_id ?? null, usuario: u.usuario,
   turmas: u.papel === 'coordenacao' ? (db || ler()).turmas.map((t) => t.id) : u.turmas ?? [], escola: ESCOLA,
+  trocar_senha: !!u.trocar_senha,
 });
 const exigirCoord = (db) => {
   const u = db.usuarios.find((x) => x.id === db.sessao);
@@ -127,14 +128,15 @@ export const demo = {
   async trocarMinhaSenha(senha) {
     const db = ler(); const u = db.usuarios.find((x) => x.id === db.sessao);
     if (!u) throw new Error('Entre de novo.');
-    u.senha = senha; gravar(db);
+    if (u.senha === senha) throw new Error('A senha nova precisa ser diferente da atual.');
+    u.senha = senha; u.trocar_senha = false; gravar(db);
   },
   async redefinirSenhaAluno(alunoId, senha) {
     const db = ler(); const eu = db.usuarios.find((x) => x.id === db.sessao);
     const a = db.usuarios.find((x) => x.id === alunoId && x.papel === 'aluno');
     if (!eu || eu.papel !== 'professor' || !a) throw new Error('Você só pode trocar a senha de alunos das suas turmas.');
     if (senha.length < 6) throw new Error('A senha precisa ter pelo menos 6 caracteres.');
-    a.senha = senha; gravar(db);
+    a.senha = senha; a.trocar_senha = true; gravar(db);
   },
   async sair() {
     const db = ler();
@@ -178,7 +180,7 @@ export const demo = {
     if (senha.length < 6) throw new Error('A senha precisa ter pelo menos 6 caracteres.');
     if (papel === 'aluno' && !turma) throw new Error('Escolha a turma do aluno.');
     if (db.usuarios.some((u) => u.usuario === usuario)) throw new Error(`O usuário ${usuario} já existe.`);
-    const u = { id: 'u-' + Date.now() + Math.random().toString(36).slice(2, 5), usuario, senha, nome: nome.trim(), papel,
+    const u = { id: 'u-' + Date.now() + Math.random().toString(36).slice(2, 5), usuario, senha, nome: nome.trim(), papel, trocar_senha: true,
       ...(papel === 'aluno' ? { turma_id: turma } : { turmas: turma ? [turma] : [] }) };
     db.usuarios.push(u); gravar(db); return u.id;
   },
@@ -187,7 +189,7 @@ export const demo = {
     if (senha.length < 6) throw new Error('A senha precisa ter pelo menos 6 caracteres.');
     const u = db.usuarios.find((x) => x.id === id && x.papel !== 'coordenacao');
     if (!u) throw new Error('Pessoa não encontrada nesta escola.');
-    u.senha = senha; gravar(db);
+    u.senha = senha; u.trocar_senha = true; gravar(db);
   },
   async vincularProfessor(profId, turmaId, ligar) {
     const db = ler(); exigirCoord(db);

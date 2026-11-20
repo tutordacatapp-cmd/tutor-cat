@@ -28,7 +28,7 @@ function TabelaAcessos({ codigo, linhas, aoFechar }) {
   return (
     <div className="cartao pilha acessos">
       <h3>🔑 Acessos criados</h3>
-      <p className="aviso-ok pequeno">Guarde ou envie agora: <b>as senhas não aparecem de novo</b>. Se alguém esquecer, é só gerar outra.</p>
+      <p className="aviso-ok pequeno">Entregue agora: <b>é uma senha provisória</b>. No primeiro acesso, o app pede que a pessoa crie uma senha própria. Se alguém esquecer, é só gerar outra provisória aqui.</p>
       <div className="rolavel">
         <table className="tabela">
           <thead><tr><th>Nome</th><th>Usuário</th><th>Senha</th></tr></thead>

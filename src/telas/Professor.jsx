@@ -77,7 +77,7 @@ export default function Professor({ perfil }) {
           <div className="pilha" style={{ gap: 6 }}>
             {!trocarSenha && !senhaNova && <button className="link pequeno" style={{ alignSelf: 'flex-start' }} onClick={() => setTrocarSenha(true)}>🔑 Esqueceu a senha? Criar uma nova</button>}
             {trocarSenha && <NovaSenha pessoa={alunoAberto} salvar={api.redefinirSenhaAluno} aoCancelar={() => setTrocarSenha(false)} aoSalvar={(s) => { setTrocarSenha(false); setSenhaNova(s); }} />}
-            {senhaNova && <p className="cartao pequeno" style={{ margin: 0 }}>Senha nova de {alunoAberto.nome.split(' ')[0]}: <b>{senhaNova}</b> (usuário: <b>{alunoAberto.usuario || '—'}</b>). Anote ou mande para a família.</p>}
+            {senhaNova && <p className="cartao pequeno" style={{ margin: 0 }}>Senha nova de {alunoAberto.nome.split(' ')[0]}: <b>{senhaNova}</b> (usuário: <b>{alunoAberto.usuario || '—'}</b>). É uma senha provisória: no próximo acesso o app pede que {alunoAberto.nome.split(' ')[0]} crie uma senha própria.</p>}
           </div>
         )}
         <Resumo texto={resumoSemanal(alunoAberto.nome, ts)} titulo="📨 Resumo da semana para a família" />

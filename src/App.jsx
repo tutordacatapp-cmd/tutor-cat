@@ -4,7 +4,7 @@ import Login from './telas/Login.jsx';
 import Aluno from './telas/Aluno.jsx';
 import Professor from './telas/Professor.jsx';
 import Coordenacao from './telas/Coordenacao.jsx';
-import { MinhaSenha } from './telas/Senha.jsx';
+import { MinhaSenha, PrimeiraSenha } from './telas/Senha.jsx';
 import Boasvindas, { jaViu } from './telas/Boasvindas.jsx';
 import Termo from './telas/Termo.jsx';
 import { BotaoLeitura } from './leitura.jsx';
@@ -41,9 +41,11 @@ export default function App() {
           <button className="sair" onClick={sair}>Sair</button>
         </span>
       </header>
+      {perfil.trocar_senha && perfil.papel !== 'coordenacao' ? <PrimeiraSenha perfil={perfil} aoTrocar={() => setPerfil({ ...perfil, trocar_senha: false })} aoSair={sair} /> : <>
       {(bv ?? !jaViu(perfil.id)) && <Boasvindas perfil={perfil} aoFechar={() => setBv(false)} />}
       {senhaAberta && <MinhaSenha aoFechar={() => setSenhaAberta(false)} />}
       {perfil.papel === 'coordenacao' ? <Coordenacao perfil={perfil} /> : perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
+      </>}
       <footer className="rodape pequeno mudo"><button className="link" onClick={() => setBv(true)}>Como funciona?</button> · versão {__VERSAO__}</footer>
       {api.modo === 'demo' && (
         <footer className="rodape pequeno mudo">
