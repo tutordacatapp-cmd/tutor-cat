@@ -1,0 +1,28 @@
+name: Atualizar banco do Supabase
+on:
+  push:
+    branches: [main]
+    paths: ['supabase/migrations/**', '.github/workflows/banco.yml']
+  workflow_dispatch:
+jobs:
+  migrar:
+    runs-on: ubuntu-latest
+    env:
+      TOKEN: ${{ secrets.SUPABASE_ACCESS_TOKEN }}
+      API: https://api.supabase.com/v1/projects/ekntfedgurdxiywqfxyx/database/query
+    steps:
+      - uses: actions/checkout@v4
+      - name: Aplicar migrações novas
+        run: |
+          set -euo pipefail
+          q() { jq -n --arg q "$1" '{query:$q}' | curl -sS --fail-with-body -X POST "$API" -H "Authorization: Bearer $TOKEN" -H "Content-Type: application/json" --data @-; }
+          q "create table if not exists public._migracoes (nome text primary key, aplicada_em timestamptz not null default now()); alter table public._migracoes enable row level security;" > /dev/null
+          feitas=$(q "select nome from public._migracoes" | jq -r '.[].nome')
+          for f in $(ls supabase/migrations/*.sql | sort); do
+            n=$(basename "$f")
+            if grep -qxF "$n" <<< "$feitas"; then echo "já aplicada: $n"; continue; fi
+            echo "aplicando: $n"
+            q "$(cat "$f")" > /dev/null
+            q "insert into public._migracoes (nome) values ('$n')" > /dev/null
+          done
+          echo "Banco em dia."
