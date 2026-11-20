@@ -37,7 +37,7 @@ export default function App() {
       {(bv ?? !jaViu(perfil.id)) && <Boasvindas perfil={perfil} aoFechar={() => setBv(false)} />}
       {senhaAberta && <MinhaSenha aoFechar={() => setSenhaAberta(false)} />}
       {perfil.papel === 'coordenacao' ? <Coordenacao perfil={perfil} /> : perfil.papel === 'professor' ? <Professor perfil={perfil} /> : <Aluno perfil={perfil} />}
-      <footer className="rodape pequeno mudo"><button className="link" onClick={() => setBv(true)}>Como funciona?</button></footer>
+      <footer className="rodape pequeno mudo"><button className="link" onClick={() => setBv(true)}>Como funciona?</button> · versão {__VERSAO__}</footer>
       {api.modo === 'demo' && (
         <footer className="rodape pequeno mudo">
           Modo demonstração ·{' '}

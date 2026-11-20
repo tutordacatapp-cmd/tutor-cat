@@ -9,7 +9,8 @@ const CORS = {
   'Access-Control-Allow-Methods': 'POST, OPTIONS',
 };
 const LIMITE_DIA = 20;
-const MODELO = 'claude-sonnet-5-5';
+// Tenta em ordem; se a conta não tiver um modelo (erro 404), passa para o próximo.
+const MODELOS = ['claude-sonnet-5-5', 'claude-sonnet-4-5', 'claude-sonnet-4-5-20250929', 'claude-haiku-4-5'];
 const MATERIAS: Record<string, string> = { mt: 'Matemática', pt: 'Português', en: 'Inglês', ci: 'Ciências', hi: 'História', ge: 'Geografia' };
 
 const resposta = (status: number, corpo: unknown) =>
@@ -99,18 +100,22 @@ Deno.serve(async (req) => {
   }));
   conteudo.push({ type: 'text', text: (texto ? `Material da aula:\n\n${texto}\n\n` : 'O material da aula está nas fotos acima.\n\n') + `Crie ${n} questões.` });
 
-  const r = await fetch('https://api.anthropic.com/v1/messages', {
-    method: 'POST',
-    headers: { 'x-api-key': chaveIA, 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
-    body: JSON.stringify({
-      model: MODELO,
-      max_tokens: 12000,
-      system: instrucoes(materia, turma?.nome || '6º ano', n),
-      tools: [FERRAMENTA],
-      tool_choice: { type: 'tool', name: 'entregar_questoes' },
-      messages: [{ role: 'user', content: conteudo }],
-    }),
-  });
+  let r!: Response;
+  for (const modelo of MODELOS) {
+    r = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: { 'x-api-key': chaveIA.trim(), 'anthropic-version': '2023-06-01', 'content-type': 'application/json' },
+      body: JSON.stringify({
+        model: modelo,
+        max_tokens: 8000,
+        system: instrucoes(materia, turma?.nome || '6º ano', n),
+        tools: [FERRAMENTA],
+        tool_choice: { type: 'tool', name: 'entregar_questoes' },
+        messages: [{ role: 'user', content: conteudo }],
+      }),
+    });
+    if (r.status !== 404) break;
+  }
   if (!r.ok) {
     const detalhe = await r.text();
     console.error('Anthropic', r.status, detalhe.slice(0, 500));

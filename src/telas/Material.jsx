@@ -126,6 +126,11 @@ function Novo({ turmaId, voltar, aoGerar }) {
         <label className="campo">Texto da aula
           <textarea rows={8} value={texto} onChange={(e) => setTexto(e.target.value)} placeholder="Cole aqui o resumo, a apostila ou as anotações da aula…" />
         </label>
+        {fotos.length === 0 && (
+          <span className={'pequeno ' + (texto.trim().length >= 80 ? 'mudo' : 'aviso-leve')}>
+            {texto.trim().length >= 80 ? `✓ ${texto.trim().length} letras` : `${texto.trim().length} de 80 letras (mínimo). Cole o conteúdo da aula, não só o tema.`}
+          </span>
+        )}
         <div className="pilha" style={{ gap: 6 }}>
           <span className="pequeno"><b>ou fotos do material</b> (até 4: caderno, livro, lousa)</span>
           <div className="fotos">
@@ -142,7 +147,7 @@ function Novo({ turmaId, voltar, aoGerar }) {
         {estado === 'gerando'
           ? <p className="gerando">✨ A IA está lendo o material e criando as questões… pode levar até 1 minuto.</p>
           : <button className="btn" disabled={!pronto} onClick={gerar}>✨ Gerar questões</button>}
-        {!pronto && <span className="mudo pequeno">Cole um texto (algumas frases) ou adicione uma foto.</span>}
+        {!pronto && <span className="mudo pequeno">Para liberar o botão: texto com pelo menos 80 letras ou uma foto.</span>}
         <span className="mudo pequeno">Nada chega aos alunos antes de você revisar e publicar.</span>
       </div>
     </div>

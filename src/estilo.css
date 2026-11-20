@@ -297,3 +297,4 @@ a.btn { text-decoration: none; display: inline-block; }
 .bv-pontos { display: flex; gap: 6px; justify-content: center; margin: 6px 0; }
 .bv-pontos i { width: 8px; height: 8px; border-radius: 50%; background: var(--line); }
 .bv-pontos i.on { background: var(--mt); }
+.aviso-leve { color: var(--hi); font-weight: 700; }
